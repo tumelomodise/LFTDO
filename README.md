@@ -62,7 +62,8 @@ LFTDO/
 │   └── docs/
 │       └── /index-en.html
 └── docs/
-    ├── LFTDO_Architecture_Diagram.png
+    ├── LFTDO_Architecture_(Onto_AIoTA)_Diagram.png
+    ├── LFTDO_Conceptual_Diagram.png
     └── LFTDO_OntoGraf_Visualisation.png
 
 ```

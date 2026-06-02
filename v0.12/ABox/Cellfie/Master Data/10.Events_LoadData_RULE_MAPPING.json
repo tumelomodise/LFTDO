@@ -1,0 +1,96 @@
+{
+	"Collections": [{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "E",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A7 Annotations: rdfs:label @A7,rdfs:comment @A7 Types: @B7 Facts: isDetectedBy @C7,isSupportedBy @D7,isRecordedIn @E7",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "E",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A4 Annotations: rdfs:label @A4,rdfs:comment @A4 Types: @B4 Facts: isDetectedBy @C4,isSupportedBy @D4,isRecordedIn @E4",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "E",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A6 Annotations: rdfs:label @A6,rdfs:comment @A6 Types: @B6 Facts: isDetectedBy @C6,isSupportedBy @D6,isRecordedIn @E6",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "E",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A5 Annotations: rdfs:label @A5,rdfs:comment @A5 Types: @B5 Facts: isDetectedBy @C5,isSupportedBy @D5,isRecordedIn @E5",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "E",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A2 Annotations: rdfs:label @A2,rdfs:comment @A2 Types: @B2 Facts: isDetectedBy @C2,isSupportedBy @D2,isRecordedIn @E2",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "E",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A3 Annotations: rdfs:label @A3,rdfs:comment @A3 Types: @B3 Facts: isDetectedBy @C3,isSupportedBy @D3,isRecordedIn @E3",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "E",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A8 Annotations: rdfs:label @A8,rdfs:comment @A8 Types: @B8 Facts: isDetectedBy @C8,isSupportedBy @D8,isRecordedIn @E8",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "E",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A9 Annotations: rdfs:label @A9,rdfs:comment @A9 Types: @B9 Facts: isDetectedBy @C9,isSupportedBy @D9,isRecordedIn @E9",
+		"active": true
+	}	
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "E",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A10 Annotations: rdfs:label @A10,rdfs:comment @A10 Types: @B10 Facts: isDetectedBy @C10,isSupportedBy @D10,isRecordedIn @E10",
+		"active": true
+	}	
+	
+	
+	]
+}

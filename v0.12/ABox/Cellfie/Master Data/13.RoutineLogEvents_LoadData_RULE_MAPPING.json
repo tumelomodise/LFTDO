@@ -1,0 +1,12 @@
+{
+	"Collections": [{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "D",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A2 Annotations: rdfs:label @A2,rdfs:comment @A2 Types: @B2 Facts: isRecordedIn @C2,logGeneratedBy @D2",
+		"active": true
+	}]
+}

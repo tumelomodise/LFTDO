@@ -1,0 +1,12 @@
+{
+	"Collections": [{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "K",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A2\tAnnotations: rdfs:label @A2,rdfs:comment @A2 \tTypes: @B2\tFacts: hasDeviceType @C2\t(xsd:string),\tisSuitableForRuralAreas @D2\t(xsd:boolean),\thasPowerStatus @E2\t,transmitSensorDataTo @F2\t,hasLatitude @H2\t(xsd:decimal),\thasLongitude @I2\t(xsd:decimal),isDeviceOnline @J2\t(xsd:boolean)",
+		"active": true
+	}]
+}

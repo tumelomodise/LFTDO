@@ -1,0 +1,12 @@
+{
+	"Collections": [{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "1",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A2 Annotations: rdfs:label @A2,rdfs:comment @A2 Types: @B2  Facts: hasDatabaseType @C2,hasLastBackup @D2( xsd:dateTime),\nhasEncryptionStandard @E2( xsd:string),hasDatabaseStorageCapacity @F2( xsd:string),isStoredOn @G2,hasDatabaseAccessControl @H2(xsd:boolean),\nhasDatabaseBackupAndRecovery @I2( xsd:boolean),hasDatabaseSchema @J2( xsd:string)",
+		"active": true
+	}]
+}

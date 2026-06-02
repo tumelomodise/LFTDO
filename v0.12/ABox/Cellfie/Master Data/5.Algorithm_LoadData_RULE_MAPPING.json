@@ -1,0 +1,44 @@
+{
+	"Collections": [{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A2 Annotations: rdfs:label @A2,rdfs:comment @A2 Types: @B2 Facts: hasAlgorithmType @C2, hasAccuracyRate @D2(xsd:decimal),\nisUsedBy @E2,hasAlgorithmVersion @F2,hasComplexity @G2,isOptimized @H2(xsd:boolean)",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A4 Annotations: rdfs:label @A4,rdfs:comment @A4 Types: @B4 Facts: hasAlgorithmType @C4, hasAccuracyRate @D4(xsd:decimal),\nisUsedBy @E4,hasAlgorithmVersion @F4,hasComplexity @G4,isOptimized @H4(xsd:boolean)",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A3 Annotations: rdfs:label @A3,rdfs:comment @A3 Types: @B3 Facts: hasAlgorithmType @C3, hasAccuracyRate @D3(xsd:decimal),\nisUsedBy @E3,hasAlgorithmVersion @F3,hasComplexity @G3,isOptimized @H3(xsd:boolean)",
+		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A5 Annotations: rdfs:label @A5,rdfs:comment @A5 Types: @B5 Facts: hasAlgorithmType @C5, hasAccuracyRate @D5(xsd:decimal),\nisUsedBy @E5,hasAlgorithmVersion @F5,hasComplexity @G5,isOptimized @H5(xsd:boolean)",
+		"active": true
+	}
+	]
+}

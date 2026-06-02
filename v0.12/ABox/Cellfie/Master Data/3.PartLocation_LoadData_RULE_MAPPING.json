@@ -1,0 +1,12 @@
+{
+	"Collections": [{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "K",
+		"startRow": "1",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A2 Annotations: rdfs:label @A2 ,rdfs:comment @A2 Types: @B2  Facts: hasID @C2,hasLocationName @D2(xsd:string),hasLocationDescription @E2(xsd:string),hasLatitude @F2( xsd:decimal),\nhasLongitude @G2( xsd:decimal), hasMaxLat @H2( xsd:decimal),hasMaxLon @I2( xsd:decimal),hasFarmSizeInHa @J2( xsd:decimal),isPartOfLocation @K2",
+		"active": true
+	}]
+}

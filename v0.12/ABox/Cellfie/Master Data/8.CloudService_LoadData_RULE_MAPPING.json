@@ -1,0 +1,12 @@
+{
+	"Collections": [{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A2 Annotations: rdfs:label @A2,rdfs:comment @A2 Types: @B2 Facts: hasCloudServiceProvider @C2(xsd:string),hasCloudSecurityFeatures @D2(xsd:string), isCloudEncrypted @E2(xsd:boolean),hasUptimeGuarantee @F2 (xsd:decimal),hasCloudServiceCost @G2(xsd:decimal)",
+		"active": true
+	}]
+}

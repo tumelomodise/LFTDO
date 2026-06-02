@@ -1,0 +1,23 @@
+{
+	"Collections": [{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "H",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A2 Annotations: rdfs:label @A2,rdfs:comment @A2 Types: @B2 Facts: hasParticipantID @C2,hasParticipantName @D2,\nhasContactNumber @E2,hasParticipantRole @F2,hasParticipantEmail @G2,isNotifiedBySoftwareApp @H2",
+		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "H",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A3 Annotations: rdfs:label @A3,rdfs:comment @A3 Types: @B3 Facts: hasParticipantID @C3,hasParticipantName @D3,\nhasContactNumber @E3,hasParticipantRole @F3,hasParticipantEmail @G3,isNotifiedBySoftwareApp @H3",
+		"active": true
+	}]
+}

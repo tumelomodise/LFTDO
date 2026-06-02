@@ -1,0 +1,23 @@
+{
+	"Collections": [{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A2 Annotations: rdfs:label @A2,rdfs:comment @A2 Types: @B2 Facts: hasSoftwareAppName @C2,hasID @D2,\nhasSoftwareVersion @E2,hasResponseTimeMs @F2(xsd:decimal),hasLastSyncTime @G2(xsd:dateTime),\nisOnline @H2(xsd:boolean),accesses @I2,isDeployedOn @J2",
+		"active": true
+	},
+	 {
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A3 Annotations: rdfs:label @A3,rdfs:comment @A3 Types: @B3 Facts: hasSoftwareAppName @C3,hasID @D3, hasSoftwareVersion @E3,hasResponseTimeMs @F3(xsd:decimal),hasLastSyncTime @G3(xsd:dateTime),\nisOnline @H3(xsd:boolean),accesses @I3,isDeployedOn @J3",
+		"active": true
+	}	
+	]
+}

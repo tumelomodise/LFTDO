@@ -1,0 +1,93 @@
+{
+	"Collections": [{
+		"sheetName": "SheepUnusualBehaviour_LoadData",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "1",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A8 Annotations: rdfs:label @A8,rdfs:comment @A8 Types: @B8 Facts: isCharacterisedBy @C8",
+		"active": true
+	},
+	{
+		"sheetName": "SheepUnusualBehaviour_LoadData",
+		"startColumn": "A",
+		"endColumn": "C",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A2 Annotations: rdfs:label @A2,rdfs:comment @A2 Types: @B2 Facts: isCharacterisedBy @C2",
+		"active": true
+	},
+	{
+		"sheetName": "SheepUnusualBehaviour_LoadData",
+		"startColumn": "A",
+		"endColumn": "C",
+		"startRow": "1",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A4 Annotations: rdfs:label @A4,rdfs:comment @A4 Types: @B4 Facts: isCharacterisedBy @C4",
+		"active": true
+	},
+	{
+		"sheetName": "SheepUnusualBehaviour_LoadData",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "1",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A5 Annotations: rdfs:label @A5,rdfs:comment @A5 Types: @B5 Facts: isCharacterisedBy @C5",
+		"active": true
+	},
+	{
+		"sheetName": "SheepUnusualBehaviour_LoadData",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "1",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A6 Annotations: rdfs:label @A6,rdfs:comment @A6 Types: @B6 Facts: isCharacterisedBy @C6",
+		"active": true
+	},
+	{
+		"sheetName": "SheepUnusualBehaviour_LoadData",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "1",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A7 Annotations: rdfs:label @A7,rdfs:comment @A7 Types: @B7 Facts: isCharacterisedBy @C7",
+		"active": true
+	},
+	{
+		"sheetName": "SheepUnusualBehaviour_LoadData",
+		"startColumn": "A",
+		"endColumn": "C",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A3 Annotations: rdfs:label @A3,rdfs:comment @A3 Types: @B3 Facts: isCharacterisedBy @C3",
+		"active": true
+	},
+	{
+		"sheetName": "SheepUnusualBehaviour_LoadData",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "1",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A9 Annotations: rdfs:label @A9,rdfs:comment @A9 Types: @B9 Facts: isCharacterisedBy @C9",
+		"active": true
+	},
+{
+		"sheetName": "SheepUnusualBehaviour_LoadData",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "1",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A10 Annotations: rdfs:label @A10,rdfs:comment @A10 Types: @B10 Facts: isCharacterisedBy @C10",
+		"active": true
+	}	
+	]
+}

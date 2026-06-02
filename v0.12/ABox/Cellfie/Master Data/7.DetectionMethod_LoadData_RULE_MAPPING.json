@@ -1,0 +1,42 @@
+{
+	"Collections": [{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A4 Annotations: rdfs:label @A4,rdfs:comment @A4 Types: @B4 Facts: hasID @C4,hasSensitivityLevel @D4, hasAccuracyRate @E4(xsd:decimal),hasLastScanTime @F4 (xsd:dateTime),hasDetectionLatencyMs @G4(xsd:decimal),hasReliabilityScore @H4(xsd:decimal),hasDetectionPriority @I4(xsd:Integer),isDetectionActive @J4(xsd:boolean), hasTrainingData @K4(xsd:boolean),isImplementedBy @L4 , analyses @M4, uses @N4",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A3 Annotations: rdfs:label @A3,rdfs:comment @A3 Types: @B3 Facts: hasID @C3,hasSensitivityLevel @D3, hasAccuracyRate @E3(xsd:decimal),hasLastScanTime @F3 (xsd:dateTime),hasDetectionLatencyMs @G3(xsd:decimal),hasReliabilityScore @H3(xsd:decimal),hasDetectionPriority @I3(xsd:Integer),isDetectionActive @J3(xsd:boolean), hasTrainingData @K3(xsd:boolean),isImplementedBy @L3 , analyses @M3, uses @N3",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A2 Annotations: rdfs:label @A2,rdfs:comment @A2 Types: @B2 Facts: hasID @C2,hasSensitivityLevel @D2, hasAccuracyRate @E2(xsd:decimal),hasLastScanTime @F2 (xsd:dateTime),hasDetectionLatencyMs @G2(xsd:decimal),hasReliabilityScore @H2(xsd:decimal),\nhasDetectionPriority @I2(xsd:Integer),isDetectionActive @J2(xsd:boolean), hasTrainingData @K2(xsd:boolean),isImplementedBy @L2 , analyses @M2, uses @N2",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A5 Annotations: rdfs:label @A5,rdfs:comment @A5 Types: @B5 Facts: hasID @C5,hasSensitivityLevel @D5, hasAccuracyRate @E5(xsd:decimal),hasLastScanTime @F5 (xsd:dateTime),hasDetectionLatencyMs @G5(xsd:decimal),hasReliabilityScore @H5(xsd:decimal),hasDetectionPriority @I5(xsd:Integer),isDetectionActive @J5(xsd:boolean), hasTrainingData @K5(xsd:boolean),isImplementedBy @L5 , analyses @M5, uses @N5",
+		"active": true
+	}]
+}

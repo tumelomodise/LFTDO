@@ -1,0 +1,1013 @@
+{
+	"Collections": [{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A2 Annotations: rdfs:label @A2,rdfs:comment @A2 Types: @B2 Facts: isStoredIn @C2,statusUpdateInitiatedBy @D2,updatesUI @E2,hasUpdateFrequency @F2,isResolved @G2(xsd:boolean),hasEventDateTime @H2(xsd:dateTime),isCurrentStatusOf@I2,isValidatedBy @J2, hasStatus @K2",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A3 Annotations: rdfs:label @A3,rdfs:comment @A3 Types: @B3 Facts: isStoredIn @C3,statusUpdateInitiatedBy @D3,updatesUI @E3,hasUpdateFrequency @F3,isResolved @G3(xsd:boolean),hasEventDateTime @H3(xsd:dateTime),isCurrentStatusOf@I3,isValidatedBy @J3, hasStatus @K3",
+		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A4 Annotations: rdfs:label @A4,rdfs:comment @A4 Types: @B4 Facts: isStoredIn @C4,statusUpdateInitiatedBy @D4,updatesUI @E4,hasUpdateFrequency @F4,isResolved @G4(xsd:boolean),hasEventDateTime @H4(xsd:dateTime),isCurrentStatusOf@I4,isValidatedBy @J4, hasStatus @K4",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A5 Annotations: rdfs:label @A5,rdfs:comment @A5 Types: @B5 Facts: isStoredIn @C5,statusUpdateInitiatedBy @D5,updatesUI @E5,hasUpdateFrequency @F5,isResolved @G5(xsd:boolean),hasEventDateTime @H5(xsd:dateTime),isCurrentStatusOf@I5,isValidatedBy @J5, hasStatus @K5",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A6 Annotations: rdfs:label @A6,rdfs:comment @A6 Types: @B6 Facts: isStoredIn @C6,statusUpdateInitiatedBy @D6,updatesUI @E6,hasUpdateFrequency @F6,isResolved @G6(xsd:boolean),hasEventDateTime @H6(xsd:dateTime),isCurrentStatusOf@I6,isValidatedBy @J6, hasStatus @K6",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A7 Annotations: rdfs:label @A7,rdfs:comment @A7 Types: @B7 Facts: isStoredIn @C7,statusUpdateInitiatedBy @D7,updatesUI @E7,hasUpdateFrequency @F7,isResolved @G7(xsd:boolean),hasEventDateTime @H7(xsd:dateTime),isCurrentStatusOf@I7,isValidatedBy @J7, hasStatus @K7",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A8 Annotations: rdfs:label @A8,rdfs:comment @A8 Types: @B8 Facts: isStoredIn @C8,statusUpdateInitiatedBy @D8,updatesUI @E8,hasUpdateFrequency @F8,isResolved @G8(xsd:boolean),hasEventDateTime @H8(xsd:dateTime),isCurrentStatusOf@I8,isValidatedBy @J8, hasStatus @K8",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A9 Annotations: rdfs:label @A9,rdfs:comment @A9 Types: @B9 Facts: isStoredIn @C9,statusUpdateInitiatedBy @D9,updatesUI @E9,hasUpdateFrequency @F9,isResolved @G9(xsd:boolean),hasEventDateTime @H9(xsd:dateTime),isCurrentStatusOf@I9,isValidatedBy @J9, hasStatus @K9",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A10 Annotations: rdfs:label @A10,rdfs:comment @A10 Types: @B10 Facts: isStoredIn @C10,statusUpdateInitiatedBy @D10,updatesUI @E10,hasUpdateFrequency @F10,isResolved @G10(xsd:boolean),hasEventDateTime @H10(xsd:dateTime),isCurrentStatusOf@I10,isValidatedBy @J10, hasStatus @K10",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A11 Annotations: rdfs:label @A11,rdfs:comment @A11 Types: @B11 Facts: isStoredIn @C11,statusUpdateInitiatedBy @D11,updatesUI @E11,hasUpdateFrequency @F11,isResolved @G11(xsd:boolean),hasEventDateTime @H11(xsd:dateTime),isCurrentStatusOf@I11,isValidatedBy @J11, hasStatus @K11",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A12 Annotations: rdfs:label @A12,rdfs:comment @A12 Types: @B12 Facts: isStoredIn @C12,statusUpdateInitiatedBy @D12,updatesUI @E12,hasUpdateFrequency @F12,isResolved @G12(xsd:boolean),hasEventDateTime @H12(xsd:dateTime),isCurrentStatusOf@I12,isValidatedBy @J12, hasStatus @K12",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A13 Annotations: rdfs:label @A13,rdfs:comment @A13 Types: @B13 Facts: isStoredIn @C13,statusUpdateInitiatedBy @D13,updatesUI @E13,hasUpdateFrequency @F13,isResolved @G13(xsd:boolean),hasEventDateTime @H13(xsd:dateTime),isCurrentStatusOf@I13,isValidatedBy @J13, hasStatus @K13",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A14 Annotations: rdfs:label @A14,rdfs:comment @A14 Types: @B14 Facts: isStoredIn @C14,statusUpdateInitiatedBy @D14,updatesUI @E14,hasUpdateFrequency @F14,isResolved @G14(xsd:boolean),hasEventDateTime @H14(xsd:dateTime),isCurrentStatusOf@I14,isValidatedBy @J14, hasStatus @K14",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A15 Annotations: rdfs:label @A15,rdfs:comment @A15 Types: @B15 Facts: isStoredIn @C15,statusUpdateInitiatedBy @D15,updatesUI @E15,hasUpdateFrequency @F15,isResolved @G15(xsd:boolean),hasEventDateTime @H15(xsd:dateTime),isCurrentStatusOf@I15,isValidatedBy @J15, hasStatus @K15",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A16 Annotations: rdfs:label @A16,rdfs:comment @A16 Types: @B16 Facts: isStoredIn @C16,statusUpdateInitiatedBy @D16,updatesUI @E16,hasUpdateFrequency @F16,isResolved @G16(xsd:boolean),hasEventDateTime @H16(xsd:dateTime),isCurrentStatusOf@I16,isValidatedBy @J16, hasStatus @K16",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A17 Annotations: rdfs:label @A17,rdfs:comment @A17 Types: @B17 Facts: isStoredIn @C17,statusUpdateInitiatedBy @D17,updatesUI @E17,hasUpdateFrequency @F17,isResolved @G17(xsd:boolean),hasEventDateTime @H17(xsd:dateTime),isCurrentStatusOf@I17,isValidatedBy @J17, hasStatus @K17",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A18 Annotations: rdfs:label @A18,rdfs:comment @A18 Types: @B18 Facts: isStoredIn @C18,statusUpdateInitiatedBy @D18,updatesUI @E18,hasUpdateFrequency @F18,isResolved @G18(xsd:boolean),hasEventDateTime @H18(xsd:dateTime),isCurrentStatusOf@I18,isValidatedBy @J18, hasStatus @K18",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A19 Annotations: rdfs:label @A19,rdfs:comment @A19 Types: @B19 Facts: isStoredIn @C19,statusUpdateInitiatedBy @D19,updatesUI @E19,hasUpdateFrequency @F19,isResolved @G19(xsd:boolean),hasEventDateTime @H19(xsd:dateTime),isCurrentStatusOf@I19,isValidatedBy @J19, hasStatus @K19",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A20 Annotations: rdfs:label @A20,rdfs:comment @A20 Types: @B20 Facts: isStoredIn @C20,statusUpdateInitiatedBy @D20,updatesUI @E20,hasUpdateFrequency @F20,isResolved @G20(xsd:boolean),hasEventDateTime @H20(xsd:dateTime),isCurrentStatusOf@I20,isValidatedBy @J20, hasStatus @K20",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A21 Annotations: rdfs:label @A21,rdfs:comment @A21 Types: @B21 Facts: isStoredIn @C21,statusUpdateInitiatedBy @D21,updatesUI @E21,hasUpdateFrequency @F21,isResolved @G21(xsd:boolean),hasEventDateTime @H21(xsd:dateTime),isCurrentStatusOf@I21,isValidatedBy @J21, hasStatus @K21",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A22 Annotations: rdfs:label @A22,rdfs:comment @A22 Types: @B22 Facts: isStoredIn @C22,statusUpdateInitiatedBy @D22,updatesUI @E22,hasUpdateFrequency @F22,isResolved @G22(xsd:boolean),hasEventDateTime @H22(xsd:dateTime),isCurrentStatusOf@I22,isValidatedBy @J22, hasStatus @K22",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A23 Annotations: rdfs:label @A23,rdfs:comment @A23 Types: @B23 Facts: isStoredIn @C23,statusUpdateInitiatedBy @D23,updatesUI @E23,hasUpdateFrequency @F23,isResolved @G23(xsd:boolean),hasEventDateTime @H23(xsd:dateTime),isCurrentStatusOf@I23,isValidatedBy @J23, hasStatus @K23",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A24 Annotations: rdfs:label @A24 ,rdfs:comment @A24 Types: @B24 Facts: isStoredIn @C24,statusUpdateInitiatedBy @D24,updatesUI @E24,hasUpdateFrequency @F24,isResolved @G24(xsd:boolean),hasEventDateTime @H24(xsd:dateTime),isCurrentStatusOf@I24,isValidatedBy @J24, hasStatus @K24",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A25 Annotations: rdfs:label @A25,rdfs:comment @A25 Types: @B25 Facts: isStoredIn @C25,statusUpdateInitiatedBy @D25,updatesUI @E25,hasUpdateFrequency @F25,isResolved @G25(xsd:boolean),hasEventDateTime @H25(xsd:dateTime),isCurrentStatusOf@I25,isValidatedBy @J25, hasStatus @K25",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A26 Annotations: rdfs:label @A26,rdfs:comment @A26 Types: @B26 Facts: isStoredIn @C26,statusUpdateInitiatedBy @D26,updatesUI @E26,hasUpdateFrequency @F26,isResolved @G26(xsd:boolean),hasEventDateTime @H26(xsd:dateTime),isCurrentStatusOf@I26,isValidatedBy @J26, hasStatus @K26",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A27 Annotations: rdfs:label @A27,rdfs:comment @A27 Types: @B27 Facts: isStoredIn @C27,statusUpdateInitiatedBy @D27,updatesUI @E27,hasUpdateFrequency @F27,isResolved @G27(xsd:boolean),hasEventDateTime @H27(xsd:dateTime),isCurrentStatusOf@I27,isValidatedBy @J27, hasStatus @K27",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A28 Annotations: rdfs:label @A28 ,rdfs:comment @A28 Types: @B28 Facts: isStoredIn @C28,statusUpdateInitiatedBy @D28,updatesUI @E28,hasUpdateFrequency @F28,isResolved @G28(xsd:boolean),hasEventDateTime @H28(xsd:dateTime),isCurrentStatusOf@I28,isValidatedBy @J28, hasStatus @K28",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A29 Annotations: rdfs:label @A29 ,rdfs:comment @A29 Types: @B29 Facts: isStoredIn @C29,statusUpdateInitiatedBy @D29,updatesUI @E29,hasUpdateFrequency @F29,isResolved @G29(xsd:boolean),hasEventDateTime @H29(xsd:dateTime),isCurrentStatusOf@I29,isValidatedBy @J29, hasStatus @K29",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A30 Annotations: rdfs:label @A30 ,rdfs:comment @A30 Types: @B30 Facts: isStoredIn @C30,statusUpdateInitiatedBy @D30,updatesUI @E30,hasUpdateFrequency @F30,isResolved @G30(xsd:boolean),hasEventDateTime @H30(xsd:dateTime),isCurrentStatusOf@I30,isValidatedBy @J30, hasStatus @K30",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A31 Annotations: rdfs:label @A31 ,rdfs:comment @A31 Types: @B31 Facts: isStoredIn @C31,statusUpdateInitiatedBy @D31,updatesUI @E31,hasUpdateFrequency @F31,isResolved @G31(xsd:boolean),hasEventDateTime @H31(xsd:dateTime),isCurrentStatusOf@I31,isValidatedBy @J31, hasStatus @K31",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A32 Annotations: rdfs:label @A32 ,rdfs:comment @A32 Types: @B32 Facts: isStoredIn @C32,statusUpdateInitiatedBy @D32,updatesUI @E32,hasUpdateFrequency @F32,isResolved @G32(xsd:boolean),hasEventDateTime @H32(xsd:dateTime),isCurrentStatusOf@I32,isValidatedBy @J32, hasStatus @K32",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A33 Annotations: rdfs:label @A33 ,rdfs:comment @A33 Types: @B33 Facts: isStoredIn @C33,statusUpdateInitiatedBy @D33,updatesUI @E33,hasUpdateFrequency @F33,isResolved @G33(xsd:boolean),hasEventDateTime @H33(xsd:dateTime),isCurrentStatusOf@I33,isValidatedBy @J33, hasStatus @K33",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A34 Annotations: rdfs:label @A34 ,rdfs:comment @A34 Types: @B34 Facts: isStoredIn @C34,statusUpdateInitiatedBy @D34,updatesUI @E34,hasUpdateFrequency @F34,isResolved @G34(xsd:boolean),hasEventDateTime @H34(xsd:dateTime),isCurrentStatusOf@I34,isValidatedBy @J34, hasStatus @K34",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A35 Annotations: rdfs:label @A35 ,rdfs:comment @A35 Types: @B35 Facts: isStoredIn @C35,statusUpdateInitiatedBy @D35,updatesUI @E35,hasUpdateFrequency @F35,isResolved @G35(xsd:boolean),hasEventDateTime @H35(xsd:dateTime),isCurrentStatusOf@I35,isValidatedBy @J35, hasStatus @K35",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A36 Annotations: rdfs:label @A36 ,rdfs:comment @A36 Types: @B36 Facts: isStoredIn @C36,statusUpdateInitiatedBy @D36,updatesUI @E36,hasUpdateFrequency @F36,isResolved @G36(xsd:boolean),hasEventDateTime @H36(xsd:dateTime),isCurrentStatusOf@I36,isValidatedBy @J36, hasStatus @K36",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A37 Annotations: rdfs:label @A37 ,rdfs:comment @A37 Types: @B37 Facts: isStoredIn @C37,statusUpdateInitiatedBy @D37,updatesUI @E37,hasUpdateFrequency @F37,isResolved @G37(xsd:boolean),hasEventDateTime @H37(xsd:dateTime),isCurrentStatusOf@I37,isValidatedBy @J37, hasStatus @K37",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A38 Annotations: rdfs:label @A38 ,rdfs:comment @A38 Types: @B38 Facts: isStoredIn @C38,statusUpdateInitiatedBy @D38,updatesUI @E38,hasUpdateFrequency @F38,isResolved @G38(xsd:boolean),hasEventDateTime @H38(xsd:dateTime),isCurrentStatusOf@I38,isValidatedBy @J38, hasStatus @K38",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A39 Annotations: rdfs:label @A39 ,rdfs:comment @A39 Types: @B39 Facts: isStoredIn @C39,statusUpdateInitiatedBy @D39,updatesUI @E39,hasUpdateFrequency @F39,isResolved @G39(xsd:boolean),hasEventDateTime @H39(xsd:dateTime),isCurrentStatusOf@I39,isValidatedBy @J39, hasStatus @K39",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A40 Annotations: rdfs:label @A40 ,rdfs:comment @A40 Types: @B40 Facts: isStoredIn @C40,statusUpdateInitiatedBy @D40,updatesUI @E40,hasUpdateFrequency @F40,isResolved @G40(xsd:boolean),hasEventDateTime @H40(xsd:dateTime),isCurrentStatusOf@I40,isValidatedBy @J40, hasStatus @K40",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A41 Annotations: rdfs:label @A41 ,rdfs:comment @A41 Types: @B41 Facts: isStoredIn @C41,statusUpdateInitiatedBy @D41,updatesUI @E41,hasUpdateFrequency @F41,isResolved @G41(xsd:boolean),hasEventDateTime @H41(xsd:dateTime),isCurrentStatusOf@I41,isValidatedBy @J41, hasStatus @K41",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A42 Annotations: rdfs:label @A42 ,rdfs:comment @A42 Types: @B42 Facts: isStoredIn @C42,statusUpdateInitiatedBy @D42,updatesUI @E42,hasUpdateFrequency @F42,isResolved @G42(xsd:boolean),hasEventDateTime @H42(xsd:dateTime),isCurrentStatusOf@I42,isValidatedBy @J42, hasStatus @K42",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A43 Annotations: rdfs:label @A43,rdfs:comment @A43 Types: @B43 Facts: isStoredIn @C43,statusUpdateInitiatedBy @D43,updatesUI @E43,hasUpdateFrequency @F43,isResolved @G43(xsd:boolean),hasEventDateTime @H43(xsd:dateTime),isCurrentStatusOf@I43,isValidatedBy @J43, hasStatus @K43",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A44 Annotations: rdfs:label @A44,rdfs:comment @A44 Types: @B44 Facts: isStoredIn @C44,statusUpdateInitiatedBy @D44,updatesUI @E44,hasUpdateFrequency @F44,isResolved @G44(xsd:boolean),hasEventDateTime @H44(xsd:dateTime),isCurrentStatusOf@I44,isValidatedBy @J44, hasStatus @K44",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A45 Annotations: rdfs:label @A45,rdfs:comment @A45 Types: @B45 Facts: isStoredIn @C45,statusUpdateInitiatedBy @D45,updatesUI @E45,hasUpdateFrequency @F45,isResolved @G45(xsd:boolean),hasEventDateTime @H45(xsd:dateTime),isCurrentStatusOf@I45,isValidatedBy @J45, hasStatus @K45",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A46 Annotations: rdfs:label @A46,rdfs:comment @A46 Types: @B46 Facts: isStoredIn @C46,statusUpdateInitiatedBy @D46,updatesUI @E46,hasUpdateFrequency @F46,isResolved @G46(xsd:boolean),hasEventDateTime @H46(xsd:dateTime),isCurrentStatusOf@I46,isValidatedBy @J46, hasStatus @K46",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A47 Annotations: rdfs:label @A47,rdfs:comment @A47 Types: @B47 Facts: isStoredIn @C47,statusUpdateInitiatedBy @D47,updatesUI @E47,hasUpdateFrequency @F47,isResolved @G47(xsd:boolean),hasEventDateTime @H47(xsd:dateTime),isCurrentStatusOf@I47,isValidatedBy @J47, hasStatus @K47",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A48 Annotations: rdfs:label @A48,rdfs:comment @A48 Types: @B48 Facts: isStoredIn @C48,statusUpdateInitiatedBy @D48,updatesUI @E48,hasUpdateFrequency @F48,isResolved @G48(xsd:boolean),hasEventDateTime @H48(xsd:dateTime),isCurrentStatusOf@I48,isValidatedBy @J48, hasStatus @K48",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A49 Annotations: rdfs:label @A49,rdfs:comment @A49 Types: @B49 Facts: isStoredIn @C49,statusUpdateInitiatedBy @D49,updatesUI @E49,hasUpdateFrequency @F49,isResolved @G49(xsd:boolean),hasEventDateTime @H49(xsd:dateTime),isCurrentStatusOf@I49,isValidatedBy @J49, hasStatus @K49",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A50 Annotations: rdfs:label @A50,rdfs:comment @A50 Types: @B50 Facts: isStoredIn @C50,statusUpdateInitiatedBy @D50,updatesUI @E50,hasUpdateFrequency @F50,isResolved @G50(xsd:boolean),hasEventDateTime @H50(xsd:dateTime),isCurrentStatusOf@I50,isValidatedBy @J50, hasStatus @K50",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A51 Annotations: rdfs:label @A51,rdfs:comment @A51 Types: @B51 Facts: isStoredIn @C51,statusUpdateInitiatedBy @D51,updatesUI @E51,hasUpdateFrequency @F51,isResolved @G51(xsd:boolean),hasEventDateTime @H51(xsd:dateTime),isCurrentStatusOf@I51,isValidatedBy @J51, hasStatus @K51",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A52 Annotations: rdfs:label @A52,rdfs:comment @A52 Types: @B52 Facts: isStoredIn @C52,statusUpdateInitiatedBy @D52,updatesUI @E52,hasUpdateFrequency @F52,isResolved @G52(xsd:boolean),hasEventDateTime @H52(xsd:dateTime),isCurrentStatusOf@I52,isValidatedBy @J52, hasStatus @K52",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A53 Annotations: rdfs:label @A53,rdfs:comment @A53 Types: @B53 Facts: isStoredIn @C53,statusUpdateInitiatedBy @D53,updatesUI @E53,hasUpdateFrequency @F53,isResolved @G53(xsd:boolean),hasEventDateTime @H53(xsd:dateTime),isCurrentStatusOf@I53,isValidatedBy @J53, hasStatus @K53",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A54 Annotations: rdfs:label @A54,rdfs:comment @A54 Types: @B54 Facts: isStoredIn @C54,statusUpdateInitiatedBy @D54,updatesUI @E54,hasUpdateFrequency @F54,isResolved @G54(xsd:boolean),hasEventDateTime @H54(xsd:dateTime),isCurrentStatusOf@I54,isValidatedBy @J54, hasStatus @K54",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A55 Annotations: rdfs:label @A55,rdfs:comment @A55 Types: @B55 Facts: isStoredIn @C55,statusUpdateInitiatedBy @D55,updatesUI @E55,hasUpdateFrequency @F55,isResolved @G55(xsd:boolean),hasEventDateTime @H55(xsd:dateTime),isCurrentStatusOf@I55,isValidatedBy @J55, hasStatus @K55",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A56 Annotations: rdfs:label @A56,rdfs:comment @A56 Types: @B56 Facts: isStoredIn @C56,statusUpdateInitiatedBy @D56,updatesUI @E56,hasUpdateFrequency @F56,isResolved @G56(xsd:boolean),hasEventDateTime @H56(xsd:dateTime),isCurrentStatusOf@I56,isValidatedBy @J56, hasStatus @K56",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A57 Annotations: rdfs:label @A57,rdfs:comment @A57 Types: @B57 Facts: isStoredIn @C57,statusUpdateInitiatedBy @D57,updatesUI @E57,hasUpdateFrequency @F57,isResolved @G57(xsd:boolean),hasEventDateTime @H57(xsd:dateTime),isCurrentStatusOf@I57,isValidatedBy @J57, hasStatus @K57",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A58 Annotations: rdfs:label @A58,rdfs:comment @A58 Types: @B58 Facts: isStoredIn @C58,statusUpdateInitiatedBy @D58,updatesUI @E58,hasUpdateFrequency @F58,isResolved @G58(xsd:boolean),hasEventDateTime @H58(xsd:dateTime),isCurrentStatusOf@I58,isValidatedBy @J58, hasStatus @K58",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A59 Annotations: rdfs:label @A59,rdfs:comment @A59 Types: @B59 Facts: isStoredIn @C59,statusUpdateInitiatedBy @D59,updatesUI @E59,hasUpdateFrequency @F59,isResolved @G59(xsd:boolean),hasEventDateTime @H59(xsd:dateTime),isCurrentStatusOf@I59,isValidatedBy @J59, hasStatus @K59",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A60 Annotations: rdfs:label @A60,rdfs:comment @A60 Types: @B60 Facts: isStoredIn @C60,statusUpdateInitiatedBy @D60,updatesUI @E60,hasUpdateFrequency @F60,isResolved @G60(xsd:boolean),hasEventDateTime @H60(xsd:dateTime),isCurrentStatusOf@I60,isValidatedBy @J60, hasStatus @K60",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A61 Annotations: rdfs:label @A61,rdfs:comment @A61 Types: @B61 Facts: isStoredIn @C61,statusUpdateInitiatedBy @D61,updatesUI @E61,hasUpdateFrequency @F61,isResolved @G61(xsd:boolean),hasEventDateTime @H61(xsd:dateTime),isCurrentStatusOf@I61,isValidatedBy @J61, hasStatus @K61",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A62 Annotations: rdfs:label @A62,rdfs:comment @A62 Types: @B62 Facts: isStoredIn @C62,statusUpdateInitiatedBy @D62,updatesUI @E62,hasUpdateFrequency @F62,isResolved @G62(xsd:boolean),hasEventDateTime @H62(xsd:dateTime),isCurrentStatusOf@I62,isValidatedBy @J62, hasStatus @K62",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A63 Annotations: rdfs:label @A63,rdfs:comment @A63 Types: @B63 Facts: isStoredIn @C63,statusUpdateInitiatedBy @D63,updatesUI @E63,hasUpdateFrequency @F63,isResolved @G63(xsd:boolean),hasEventDateTime @H63(xsd:dateTime),isCurrentStatusOf@I63,isValidatedBy @J63, hasStatus @K63",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A64 Annotations: rdfs:label @A64,rdfs:comment @A64 Types: @B64 Facts: isStoredIn @C64,statusUpdateInitiatedBy @D64,updatesUI @E64,hasUpdateFrequency @F64,isResolved @G64(xsd:boolean),hasEventDateTime @H64(xsd:dateTime),isCurrentStatusOf@I64,isValidatedBy @J64, hasStatus @K64",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A65 Annotations: rdfs:label @A65,rdfs:comment @A65 Types: @B65 Facts: isStoredIn @C65,statusUpdateInitiatedBy @D65,updatesUI @E65,hasUpdateFrequency @F65,isResolved @G65(xsd:boolean),hasEventDateTime @H65(xsd:dateTime),isCurrentStatusOf@I65,isValidatedBy @J65, hasStatus @K65",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A66 Annotations: rdfs:label @A66,rdfs:comment @A66 Types: @B66 Facts: isStoredIn @C66,statusUpdateInitiatedBy @D66,updatesUI @E66,hasUpdateFrequency @F66,isResolved @G66(xsd:boolean),hasEventDateTime @H66(xsd:dateTime),isCurrentStatusOf@I66,isValidatedBy @J66, hasStatus @K66",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A67 Annotations: rdfs:label @A67,rdfs:comment @A67 Types: @B67 Facts: isStoredIn @C67,statusUpdateInitiatedBy @D67,updatesUI @E67,hasUpdateFrequency @F67,isResolved @G67(xsd:boolean),hasEventDateTime @H67(xsd:dateTime),isCurrentStatusOf@I67,isValidatedBy @J67, hasStatus @K67",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A68 Annotations: rdfs:label @A68,rdfs:comment @A68 Types: @B68 Facts: isStoredIn @C68,statusUpdateInitiatedBy @D68,updatesUI @E68,hasUpdateFrequency @F68,isResolved @G68(xsd:boolean),hasEventDateTime @H68(xsd:dateTime),isCurrentStatusOf@I68,isValidatedBy @J68, hasStatus @K68",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A69 Annotations: rdfs:label @A69,rdfs:comment @A69 Types: @B69 Facts: isStoredIn @C69,statusUpdateInitiatedBy @D69,updatesUI @E69,hasUpdateFrequency @F69,isResolved @G69(xsd:boolean),hasEventDateTime @H69(xsd:dateTime),isCurrentStatusOf@I69,isValidatedBy @J69, hasStatus @K69",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A70 Annotations: rdfs:label @A70,rdfs:comment @A7 Types: @B70 Facts: isStoredIn @C70,statusUpdateInitiatedBy @D70,updatesUI @E70,hasUpdateFrequency @F70,isResolved @G70(xsd:boolean),hasEventDateTime @H70(xsd:dateTime),isCurrentStatusOf@I70,isValidatedBy @J70, hasStatus @K70",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A71 Annotations: rdfs:label @A71,rdfs:comment @A71 Types: @B71 Facts: isStoredIn @C71,statusUpdateInitiatedBy @D71,updatesUI @E71,hasUpdateFrequency @F71,isResolved @G71(xsd:boolean),hasEventDateTime @H71(xsd:dateTime),isCurrentStatusOf@I71,isValidatedBy @J71, hasStatus @K71",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A72 Annotations: rdfs:label @A72,rdfs:comment @A72 Types: @B72 Facts: isStoredIn @C72,statusUpdateInitiatedBy @D72,updatesUI @E72,hasUpdateFrequency @F72,isResolved @G72(xsd:boolean),hasEventDateTime @H72(xsd:dateTime),isCurrentStatusOf@I72,isValidatedBy @J72, hasStatus @K72",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A73 Annotations: rdfs:label @A73,rdfs:comment @A73 Types: @B73 Facts: isStoredIn @C73,statusUpdateInitiatedBy @D73,updatesUI @E73,hasUpdateFrequency @F73,isResolved @G73(xsd:boolean),hasEventDateTime @H73(xsd:dateTime),isCurrentStatusOf@I73,isValidatedBy @J73, hasStatus @K73",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A74 Annotations: rdfs:label @A74,rdfs:comment @A74 Types: @B74 Facts: isStoredIn @C74,statusUpdateInitiatedBy @D74,updatesUI @E74,hasUpdateFrequency @F74,isResolved @G74(xsd:boolean),hasEventDateTime @H74(xsd:dateTime),isCurrentStatusOf@I74,isValidatedBy @J74, hasStatus @K74",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A75 Annotations: rdfs:label @A75,rdfs:comment @A75 Types: @B75 Facts: isStoredIn @C75,statusUpdateInitiatedBy @D75,updatesUI @E75,hasUpdateFrequency @F75,isResolved @G75(xsd:boolean),hasEventDateTime @H75(xsd:dateTime),isCurrentStatusOf@I75,isValidatedBy @J75, hasStatus @K75",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A76 Annotations: rdfs:label @A76,rdfs:comment @A76 Types: @B76 Facts: isStoredIn @C76,statusUpdateInitiatedBy @D76,updatesUI @E76,hasUpdateFrequency @F76,isResolved @G76(xsd:boolean),hasEventDateTime @H76(xsd:dateTime),isCurrentStatusOf@I76,isValidatedBy @J76, hasStatus @K76",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A77 Annotations: rdfs:label @A77,rdfs:comment @A77 Types: @B77 Facts: isStoredIn @C77,statusUpdateInitiatedBy @D77,updatesUI @E77,hasUpdateFrequency @F77,isResolved @G77(xsd:boolean),hasEventDateTime @H77(xsd:dateTime),isCurrentStatusOf@I77,isValidatedBy @J77, hasStatus @K77",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A78 Annotations: rdfs:label @A78,rdfs:comment @A78 Types: @B78 Facts: isStoredIn @C78,statusUpdateInitiatedBy @D78,updatesUI @E78,hasUpdateFrequency @F78,isResolved @G78(xsd:boolean),hasEventDateTime @H78(xsd:dateTime),isCurrentStatusOf@I78,isValidatedBy @J78, hasStatus @K78",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A79 Annotations: rdfs:label @A79,rdfs:comment @A79 Types: @B79 Facts: isStoredIn @C79,statusUpdateInitiatedBy @D79,updatesUI @E79,hasUpdateFrequency @F79,isResolved @G79(xsd:boolean),hasEventDateTime @H79(xsd:dateTime),isCurrentStatusOf@I79,isValidatedBy @J79, hasStatus @K79",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A80 Annotations: rdfs:label @A80,rdfs:comment @A80 Types: @B80 Facts: isStoredIn @C80,statusUpdateInitiatedBy @D80,updatesUI @E80,hasUpdateFrequency @F80,isResolved @G80(xsd:boolean),hasEventDateTime @H80(xsd:dateTime),isCurrentStatusOf@I80,isValidatedBy @J80, hasStatus @K80",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A81 Annotations: rdfs:label @A81,rdfs:comment @A8 Types: @B81 Facts: isStoredIn @C81,statusUpdateInitiatedBy @D81,updatesUI @E81,hasUpdateFrequency @F81,isResolved @G81(xsd:boolean),hasEventDateTime @H81(xsd:dateTime),isCurrentStatusOf@I81,isValidatedBy @J81, hasStatus @K81",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A82 Annotations: rdfs:label @A82,rdfs:comment @A82 Types: @B82 Facts: isStoredIn @C82,statusUpdateInitiatedBy @D82,updatesUI @E82,hasUpdateFrequency @F82,isResolved @G82(xsd:boolean),hasEventDateTime @H82(xsd:dateTime),isCurrentStatusOf@I82,isValidatedBy @J82, hasStatus @K82",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A83 Annotations: rdfs:label @A83,rdfs:comment @A83 Types: @B83 Facts: isStoredIn @C83,statusUpdateInitiatedBy @D83,updatesUI @E83,hasUpdateFrequency @F83,isResolved @G83(xsd:boolean),hasEventDateTime @H83(xsd:dateTime),isCurrentStatusOf@I83,isValidatedBy @J83, hasStatus @K83",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A84 Annotations: rdfs:label @A84,rdfs:comment @A84 Types: @B84 Facts: isStoredIn @C84,statusUpdateInitiatedBy @D84,updatesUI @E84,hasUpdateFrequency @F84,isResolved @G84(xsd:boolean),hasEventDateTime @H84(xsd:dateTime),isCurrentStatusOf@I84,isValidatedBy @J84, hasStatus @K84",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A85 Annotations: rdfs:label @A85,rdfs:comment @A85 Types: @B85 Facts: isStoredIn @C85,statusUpdateInitiatedBy @D85,updatesUI @E85,hasUpdateFrequency @F85,isResolved @G85(xsd:boolean),hasEventDateTime @H85(xsd:dateTime),isCurrentStatusOf@I85,isValidatedBy @J85, hasStatus @K85",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A86 Annotations: rdfs:label @A86,rdfs:comment @A86 Types: @B86 Facts: isStoredIn @C86,statusUpdateInitiatedBy @D86,updatesUI @E86,hasUpdateFrequency @F86,isResolved @G86(xsd:boolean),hasEventDateTime @H86(xsd:dateTime),isCurrentStatusOf@I86,isValidatedBy @J86, hasStatus @K86",		"active": true
+	}
+	,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A87 Annotations: rdfs:label @A87,rdfs:comment @A87 Types: @B87 Facts: isStoredIn @C87,statusUpdateInitiatedBy @D87,updatesUI @E87,hasUpdateFrequency @F87,isResolved @G87(xsd:boolean),hasEventDateTime @H87(xsd:dateTime),isCurrentStatusOf@I87,isValidatedBy @J87, hasStatus @K87",		"active": true
+	}
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A88 Annotations: rdfs:label @A88,rdfs:comment @A88 Types: @B88 Facts: isStoredIn @C88,statusUpdateInitiatedBy @D88,updatesUI @E88,hasUpdateFrequency @F88,isResolved @G88(xsd:boolean),hasEventDateTime @H88(xsd:dateTime),isCurrentStatusOf@I88,isValidatedBy @J88, hasStatus @K88",	"active": true
+}
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A89 Annotations: rdfs:label @A89,rdfs:comment @A89 Types: @B89 Facts: isStoredIn @C89,statusUpdateInitiatedBy @D89,updatesUI @E89,hasUpdateFrequency @F89,isResolved @G89(xsd:boolean),hasEventDateTime @H89(xsd:dateTime),isCurrentStatusOf@I89,isValidatedBy @J89, hasStatus @K89",	"active": true
+		}
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A90 Annotations: rdfs:label @A90,rdfs:comment @A90 Types: @B90 Facts: isStoredIn @C90,statusUpdateInitiatedBy @D90,updatesUI @E90,hasUpdateFrequency @F90,isResolved @G90(xsd:boolean),hasEventDateTime @H90(xsd:dateTime),isCurrentStatusOf@I90,isValidatedBy @J90, hasStatus @K90",	"active": true
+		}
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A91 Annotations: rdfs:label @A91,rdfs:comment @A91 Types: @B91 Facts: isStoredIn @C91,statusUpdateInitiatedBy @D91,updatesUI @E91,hasUpdateFrequency @F91,isResolved @G91(xsd:boolean),hasEventDateTime @H91(xsd:dateTime),isCurrentStatusOf@I91,isValidatedBy @J91, hasStatus @K91",	"active": true
+}
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A92 Annotations: rdfs:label @A92,rdfs:comment @A92 Types: @B92 Facts: isStoredIn @C92,statusUpdateInitiatedBy @D92,updatesUI @E92,hasUpdateFrequency @F92,isResolved @G92(xsd:boolean),hasEventDateTime @H92(xsd:dateTime),isCurrentStatusOf@I92,isValidatedBy @J92, hasStatus @K92",	"active": true
+		}
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A93 Annotations: rdfs:label @A93,rdfs:comment @A93 Types: @B93 Facts: isStoredIn @C93,statusUpdateInitiatedBy @D93,updatesUI @E93,hasUpdateFrequency @F93,isResolved @G93(xsd:boolean),hasEventDateTime @H93(xsd:dateTime),isCurrentStatusOf@I93,isValidatedBy @J93, hasStatus @K93",	"active": true
+		}
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A94 Annotations: rdfs:label @A94,rdfs:comment @A94 Types: @B94 Facts: isStoredIn @C94,statusUpdateInitiatedBy @D94,updatesUI @E94,hasUpdateFrequency @F94,isResolved @G94(xsd:boolean),hasEventDateTime @H94(xsd:dateTime),isCurrentStatusOf@I94,isValidatedBy @J94, hasStatus @K94",	"active": true
+		}
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A95 Annotations: rdfs:label @A95,rdfs:comment @A95 Types: @B95 Facts: isStoredIn @C95,statusUpdateInitiatedBy @D95,updatesUI @E95,hasUpdateFrequency @F95,isResolved @G95(xsd:boolean),hasEventDateTime @H95(xsd:dateTime),isCurrentStatusOf@I95,isValidatedBy @J95, hasStatus @K95",	"active": true
+		}
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A96 Annotations: rdfs:label @A96 ,rdfs:comment @A96 Types: @B96 Facts: isStoredIn @C96,statusUpdateInitiatedBy @D96,updatesUI @E96,hasUpdateFrequency @F96,isResolved @G96(xsd:boolean),hasEventDateTime @H96(xsd:dateTime),isCurrentStatusOf@I96,isValidatedBy @J96, hasStatus @K96",	"active": true
+		}
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A97 Annotations: rdfs:label @A97 ,rdfs:comment @A97 Types: @B97 Facts: isStoredIn @C97,statusUpdateInitiatedBy @D97,updatesUI @E97,hasUpdateFrequency @F97,isResolved @G97(xsd:boolean),hasEventDateTime @H97(xsd:dateTime),isCurrentStatusOf@I97,isValidatedBy @J97, hasStatus @K97",	"active": true
+		}
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A98 Annotations: rdfs:label @A98,rdfs:comment @A98  Types: @B98 Facts: isStoredIn @C98,statusUpdateInitiatedBy @D98,updatesUI @E98,hasUpdateFrequency @F98,isResolved @G98(xsd:boolean),hasEventDateTime @H98(xsd:dateTime),isCurrentStatusOf@I98,isValidatedBy @J98, hasStatus @K98",	"active": true
+		}
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A99 Annotations: rdfs:label @A99,rdfs:comment @A99 Types: @B99 Facts: isStoredIn @C99,statusUpdateInitiatedBy @D99,updatesUI @E99,hasUpdateFrequency @F99,isResolved @G99(xsd:boolean),hasEventDateTime @H99(xsd:dateTime),isCurrentStatusOf@I99,isValidatedBy @J99, hasStatus @K99",	"active": true
+		}
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A100 Annotations: rdfs:label @A100,rdfs:comment @A100 Types: @B100 Facts: isStoredIn @C100,statusUpdateInitiatedBy @D100,updatesUI @E100,hasUpdateFrequency @F100,isResolved @G100(xsd:boolean),hasEventDateTime @H100(xsd:dateTime),isCurrentStatusOf@I100,isValidatedBy @J100, hasStatus @K100",	"active": true	
+    }
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A101 Annotations: rdfs:label @A101,rdfs:comment @A101 Types: @B101 Facts: isStoredIn @C101,statusUpdateInitiatedBy @D101,updatesUI @E101,hasUpdateFrequency @F101,isResolved @G101(xsd:boolean),hasEventDateTime @H101(xsd:dateTime),isCurrentStatusOf@I101,isValidatedBy @J101, hasStatus @K101",	"active": true	
+    }
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A102 Annotations: rdfs:label @A102,rdfs:comment @A102 Types: @B102 Facts: isStoredIn @C102,statusUpdateInitiatedBy @D102,updatesUI @E102,hasUpdateFrequency @F102,isResolved @G102(xsd:boolean),hasEventDateTime @H102(xsd:dateTime),isCurrentStatusOf@I102,isValidatedBy @J102, hasStatus @K102",	"active": true	
+    }	
+	]
+}

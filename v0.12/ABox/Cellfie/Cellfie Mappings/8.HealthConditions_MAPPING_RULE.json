@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Data","startColumn":"A","endColumn":"G","startRow":"2","endRow":"+","comment":"","rule":"Individual: @A2 Annotations: rdfs:label @A2 Types: @B2 Facts: isExperiencedBy @C2,triggers @D2,isCharacterisedBy @E2,\nhasHealthStatus @F2(xsd:string),lastVetCheck @G2(xsd:dateTime)","active":true}]}

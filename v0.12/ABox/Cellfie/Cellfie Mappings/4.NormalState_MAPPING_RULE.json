@@ -1,0 +1,62 @@
+{
+	"Collections": [{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "S",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A4 Annotations: rdfs:label @A4 Types: @B4 Facts: hasBehaviourBaselineValues @C4(xsd:decimal), hasDurationBaseline @D4(xsd:decimal), isOutsideGeofence @E4(xsd:boolean),hasBehaviourStateContext @F4 (xsd:string),hasUoM @G4,isCharacterisedBy @H4,hasBaseLineType @I4,\nhasBaselinePosture @J4(xsd:decimal),hasBaselinePostureUoM @K4(xsd:string),hasBaselineStepCount @L4(xsd:integer),hasBaselineStepCountUoM @M4(xsd:string),hasBaseLineSignalStrength @N4(xsd:decimal),hasBaseLineSignalStrengthUoM @O4,\nhasBaseLineHeadingDirection @P4(xsd:decimal),hasBaseLineHeadingDirectionUoM @Q4, hasBaseLineTemp @R4(xsd:decimal),hasBaseLineTempUoM @S4",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "S",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A6 Annotations: rdfs:label @A6 Types: @B6 Facts: hasBehaviourBaselineValues @C6(xsd:decimal), hasDurationBaseline @D6(xsd:decimal), isOutsideGeofence @E6(xsd:boolean),hasBehaviourStateContext @F6 (xsd:string),hasUoM @G6,isCharacterisedBy @H6,\nhasBaseLineType @I6,hasBaselinePosture @J6(xsd:decimal),hasBaselinePostureUoM @K6(xsd:string),hasBaselineStepCount @L6(xsd:integer),hasBaselineStepCountUoM @M6(xsd:string),hasBaseLineSignalStrength @N6(xsd:decimal),hasBaseLineSignalStrengthUoM @O6,\nhasBaseLineHeadingDirection @P6(xsd:decimal),hasBaseLineHeadingDirectionUoM @Q6, hasBaseLineTemp @R6(xsd:decimal),hasBaseLineTempUoM @S6",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "Q",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A5 Annotations: rdfs:label @A5 Types: @B5 Facts: hasBehaviourBaselineValues @C5(xsd:decimal), hasDurationBaseline @D5(xsd:decimal), isOutsideGeofence @E5(xsd:boolean),hasBehaviourStateContext @F5 (xsd:string),hasUoM @G5,isCharacterisedBy @H5,hasBaseLineType @I5,hasBaselinePosture @J5(xsd:decimal),hasBaselinePostureUoM @K5(xsd:string),hasBaselineStepCount @L5(xsd:integer),hasBaselineStepCountUoM @M5(xsd:string),hasBaseLineSignalStrength @N5(xsd:decimal),hasBaseLineSignalStrengthUoM @O5,hasBaseLineHeadingDirection @P5(xsd:decimal),hasBaseLineHeadingDirectionUoM @Q5, hasBaseLineTemp @R5(xsd:decimal),hasBaseLineTempUoM @S5",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "Q",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A3 Annotations: rdfs:label @A3 Types: @B3 Facts: hasBehaviourBaselineValues @C3(xsd:decimal), hasDurationBaseline @D3(xsd:decimal), isOutsideGeofence @E3(xsd:boolean),hasBehaviourStateContext @F3 (xsd:string),hasUoM @G3,isCharacterisedBy @H3,hasBaseLineType @I3,hasBaselinePosture @J3(xsd:decimal),hasBaselinePostureUoM @K3(xsd:string),hasBaselineStepCount @L3(xsd:integer),hasBaselineStepCountUoM @M3(xsd:string),hasBaseLineSignalStrength @N3(xsd:decimal),hasBaseLineSignalStrengthUoM @O3,hasBaseLineHeadingDirection @P3(xsd:decimal),hasBaseLineHeadingDirectionUoM @Q3, hasBaseLineTemp @R3(xsd:decimal),hasBaseLineTempUoM @S3",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "S",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A2 Annotations: rdfs:label @A2 Types: @B2 Facts: hasBehaviourBaselineValues @C2(xsd:decimal), hasDurationBaseline @D2(xsd:decimal), isOutsideGeofence @E2(xsd:boolean),hasBehaviourStateContext @F2 (xsd:string),hasUoM @G2,isCharacterisedBy @H2,\nhasBaseLineType @I2,hasBaselinePosture @J2(xsd:decimal),hasBaselinePostureUoM @K2(xsd:string),hasBaselineStepCount @L2(xsd:integer),hasBaselineStepCountUoM @M2(xsd:string),hasBaseLineSignalStrength @N2(xsd:decimal),hasBaseLineSignalStrengthUoM @O2,\nhasBaseLineHeadingDirection @P2(xsd:decimal),hasBaseLineHeadingDirectionUoM @Q2, hasBaseLineTemp @R2(xsd:decimal),hasBaseLineTempUoM @S2",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "Q",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A7 Annotations: rdfs:label @A7 Types: @B7 Facts: hasBehaviourBaselineValues @C7(xsd:decimal), hasDurationBaseline @D7(xsd:decimal), isOutsideGeofence @E7(xsd:boolean),hasBehaviourStateContext @F7 (xsd:string),hasUoM @G7,isCharacterisedBy @H7,\nhasBaseLineType @I7,hasBaselinePosture @J7(xsd:decimal),hasBaselinePostureUoM @K7(xsd:string),hasBaselineStepCount @L7(xsd:integer),hasBaselineStepCountUoM @M7(xsd:string),hasBaseLineSignalStrength @N7(xsd:decimal),hasBaseLineSignalStrengthUoM @O7,\nhasBaseLineHeadingDirection @P7(xsd:decimal),hasBaseLineHeadingDirectionUoM @Q7, hasBaseLineTemp @R7(xsd:decimal),hasBaseLineTempUoM @S7",
+		"active": true
+	}]
+}

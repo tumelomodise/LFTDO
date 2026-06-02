@@ -1,0 +1,85 @@
+{
+	"Collections": [
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "A",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A2  Annotations: rdfs:label @A2 Types: @B2 Facts: triggersAlertLevel @C2(xsd:string),isDetectedBy @D2",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "D",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A3 Annotations: rdfs:label @A3 Types: @B3 Facts: triggersAlertLevel @C3(xsd:string),isDetectedBy @D3",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "D",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A4  Annotations: rdfs:label @A4 Types: @B4 Facts: triggersAlertLevel @C4(xsd:string),isDetectedBy @D4",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "D",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A5  Annotations: rdfs:label @A5 Types: @B5 Facts: triggersAlertLevel @C5(xsd:string),isDetectedBy @D5",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "D",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A6  Annotations: rdfs:label @A6 Types: @B6 Facts: triggersAlertLevel @C6(xsd:string),isDetectedBy @D6",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "D",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A7  Annotations: rdfs:label @A7 Types: @B7 Facts: triggersAlertLeve6 @C7(xsd:string),isDetectedBy @D7",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "D",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A8  Annotations: rdfs:label @A8 Types: @B8 Facts: triggersAlertLevel @C8(xsd:string),isDetectedBy @D8",
+		"active": true
+	}
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "D",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A9  Annotations: rdfs:label @A9 Types: @B9 Facts: triggersAlertLevel @C9(xsd:string),isDetectedBy @D9",
+		"active": true
+	}	
+	]
+}

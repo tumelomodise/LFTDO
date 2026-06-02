@@ -1,0 +1,994 @@
+{
+  "Collections": [
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A2  Annotations: rdfs:label @A2,rdfs:comment @A2 Types: @B2 Facts: hasBehaviourStartTime @C2 (xsd:dateTime),hasBehaviourEndTime @D2(xsd:dateTime),hasDuration @E2(xsd:decimal),hasCurrentBehaviourState @F2",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A3  Annotations: rdfs:label @A3,rdfs:comment @A3 Types: @B3 Facts: hasBehaviourStartTime @C3 (xsd:dateTime),hasBehaviourEndTime @D3 (xsd:dateTime),hasDuration @E3(xsd:decimal),hasCurrentBehaviourState @F3",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A4  Annotations: rdfs:label @A4,rdfs:comment @A4 Types: @B4 Facts: hasBehaviourStartTime @C4 (xsd:dateTime),hasBehaviourEndTime @D4 (xsd:dateTime),hasDuration @E4(xsd:decimal),hasCurrentBehaviourState @F4",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A5  Annotations: rdfs:label @A5,rdfs:comment @A5 Types: @B5 Facts: hasBehaviourStartTime @C5 (xsd:dateTime),hasBehaviourEndTime @D5 (xsd:dateTime),hasDuration @E5(xsd:decimal),hasCurrentBehaviourState @F5",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A6 Annotations: rdfs:label @A6,rdfs:comment @A6  Types: @B6 Facts: hasBehaviourStartTime @C6 (xsd:dateTime),hasBehaviourEndTime @D6 (xsd:dateTime),hasDuration @E6(xsd:decimal),hasCurrentBehaviourState @F6",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A7  Annotations: rdfs:label @A7,rdfs:comment @A7 Types: @B7 Facts: hasBehaviourStartTime @C7 (xsd:dateTime),hasBehaviourEndTime @D7 (xsd:dateTime),hasDuration @E7(xsd:decimal),hasCurrentBehaviourState @F7",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A8  Annotations: rdfs:label @A8,rdfs:comment @A8 Types: @B8 Facts: hasBehaviourStartTime @C8 (xsd:dateTime),hasBehaviourEndTime @D8 (xsd:dateTime),hasDuration @E8(xsd:decimal),hasCurrentBehaviourState @F8",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A9  Annotations: rdfs:label @A9,rdfs:comment @A9  Types: @B9 Facts: hasBehaviourStartTime @C9 (xsd:dateTime),hasBehaviourEndTime @D9 (xsd:dateTime),hasDuration @E9(xsd:decimal),hasCurrentBehaviourState @F9",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A10  Annotations: rdfs:label @A10,rdfs:comment @A10 Types: @B10 Facts: hasBehaviourStartTime @C10 (xsd:dateTime),hasBehaviourEndTime @D10 (xsd:dateTime),hasDuration @E10(xsd:decimal),hasCurrentBehaviourState @F10",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A11  Annotations: rdfs:label @A11,rdfs:comment @A11 Types: @B11 Facts: hasBehaviourStartTime @C11 (xsd:dateTime),hasBehaviourEndTime @D11 (xsd:dateTime),hasDuration @E11(xsd:decimal),hasCurrentBehaviourState @F11",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A12  Annotations: rdfs:label @A12,rdfs:comment @A12 Types: @B12 Facts: hasBehaviourStartTime @C12 (xsd:dateTime),hasBehaviourEndTime @D12 (xsd:dateTime),hasDuration @E12(xsd:decimal),hasCurrentBehaviourState @F12",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A13  Annotations: rdfs:label @A13,rdfs:comment @A13 Types: @B13 Facts: hasBehaviourStartTime @C13 (xsd:dateTime),hasBehaviourEndTime @D13 (xsd:dateTime),hasDuration @E13(xsd:decimal),hasCurrentBehaviourState @F13",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A14  Annotations: rdfs:label @A14,rdfs:comment @A14 Types: @B14 Facts: hasBehaviourStartTime @C14 (xsd:dateTime),hasBehaviourEndTime @D14 (xsd:dateTime),hasDuration @E14(xsd:decimal),hasCurrentBehaviourState @F14",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A15  Annotations: rdfs:label @A15,rdfs:comment @A15 Types: @B15 Facts: hasBehaviourStartTime @C15 (xsd:dateTime),hasBehaviourEndTime @D15 (xsd:dateTime),hasDuration @E15(xsd:decimal),hasCurrentBehaviourState @F15",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A16  Annotations: rdfs:label @A16,rdfs:comment @A16 Types: @B16 Facts: hasBehaviourStartTime @C16 (xsd:dateTime),hasBehaviourEndTime @D16 (xsd:dateTime),hasDuration @E16(xsd:decimal),hasCurrentBehaviourState @F16",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A17  Annotations: rdfs:label @A17,rdfs:comment @A17 Types: @B17 Facts: hasBehaviourStartTime @C17 (xsd:dateTime),hasBehaviourEndTime @D17 (xsd:dateTime),hasDuration @E17(xsd:decimal),hasCurrentBehaviourState @F17",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A18  Annotations: rdfs:label @A18,rdfs:comment @A18 Types: @B18 Facts: hasBehaviourStartTime @C18 (xsd:dateTime),hasBehaviourEndTime @D18 (xsd:dateTime),hasDuration @E18(xsd:decimal),hasCurrentBehaviourState @F18",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A19  Annotations: rdfs:label @A19,rdfs:comment @A19 Types: @B19 Facts: hasBehaviourStartTime @C19 (xsd:dateTime),hasBehaviourEndTime @D19 (xsd:dateTime),hasDuration @E19(xsd:decimal),hasCurrentBehaviourState @F19",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A20  Annotations: rdfs:label @A20,rdfs:comment @A20 Types: @B20 Facts: hasBehaviourStartTime @C20 (xsd:dateTime),hasBehaviourEndTime @D20 (xsd:dateTime),hasDuration @E20(xsd:decimal),hasCurrentBehaviourState @F20",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A21  Annotations: rdfs:label @A21,rdfs:comment @A21 Types: @B21 Facts: hasBehaviourStartTime @C21 (xsd:dateTime),hasBehaviourEndTime @D21 (xsd:dateTime),hasDuration @E21(xsd:decimal),hasCurrentBehaviourState @F21",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A22  Annotations: rdfs:label @A22,rdfs:comment @A22 Types: @B22 Facts: hasBehaviourStartTime @C22 (xsd:dateTime),hasBehaviourEndTime @D22 (xsd:dateTime),hasDuration @E22(xsd:decimal),hasCurrentBehaviourState @F22",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A23  Annotations: rdfs:label @A23,rdfs:comment @A23 Types: @B23 Facts: hasBehaviourStartTime @C23 (xsd:dateTime),hasBehaviourEndTime @D23 (xsd:dateTime),hasDuration @E23(xsd:decimal),hasCurrentBehaviourState @F23",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A24  Annotations: rdfs:label @A24,rdfs:comment @A24 Types: @B24 Facts: hasBehaviourStartTime @C24 (xsd:dateTime),hasBehaviourEndTime @D24 (xsd:dateTime),hasDuration @E24(xsd:decimal),hasCurrentBehaviourState @F24",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A25  Annotations: rdfs:label @A25,rdfs:comment @A25 Types: @B25 Facts: hasBehaviourStartTime @C25 (xsd:dateTime),hasBehaviourEndTime @D25 (xsd:dateTime),hasDuration @E25(xsd:decimal),hasCurrentBehaviourState @F25",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A26  Annotations: rdfs:label @A26,rdfs:comment @A26 Types: @B26 Facts: hasBehaviourStartTime @C26 (xsd:dateTime),hasBehaviourEndTime @D26 (xsd:dateTime),hasDuration @E26(xsd:decimal),hasCurrentBehaviourState @F26",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A27  Annotations: rdfs:label @A27,rdfs:comment @A27 Types: @B27 Facts: hasBehaviourStartTime @C27 (xsd:dateTime),hasBehaviourEndTime @D27 (xsd:dateTime),hasDuration @E27(xsd:decimal),hasCurrentBehaviourState @F27",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A28  Annotations: rdfs:label @A28,rdfs:comment @A28  Types: @B28 Facts: hasBehaviourStartTime @C28 (xsd:dateTime),hasBehaviourEndTime @D28 (xsd:dateTime),hasDuration @E28(xsd:decimal),hasCurrentBehaviourState @F28",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A29 Annotations: rdfs:label @A29,rdfs:comment @A29 Types: @B29 Facts: hasBehaviourStartTime @C29  (xsd:dateTime),hasBehaviourEndTime @D29 (xsd:dateTime),hasDuration @E29(xsd:decimal),hasCurrentBehaviourState @F29",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A30  Annotations: rdfs:label @A30,rdfs:comment @A30 Types: @B30 Facts: hasBehaviourStartTime @C30 (xsd:dateTime),hasBehaviourEndTime @D30 (xsd:dateTime),hasDuration @E30(xsd:decimal),hasCurrentBehaviourState @F30",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A31  Annotations: rdfs:label @A31,rdfs:comment @A31 Types: @B31 Facts: hasBehaviourStartTime @C31 (xsd:dateTime),hasBehaviourEndTime @D31 (xsd:dateTime),hasDuration @E31(xsd:decimal),hasCurrentBehaviourState @F31",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A32  Annotations: rdfs:label @A32,rdfs:comment @A32 Types: @B32 Facts: hasBehaviourStartTime @C32 (xsd:dateTime),hasBehaviourEndTime @D32 (xsd:dateTime),hasDuration @E32(xsd:decimal),hasCurrentBehaviourState @F32",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A33  Annotations: rdfs:label @A33,rdfs:comment @A33 Types: @B33 Facts: hasBehaviourStartTime @C33 (xsd:dateTime),hasBehaviourEndTime @D33 (xsd:dateTime),hasDuration @E33(xsd:decimal),hasCurrentBehaviourState @F33",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A34 Annotations: rdfs:label @A34,rdfs:comment @A34  Types: @B34 Facts: hasBehaviourStartTime @C34 (xsd:dateTime),hasBehaviourEndTime @D34 (xsd:dateTime),hasDuration @E34(xsd:decimal),hasCurrentBehaviourState @F34",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A35  Annotations: rdfs:label @A35,rdfs:comment @A35 Types: @B35 Facts: hasBehaviourStartTime @C35 (xsd:dateTime),hasBehaviourEndTime @D35 (xsd:dateTime),hasDuration @E35(xsd:decimal),hasCurrentBehaviourState @F35",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A36  Annotations: rdfs:label @A36,rdfs:comment @A36 Types: @B36 Facts: hasBehaviourStartTime @C36 (xsd:dateTime),hasBehaviourEndTime @D36 (xsd:dateTime),hasDuration @E36(xsd:decimal),hasCurrentBehaviourState @F36",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A37  Annotations: rdfs:label @A37,rdfs:comment @A37 Types: @B37 Facts: hasBehaviourStartTime @C37 (xsd:dateTime),hasBehaviourEndTime @D37 (xsd:dateTime),hasDuration @E37(xsd:decimal),hasCurrentBehaviourState @F37",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A38  Annotations: rdfs:label @A38,rdfs:comment @A38 Types: @B38 Facts: hasBehaviourStartTime @C38 (xsd:dateTime),hasBehaviourEndTime @D38 (xsd:dateTime),hasDuration @E38(xsd:decimal),hasCurrentBehaviourState @F38",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A39  Annotations: rdfs:label @A39,rdfs:comment @A39 Types: @B39 Facts: hasBehaviourStartTime @C39 (xsd:dateTime),hasBehaviourEndTime @D39 (xsd:dateTime),hasDuration @E39(xsd:decimal),hasCurrentBehaviourState @F39",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A40  Annotations: rdfs:label @A40,rdfs:comment @A40 Types: @B40 Facts: hasBehaviourStartTime @C40 (xsd:dateTime),hasBehaviourEndTime @D40 (xsd:dateTime),hasDuration @E40(xsd:decimal),hasCurrentBehaviourState @F40",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A41  Annotations: rdfs:label @A41,rdfs:comment @A41  Types: @B41 Facts: hasBehaviourStartTime @C41 (xsd:dateTime),hasBehaviourEndTime @D41 (xsd:dateTime),hasDuration @E41(xsd:decimal),hasCurrentBehaviourState @F41",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A42  Annotations: rdfs:label @A42,rdfs:comment @A42 Types: @B42 Facts: hasBehaviourStartTime @C42 (xsd:dateTime),hasBehaviourEndTime @D42 (xsd:dateTime),hasDuration @E42(xsd:decimal),hasCurrentBehaviourState @F42",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A43  Annotations: rdfs:label @A43,rdfs:comment @A43 Types: @B43 Facts: hasBehaviourStartTime @C43 (xsd:dateTime),hasBehaviourEndTime @D43 (xsd:dateTime),hasDuration @E43(xsd:decimal),hasCurrentBehaviourState @F43",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A44  Annotations: rdfs:label @A44,rdfs:comment @A44 Types: @B44 Facts: hasBehaviourStartTime @C44 (xsd:dateTime),hasBehaviourEndTime @D44 (xsd:dateTime),hasDuration @E44(xsd:decimal),hasCurrentBehaviourState @F44",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A45  Annotations: rdfs:label @A45,rdfs:comment @A45 Types: @B45 Facts: hasBehaviourStartTime @C45 (xsd:dateTime),hasBehaviourEndTime @D45 (xsd:dateTime),hasDuration @E45(xsd:decimal),hasCurrentBehaviourState @F45",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A46  Annotations: rdfs:label @A46,rdfs:comment @A46 Types: @B46 Facts: hasBehaviourStartTime @C46 (xsd:dateTime),hasBehaviourEndTime @D46 (xsd:dateTime),hasDuration @E46(xsd:decimal),hasCurrentBehaviourState @F46",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A47  Annotations: rdfs:label @A47,rdfs:comment @A47 Types: @B47 Facts: hasBehaviourStartTime @C47 (xsd:dateTime),hasBehaviourEndTime @D47 (xsd:dateTime),hasDuration @E47(xsd:decimal),hasCurrentBehaviourState @F47",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A48  Annotations: rdfs:label @A48,rdfs:comment @A48 Types: @B48 Facts: hasBehaviourStartTime @C48 (xsd:dateTime),hasBehaviourEndTime @D48 (xsd:dateTime),hasDuration @E48(xsd:decimal),hasCurrentBehaviourState @F48",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A49  Annotations: rdfs:label @A49,rdfs:comment @A49 Types: @B49 Facts: hasBehaviourStartTime @C49 (xsd:dateTime),hasBehaviourEndTime @D49 (xsd:dateTime),hasDuration @E49(xsd:decimal),hasCurrentBehaviourState @F49",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A50  Annotations: rdfs:label @A50,rdfs:comment @A50 Types: @B50 Facts: hasBehaviourStartTime @C50 (xsd:dateTime),hasBehaviourEndTime @D50 (xsd:dateTime),hasDuration @E50(xsd:decimal),hasCurrentBehaviourState @F50",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A51  Annotations: rdfs:label @A51,rdfs:comment @A51 Types: @B51 Facts: hasBehaviourStartTime @C51 (xsd:dateTime),hasBehaviourEndTime @D51 (xsd:dateTime),hasDuration @E51(xsd:decimal),hasCurrentBehaviourState @F51",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A52  Annotations: rdfs:label @A52,rdfs:comment @A52 Types: @B52 Facts: hasBehaviourStartTime @C52 (xsd:dateTime),hasBehaviourEndTime @D52 (xsd:dateTime),hasDuration @E52(xsd:decimal),hasCurrentBehaviourState @F52",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A53  Annotations: rdfs:label @A53,rdfs:comment @A53 Types: @B53 Facts: hasBehaviourStartTime @C53 (xsd:dateTime),hasBehaviourEndTime @D53 (xsd:dateTime),hasDuration @E53(xsd:decimal),hasCurrentBehaviourState @F53",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A54  Annotations: rdfs:label @A54,rdfs:comment @A54 Types: @B54 Facts: hasBehaviourStartTime @C54 (xsd:dateTime),hasBehaviourEndTime @D54 (xsd:dateTime),hasDuration @E54(xsd:decimal),hasCurrentBehaviourState @F54",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A55  Annotations: rdfs:label @A55,rdfs:comment @A55 Types: @B55 Facts: hasBehaviourStartTime @C55 (xsd:dateTime),hasBehaviourEndTime @D55 (xsd:dateTime),hasDuration @E55(xsd:decimal),hasCurrentBehaviourState @F55",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A56  Annotations: rdfs:label @A56,rdfs:comment @A56 Types: @B56 Facts: hasBehaviourStartTime @C56 (xsd:dateTime),hasBehaviourEndTime @D56 (xsd:dateTime),hasDuration @E56(xsd:decimal),hasCurrentBehaviourState @F56",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A57  Annotations: rdfs:label @A57,rdfs:comment @A57 Types: @B57 Facts: hasBehaviourStartTime @C57 (xsd:dateTime),hasBehaviourEndTime @D57 (xsd:dateTime),hasDuration @E57(xsd:decimal),hasCurrentBehaviourState @F57",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A58  Annotations: rdfs:label @A58,rdfs:comment @A58 Types: @B58 Facts: hasBehaviourStartTime @C58 (xsd:dateTime),hasBehaviourEndTime @D58 (xsd:dateTime),hasDuration @E58(xsd:decimal),hasCurrentBehaviourState @F58",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A59  Annotations: rdfs:label @A59,rdfs:comment @A59 Types: @B59 Facts: hasBehaviourStartTime @C59 (xsd:dateTime),hasBehaviourEndTime @D59 (xsd:dateTime),hasDuration @E59(xsd:decimal),hasCurrentBehaviourState @F59",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A60  Annotations: rdfs:label @A60,rdfs:comment @A60 Types: @B60 Facts: hasBehaviourStartTime @C60 (xsd:dateTime),hasBehaviourEndTime @D60 (xsd:dateTime),hasDuration @E60(xsd:decimal),hasCurrentBehaviourState @F60",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A61  Annotations: rdfs:label @A61,rdfs:comment @A61  Types: @B61 Facts: hasBehaviourStartTime @C61 (xsd:dateTime),hasBehaviourEndTime @D61 (xsd:dateTime),hasDuration @E61(xsd:decimal),hasCurrentBehaviourState @F61",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A62  Annotations: rdfs:label @A62,rdfs:comment @A62  Types: @B62 Facts: hasBehaviourStartTime @C62 (xsd:dateTime),hasBehaviourEndTime @D62 (xsd:dateTime),hasDuration @E62(xsd:decimal),hasCurrentBehaviourState @F62",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A63  Annotations: rdfs:label @A63,rdfs:comment @A63  Types: @B63 Facts: hasBehaviourStartTime @C63 (xsd:dateTime),hasBehaviourEndTime @D63 (xsd:dateTime),hasDuration @E63(xsd:decimal),hasCurrentBehaviourState @F63",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A64  Annotations: rdfs:label @A64,rdfs:comment @A64  Types: @B64 Facts: hasBehaviourStartTime @C64 (xsd:dateTime),hasBehaviourEndTime @D64 (xsd:dateTime),hasDuration @E64(xsd:decimal),hasCurrentBehaviourState @F64",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A65  Annotations: rdfs:label @A65,rdfs:comment @A65  Types: @B65 Facts: hasBehaviourStartTime @C65 (xsd:dateTime),hasBehaviourEndTime @D65 (xsd:dateTime),hasDuration @E65(xsd:decimal),hasCurrentBehaviourState @F65",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A66  Annotations: rdfs:label @A66,rdfs:comment @A66  Types: @B66 Facts: hasBehaviourStartTime @C66 (xsd:dateTime),hasBehaviourEndTime @D66 (xsd:dateTime),hasDuration @E66(xsd:decimal),hasCurrentBehaviourState @F66",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A67  Annotations: rdfs:label @A67,rdfs:comment @A67  Types: @B67 Facts: hasBehaviourStartTime @C67 (xsd:dateTime),hasBehaviourEndTime @D67 (xsd:dateTime),hasDuration @E67(xsd:decimal),hasCurrentBehaviourState @F67",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A68  Annotations: rdfs:label @A68,rdfs:comment @A68  Types: @B68 Facts: hasBehaviourStartTime @C68 (xsd:dateTime),hasBehaviourEndTime @D68 (xsd:dateTime),hasDuration @E68(xsd:decimal),hasCurrentBehaviourState @F68",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A69  Annotations: rdfs:label @A69,rdfs:comment @A69  Types: @B69 Facts: hasBehaviourStartTime @C69 (xsd:dateTime),hasBehaviourEndTime @D69 (xsd:dateTime),hasDuration @E69(xsd:decimal),hasCurrentBehaviourState @F69",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A70  Annotations: rdfs:label @A70,rdfs:comment @A70  Types: @B70 Facts: hasBehaviourStartTime @C70 (xsd:dateTime),hasBehaviourEndTime @D70 (xsd:dateTime),hasDuration @E70(xsd:decimal),hasCurrentBehaviourState @F70",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A71  Annotations: rdfs:label @A71,rdfs:comment @A71  Types: @B71 Facts: hasBehaviourStartTime @C71 (xsd:dateTime),hasBehaviourEndTime @D71 (xsd:dateTime),hasDuration @E71(xsd:decimal),hasCurrentBehaviourState @F71",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A72  Annotations: rdfs:label @A72,rdfs:comment @A72  Types: @B72 Facts: hasBehaviourStartTime @C72 (xsd:dateTime),hasBehaviourEndTime @D72 (xsd:dateTime),hasDuration @E72(xsd:decimal),hasCurrentBehaviourState @F72",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A73  Annotations: rdfs:label @A73,rdfs:comment @A73  Types: @B73 Facts: hasBehaviourStartTime @C73 (xsd:dateTime),hasBehaviourEndTime @D73 (xsd:dateTime),hasDuration @E73(xsd:decimal),hasCurrentBehaviourState @F73",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A74  Annotations: rdfs:label @A74,rdfs:comment @A74  Types: @B74 Facts: hasBehaviourStartTime @C74 (xsd:dateTime),hasBehaviourEndTime @D74 (xsd:dateTime),hasDuration @E74(xsd:decimal),hasCurrentBehaviourState @F74",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A75  Annotations: rdfs:label @A75,rdfs:comment @A75  Types: @B75 Facts: hasBehaviourStartTime @C75 (xsd:dateTime),hasBehaviourEndTime @D75 (xsd:dateTime),hasDuration @E75(xsd:decimal),hasCurrentBehaviourState @F75",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A76  Annotations: rdfs:label @A76,rdfs:comment @A76  Types: @B76 Facts: hasBehaviourStartTime @C76 (xsd:dateTime),hasBehaviourEndTime @D76 (xsd:dateTime),hasDuration @E76(xsd:decimal),hasCurrentBehaviourState @F76",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A77  Annotations: rdfs:label @A77,rdfs:comment @A77  Types: @B77 Facts: hasBehaviourStartTime @C77 (xsd:dateTime),hasBehaviourEndTime @D77 (xsd:dateTime),hasDuration @E77(xsd:decimal),hasCurrentBehaviourState @F77",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A78  Annotations: rdfs:label @A78,rdfs:comment @A78  Types: @B78 Facts: hasBehaviourStartTime @C78 (xsd:dateTime),hasBehaviourEndTime @D78 (xsd:dateTime),hasDuration @E78(xsd:decimal),hasCurrentBehaviourState @F78",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A79  Annotations: rdfs:label @A79,rdfs:comment @A79  Types: @B79 Facts: hasBehaviourStartTime @C79 (xsd:dateTime),hasBehaviourEndTime @D79 (xsd:dateTime),hasDuration @E79(xsd:decimal),hasCurrentBehaviourState @F79",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A80  Annotations: rdfs:label @A80,rdfs:comment @A80,rdfs:comment @A80  Types: @B80 Facts: hasBehaviourStartTime @C80 (xsd:dateTime),hasBehaviourEndTime @D80 (xsd:dateTime),hasDuration @E80(xsd:decimal),hasCurrentBehaviourState @F80",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A81  Annotations: rdfs:label @A81,rdfs:comment @A81,rdfs:comment @A81  Types: @B81 Facts: hasBehaviourStartTime @C81 (xsd:dateTime),hasBehaviourEndTime @D81 (xsd:dateTime),hasDuration @E81(xsd:decimal),hasCurrentBehaviourState @F81",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A82  Annotations: rdfs:label @A82,rdfs:comment @A82,rdfs:comment @A82  Types: @B82 Facts: hasBehaviourStartTime @C82 (xsd:dateTime),hasBehaviourEndTime @D82 (xsd:dateTime),hasDuration @E82(xsd:decimal),hasCurrentBehaviourState @F82",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A83  Annotations: rdfs:label @A83,rdfs:comment @A83 Types: @B83 Facts: hasBehaviourStartTime @C83 (xsd:dateTime),hasBehaviourEndTime @D83 (xsd:dateTime),hasDuration @E83(xsd:decimal),hasCurrentBehaviourState @F83",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A84  Annotations: rdfs:label @A84,rdfs:comment @A84 Types: @B84 Facts: hasBehaviourStartTime @C84 (xsd:dateTime),hasBehaviourEndTime @D84 (xsd:dateTime),hasDuration @E84(xsd:decimal),hasCurrentBehaviourState @F84",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A85  Annotations: rdfs:label @A85,rdfs:comment @A85 Types: @B85 Facts: hasBehaviourStartTime @C85 (xsd:dateTime),hasBehaviourEndTime @D85 (xsd:dateTime),hasDuration @E85(xsd:decimal),hasCurrentBehaviourState @F85",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A86  Annotations: rdfs:label @A86,rdfs:comment @A86 Types: @B86 Facts: hasBehaviourStartTime @C86 (xsd:dateTime),hasBehaviourEndTime @D86 (xsd:dateTime),hasDuration @E86(xsd:decimal),hasCurrentBehaviourState @F86",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A87  Annotations: rdfs:label @A87,rdfs:comment @A87 Types: @B87 Facts: hasBehaviourStartTime @C87 (xsd:dateTime),hasBehaviourEndTime @D87 (xsd:dateTime),hasDuration @E87(xsd:decimal),hasCurrentBehaviourState @F87",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A88  Annotations: rdfs:label @A88,rdfs:comment @A88 Types: @B88 Facts: hasBehaviourStartTime @C88 (xsd:dateTime),hasBehaviourEndTime @D88 (xsd:dateTime),hasDuration @E88(xsd:decimal),hasCurrentBehaviourState @F88",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A89  Annotations: rdfs:label @A89,rdfs:comment @A89  Types: @B89 Facts: hasBehaviourStartTime @C89 (xsd:dateTime),hasBehaviourEndTime @D89 (xsd:dateTime),hasDuration @E89(xsd:decimal),hasCurrentBehaviourState @F89",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A90  Annotations: rdfs:label @A90,rdfs:comment @A90 Types: @B90  Facts: hasBehaviourStartTime @C90 (xsd:dateTime),hasBehaviourEndTime @D90 (xsd:dateTime),hasDuration @E90(xsd:decimal),hasCurrentBehaviourState @F90",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A91  Annotations: rdfs:label @A91,rdfs:comment @A91 Types: @B91 Facts: hasBehaviourStartTime @C91 (xsd:dateTime),hasBehaviourEndTime @D91 (xsd:dateTime),hasDuration @E91(xsd:decimal),hasCurrentBehaviourState @F91",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A92  Annotations: rdfs:label @A92,rdfs:comment @A92  Types: @B92 Facts: hasBehaviourStartTime @C92 (xsd:dateTime),hasBehaviourEndTime @D92 (xsd:dateTime),hasDuration @E92(xsd:decimal),hasCurrentBehaviourState @F92",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A93  Annotations: rdfs:label @A93,rdfs:comment @A93 Types: @B93 Facts: hasBehaviourStartTime @C93 (xsd:dateTime),hasBehaviourEndTime @D93 (xsd:dateTime),hasDuration @E93(xsd:decimal),hasCurrentBehaviourState @F93",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A94  Annotations: rdfs:label @A94,rdfs:comment @A94  Types: @B94 Facts: hasBehaviourStartTime @C94 (xsd:dateTime),hasBehaviourEndTime @D94 (xsd:dateTime),hasDuration @E94(xsd:decimal),hasCurrentBehaviourState @F94",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A95  Annotations: rdfs:label @A95,rdfs:comment @A95 Types: @B95 Facts: hasBehaviourStartTime @C95 (xsd:dateTime),hasBehaviourEndTime @D95 (xsd:dateTime),hasDuration @E95(xsd:decimal),hasCurrentBehaviourState @F95",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A96  Annotations: rdfs:label @A96,rdfs:comment @A96  Types: @B96 Facts: hasBehaviourStartTime @C96 (xsd:dateTime),hasBehaviourEndTime @D96 (xsd:dateTime),hasDuration @E96(xsd:decimal),hasCurrentBehaviourState @F96",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A97  Annotations: rdfs:label @A97,rdfs:comment @A97 Types: @B97 Facts: hasBehaviourStartTime @C97 (xsd:dateTime),hasBehaviourEndTime @D97 (xsd:dateTime),hasDuration @E97(xsd:decimal),hasCurrentBehaviourState @F97",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A98  Annotations: rdfs:label @A98 ,rdfs:comment @A98 Types: @B98 Facts: hasBehaviourStartTime @C98 (xsd:dateTime),hasBehaviourEndTime @D98 (xsd:dateTime),hasDuration @E98(xsd:decimal),hasCurrentBehaviourState @F98",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A99  Annotations: rdfs:label @A99,rdfs:comment @A99 Types: @B99 Facts: hasBehaviourStartTime @C99 (xsd:dateTime),hasBehaviourEndTime @D99 (xsd:dateTime),hasDuration @E99(xsd:decimal),hasCurrentBehaviourState @F99",
+      "active": true
+    },
+    {
+      "sheetName": "Data",
+      "startColumn": "A",
+      "endColumn": "F",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual: @A100  Annotations: rdfs:label @A100,rdfs:comment @A100 Types: @B100 Facts: hasBehaviourStartTime @C100 (xsd:dateTime),hasBehaviourEndTime @D100 (xsd:dateTime),hasDuration @E100(xsd:decimal),hasCurrentBehaviourState @F100",
+      "active": true
+    }
+  ]
+}

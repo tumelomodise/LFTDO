@@ -1,0 +1,1284 @@
+{
+	"Collections": [{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A59\tAnnotations: rdfs:label @A59,rdfs:comment @A59  \tTypes: @B59\tFacts: hasSensorType @C59\t(xsd:string),\tisSensorOf @D59\t(xsd:boolean),\tisSensorCalibrated @E59\t(xsd:boolean)\t,generatesData @F59\t,hasUoM @G59\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A93\tAnnotations: rdfs:label @A93,rdfs:comment @A93  \tTypes: @B93\tFacts: hasSensorType @C93\t(xsd:string),\tisSensorOf @D93\t(xsd:boolean),\tisSensorCalibrated @E93\t(xsd:boolean)\t,generatesData @F93\t,hasUoM @G93\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A37\tAnnotations: rdfs:label @A37,rdfs:comment @A37  \tTypes: @B37\tFacts: hasSensorType @C37\t(xsd:string),\tisSensorOf @D37\t(xsd:boolean),\tisSensorCalibrated @E37\t(xsd:boolean)\t,generatesData @F37\t,hasUoM @G37\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A42\tAnnotations: rdfs:label @A42,rdfs:comment @A42  \tTypes: @B42\tFacts: hasSensorType @C42\t(xsd:string),\tisSensorOf @D42\t(xsd:boolean),\tisSensorCalibrated @E42\t(xsd:boolean)\t,generatesData @F42\t,hasUoM @G42\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A69\tAnnotations: rdfs:label @A69,rdfs:comment @A69  \tTypes: @B69\tFacts: hasSensorType @C69\t(xsd:string),\tisSensorOf @D69\t(xsd:boolean),\tisSensorCalibrated @E69\t(xsd:boolean)\t,generatesData @F69\t,hasUoM @G69\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A26\tAnnotations: rdfs:label @A26,rdfs:comment @A26  \tTypes: @B26\tFacts: hasSensorType @C26\t(xsd:string),\tisSensorOf @D26\t(xsd:boolean),\tisSensorCalibrated @E26\t(xsd:boolean)\t,generatesData @F26\t,hasUoM @G26\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A48\tAnnotations: rdfs:label @A48,rdfs:comment @A48  \tTypes: @B48\tFacts: hasSensorType @C48\t(xsd:string),\tisSensorOf @D48\t(xsd:boolean),\tisSensorCalibrated @E48\t(xsd:boolean)\t,generatesData @F48\t,hasUoM @G48",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A57\tAnnotations: rdfs:label @A57,rdfs:comment @A57  \tTypes: @B57\tFacts: hasSensorType @C57\t(xsd:string),\tisSensorOf @D57\t(xsd:boolean),\tisSensorCalibrated @E57\t(xsd:boolean)\t,generatesData @F57\t,hasUoM @G57\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A95\tAnnotations: rdfs:label @A95,rdfs:comment @A95  \tTypes: @B95\tFacts: hasSensorType @C95\t(xsd:string),\tisSensorOf @D95\t(xsd:boolean),\tisSensorCalibrated @E95\t(xsd:boolean)\t,generatesData @F95\t,hasUoM @G95\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A97\tAnnotations: rdfs:label @A97,rdfs:comment @A97  \tTypes: @B97\tFacts: hasSensorType @C97\t(xsd:string),\tisSensorOf @D97\t(xsd:boolean),\tisSensorCalibrated @E97\t(xsd:boolean)\t,generatesData @F97\t,hasUoM @G97",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A51\tAnnotations: rdfs:label @A51,rdfs:comment @A51  \tTypes: @B51\tFacts: hasSensorType @C51\t(xsd:string),\tisSensorOf @D51\t(xsd:boolean),\tisSensorCalibrated @E51\t(xsd:boolean)\t,generatesData @F51\t,hasUoM @G51 ",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A13\tAnnotations: rdfs:label @A13,rdfs:comment @A13  \tTypes: @B13\tFacts: hasSensorType @C13\t(xsd:string),\tisSensorOf @D13\t(xsd:boolean),\tisSensorCalibrated @E13\t(xsd:boolean)\t,generatesData @F13\t,hasUoM @G13\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A71\tAnnotations: rdfs:label @A71,rdfs:comment @A71  \tTypes: @B71\tFacts: hasSensorType @C71\t(xsd:string),\tisSensorOf @D71\t(xsd:boolean),\tisSensorCalibrated @E71\t(xsd:boolean)\t,generatesData @F71\t,hasUoM @G71\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A27\tAnnotations: rdfs:label @A27,rdfs:comment @A27  \tTypes: @B27\tFacts: hasSensorType @C27\t(xsd:string),\tisSensorOf @D27\t(xsd:boolean),\tisSensorCalibrated @E27\t(xsd:boolean)\t,generatesData @F27\t,hasUoM @G27\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A79\tAnnotations: rdfs:label @A79,rdfs:comment @A79  \tTypes: @B79\tFacts: hasSensorType @C79\t(xsd:string),\tisSensorOf @D79\t(xsd:boolean),\tisSensorCalibrated @E79\t(xsd:boolean)\t,generatesData @F79\t,hasUoM @G79\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A32\tAnnotations: rdfs:label @A32,rdfs:comment @A32  \tTypes: @B32\tFacts: hasSensorType @C32\t(xsd:string),\tisSensorOf @D32\t(xsd:boolean),\tisSensorCalibrated @E32\t(xsd:boolean)\t,generatesData @F32\t,hasUoM @G32\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A63\tAnnotations: rdfs:label @A63,rdfs:comment @A36  \tTypes: @B63\tFacts: hasSensorType @C63\t(xsd:string),\tisSensorOf @D63\t(xsd:boolean),\tisSensorCalibrated @E63\t(xsd:boolean)\t,generatesData @F63\t,hasUoM @G63\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A49\tAnnotations: rdfs:label @A49,rdfs:comment @A49  \tTypes: @B49\tFacts: hasSensorType @C49\t(xsd:string),\tisSensorOf @D49\t(xsd:boolean),\tisSensorCalibrated @E49\t(xsd:boolean)\t,generatesData @F49\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A96\tAnnotations: rdfs:label @A96,rdfs:comment @A96  \tTypes: @B96\tFacts: hasSensorType @C96\t(xsd:string),\tisSensorOf @D96\t(xsd:boolean),\tisSensorCalibrated @E96\t(xsd:boolean)\t,generatesData @F96\t,hasUoM @G96\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A21\tAnnotations: rdfs:label @A21,rdfs:comment @A21  \tTypes: @B21\tFacts: hasSensorType @C21\t(xsd:string),\tisSensorOf @D21\t(xsd:boolean),\tisSensorCalibrated @E21\t(xsd:boolean)\t,generatesData @F21\t,hasUoM @G21\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A6\tAnnotations: rdfs:label @A6,rdfs:comment @A6   Types: @B6\tFacts: hasSensorType @C6\t(xsd:string),\tisSensorOf @D6\t(xsd:boolean),\tisSensorCalibrated @E6\t(xsd:boolean)\t,generatesData @F6\t,hasUoM @G6",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A23\tAnnotations: rdfs:label @A23,rdfs:comment @A23  \tTypes: @B23\tFacts: hasSensorType @C23\t(xsd:string),\tisSensorOf @D23\t(xsd:boolean),\tisSensorCalibrated @E23\t(xsd:boolean)\t,generatesData @F23\t,hasUoM @G23\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A99\tAnnotations: rdfs:label @A99,rdfs:comment @A99  \tTypes: @B99\tFacts: hasSensorType @C99\t(xsd:string),\tisSensorOf @D99\t(xsd:boolean),\tisSensorCalibrated @E99\t(xsd:boolean)\t,generatesData @F99\t,hasUoM @G99\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A24\tAnnotations: rdfs:label @A24,rdfs:comment @A24 \tTypes: @B24\tFacts: hasSensorType @C24\t(xsd:string),\tisSensorOf @D24\t(xsd:boolean),\tisSensorCalibrated @E24\t(xsd:boolean)\t,generatesData @F24\t,hasUoM @G24\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A15\tAnnotations: rdfs:label @A15,rdfs:comment @A15  \tTypes: @B15\tFacts: hasSensorType @C15\t(xsd:string),\tisSensorOf @D15\t(xsd:boolean),\tisSensorCalibrated @E15\t(xsd:boolean)\t,generatesData @F15\t,hasUoM @G15\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A19\tAnnotations: rdfs:label @A19,rdfs:comment @A19  \tTypes: @B19\tFacts: hasSensorType @C19\t(xsd:string),\tisSensorOf @D19\t(xsd:boolean),\tisSensorCalibrated @E19\t(xsd:boolean)\t,generatesData @F19\t,hasUoM @G19\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A74\tAnnotations: rdfs:label @A74,rdfs:comment @A74  \tTypes: @B74\tFacts: hasSensorType @C74\t(xsd:string),\tisSensorOf @D74\t(xsd:boolean),\tisSensorCalibrated @E74\t(xsd:boolean)\t,generatesData @F74\t,hasUoM @G74\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A91\tAnnotations: rdfs:label @A91,rdfs:comment @A91  \tTypes: @B91\tFacts: hasSensorType @C91\t(xsd:string),\tisSensorOf @D91\t(xsd:boolean),\tisSensorCalibrated @E91\t(xsd:boolean)\t,generatesData @F91\t,hasUoM @G91\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A28\tAnnotations: rdfs:label @A28,rdfs:comment @A28  \tTypes: @B28\tFacts: hasSensorType @C28\t(xsd:string),\tisSensorOf @D28\t(xsd:boolean),\tisSensorCalibrated @E28\t(xsd:boolean)\t,generatesData @F28\t,hasUoM @G28\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A65\tAnnotations: rdfs:label @A65,rdfs:comment @A65  \tTypes: @B65\tFacts: hasSensorType @C65\t(xsd:string),\tisSensorOf @D65\t(xsd:boolean),\tisSensorCalibrated @E65\t(xsd:boolean)\t,generatesData @F65\t,hasUoM @G65\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A44\tAnnotations: rdfs:label @A44,rdfs:comment @A44  \tTypes: @B44\tFacts: hasSensorType @C44\t(xsd:string),\tisSensorOf @D44\t(xsd:boolean),\tisSensorCalibrated @E44\t(xsd:boolean)\t,generatesData @F44\t,hasUoM @G44\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A66\tAnnotations: rdfs:label @A66,rdfs:comment @A66  \tTypes: @B66\tFacts: hasSensorType @C66\t(xsd:string),\tisSensorOf @D66\t(xsd:boolean),\tisSensorCalibrated @E66\t(xsd:boolean)\t,generatesData @F66\t,hasUoM @G66\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A75\tAnnotations: rdfs:label @A75,rdfs:comment @A75  \tTypes: @B75\tFacts: hasSensorType @C75\t(xsd:string),\tisSensorOf @D75\t(xsd:boolean),\tisSensorCalibrated @E75\t(xsd:boolean)\t,generatesData @F75\t,hasUoM @G75\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A86\tAnnotations: rdfs:label @A86,rdfs:comment @A86  \tTypes: @B86\tFacts: hasSensorType @C86\t(xsd:string),\tisSensorOf @D86\t(xsd:boolean),\tisSensorCalibrated @E86\t(xsd:boolean)\t,generatesData @F86\t,hasUoM @G86\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A33\tAnnotations: rdfs:label @A33,rdfs:comment @A33  \tTypes: @B33\tFacts: hasSensorType @C33\t(xsd:string),\tisSensorOf @D33\t(xsd:boolean),\tisSensorCalibrated @E33\t(xsd:boolean)\t,generatesData @F33\t,hasUoM @G33\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A17\tAnnotations: rdfs:label @A17,rdfs:comment @A17  \tTypes: @B17\tFacts: hasSensorType @C17\t(xsd:string),\tisSensorOf @D17\t(xsd:boolean),\tisSensorCalibrated @E17\t(xsd:boolean)\t,generatesData @F17\t,hasUoM @G17\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A81\tAnnotations: rdfs:label @A81,rdfs:comment @A81  \tTypes: @B81\tFacts: hasSensorType @C81\t(xsd:string),\tisSensorOf @D81\t(xsd:boolean),\tisSensorCalibrated @E81\t(xsd:boolean)\t,generatesData @F81\t,hasUoM @G81\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A53\tAnnotations: rdfs:label @A53,rdfs:comment @A53  \tTypes: @B53\tFacts: hasSensorType @C53\t(xsd:string),\tisSensorOf @D53\t(xsd:boolean),\tisSensorCalibrated @E53\t(xsd:boolean)\t,generatesData @F53\t,hasUoM @G53\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A4\tAnnotations: rdfs:label @A4,rdfs:comment @A4   Types: @B4\tFacts: hasSensorType @C4\t(xsd:string),\tisSensorOf @D4\t(xsd:boolean),\tisSensorCalibrated @E4\t(xsd:boolean)\t,generatesData @F4\t,hasUoM @G4",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A14\tAnnotations: rdfs:label @A14,rdfs:comment @A14  \tTypes: @B14\tFacts: hasSensorType @C14\t(xsd:string),\tisSensorOf @D14\t(xsd:boolean),\tisSensorCalibrated @E14\t(xsd:boolean)\t,generatesData @F14\t,hasUoM @G14\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A55\tAnnotations: rdfs:label @A55,rdfs:comment @A55  \tTypes: @B55\tFacts: hasSensorType @C55\t(xsd:string),\tisSensorOf @D55\t(xsd:boolean),\tisSensorCalibrated @E55\t(xsd:boolean)\t,generatesData @F55\t,hasUoM @G55\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A87\tAnnotations: rdfs:label @A87,rdfs:comment @A87  \tTypes: @B87\tFacts: hasSensorType @C87\t(xsd:string),\tisSensorOf @D87\t(xsd:boolean),\tisSensorCalibrated @E87\t(xsd:boolean)\t,generatesData @F87\t,hasUoM @G87\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A68\tAnnotations: rdfs:label @A68,rdfs:comment @A68  \tTypes: @B68\tFacts: hasSensorType @C68\t(xsd:string),\tisSensorOf @D68\t(xsd:boolean),\tisSensorCalibrated @E68\t(xsd:boolean)\t,generatesData @F68\t,hasUoM @G68\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A50\tAnnotations: rdfs:label @A50,rdfs:comment @A50  \tTypes: @B50\tFacts: hasSensorType @C50\t(xsd:string),\tisSensorOf @D50\t(xsd:boolean),\tisSensorCalibrated @E50\t(xsd:boolean)\t,generatesData @F50\t,hasUoM @G50\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A98\tAnnotations: rdfs:label @A98,rdfs:comment @A98  \tTypes: @B98\tFacts: hasSensorType @C98\t(xsd:string),\tisSensorOf @D98\t(xsd:boolean),\tisSensorCalibrated @E98\t(xsd:boolean)\t,generatesData @F98\t,hasUoM @G98\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A85\tAnnotations: rdfs:label @A85,rdfs:comment @A85  \tTypes: @B85\tFacts: hasSensorType @C85\t(xsd:string),\tisSensorOf @D85\t(xsd:boolean),\tisSensorCalibrated @E85\t(xsd:boolean)\t,generatesData @F85\t,hasUoM @G85\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A2\tAnnotations: rdfs:label @A2,rdfs:comment @A2  Types: @B2\tFacts: hasSensorType @C2\t(xsd:string),\tisSensorOf @D2\t(xsd:boolean),\tisSensorCalibrated @E2\t(xsd:boolean)\t,generatesData @F2\t,hasUoM @G2",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A35\tAnnotations: rdfs:label @A35,rdfs:comment @A35  \tTypes: @B35\tFacts: hasSensorType @C35\t(xsd:string),\tisSensorOf @D35\t(xsd:boolean),\tisSensorCalibrated @E35\t(xsd:boolean)\t,generatesData @F35\t,hasUoM @G35\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A43\tAnnotations: rdfs:label @A43,rdfs:comment @A43  \tTypes: @B43\tFacts: hasSensorType @C43\t(xsd:string),\tisSensorOf @D43\t(xsd:boolean),\tisSensorCalibrated @E43\t(xsd:boolean)\t,generatesData @F43\t,hasUoM @G43\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A8\tAnnotations: rdfs:label @A8,rdfs:comment @A8  Types: @B8\tFacts: hasSensorType @C8\t(xsd:string),\tisSensorOf @D8\t(xsd:boolean),\tisSensorCalibrated @E8\t(xsd:boolean)\t,generatesData @F8\t,hasUoM @G8",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A64\tAnnotations: rdfs:label @A64,rdfs:comment @A64  \tTypes: @B64\tFacts: hasSensorType @C64\t(xsd:string),\tisSensorOf @D64\t(xsd:boolean),\tisSensorCalibrated @E64\t(xsd:boolean)\t,generatesData @F64\t,hasUoM @G64\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A77\tAnnotations: rdfs:label @A77,rdfs:comment @A77  \tTypes: @B77\tFacts: hasSensorType @C77\t(xsd:string),\tisSensorOf @D77\t(xsd:boolean),\tisSensorCalibrated @E77\t(xsd:boolean)\t,generatesData @F77\t,hasUoM @G77\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A78\tAnnotations: rdfs:label @A78,rdfs:comment @A78  \tTypes: @B78\tFacts: hasSensorType @C78\t(xsd:string),\tisSensorOf @D78\t(xsd:boolean),\tisSensorCalibrated @E78\t(xsd:boolean)\t,generatesData @F78\t,hasUoM @G78\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A38\tAnnotations: rdfs:label @A38,rdfs:comment @A38  \tTypes: @B38\tFacts: hasSensorType @C38\t(xsd:string),\tisSensorOf @D38\t(xsd:boolean),\tisSensorCalibrated @E38\t(xsd:boolean)\t,generatesData @F38\t,hasUoM @G38\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A94\tAnnotations: rdfs:label @A94,rdfs:comment @A94  \tTypes: @B94\tFacts: hasSensorType @C94\t(xsd:string),\tisSensorOf @D94\t(xsd:boolean),\tisSensorCalibrated @E94\t(xsd:boolean)\t,generatesData @F94\t,hasUoM @G94\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A22\tAnnotations: rdfs:label @A22,rdfs:comment @A22  \tTypes: @B22\tFacts: hasSensorType @C22\t(xsd:string),\tisSensorOf @D22\t(xsd:boolean),\tisSensorCalibrated @E22\t(xsd:boolean)\t,generatesData @F22\t,hasUoM @G22\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A80\tAnnotations: rdfs:label @A80,rdfs:comment @A80  \tTypes: @B80\tFacts: hasSensorType @C80\t(xsd:string),\tisSensorOf @D80\t(xsd:boolean),\tisSensorCalibrated @E80\t(xsd:boolean)\t,generatesData @F80\t,hasUoM @G80\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A62\tAnnotations: rdfs:label @A62,rdfs:comment @A62  \tTypes: @B62\tFacts: hasSensorType @C62\t(xsd:string),\tisSensorOf @D62\t(xsd:boolean),\tisSensorCalibrated @E62\t(xsd:boolean)\t,generatesData @F62\t,hasUoM @G62\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A56\tAnnotations: rdfs:label @A56,rdfs:comment @A56  \tTypes: @B56\tFacts: hasSensorType @C56\t(xsd:string),\tisSensorOf @D56\t(xsd:boolean),\tisSensorCalibrated @E56\t(xsd:boolean)\t,generatesData @F56\t,hasUoM @G56\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A60\tAnnotations: rdfs:label @A60,rdfs:comment @A60  \tTypes: @B60\tFacts: hasSensorType @C60\t(xsd:string),\tisSensorOf @D60\t(xsd:boolean),\tisSensorCalibrated @E60\t(xsd:boolean)\t,generatesData @F60\t,hasUoM @G60\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A18\tAnnotations: rdfs:label @A18,rdfs:comment @A18  \tTypes: @B18\tFacts: hasSensorType @C18\t(xsd:string),\tisSensorOf @D18\t(xsd:boolean),\tisSensorCalibrated @E18\t(xsd:boolean)\t,generatesData @F18\t,hasUoM @G18\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A36\tAnnotations: rdfs:label @A36,rdfs:comment @A36  \tTypes: @B36\tFacts: hasSensorType @C36\t(xsd:string),\tisSensorOf @D36\t(xsd:boolean),\tisSensorCalibrated @E36\t(xsd:boolean)\t,generatesData @F36\t,hasUoM @G36\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A61\tAnnotations: rdfs:label @A61,rdfs:comment @A61  \tTypes: @B61\tFacts: hasSensorType @C61\t(xsd:string),\tisSensorOf @D61\t(xsd:boolean),\tisSensorCalibrated @E61\t(xsd:boolean)\t,generatesData @F61\t,hasUoM @G61\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A41\tAnnotations: rdfs:label @A41,rdfs:comment @A41  \tTypes: @B41\tFacts: hasSensorType @C41\t(xsd:string),\tisSensorOf @D41\t(xsd:boolean),\tisSensorCalibrated @E41\t(xsd:boolean)\t,generatesData @F41\t,hasUoM @G41\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A90\tAnnotations: rdfs:label @A90,rdfs:comment @A90  \tTypes: @B90\tFacts: hasSensorType @C90\t(xsd:string),\tisSensorOf @D90\t(xsd:boolean),\tisSensorCalibrated @E90\t(xsd:boolean)\t,generatesData @F90\t,hasUoM @G90\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A3\tAnnotations: rdfs:label @A3,rdfs:comment @A3   Types: @B3\tFacts: hasSensorType @C3\t(xsd:string),\tisSensorOf @D3\t(xsd:boolean),\tisSensorCalibrated @E3\t\t(xsd:boolean),generatesData @F3\t,hasUoM @G3",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A7\tAnnotations: rdfs:label @A7,rdfs:comment @A7   Types: @B7\tFacts: hasSensorType @C7\t(xsd:string),\tisSensorOf @D7\t(xsd:boolean),\tisSensorCalibrated @E7\t\t(xsd:boolean),generatesData @F7\t,hasUoM @G7",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A20\tAnnotations: rdfs:label @A20,rdfs:comment @A20  \tTypes: @B20\tFacts: hasSensorType @C20\t(xsd:string),\tisSensorOf @D20\t(xsd:boolean),\tisSensorCalibrated @E20\t(xsd:boolean)\t,generatesData @F20\t,hasUoM @G20\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A73\tAnnotations: rdfs:label @A73,rdfs:comment @A73  \tTypes: @B73\tFacts: hasSensorType @C73\t(xsd:string),\tisSensorOf @D73\t(xsd:boolean),\tisSensorCalibrated @E73\t(xsd:boolean)\t,generatesData @F73\t,hasUoM @G73\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A31\tAnnotations: rdfs:label @A31,rdfs:comment @A31  \tTypes: @B31\tFacts: hasSensorType @C31\t(xsd:string),\tisSensorOf @D31\t(xsd:boolean),\tisSensorCalibrated @E31\t(xsd:boolean)\t,generatesData @F31\t,hasUoM @G31\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A9\tAnnotations: rdfs:label @A9,rdfs:comment @A9   Types: @B9\tFacts: hasSensorType @C9\t(xsd:string),\tisSensorOf @D9\t(xsd:boolean),\tisSensorCalibrated @E9\t(xsd:boolean),generatesData @F9\t,hasUoM @G9",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A100\tAnnotations: rdfs:label @A100,rdfs:comment @A100 \tTypes: @B100\tFacts: hasSensorType @C100\t(xsd:string),\tisSensorOf @D100\t(xsd:boolean),\tisSensorCalibrated @E100\t(xsd:boolean)\t,generatesData @F100\t,hasUoM @G100 ",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A83\tAnnotations: rdfs:label @A83,rdfs:comment @A83  \tTypes: @B83\tFacts: hasSensorType @C83\t(xsd:string),\tisSensorOf @D83\t(xsd:boolean),\tisSensorCalibrated @E83\t(xsd:boolean)\t,generatesData @F83\t,hasUoM @G83\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A84\tAnnotations: rdfs:label @A84,rdfs:comment @A84  \tTypes: @B84\tFacts: hasSensorType @C84\t(xsd:string),\tisSensorOf @D84\t(xsd:boolean),\tisSensorCalibrated @E84\t(xsd:boolean)\t,generatesData @F84\t,hasUoM @G84\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A47\tAnnotations: rdfs:label @A47,rdfs:comment @A47  \tTypes: @B47\tFacts: hasSensorType @C47\t(xsd:string),\tisSensorOf @D47\t(xsd:boolean),\tisSensorCalibrated @E47\t(xsd:boolean)\t,generatesData @F47\t,hasUoM @G47\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A88\tAnnotations: rdfs:label @A88,rdfs:comment @A88  \tTypes: @B88\tFacts: hasSensorType @C88\t(xsd:string),\tisSensorOf @D88\t(xsd:boolean),\tisSensorCalibrated @E88\t(xsd:boolean)\t,generatesData @F88\t,hasUoM @G88\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A10\tAnnotations: rdfs:label @A10,rdfs:comment @A10  \tTypes: @B10\tFacts: hasSensorType @C10\t(xsd:string),\tisSensorOf @D10\t(xsd:boolean),\tisSensorCalibrated @E10\t(xsd:boolean)\t,generatesData @F10\t,hasUoM @G10\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A46\tAnnotations: rdfs:label @A46,rdfs:comment @A46  \tTypes: @B46\tFacts: hasSensorType @C46\t(xsd:string),\tisSensorOf @D46\t(xsd:boolean),\tisSensorCalibrated @E46\t(xsd:boolean)\t,generatesData @F46\t,hasUoM @G46\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A34\tAnnotations: rdfs:label @A34,rdfs:comment @A34  \tTypes: @B34\tFacts: hasSensorType @C34\t(xsd:string),\tisSensorOf @D34\t(xsd:boolean),\tisSensorCalibrated @E34\t(xsd:boolean)\t,generatesData @F34\t,hasUoM @G34\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A29\tAnnotations: rdfs:label @A29,rdfs:comment @A29  \tTypes: @B29\tFacts: hasSensorType @C29\t(xsd:string),\tisSensorOf @D29\t(xsd:boolean),\tisSensorCalibrated @E29\t(xsd:boolean)\t,generatesData @F29\t,hasUoM @G29\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A82\tAnnotations: rdfs:label @A82,rdfs:comment @A82  \tTypes: @B82\tFacts: hasSensorType @C82\t(xsd:string),\tisSensorOf @D82\t(xsd:boolean),\tisSensorCalibrated @E82\t(xsd:boolean)\t,generatesData @F82\t,hasUoM @G82\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A54\tAnnotations: rdfs:label @A54,rdfs:comment @A54  \tTypes: @B54\tFacts: hasSensorType @C54\t(xsd:string),\tisSensorOf @D54\t(xsd:boolean),\tisSensorCalibrated @E54\t(xsd:boolean)\t,generatesData @F54\t,hasUoM @G54\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A39\tAnnotations: rdfs:label @A39,rdfs:comment @A39  \tTypes: @B39\tFacts: hasSensorType @C39\t(xsd:string),\tisSensorOf @D39\t(xsd:boolean),\tisSensorCalibrated @E39\t(xsd:boolean)\t,generatesData @F39\t,hasUoM @G39\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A52\tAnnotations: rdfs:label @A52,rdfs:comment @A52  \tTypes: @B52\tFacts: hasSensorType @C52\t(xsd:string),\tisSensorOf @D52\t(xsd:boolean),\tisSensorCalibrated @E52\t(xsd:boolean)\t,generatesData @F52\t,hasUoM @G52 ",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A12\tAnnotations: rdfs:label @A12,rdfs:comment @A12  \tTypes: @B12\tFacts: hasSensorType @C12\t(xsd:string),\tisSensorOf @D12\t(xsd:boolean),\tisSensorCalibrated @E12\t(xsd:boolean)\t,generatesData @F12\t,hasUoM @G12\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A5\tAnnotations: rdfs:label @A5,rdfs:comment @A5   Types: @B5\tFacts: hasSensorType @C5\t(xsd:string),\tisSensorOf @D5\t(xsd:boolean),\tisSensorCalibrated @E5\t\t(xsd:boolean),generatesData @F5\t,hasUoM @G5",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A92\tAnnotations: rdfs:label @A92,rdfs:comment @A92  \tTypes: @B92\tFacts: hasSensorType @C92\t(xsd:string),\tisSensorOf @D92\t(xsd:boolean),\tisSensorCalibrated @E92\t(xsd:boolean)\t,generatesData @F92\t,hasUoM @G92\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A11\tAnnotations: rdfs:label @A11,rdfs:comment @A11  \tTypes: @B11\tFacts: hasSensorType @C11\t(xsd:string),\tisSensorOf @D11\t(xsd:boolean),\tisSensorCalibrated @E11\t(xsd:boolean)\t,generatesData @F11\t,hasUoM @G11\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A45\tAnnotations: rdfs:label @A45,rdfs:comment @A45  \tTypes: @B45\tFacts: hasSensorType @C45\t(xsd:string),\tisSensorOf @D45\t(xsd:boolean),\tisSensorCalibrated @E45\t(xsd:boolean)\t,generatesData @F45\t,hasUoM @G45\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A25\tAnnotations: rdfs:label @A25,rdfs:comment @A25  \tTypes: @B25\tFacts: hasSensorType @C25\t(xsd:string),\tisSensorOf @D25\t(xsd:boolean),\tisSensorCalibrated @E25\t(xsd:boolean)\t,generatesData @F25\t,hasUoM @G25\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A58\tAnnotations: rdfs:label @A58,rdfs:comment @A58  \tTypes: @B58\tFacts: hasSensorType @C58\t(xsd:string),\tisSensorOf @D58\t(xsd:boolean),\tisSensorCalibrated @E58\t(xsd:boolean)\t,generatesData @F58\t,hasUoM @G58\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A16\tAnnotations: rdfs:label @A16,rdfs:comment @A16  \tTypes: @B16\tFacts: hasSensorType @C16\t(xsd:string),\tisSensorOf @D16\t(xsd:boolean),\tisSensorCalibrated @E16\t(xsd:boolean)\t,generatesData @F16\t,hasUoM @G16\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A72\tAnnotations: rdfs:label @A72,rdfs:comment @A72  \tTypes: @B72\tFacts: hasSensorType @C72\t(xsd:string),\tisSensorOf @D72\t(xsd:boolean),\tisSensorCalibrated @E72\t(xsd:boolean)\t,generatesData @F72\t,hasUoM @G72\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A30\tAnnotations: rdfs:label @A30,rdfs:comment @A30  \tTypes: @B30\tFacts: hasSensorType @C30\t(xsd:string),\tisSensorOf @D30\t(xsd:boolean),\tisSensorCalibrated @E30\t(xsd:boolean)\t,generatesData @F30\t,hasUoM @G30\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A76\tAnnotations: rdfs:label @A76,rdfs:comment @A76  \tTypes: @B76\tFacts: hasSensorType @C76\t(xsd:string),\tisSensorOf @D76\t(xsd:boolean),\tisSensorCalibrated @E76\t(xsd:boolean)\t,generatesData @F76\t,hasUoM @G76\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A67\tAnnotations: rdfs:label @A67,rdfs:comment @A67  \tTypes: @B67\tFacts: hasSensorType @C67\t(xsd:string),\tisSensorOf @D67\t(xsd:boolean),\tisSensorCalibrated @E67\t(xsd:boolean)\t,generatesData @F67\t,hasUoM @G67\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A70\tAnnotations: rdfs:label @A70,rdfs:comment @A70  \tTypes: @B70\tFacts: hasSensorType @C70\t(xsd:string),\tisSensorOf @D70\t(xsd:boolean),\tisSensorCalibrated @E70\t(xsd:boolean)\t,generatesData @F70\t,hasUoM @G70\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A40\tAnnotations: rdfs:label @A40,rdfs:comment @A40  \tTypes: @B40\tFacts: hasSensorType @C40\t(xsd:string),\tisSensorOf @D40\t(xsd:boolean),\tisSensorCalibrated @E40\t(xsd:boolean)\t,generatesData @F40\t,hasUoM @G40\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A89\tAnnotations: rdfs:label @A89,rdfs:comment @A89  \tTypes: @B89\tFacts: hasSensorType @C89\t(xsd:string),\tisSensorOf @D89\t(xsd:boolean),\tisSensorCalibrated @E89\t(xsd:boolean)\t,generatesData @F89\t,hasUoM @G89\t\t",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A101\tAnnotations: rdfs:label @A101,rdfs:comment @A101 \tTypes: @B101\tFacts: hasSensorType @C101\t(xsd:string),\tisSensorOf @D101\t(xsd:boolean),\tisSensorCalibrated @E101\t(xsd:boolean)\t,generatesData @F101\t,hasUoM @G101 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A102\tAnnotations: rdfs:label @A102,rdfs:comment @A102 \tTypes: @B102\tFacts: hasSensorType @C102\t(xsd:string),\tisSensorOf @D102\t(xsd:boolean),\tisSensorCalibrated @E102\t(xsd:boolean)\t,generatesData @F102\t,hasUoM @G102 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A103\tAnnotations: rdfs:label @A103,rdfs:comment @A103 \tTypes: @B103\tFacts: hasSensorType @C103\t(xsd:string),\tisSensorOf @D103\t(xsd:boolean),\tisSensorCalibrated @E103\t(xsd:boolean)\t,generatesData @F103\t,hasUoM @G103 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A104\tAnnotations: rdfs:label @A104,rdfs:comment @A104 \tTypes: @B104\tFacts: hasSensorType @C104\t(xsd:string),\tisSensorOf @D104\t(xsd:boolean),\tisSensorCalibrated @E104\t(xsd:boolean)\t,generatesData @F104\t,hasUoM @G104 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A105\tAnnotations: rdfs:label @A105,rdfs:comment @A105 \tTypes: @B105\tFacts: hasSensorType @C105\t(xsd:string),\tisSensorOf @D105\t(xsd:boolean),\tisSensorCalibrated @E105\t(xsd:boolean)\t,generatesData @F105\t,hasUoM @G105 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A106\tAnnotations: rdfs:label @A106,rdfs:comment @A106 \tTypes: @B106\tFacts: hasSensorType @C106\t(xsd:string),\tisSensorOf @D106\t(xsd:boolean),\tisSensorCalibrated @E106\t(xsd:boolean)\t,generatesData @F106\t,hasUoM @G106 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A107\tAnnotations: rdfs:label @A107,rdfs:comment @A107 \tTypes: @B107\tFacts: hasSensorType @C107\t(xsd:string),\tisSensorOf @D107\t(xsd:boolean),\tisSensorCalibrated @E107\t(xsd:boolean)\t,generatesData @F107\t,hasUoM @G107 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A108\tAnnotations: rdfs:label @A108,rdfs:comment @A108 \tTypes: @B108\tFacts: hasSensorType @C108\t(xsd:string),\tisSensorOf @D108\t(xsd:boolean),\tisSensorCalibrated @E108\t(xsd:boolean)\t,generatesData @F108\t,hasUoM @G108 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A109\tAnnotations: rdfs:label @A109,rdfs:comment @A109 \tTypes: @B109\tFacts: hasSensorType @C109\t(xsd:string),\tisSensorOf @D109\t(xsd:boolean),\tisSensorCalibrated @E109\t(xsd:boolean)\t,generatesData @F109\t,hasUoM @G109 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A110\tAnnotations: rdfs:label @A110,rdfs:comment @A110 \tTypes: @B110\tFacts: hasSensorType @C110\t(xsd:string),\tisSensorOf @D110\t(xsd:boolean),\tisSensorCalibrated @E110\t(xsd:boolean)\t,generatesData @F110\t,hasUoM @G110 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A111\tAnnotations: rdfs:label @A111,rdfs:comment @A111 \tTypes: @B111\tFacts: hasSensorType @C111\t(xsd:string),\tisSensorOf @D111\t(xsd:boolean),\tisSensorCalibrated @E111\t(xsd:boolean)\t,generatesData @F111\t,hasUoM @G111 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A112\tAnnotations: rdfs:label @A112,rdfs:comment @A112 \tTypes: @B112\tFacts: hasSensorType @C112\t(xsd:string),\tisSensorOf @D112\t(xsd:boolean),\tisSensorCalibrated @E112\t(xsd:boolean)\t,generatesData @F112\t,hasUoM @G112 ",
+		"active": true
+	},
+
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A113\tAnnotations: rdfs:label @A113,rdfs:comment @A113 \tTypes: @B113\tFacts: hasSensorType @C113\t(xsd:string),\tisSensorOf @D113\t(xsd:boolean),\tisSensorCalibrated @E113\t(xsd:boolean)\t,generatesData @F113\t,hasUoM @G113 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A114\tAnnotations: rdfs:label @A114,rdfs:comment @A114 \tTypes: @B114\tFacts: hasSensorType @C114\t(xsd:string),\tisSensorOf @D114\t(xsd:boolean),\tisSensorCalibrated @E114\t(xsd:boolean)\t,generatesData @F114\t,hasUoM @G114 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A115\tAnnotations: rdfs:label @A115,rdfs:comment @A115 \tTypes: @B115\tFacts: hasSensorType @C115\t(xsd:string),\tisSensorOf @D115\t(xsd:boolean),\tisSensorCalibrated @E115\t(xsd:boolean)\t,generatesData @F115\t,hasUoM @G115 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A116\tAnnotations: rdfs:label @A116,rdfs:comment @A116 \tTypes: @B116\tFacts: hasSensorType @C116\t(xsd:string),\tisSensorOf @D116\t(xsd:boolean),\tisSensorCalibrated @E116\t(xsd:boolean)\t,generatesData @F116\t,hasUoM @G116 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A117\tAnnotations: rdfs:label @A117,rdfs:comment @A117 \tTypes: @B117\tFacts: hasSensorType @C117\t(xsd:string),\tisSensorOf @D117\t(xsd:boolean),\tisSensorCalibrated @E117\t(xsd:boolean)\t,generatesData @F117\t,hasUoM @G117 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A118\tAnnotations: rdfs:label @A118,rdfs:comment @A118 \tTypes: @B118\tFacts: hasSensorType @C118\t(xsd:string),\tisSensorOf @D118\t(xsd:boolean),\tisSensorCalibrated @E118\t(xsd:boolean)\t,generatesData @F118\t,hasUoM @G118 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A119\tAnnotations: rdfs:label @A119,rdfs:comment @A119 \tTypes: @B119\tFacts: hasSensorType @C119\t(xsd:string),\tisSensorOf @D119\t(xsd:boolean),\tisSensorCalibrated @E119\t(xsd:boolean)\t,generatesData @F119\t,hasUoM @G119 ",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A120\tAnnotations: rdfs:label @A120,rdfs:comment @A120 \tTypes: @B120\tFacts: hasSensorType @C120\t(xsd:string),\tisSensorOf @D120\t(xsd:boolean),\tisSensorCalibrated @E120\t(xsd:boolean)\t,generatesData @F120\t,hasUoM @G120 ",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A121\tAnnotations: rdfs:label @A121,rdfs:comment @A121 \tTypes: @B121\tFacts: hasSensorType @C121\t(xsd:string),\tisSensorOf @D121\t(xsd:boolean),\tisSensorCalibrated @E121\t(xsd:boolean)\t,generatesData @F121\t,hasUoM @G121 ",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A122\tAnnotations: rdfs:label @A122,rdfs:comment @A122 \tTypes: @B122\tFacts: hasSensorType @C122\t(xsd:string),\tisSensorOf @D122\t(xsd:boolean),\tisSensorCalibrated @E122\t(xsd:boolean)\t,generatesData @F122\t,hasUoM @G122 ",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A123\tAnnotations: rdfs:label @A123,rdfs:comment @A123 \tTypes: @B123\tFacts: hasSensorType @C123\t(xsd:string),\tisSensorOf @D123\t(xsd:boolean),\tisSensorCalibrated @E123\t(xsd:boolean)\t,generatesData @F123\t,hasUoM @G123 ",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A124\tAnnotations: rdfs:label @A124,rdfs:comment @A124 \tTypes: @B124\tFacts: hasSensorType @C124\t(xsd:string),\tisSensorOf @D124\t(xsd:boolean),\tisSensorCalibrated @E124\t(xsd:boolean)\t,generatesData @F124\t,hasUoM @G124 ",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A126\tAnnotations: rdfs:label @A126,rdfs:comment @A126 \tTypes: @B126\tFacts: hasSensorType @C126\t(xsd:string),\tisSensorOf @D126\t(xsd:boolean),\tisSensorCalibrated @E126\t(xsd:boolean)\t,generatesData @F126\t,hasUoM @G126 ",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A127\tAnnotations: rdfs:label @A127,rdfs:comment @A127 \tTypes: @B127\tFacts: hasSensorType @C127\t(xsd:string),\tisSensorOf @D127\t(xsd:boolean),\tisSensorCalibrated @E127\t(xsd:boolean)\t,generatesData @F127\t,hasUoM @G127 ",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A128\tAnnotations: rdfs:label @A128,rdfs:comment @A128 \tTypes: @B128\tFacts: hasSensorType @C128\t(xsd:string),\tisSensorOf @D128\t(xsd:boolean),\tisSensorCalibrated @E128\t(xsd:boolean)\t,generatesData @F128\t,hasUoM @G128 ",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A129\tAnnotations: rdfs:label @A129,rdfs:comment @A129 \tTypes: @B129\tFacts: hasSensorType @C129\t(xsd:string),\tisSensorOf @D129\t(xsd:boolean),\tisSensorCalibrated @E129\t(xsd:boolean)\t,generatesData @F129\t,hasUoM @G129 ",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "\tIndividual: @A130\tAnnotations: rdfs:label @A130,rdfs:comment @A130 \tTypes: @B130\tFacts: hasSensorType @C130\t(xsd:string),\tisSensorOf @D130\t(xsd:boolean),\tisSensorCalibrated @E130\t(xsd:boolean)\t,generatesData @F130\t,hasUoM @G130 ",
+		"active": true
+	}	
+	]
+}

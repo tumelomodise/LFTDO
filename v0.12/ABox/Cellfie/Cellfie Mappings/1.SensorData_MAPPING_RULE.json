@@ -1,0 +1,1296 @@
+{
+	"Collections": [
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A2 Annotations: rdfs:label @A2,rdfs:comment @A2 Types: @B2 Facts: representsDataType @C2 (xsd:string), hasSensorTimeStamp @D2 (xsd:dateTime),hasTransmissionTimeStamp @E2(xsd:dateTime),hasValue @F2(xsd:decimal), hasUoM @G2,hasTemporalContext @H2,isStoredIn @I2",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A3 Annotations: rdfs:label @A3,rdfs:comment @A3 Types: @B3 Facts: representsDataType @C3 (xsd:string), hasSensorTimeStamp @D3 (xsd:dateTime),hasTransmissionTimeStamp @E3(xsd:dateTime),hasValue @F3(xsd:decimal), hasUoM @G3,hasTemporalContext @H3,isStoredIn @I3",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A4 Annotations: rdfs:label @A4,rdfs:comment @A4 Types: @B4 Facts: representsDataType @C4 (xsd:string), hasSensorTimeStamp @D4 (xsd:dateTime),hasTransmissionTimeStamp @E4(xsd:dateTime),hasValue @F4(xsd:decimal),hasUoM @G4,hasTemporalContext @H4,isStoredIn @I4",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A5 Annotations: rdfs:label @A5,rdfs:comment @A5 Types: @B5 Facts: representsDataType @C5 (xsd:string), hasSensorTimeStamp @D5 (xsd:dateTime),hasTransmissionTimeStamp @E5(xsd:dateTime),hasValue @F5(xsd:decimal),hasUoM @G5,hasTemporalContext @H5,isStoredIn @I5",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A6 Annotations: rdfs:label @A6,rdfs:comment @A6 Types: @B6 Facts: representsDataType @C6 (xsd:string), hasSensorTimeStamp @D6 (xsd:dateTime),hasTransmissionTimeStamp @E6(xsd:dateTime),hasValue @F6(xsd:decimal),hasUoM @G6,hasTemporalContext @H6,isStoredIn @I6",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+        "rule": "Individual: @A7 Annotations: rdfs:label @A7,rdfs:comment @A7 Types: @B7 Facts: representsDataType @C7 (xsd:string), hasSensorTimeStamp @D7 (xsd:dateTime),hasTransmissionTimeStamp @E7(xsd:dateTime),hasValue @F7(xsd:decimal),hasUoM @G7,hasTemporalContext @H7,isStoredIn @I7",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A8 Annotations: rdfs:label @A8,rdfs:comment @A8 Types: @B8 Facts: representsDataType @C8 (xsd:string), hasSensorTimeStamp @D8 (xsd:dateTime),hasTransmissionTimeStamp @E8(xsd:dateTime),hasValue @F8(xsd:decimal),hasUoM @G8,hasTemporalContext @H8,isStoredIn @I8",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A9 Annotations: rdfs:label @A9,rdfs:comment @A9 Types: @B9 Facts: representsDataType @C9 (xsd:string), hasSensorTimeStamp @D9 (xsd:dateTime),hasTransmissionTimeStamp @E9(xsd:dateTime),hasValue @F9(xsd:decimal),hasUoM @G9,hasTemporalContext @H9,isStoredIn @I9",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A10 Annotations: rdfs:label @A10,rdfs:comment @A10 Types: @B10 Facts: representsDataType @C10 (xsd:string), hasSensorTimeStamp @D10 (xsd:dateTime),hasTransmissionTimeStamp @E10(xsd:dateTime),hasValue @F10(xsd:decimal),hasUoM @G10,hasTemporalContext @H10,isStoredIn @I10",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A11 Annotations: rdfs:label @A11,rdfs:comment @A11 Types: @B11 Facts: representsDataType @C11 (xsd:string), hasSensorTimeStamp @D11 (xsd:dateTime),hasTransmissionTimeStamp @E11(xsd:dateTime),hasValue @F11(xsd:decimal),hasUoM @G11,hasTemporalContext @H11,isStoredIn @I11",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A12 Annotations: rdfs:label @A12,rdfs:comment @A12 Types: @B12 Facts: representsDataType @C12 (xsd:string), hasSensorTimeStamp @D12 (xsd:dateTime),hasTransmissionTimeStamp @E12(xsd:dateTime),hasValue @F12(xsd:decimal),hasUoM @G12,hasTemporalContext @H12,isStoredIn @I12",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A13 Annotations: rdfs:label @A13,rdfs:comment @A13 Types: @B13 Facts: representsDataType @C13 (xsd:string), hasSensorTimeStamp @D13 (xsd:dateTime),hasTransmissionTimeStamp @E13(xsd:dateTime),hasValue @F13(xsd:decimal),hasUoM @G13,hasTemporalContext @H13,isStoredIn @I13",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A14 Annotations: rdfs:label @A14,rdfs:comment @A14 Types: @B14 Facts: representsDataType @C14 (xsd:string), hasSensorTimeStamp @D14 (xsd:dateTime),hasTransmissionTimeStamp @E14(xsd:dateTime),hasValue @F14(xsd:decimal),hasUoM @G14,hasTemporalContext @H14,isStoredIn @I14",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A15 Annotations: rdfs:label @A15,rdfs:comment @A15 Types: @B15 Facts: representsDataType @C15 (xsd:string), hasSensorTimeStamp @D15 (xsd:dateTime),hasTransmissionTimeStamp @E15(xsd:dateTime),hasValue @F15(xsd:decimal),hasUoM @G15,hasTemporalContext @H15,isStoredIn @I15",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A16 Annotations: rdfs:label @A16,rdfs:comment @A16 Types: @B16 Facts: representsDataType @C16 (xsd:string), hasSensorTimeStamp @D16 (xsd:dateTime),hasTransmissionTimeStamp @E16(xsd:dateTime),hasValue @F16(xsd:decimal),hasUoM @G16,hasTemporalContext @H16,isStoredIn @I16",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A17 Annotations: rdfs:label @A17,rdfs:comment @A17 Types: @B17 Facts: representsDataType @C17 (xsd:string), hasSensorTimeStamp @D17 (xsd:dateTime),hasTransmissionTimeStamp @E17(xsd:dateTime),hasValue @F17(xsd:decimal),hasUoM @G17,hasTemporalContext @H17,isStoredIn @I17",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A18 Annotations: rdfs:label @A18,rdfs:comment @A18 Types: @B18 Facts: representsDataType @C18 (xsd:string), hasSensorTimeStamp @D18 (xsd:dateTime),hasTransmissionTimeStamp @E18(xsd:dateTime),hasValue @F18(xsd:decimal),hasUoM @G18,hasTemporalContext @H18,isStoredIn @I18",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A19 Annotations: rdfs:label @A19,rdfs:comment @A19 Types: @B19 Facts: representsDataType @C19 (xsd:string), hasSensorTimeStamp @D19 (xsd:dateTime),hasTransmissionTimeStamp @E19(xsd:dateTime),hasValue @F19(xsd:decimal),hasUoM @G19,hasTemporalContext @H19,isStoredIn @I19",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A20 Annotations: rdfs:label @A20,rdfs:comment @A20 Types: @B20 Facts: representsDataType @C20 (xsd:string), hasSensorTimeStamp @D20 (xsd:dateTime),hasTransmissionTimeStamp @E20(xsd:dateTime),hasValue @F20(xsd:decimal),hasUoM @G20,hasTemporalContext @H20,isStoredIn @I20",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A21 Annotations: rdfs:label @A21,rdfs:comment @A21 Types: @B21 Facts: representsDataType @C21 (xsd:string), hasSensorTimeStamp @D21 (xsd:dateTime),hasTransmissionTimeStamp @E21(xsd:dateTime),hasValue @F21(xsd:decimal),hasUoM @G21,hasTemporalContext @H21,isStoredIn @I21",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A22 Annotations: rdfs:label @A22,rdfs:comment @A22 Types: @B22 Facts: representsDataType @C22 (xsd:string), hasSensorTimeStamp @D22 (xsd:dateTime),hasTransmissionTimeStamp @E22(xsd:dateTime),hasValue @F22(xsd:decimal),hasUoM @G22,hasTemporalContext @H22,isStoredIn @I22",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A23 Annotations: rdfs:label @A23,rdfs:comment @A23 Types: @B23 Facts: representsDataType @C23 (xsd:string), hasSensorTimeStamp @D23 (xsd:dateTime),hasTransmissionTimeStamp @E23(xsd:dateTime),hasValue @F23(xsd:decimal),hasUoM @G23,hasTemporalContext @H23,isStoredIn @I23",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A24 Annotations: rdfs:label @A24,rdfs:comment @A24 Types: @B24 Facts: representsDataType @C24 (xsd:string), hasSensorTimeStamp @D24 (xsd:dateTime),hasTransmissionTimeStamp @E24(xsd:dateTime),hasValue @F24(xsd:decimal),hasUoM @G24,hasTemporalContext @H24,isStoredIn @I24",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A25 Annotations: rdfs:label @A25,rdfs:comment @A25 Types: @B25 Facts: representsDataType @C25 (xsd:string), hasSensorTimeStamp @D25 (xsd:dateTime),hasTransmissionTimeStamp @E25(xsd:dateTime),hasValue @F25(xsd:decimal),hasUoM @G25,hasTemporalContext @H25,isStoredIn @I25",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A26 Annotations: rdfs:label @A26,rdfs:comment @A26 Types: @B26 Facts: representsDataType @C26 (xsd:string), hasSensorTimeStamp @D26 (xsd:dateTime),hasTransmissionTimeStamp @E26(xsd:dateTime),hasValue @F26(xsd:decimal),hasUoM @G26,hasTemporalContext @H26,isStoredIn @I26",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A27 Annotations: rdfs:label @A27,rdfs:comment @A27 Types: @B27 Facts: representsDataType @C27 (xsd:string), hasSensorTimeStamp @D27 (xsd:dateTime),hasTransmissionTimeStamp @E27(xsd:dateTime),hasValue @F27(xsd:decimal),hasUoM @G27,hasTemporalContext @H27,isStoredIn @I27",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A28 Annotations: rdfs:label @A28,rdfs:comment @A28 Types: @B28 Facts: representsDataType @C28 (xsd:string), hasSensorTimeStamp @D28 (xsd:dateTime),hasTransmissionTimeStamp @E28(xsd:dateTime),hasValue @F28(xsd:decimal),hasUoM @G28,hasTemporalContext @H28,isStoredIn @I28",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A29 Annotations: rdfs:label @A29,rdfs:comment @A29 Types: @B29 Facts: representsDataType @C29 (xsd:string), hasSensorTimeStamp @D29 (xsd:dateTime),hasTransmissionTimeStamp @E29(xsd:dateTime),hasValue @F29(xsd:decimal),hasUoM @G29,hasTemporalContext @H29,isStoredIn @I29",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A30 Annotations: rdfs:label @A30,rdfs:comment @A30 Types: @B30 Facts: representsDataType @C30 (xsd:string), hasSensorTimeStamp @D30 (xsd:dateTime),hasTransmissionTimeStamp @E30(xsd:dateTime),hasValue @F30(xsd:decimal),hasUoM @G30,hasTemporalContext @H30,isStoredIn @I30",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A31 Annotations: rdfs:label @A31,rdfs:comment @A31 Types: @B31 Facts: representsDataType @C31 (xsd:string), hasSensorTimeStamp @D31 (xsd:dateTime),hasTransmissionTimeStamp @E31(xsd:dateTime),hasValue @F31(xsd:decimal),hasUoM @G31,hasTemporalContext @H31,isStoredIn @I31",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A32 Annotations: rdfs:label @A32,rdfs:comment @A32 Types: @B32 Facts: representsDataType @C32 (xsd:string), hasSensorTimeStamp @D32 (xsd:dateTime),hasTransmissionTimeStamp @E32(xsd:dateTime),hasValue @F32(xsd:decimal),hasUoM @G32,hasTemporalContext @H32,isStoredIn @I32",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A33 Annotations: rdfs:label @A33,rdfs:comment @A33 Types: @B33 Facts: representsDataType @C33 (xsd:string), hasSensorTimeStamp @D33 (xsd:dateTime),hasTransmissionTimeStamp @E33(xsd:dateTime),hasValue @F33(xsd:decimal),hasUoM @G33,hasTemporalContext @H33,isStoredIn @I33",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A34 Annotations: rdfs:label @A34,rdfs:comment @A34 Types: @B34 Facts: representsDataType @C34 (xsd:string), hasSensorTimeStamp @D34 (xsd:dateTime),hasTransmissionTimeStamp @E34(xsd:dateTime),hasValue @F34(xsd:decimal),hasUoM @G34,hasTemporalContext @H34,isStoredIn @I34",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A35 Annotations: rdfs:label @A35,rdfs:comment @A35 Types: @B35 Facts: representsDataType @C35 (xsd:string), hasSensorTimeStamp @D35 (xsd:dateTime),hasTransmissionTimeStamp @E35(xsd:dateTime),hasValue @F35(xsd:decimal),hasUoM @G35,hasTemporalContext @H35,isStoredIn @I35",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A36 Annotations: rdfs:label @A36,rdfs:comment @A36 Types: @B36 Facts: representsDataType @C36 (xsd:string), hasSensorTimeStamp @D36 (xsd:dateTime),hasTransmissionTimeStamp @E36(xsd:dateTime),hasValue @F36(xsd:decimal),hasUoM @G36,hasTemporalContext @H36,isStoredIn @I36",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A37 Annotations: rdfs:label @A37,rdfs:comment @A37 Types: @B37 Facts: representsDataType @C37 (xsd:string), hasSensorTimeStamp @D37 (xsd:dateTime),hasTransmissionTimeStamp @E37(xsd:dateTime),hasValue @F37(xsd:decimal),hasUoM @G37,hasTemporalContext @H37,isStoredIn @I37",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A38 Annotations: rdfs:label @A38,rdfs:comment @A38 Types: @B38 Facts: representsDataType @C38 (xsd:string), hasSensorTimeStamp @D38 (xsd:dateTime),hasTransmissionTimeStamp @E38(xsd:dateTime),hasValue @F38(xsd:decimal),hasUoM @G38,hasTemporalContext @H38,isStoredIn @I38",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A39 Annotations: rdfs:label @A39,rdfs:comment @A39 Types: @B39 Facts: representsDataType @C39 (xsd:string), hasSensorTimeStamp @D39 (xsd:dateTime),hasTransmissionTimeStamp @E39(xsd:dateTime),hasValue @F39(xsd:decimal),hasUoM @G39,hasTemporalContext @H39,isStoredIn @I39",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A40 Annotations: rdfs:label @A40,rdfs:comment @A40 Types: @B40 Facts: representsDataType @C40 (xsd:string), hasSensorTimeStamp @D40 (xsd:dateTime),hasTransmissionTimeStamp @E40(xsd:dateTime),hasValue @F40(xsd:decimal),hasUoM @G40,hasTemporalContext @H40,isStoredIn @I40",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A41 Annotations: rdfs:label @A41,rdfs:comment @A41 Types: @B41 Facts: representsDataType @C41 (xsd:string), hasSensorTimeStamp @D41 (xsd:dateTime),hasTransmissionTimeStamp @E41(xsd:dateTime),hasValue @F41(xsd:decimal),hasUoM @G41,hasTemporalContext @H41,isStoredIn @I41",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A42 Annotations: rdfs:label @A42,rdfs:comment @A42 Types: @B42 Facts: representsDataType @C42 (xsd:string), hasSensorTimeStamp @D42 (xsd:dateTime),hasTransmissionTimeStamp @E42(xsd:dateTime),hasValue @F42(xsd:decimal),hasUoM @G42,hasTemporalContext @H42,isStoredIn @I42",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A43 Annotations: rdfs:label @A43,rdfs:comment @A43 Types: @B43 Facts: representsDataType @C43 (xsd:string), hasSensorTimeStamp @D43 (xsd:dateTime),hasTransmissionTimeStamp @E43(xsd:dateTime),hasValue @F43(xsd:decimal),hasUoM @G43,hasTemporalContext @H43,isStoredIn @I43",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+"rule": "Individual: @A44 Annotations: rdfs:label @A44,rdfs:comment @A44 Types: @B44 Facts: representsDataType @C44 (xsd:string), hasSensorTimeStamp @D44 (xsd:dateTime),hasTransmissionTimeStamp @E44(xsd:dateTime),hasValue @F44(xsd:decimal),hasUoM @G44,hasTemporalContext @H44,isStoredIn @I44",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A45 Annotations: rdfs:label @A45,rdfs:comment @A45 Types: @B45 Facts: representsDataType @C45 (xsd:string), hasSensorTimeStamp @D45 (xsd:dateTime),hasTransmissionTimeStamp @E45(xsd:dateTime),hasValue @F45(xsd:decimal),hasUoM @G45,hasTemporalContext @H45,isStoredIn @I45",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A46 Annotations: rdfs:label @A46,rdfs:comment @A46 Types: @B46 Facts: representsDataType @C46 (xsd:string), hasSensorTimeStamp @D46 (xsd:dateTime),hasTransmissionTimeStamp @E46(xsd:dateTime),hasValue @F46(xsd:decimal),hasUoM @G46,hasTemporalContext @H46,isStoredIn @I46",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A47 Annotations: rdfs:label @A47,rdfs:comment @A47 Types: @B47 Facts: representsDataType @C47 (xsd:string), hasSensorTimeStamp @D47 (xsd:dateTime),hasTransmissionTimeStamp @E47(xsd:dateTime),hasValue @F47(xsd:decimal),hasUoM @G47,hasTemporalContext @H47,isStoredIn @I47",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A48 Annotations: rdfs:label @A48,rdfs:comment @A48 Types: @B48 Facts: representsDataType @C48 (xsd:string), hasSensorTimeStamp @D48 (xsd:dateTime),hasTransmissionTimeStamp @E48(xsd:dateTime),hasValue @F48(xsd:decimal),hasUoM @G48,hasTemporalContext @H48,isStoredIn @I48",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A49 Annotations: rdfs:label @A49,rdfs:comment @A49 Types: @B49 Facts: representsDataType @C49 (xsd:string), hasSensorTimeStamp @D49 (xsd:dateTime),hasTransmissionTimeStamp @E49(xsd:dateTime),hasValue @F49(xsd:decimal),hasUoM @G49,hasTemporalContext @H49,isStoredIn @I49",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A50 Annotations: rdfs:label @A50,rdfs:comment @A50 Types: @B50 Facts: representsDataType @C50 (xsd:string), hasSensorTimeStamp @D50 (xsd:dateTime),hasTransmissionTimeStamp @E50(xsd:dateTime),hasValue @F50(xsd:decimal),hasUoM @G50,hasTemporalContext @H50,isStoredIn @I50",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A51 Annotations: rdfs:label @A51,rdfs:comment @A51 Types: @B51 Facts: representsDataType @C51 (xsd:string), hasSensorTimeStamp @D51 (xsd:dateTime),hasTransmissionTimeStamp @E51(xsd:dateTime),hasValue @F51(xsd:decimal),hasUoM @G51,hasTemporalContext @H51,isStoredIn @I51",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A52 Annotations: rdfs:label @A52,rdfs:comment @A52 Types: @B52 Facts: representsDataType @C52 (xsd:string), hasSensorTimeStamp @D52 (xsd:dateTime),hasTransmissionTimeStamp @E52(xsd:dateTime),hasValue @F52(xsd:decimal),hasUoM @G52,hasTemporalContext @H52,isStoredIn @I52",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A53 Annotations: rdfs:label @A53,rdfs:comment @A53 Types: @B53 Facts: representsDataType @C53 (xsd:string), hasSensorTimeStamp @D53 (xsd:dateTime),hasTransmissionTimeStamp @E53(xsd:dateTime),hasValue @F53(xsd:decimal),hasUoM @G53,hasTemporalContext @H53,isStoredIn @I53",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A54 Annotations: rdfs:label @A54,rdfs:comment @A54 Types: @B54 Facts: representsDataType @C54 (xsd:string), hasSensorTimeStamp @D54 (xsd:dateTime),hasTransmissionTimeStamp @E54(xsd:dateTime),hasValue @F54(xsd:decimal),hasUoM @G54,hasTemporalContext @H54,isStoredIn @I54",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A55 Annotations: rdfs:label @A55,rdfs:comment @A55 Types: @B55 Facts: representsDataType @C55 (xsd:string), hasSensorTimeStamp @D55 (xsd:dateTime),hasTransmissionTimeStamp @E55(xsd:dateTime),hasValue @F55(xsd:decimal),hasUoM @G55,hasTemporalContext @H55,isStoredIn @I55",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A56 Annotations: rdfs:label @A56,rdfs:comment @A56 Types: @B56 Facts: representsDataType @C56 (xsd:string), hasSensorTimeStamp @D56 (xsd:dateTime),hasTransmissionTimeStamp @E56(xsd:dateTime),hasValue @F56(xsd:decimal),hasUoM @G56,hasTemporalContext @H56,isStoredIn @I56",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A57 Annotations: rdfs:label @A57,rdfs:comment @A57 Types: @B57 Facts: representsDataType @C57 (xsd:string), hasSensorTimeStamp @D57 (xsd:dateTime),hasTransmissionTimeStamp @E57(xsd:dateTime),hasValue @F57(xsd:decimal),hasUoM @G57,hasTemporalContext @H57,isStoredIn @I57",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A58 Annotations: rdfs:label @A58,rdfs:comment @A58 Types: @B58 Facts: representsDataType @C58 (xsd:string), hasSensorTimeStamp @D58 (xsd:dateTime),hasTransmissionTimeStamp @E58(xsd:dateTime),hasValue @F58(xsd:decimal),hasUoM @G58,hasTemporalContext @H58,isStoredIn @I58",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A59 Annotations: rdfs:label @A59,rdfs:comment @A59 Types: @B59 Facts: representsDataType @C59 (xsd:string), hasSensorTimeStamp @D59 (xsd:dateTime),hasTransmissionTimeStamp @E59(xsd:dateTime),hasValue @F59(xsd:decimal),hasUoM @G59,hasTemporalContext @H59,isStoredIn @I59",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A60 Annotations: rdfs:label @A60,rdfs:comment @A60 Types: @B60 Facts: representsDataType @C60 (xsd:string), hasSensorTimeStamp @D60 (xsd:dateTime),hasTransmissionTimeStamp @E60(xsd:dateTime),hasValue @F60(xsd:decimal),hasUoM @G60,hasTemporalContext @H60,isStoredIn @I60",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A61 Annotations: rdfs:label @A61,rdfs:comment @A61 Types: @B61 Facts: representsDataType @C61 (xsd:string), hasSensorTimeStamp @D61 (xsd:dateTime),hasTransmissionTimeStamp @E61(xsd:dateTime),hasValue @F61(xsd:decimal),hasUoM @G61,hasTemporalContext @H61,isStoredIn @I61",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A62 Annotations: rdfs:label @A62,rdfs:comment @A62 Types: @B62 Facts: representsDataType @C62 (xsd:string), hasSensorTimeStamp @D62 (xsd:dateTime),hasTransmissionTimeStamp @E62(xsd:dateTime),hasValue @F62(xsd:decimal),hasUoM @G62,hasTemporalContext @H62,isStoredIn @I62",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A63 Annotations: rdfs:label @A63,rdfs:comment @A63 Types: @B63 Facts: representsDataType @C63 (xsd:string), hasSensorTimeStamp @D63 (xsd:dateTime),hasTransmissionTimeStamp @E63(xsd:dateTime),hasValue @F63(xsd:decimal),hasUoM @G63,hasTemporalContext @H63,isStoredIn @I63",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A64 Annotations: rdfs:label @A64,rdfs:comment @A64 Types: @B64 Facts: representsDataType @C64 (xsd:string), hasSensorTimeStamp @D64 (xsd:dateTime),hasTransmissionTimeStamp @E64(xsd:dateTime),hasValue @F64(xsd:decimal),hasUoM @G64,hasTemporalContext @H64,isStoredIn @I64",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A65 Annotations: rdfs:label @A65,rdfs:comment @A65 Types: @B65 Facts: representsDataType @C65 (xsd:string), hasSensorTimeStamp @D65 (xsd:dateTime),hasTransmissionTimeStamp @E65(xsd:dateTime),hasValue @F65(xsd:decimal),hasUoM @G65,hasTemporalContext @H65,isStoredIn @I65",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A66 Annotations: rdfs:label @A66,rdfs:comment @A66  Types: @B66 Facts: representsDataType @C66 (xsd:string), hasSensorTimeStamp @D66 (xsd:dateTime),hasTransmissionTimeStamp @E66(xsd:dateTime),hasValue @F66(xsd:decimal),hasUoM @G66,hasTemporalContext @H66,isStoredIn @I66",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A67 Annotations: rdfs:label @A67,rdfs:comment @A67 Types: @B67 Facts: representsDataType @C67 (xsd:string), hasSensorTimeStamp @D67 (xsd:dateTime),hasTransmissionTimeStamp @E67(xsd:dateTime),hasValue @F67(xsd:decimal),hasUoM @G67,hasTemporalContext @H67,isStoredIn @I67",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A68 Annotations: rdfs:label @A68,rdfs:comment @A68 Types: @B68 Facts: representsDataType @C68 (xsd:string), hasSensorTimeStamp @D68 (xsd:dateTime),hasTransmissionTimeStamp @E68(xsd:dateTime),hasValue @F68(xsd:decimal),hasUoM @G68,hasTemporalContext @H68,isStoredIn @I68",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A69 Annotations: rdfs:label @A69,rdfs:comment @A69 Types: @B69 Facts: representsDataType @C69 (xsd:string), hasSensorTimeStamp @D69 (xsd:dateTime),hasTransmissionTimeStamp @E69(xsd:dateTime),hasValue @F69(xsd:decimal),hasUoM @G69,hasTemporalContext @H69,isStoredIn @I69",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A70 Annotations: rdfs:label @A70,rdfs:comment @A70 Types: @B70 Facts: representsDataType @C70 (xsd:string), hasSensorTimeStamp @D70 (xsd:dateTime),hasTransmissionTimeStamp @E70(xsd:dateTime),hasValue @F70(xsd:decimal),hasUoM @G70,hasTemporalContext @H70,isStoredIn @I70",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A71 Annotations: rdfs:label @A71,rdfs:comment @A71 Types: @B71 Facts: representsDataType @C71 (xsd:string), hasSensorTimeStamp @D71 (xsd:dateTime),hasTransmissionTimeStamp @E71(xsd:dateTime),hasValue @F71(xsd:decimal),hasUoM @G71,hasTemporalContext @H71,isStoredIn @I71",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A72 Annotations: rdfs:label @A72,rdfs:comment @A72 Types: @B72 Facts: representsDataType @C72 (xsd:string), hasSensorTimeStamp @D72 (xsd:dateTime),hasTransmissionTimeStamp @E72(xsd:dateTime),hasValue @F72(xsd:decimal),hasUoM @G72,hasTemporalContext @H72,isStoredIn @I72",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A73 Annotations: rdfs:label @A73,rdfs:comment @A73 Types: @B73 Facts: representsDataType @C73 (xsd:string), hasSensorTimeStamp @D73 (xsd:dateTime),hasTransmissionTimeStamp @E73(xsd:dateTime),hasValue @F73(xsd:decimal),hasUoM @G73,hasTemporalContext @H73,isStoredIn @I73",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A74 Annotations: rdfs:label @A74,rdfs:comment @A74 Types: @B74 Facts: representsDataType @C74 (xsd:string), hasSensorTimeStamp @D74 (xsd:dateTime),hasTransmissionTimeStamp @E74(xsd:dateTime),hasValue @F74(xsd:decimal),hasUoM @G74,hasTemporalContext @H74,isStoredIn @I74",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A75 Annotations: rdfs:label @A75,rdfs:comment @A75 Types: @B75 Facts: representsDataType @C75 (xsd:string), hasSensorTimeStamp @D75 (xsd:dateTime),hasTransmissionTimeStamp @E75(xsd:dateTime),hasValue @F75(xsd:decimal),hasUoM @G75,hasTemporalContext @H75,isStoredIn @I75",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A76 Annotations: rdfs:label @A76,rdfs:comment @A76 Types: @B76 Facts: representsDataType @C76 (xsd:string), hasSensorTimeStamp @D76 (xsd:dateTime),hasTransmissionTimeStamp @E76(xsd:dateTime),hasValue @F76(xsd:decimal),hasUoM @G76,hasTemporalContext @H76,isStoredIn @I76",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A77 Annotations: rdfs:label @A77,rdfs:comment @A77 Types: @B77 Facts: representsDataType @C77 (xsd:string), hasSensorTimeStamp @D77 (xsd:dateTime),hasTransmissionTimeStamp @E77(xsd:dateTime),hasValue @F77(xsd:decimal),hasUoM @G77,hasTemporalContext @H77,isStoredIn @I77",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A78 Annotations: rdfs:label @A78,rdfs:comment @A78 Types: @B78 Facts: representsDataType @C78 (xsd:string), hasSensorTimeStamp @D78 (xsd:dateTime),hasTransmissionTimeStamp @E78(xsd:dateTime),hasValue @F78(xsd:decimal),hasUoM @G78,hasTemporalContext @H78,isStoredIn @I78",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A79 Annotations: rdfs:label @A79,rdfs:comment @A79 Types: @B79 Facts: representsDataType @C79 (xsd:string), hasSensorTimeStamp @D79 (xsd:dateTime),hasTransmissionTimeStamp @E79(xsd:dateTime),hasValue @F79(xsd:decimal),hasUoM @G79,hasTemporalContext @H79,isStoredIn @I79",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A80 Annotations: rdfs:label @A80,rdfs:comment @A80 Types: @B80 Facts: representsDataType @C80 (xsd:string), hasSensorTimeStamp @D80 (xsd:dateTime),hasTransmissionTimeStamp @E80(xsd:dateTime),hasValue @F80(xsd:decimal),hasUoM @G80,hasTemporalContext @H80,isStoredIn @I80",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A81 Annotations: rdfs:label @A81,rdfs:comment @A81 Types: @B81 Facts: representsDataType @C81 (xsd:string), hasSensorTimeStamp @D81 (xsd:dateTime),hasTransmissionTimeStamp @E81(xsd:dateTime),hasValue @F81(xsd:decimal),hasUoM @G81,hasTemporalContext @H81,isStoredIn @I81",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A82 Annotations: rdfs:label @A82,rdfs:comment @A82 Types: @B82 Facts: representsDataType @C82 (xsd:string), hasSensorTimeStamp @D82 (xsd:dateTime),hasTransmissionTimeStamp @E82(xsd:dateTime),hasValue @F82(xsd:decimal),hasUoM @G82,hasTemporalContext @H82,isStoredIn @I82",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A83 Annotations: rdfs:label @A83,rdfs:comment @A83 Types: @B83 Facts: representsDataType @C83 (xsd:string), hasSensorTimeStamp @D83 (xsd:dateTime),hasTransmissionTimeStamp @E83(xsd:dateTime),hasValue @F83(xsd:decimal),hasUoM @G83,hasTemporalContext @H83,isStoredIn @I83",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A84 Annotations: rdfs:label @A84,rdfs:comment @A84 Types: @B84 Facts: representsDataType @C84 (xsd:string), hasSensorTimeStamp @D84 (xsd:dateTime),hasTransmissionTimeStamp @E84(xsd:dateTime),hasValue @F84(xsd:decimal),hasUoM @G84,hasTemporalContext @H84,isStoredIn @I84",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A85 Annotations: rdfs:label @A85,rdfs:comment @A85 Types: @B85 Facts: representsDataType @C85 (xsd:string), hasSensorTimeStamp @D85 (xsd:dateTime),hasTransmissionTimeStamp @E85(xsd:dateTime),hasValue @F85(xsd:decimal),hasUoM @G85,hasTemporalContext @H85,isStoredIn @I85",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A86 Annotations: rdfs:label @A86,rdfs:comment @A86 Types: @B86 Facts: representsDataType @C86 (xsd:string), hasSensorTimeStamp @D86 (xsd:dateTime),hasTransmissionTimeStamp @E86(xsd:dateTime),hasValue @F86(xsd:decimal),hasUoM @G86,hasTemporalContext @H86,isStoredIn @I86",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A87 Annotations: rdfs:label @A87,rdfs:comment @A87 Types: @B87 Facts: representsDataType @C87 (xsd:string), hasSensorTimeStamp @D87 (xsd:dateTime),hasTransmissionTimeStamp @E87(xsd:dateTime),hasValue @F87(xsd:decimal),hasUoM @G87,hasTemporalContext @H87,isStoredIn @I87",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A88 Annotations: rdfs:label @A88,rdfs:comment @A88 Types: @B88 Facts: representsDataType @C88 (xsd:string), hasSensorTimeStamp @D88 (xsd:dateTime),hasTransmissionTimeStamp @E88(xsd:dateTime),hasValue @F88(xsd:decimal),hasUoM @G88,hasTemporalContext @H88,isStoredIn @I88",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A89 Annotations: rdfs:label @A89,rdfs:comment @A89 Types: @B89 Facts: representsDataType @C89 (xsd:string), hasSensorTimeStamp @D89 (xsd:dateTime),hasTransmissionTimeStamp @E89(xsd:dateTime),hasValue @F89(xsd:decimal),hasUoM @G89,hasTemporalContext @H89,isStoredIn @I89",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A90 Annotations: rdfs:label @A90,rdfs:comment @A90 Types: @B90 Facts: representsDataType @C90 (xsd:string), hasSensorTimeStamp @D90 (xsd:dateTime),hasTransmissionTimeStamp @E90(xsd:dateTime),hasValue @F90(xsd:decimal),hasUoM @G90,hasTemporalContext @H90,isStoredIn @I90",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A91 Annotations: rdfs:label @A91,rdfs:comment @A91 Types: @B91 Facts: representsDataType @C91 (xsd:string), hasSensorTimeStamp @D91 (xsd:dateTime),hasTransmissionTimeStamp @E91(xsd:dateTime),hasValue @F91(xsd:decimal),hasUoM @G91,hasTemporalContext @H91,isStoredIn @I91",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A92 Annotations: rdfs:label @A92,rdfs:comment @A92 Types: @B92 Facts: representsDataType @C92 (xsd:string), hasSensorTimeStamp @D92 (xsd:dateTime),hasTransmissionTimeStamp @E92(xsd:dateTime),hasValue @F92(xsd:decimal),hasUoM @G92,hasTemporalContext @H92,isStoredIn @I92",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A93 Annotations: rdfs:label @A93,rdfs:comment @A93 Types: @B93 Facts: representsDataType @C93 (xsd:string), hasSensorTimeStamp @D93 (xsd:dateTime),hasTransmissionTimeStamp @E93(xsd:dateTime),hasValue @F93(xsd:decimal),hasUoM @G93,hasTemporalContext @H93,isStoredIn @I93",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A94 Annotations: rdfs:label @A94,rdfs:comment @A94 Types: @B94 Facts: representsDataType @C94 (xsd:string), hasSensorTimeStamp @D94 (xsd:dateTime),hasTransmissionTimeStamp @E94(xsd:dateTime),hasValue @F94(xsd:decimal),hasUoM @G94,hasTemporalContext @H94,isStoredIn @I94",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A95 Annotations: rdfs:label @A95,rdfs:comment @A95 Types: @B95 Facts: representsDataType @C95 (xsd:string), hasSensorTimeStamp @D95 (xsd:dateTime),hasTransmissionTimeStamp @E95(xsd:dateTime),hasValue @F95(xsd:decimal),hasUoM @G95,hasTemporalContext @H95,isStoredIn @I95",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A96 Annotations: rdfs:label @A96,rdfs:comment @A96 Types: @B96 Facts: representsDataType @C96 (xsd:string), hasSensorTimeStamp @D96 (xsd:dateTime),hasTransmissionTimeStamp @E96(xsd:dateTime),hasValue @F96(xsd:decimal),hasUoM @G96,hasTemporalContext @H96,isStoredIn @I96",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A97 Annotations: rdfs:label @A97,rdfs:comment @A97 Types: @B97 Facts: representsDataType @C97 (xsd:string), hasSensorTimeStamp @D97 (xsd:dateTime),hasTransmissionTimeStamp @E97(xsd:dateTime),hasValue @F97(xsd:decimal),hasUoM @G97,hasTemporalContext @H97,isStoredIn @I97",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A98 Annotations: rdfs:label @A98,rdfs:comment @A98 Types: @B98 Facts: representsDataType @C98 (xsd:string), hasSensorTimeStamp @D98 (xsd:dateTime),hasTransmissionTimeStamp @E98(xsd:dateTime),hasValue @F98(xsd:decimal),hasUoM @G98,hasTemporalContext @H98,isStoredIn @I98",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A99 Annotations: rdfs:label @A99,rdfs:comment @A99 Types: @B99 Facts: representsDataType @C99 (xsd:string), hasSensorTimeStamp @D99 (xsd:dateTime),hasTransmissionTimeStamp @E99(xsd:dateTime),hasValue @F99(xsd:decimal),hasUoM @G99,hasTemporalContext @H99,isStoredIn @I99",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A100 Annotations: rdfs:label @A100,rdfs:comment @A100 Types: @B100 Facts: representsDataType @C100 (xsd:string), hasSensorTimeStamp @D100 (xsd:dateTime),hasTransmissionTimeStamp @E100(xsd:dateTime),hasValue @F100(xsd:decimal),hasUoM @G100,hasTemporalContext @H100,isStoredIn @I100",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A101 Annotations: rdfs:label @A101,rdfs:comment @A101 Types: @B101 Facts: representsDataType @C101 (xsd:string), hasSensorTimeStamp @D101 (xsd:dateTime),hasTransmissionTimeStamp @E101(xsd:dateTime),hasValue @F101(xsd:decimal),hasUoM @G101,hasTemporalContext @H101,isStoredIn @I101",
+		"active": true
+	},
+
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A102 Annotations: rdfs:label @A102,rdfs:comment @A102 Types: @B102 Facts: representsDataType @C102 (xsd:string), hasSensorTimeStamp @D102 (xsd:dateTime),hasTransmissionTimeStamp @E102(xsd:dateTime),hasValue @F102(xsd:decimal),hasUoM @G102,hasTemporalContext @H102,isStoredIn @I102",
+		"active": true
+	},
+
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A103 Annotations: rdfs:label @A103,rdfs:comment @A103 Types: @B103 Facts: representsDataType @C103 (xsd:string), hasSensorTimeStamp @D103 (xsd:dateTime),hasTransmissionTimeStamp @E103(xsd:dateTime),hasValue @F103(xsd:decimal),hasUoM @G103,hasTemporalContext @H103,isStoredIn @I103",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A104 Annotations: rdfs:label @A104,rdfs:comment @A104 Types: @B104 Facts: representsDataType @C104 (xsd:string), hasSensorTimeStamp @D104 (xsd:dateTime),hasTransmissionTimeStamp @E104(xsd:dateTime),hasValue @F104(xsd:decimal),hasUoM @G104,hasTemporalContext @H104,isStoredIn @I104",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A105 Annotations: rdfs:label @A105,rdfs:comment @A105 Types: @B105 Facts: representsDataType @C105 (xsd:string), hasSensorTimeStamp @D105 (xsd:dateTime),hasTransmissionTimeStamp @E105(xsd:dateTime),hasValue @F105(xsd:decimal),hasUoM @G105,hasTemporalContext @H105,isStoredIn @I105",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A106 Annotations: rdfs:label @A106,rdfs:comment @A106 Types: @B106 Facts: representsDataType @C106 (xsd:string), hasSensorTimeStamp @D106 (xsd:dateTime),hasTransmissionTimeStamp @E106(xsd:dateTime),hasValue @F106(xsd:decimal),hasUoM @G106,hasTemporalContext @H106,isStoredIn @I106",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A107 Annotations: rdfs:label @A107,rdfs:comment @A107 Types: @B107 Facts: representsDataType @C107 (xsd:string), hasSensorTimeStamp @D107 (xsd:dateTime),hasTransmissionTimeStamp @E107(xsd:dateTime),hasValue @F107(xsd:decimal),hasUoM @G107,hasTemporalContext @H107,isStoredIn @I107",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A108 Annotations: rdfs:label @A108,rdfs:comment @A108 Types: @B108 Facts: representsDataType @C108 (xsd:string), hasSensorTimeStamp @D108 (xsd:dateTime),hasTransmissionTimeStamp @E108(xsd:dateTime),hasValue @F108(xsd:decimal),hasUoM @G108,hasTemporalContext @H108,isStoredIn @I108",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A109 Annotations: rdfs:label @A109,rdfs:comment @A109 Types: @B109 Facts: representsDataType @C109 (xsd:string), hasSensorTimeStamp @D109 (xsd:dateTime),hasTransmissionTimeStamp @E109(xsd:dateTime),hasValue @F109(xsd:decimal),hasUoM @G109,hasTemporalContext @H109,isStoredIn @I109",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A110 Annotations: rdfs:label @A110,rdfs:comment @A110 Types: @B110 Facts: representsDataType @C110 (xsd:string), hasSensorTimeStamp @D110 (xsd:dateTime),hasTransmissionTimeStamp @E110(xsd:dateTime),hasValue @F110(xsd:decimal),hasUoM @G110,hasTemporalContext @H110,isStoredIn @I110",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A111 Annotations: rdfs:label @A111,rdfs:comment @A111 Types: @B111 Facts: representsDataType @C111 (xsd:string), hasSensorTimeStamp @D111 (xsd:dateTime),hasTransmissionTimeStamp @E111(xsd:dateTime),hasValue @F111(xsd:decimal),hasUoM @G111,hasTemporalContext @H111,isStoredIn @I111",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A112 Annotations: rdfs:label @A112,rdfs:comment @A112 Types: @B112 Facts: representsDataType @C112 (xsd:string), hasSensorTimeStamp @D112 (xsd:dateTime),hasTransmissionTimeStamp @E112(xsd:dateTime),hasValue @F112(xsd:decimal),hasUoM @G112,hasTemporalContext @H112,isStoredIn @I112",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A113 Annotations: rdfs:label @A113,rdfs:comment @A113 Types: @B113 Facts: representsDataType @C113 (xsd:string), hasSensorTimeStamp @D113 (xsd:dateTime),hasTransmissionTimeStamp @E113(xsd:dateTime),hasValue @F113(xsd:decimal),hasUoM @G113,hasTemporalContext @H113,isStoredIn @I113",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A114 Annotations: rdfs:label @A114,rdfs:comment @A114 Types: @B114 Facts: representsDataType @C114 (xsd:string), hasSensorTimeStamp @D114 (xsd:dateTime),hasTransmissionTimeStamp @E114(xsd:dateTime),hasValue @F114(xsd:decimal),hasUoM @G114,hasTemporalContext @H114,isStoredIn @I114",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A115 Annotations: rdfs:label @A115,rdfs:comment @A115 Types: @B115 Facts: representsDataType @C115 (xsd:string), hasSensorTimeStamp @D115 (xsd:dateTime),hasTransmissionTimeStamp @E115(xsd:dateTime),hasValue @F115(xsd:decimal),hasUoM @G115,hasTemporalContext @H115,isStoredIn @I115",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A116 Annotations: rdfs:label @A116,rdfs:comment @A116 Types: @B116 Facts: representsDataType @C116 (xsd:string), hasSensorTimeStamp @D116 (xsd:dateTime),hasTransmissionTimeStamp @E116(xsd:dateTime),hasValue @F116(xsd:decimal),hasUoM @G116,hasTemporalContext @H116,isStoredIn @I116",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A117 Annotations: rdfs:label @A117,rdfs:comment @A117 Types: @B117 Facts: representsDataType @C117 (xsd:string), hasSensorTimeStamp @D117 (xsd:dateTime),hasTransmissionTimeStamp @E117(xsd:dateTime),hasValue @F117(xsd:decimal),hasUoM @G117,hasTemporalContext @H117,isStoredIn @I117",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A118 Annotations: rdfs:label @A118,rdfs:comment @A118 Types: @B118 Facts: representsDataType @C118 (xsd:string), hasSensorTimeStamp @D118 (xsd:dateTime),hasTransmissionTimeStamp @E118(xsd:dateTime),hasValue @F118(xsd:decimal),hasUoM @G118,hasTemporalContext @H118,isStoredIn @I118",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A119 Annotations: rdfs:label @A119,rdfs:comment @A119 Types: @B119 Facts: representsDataType @C119 (xsd:string), hasSensorTimeStamp @D119 (xsd:dateTime),hasTransmissionTimeStamp @E119(xsd:dateTime),hasValue @F119(xsd:decimal),hasUoM @G119,hasTemporalContext @H119,isStoredIn @I119",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A120 Annotations: rdfs:label @A120,rdfs:comment @A120 Types: @B120 Facts: representsDataType @C120 (xsd:string), hasSensorTimeStamp @D120 (xsd:dateTime),hasTransmissionTimeStamp @E120(xsd:dateTime),hasValue @F120(xsd:decimal),hasUoM @G120,hasTemporalContext @H120,isStoredIn @I120",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A121 Annotations: rdfs:label @A121,rdfs:comment @A121 Types: @B121 Facts: representsDataType @C121 (xsd:string), hasSensorTimeStamp @D121 (xsd:dateTime),hasTransmissionTimeStamp @E121(xsd:dateTime),hasValue @F121(xsd:decimal),hasUoM @G121,hasTemporalContext @H121,isStoredIn @I121",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A122 Annotations: rdfs:label @A122,rdfs:comment @A122 Types: @B122 Facts: representsDataType @C122 (xsd:string), hasSensorTimeStamp @D122 (xsd:dateTime),hasTransmissionTimeStamp @E122(xsd:dateTime),hasValue @F122(xsd:decimal),hasUoM @G122,hasTemporalContext @H122,isStoredIn @I122",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A123 Annotations: rdfs:label @A123,rdfs:comment @A123 Types: @B123 Facts: representsDataType @C123 (xsd:string), hasSensorTimeStamp @D123 (xsd:dateTime),hasTransmissionTimeStamp @E123(xsd:dateTime),hasValue @F123(xsd:decimal),hasUoM @G123,hasTemporalContext @H123,isStoredIn @I123",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A124 Annotations: rdfs:label @A124,rdfs:comment @A124 Types: @B124 Facts: representsDataType @C124 (xsd:string), hasSensorTimeStamp @D124 (xsd:dateTime),hasTransmissionTimeStamp @E124(xsd:dateTime),hasValue @F124(xsd:decimal),hasUoM @G124,hasTemporalContext @H124,isStoredIn @I124",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A125 Annotations: rdfs:label @A125,rdfs:comment @A125 Types: @B125 Facts: representsDataType @C125 (xsd:string), hasSensorTimeStamp @D125 (xsd:dateTime),hasTransmissionTimeStamp @E125(xsd:dateTime),hasValue @F125(xsd:decimal),hasUoM @G125,hasTemporalContext @H125,isStoredIn @I125",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A126 Annotations: rdfs:label @A126,rdfs:comment @A126 Types: @B126 Facts: representsDataType @C126 (xsd:string), hasSensorTimeStamp @D126 (xsd:dateTime),hasTransmissionTimeStamp @E126(xsd:dateTime),hasValue @F126(xsd:decimal),hasUoM @G126,hasTemporalContext @H126,isStoredIn @I126",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A127 Annotations: rdfs:label @A127,rdfs:comment @A127 Types: @B127 Facts: representsDataType @C127 (xsd:string), hasSensorTimeStamp @D127 (xsd:dateTime),hasTransmissionTimeStamp @E127(xsd:dateTime),hasValue @F127(xsd:decimal),hasUoM @G127,hasTemporalContext @H127,isStoredIn @I127",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A128 Annotations: rdfs:label @A128,rdfs:comment @A128 Types: @B128 Facts: representsDataType @C128 (xsd:string), hasSensorTimeStamp @D128 (xsd:dateTime),hasTransmissionTimeStamp @E128(xsd:dateTime),hasValue @F128(xsd:decimal),hasUoM @G128,hasTemporalContext @H128,isStoredIn @I128",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A129 Annotations: rdfs:label @A129,rdfs:comment @A129 Types: @B129 Facts: representsDataType @C129 (xsd:string), hasSensorTimeStamp @D129 (xsd:dateTime),hasTransmissionTimeStamp @E129(xsd:dateTime),hasValue @F129(xsd:decimal),hasUoM @G129,hasTemporalContext @H129,isStoredIn @I129",
+		"active": true
+	},
+{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "G",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "Individual: @A130 Annotations: rdfs:label @A130,rdfs:comment @A130 Types: @B130 Facts: representsDataType @C130 (xsd:string), hasSensorTimeStamp @D130 (xsd:dateTime),hasTransmissionTimeStamp @E130(xsd:dateTime),hasValue @F130(xsd:decimal),hasUoM @G130,hasTemporalContext @H130,isStoredIn @I130",
+		"active": true
+	}	
+	]
+}

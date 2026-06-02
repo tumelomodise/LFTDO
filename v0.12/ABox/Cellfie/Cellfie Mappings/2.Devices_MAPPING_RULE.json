@@ -1,0 +1,1016 @@
+{
+	"Collections": [
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A2	Annotations: rdfs:label @A2,rdfs:comment @A2 Types: @B2	Facts: hasDeviceType @C2	(xsd:string),	isSuitableForRuralAreas @D2	(xsd:boolean),	hasPowerStatus @E2	,transmitSensorDataTo @F2	,hasLatitude @H2	(xsd:decimal),	hasLongitude @I2	(xsd:decimal),isDeviceOnline @J2	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A3	Annotations: rdfs:label @A3,rdfs:comment @A3 Types: @B3	Facts: hasDeviceType @C3	(xsd:string),	isSuitableForRuralAreas @D3	(xsd:boolean),	hasPowerStatus @E3	,transmitSensorDataTo @F3	,hasLatitude @H3	(xsd:decimal),	hasLongitude @I3	(xsd:decimal),isDeviceOnline @J3	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A4 Annotations: rdfs:label @A4,rdfs:comment @A4	Types: @B4	Facts: hasDeviceType @C4	(xsd:string),	isSuitableForRuralAreas @D4	(xsd:boolean),	hasPowerStatus @E4	,transmitSensorDataTo @F4	,hasLatitude @H4	(xsd:decimal),	hasLongitude @I4	(xsd:decimal),isDeviceOnline @J4	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A5 Annotations: rdfs:label @A5,rdfs:comment @A5	Types: @B5	Facts: hasDeviceType @C5	(xsd:string),	isSuitableForRuralAreas @D5	(xsd:boolean),	hasPowerStatus @E5	,transmitSensorDataTo @F5	,hasLatitude @H5	(xsd:decimal),	hasLongitude @I5	(xsd:decimal),isDeviceOnline @J5	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A6 Annotations: rdfs:label @A6,rdfs:comment @A6	Types: @B6	Facts: hasDeviceType @C6	(xsd:string),	isSuitableForRuralAreas @D6	(xsd:boolean),	hasPowerStatus @E6	,transmitSensorDataTo @F6	,hasLatitude @H6	(xsd:decimal),	hasLongitude @I6	(xsd:decimal),isDeviceOnline @J6	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A7 Annotations: rdfs:label @A7,rdfs:comment @A7	Types: @B7	Facts: hasDeviceType @C7	(xsd:string),	isSuitableForRuralAreas @D7	(xsd:boolean),	hasPowerStatus @E7	,transmitSensorDataTo @F7	,hasLatitude @H7	(xsd:decimal),	hasLongitude @I7	(xsd:decimal),isDeviceOnline @J7	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A8 Annotations: rdfs:label @A8,rdfs:comment @A8 Types: @B8	Facts: hasDeviceType @C8	(xsd:string),	isSuitableForRuralAreas @D8	(xsd:boolean),	hasPowerStatus @E8	,transmitSensorDataTo @F8	,hasLatitude @H8	(xsd:decimal),	hasLongitude @I8	(xsd:decimal),isDeviceOnline @J8	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A9	Annotations: rdfs:label @A9,rdfs:comment @A9 Types: @B9	Facts: hasDeviceType @C9	(xsd:string),	isSuitableForRuralAreas @D9	(xsd:boolean),	hasPowerStatus @E9	,transmitSensorDataTo @F9	,hasLatitude @H9	(xsd:decimal),	hasLongitude @I9	(xsd:decimal),isDeviceOnline @J9	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A10	Annotations: rdfs:label @A10,rdfs:comment @A10 	Types: @B10	Facts: hasDeviceType @C10	(xsd:string),	isSuitableForRuralAreas @D10	(xsd:boolean),	hasPowerStatus @E10	,transmitSensorDataTo @F10	,hasLatitude @H10	(xsd:decimal),	hasLongitude @I10	(xsd:decimal),isDeviceOnline @J10	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A11	Annotations: rdfs:label @A11,rdfs:comment @A11 	Types: @B11	Facts: hasDeviceType @C11	(xsd:string),	isSuitableForRuralAreas @D11	(xsd:boolean),	hasPowerStatus @E11	,transmitSensorDataTo @F11	,hasLatitude @H11	(xsd:decimal),	hasLongitude @I11	(xsd:decimal),isDeviceOnline @J11	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A12	Annotations: rdfs:label @A12,rdfs:comment @A12 	Types: @B12	Facts: hasDeviceType @C12	(xsd:string),	isSuitableForRuralAreas @D12	(xsd:boolean),	hasPowerStatus @E12	,transmitSensorDataTo @F12	,hasLatitude @H12	(xsd:decimal),	hasLongitude @I12	(xsd:decimal),isDeviceOnline @J12	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A13	Annotations: rdfs:label @A13,rdfs:comment @A13 	Types: @B13	Facts: hasDeviceType @C13	(xsd:string),	isSuitableForRuralAreas @D13	(xsd:boolean),	hasPowerStatus @E13	,transmitSensorDataTo @F13	,hasLatitude @H13	(xsd:decimal),	hasLongitude @I13	(xsd:decimal),isDeviceOnline @J13	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A14	Annotations: rdfs:label @A14,rdfs:comment @A14 	Types: @B14	Facts: hasDeviceType @C14	(xsd:string),	isSuitableForRuralAreas @D14	(xsd:boolean),	hasPowerStatus @E14	,transmitSensorDataTo @F14	,hasLatitude @H14	(xsd:decimal),	hasLongitude @I14	(xsd:decimal),isDeviceOnline @J14	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A15	Annotations: rdfs:label @A15,rdfs:comment @A15 	Types: @B15	Facts: hasDeviceType @C15	(xsd:string),	isSuitableForRuralAreas @D15	(xsd:boolean),	hasPowerStatus @E15	,transmitSensorDataTo @F15	,hasLatitude @H15	(xsd:decimal),	hasLongitude @I15	(xsd:decimal),isDeviceOnline @J15	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A16	Annotations: rdfs:label @A16,rdfs:comment @A16 	Types: @B16	Facts: hasDeviceType @C16	(xsd:string),	isSuitableForRuralAreas @D16	(xsd:boolean),	hasPowerStatus @E16	,transmitSensorDataTo @F16	,hasLatitude @H16	(xsd:decimal),	hasLongitude @I16	(xsd:decimal),isDeviceOnline @J16	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A17	Annotations: rdfs:label @A17,rdfs:comment @A17 	Types: @B17	Facts: hasDeviceType @C17	(xsd:string),	isSuitableForRuralAreas @D17	(xsd:boolean),	hasPowerStatus @E17	,transmitSensorDataTo @F17	,hasLatitude @H17	(xsd:decimal),	hasLongitude @I17	(xsd:decimal),isDeviceOnline @J17	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A18	Annotations: rdfs:label @A18,rdfs:comment @A18 	Types: @B18	Facts: hasDeviceType @C18	(xsd:string),	isSuitableForRuralAreas @D18	(xsd:boolean),	hasPowerStatus @E18	,transmitSensorDataTo @F18	,hasLatitude @H18	(xsd:decimal),	hasLongitude @I18	(xsd:decimal),isDeviceOnline @J18	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A19	Annotations: rdfs:label @A19,rdfs:comment @A19 	Types: @B19	Facts: hasDeviceType @C19	(xsd:string),	isSuitableForRuralAreas @D19	(xsd:boolean),	hasPowerStatus @E19	,transmitSensorDataTo @F19	,hasLatitude @H19	(xsd:decimal),	hasLongitude @I19	(xsd:decimal),isDeviceOnline @J19	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A20	Annotations: rdfs:label @A20,rdfs:comment @A20 	Types: @B20	Facts: hasDeviceType @C20	(xsd:string),	isSuitableForRuralAreas @D20	(xsd:boolean),	hasPowerStatus @E20	,transmitSensorDataTo @F20	,hasLatitude @H20	(xsd:decimal),	hasLongitude @I20	(xsd:decimal),isDeviceOnline @J20	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A21	Annotations: rdfs:label @A21,rdfs:comment @A21 	Types: @B21	Facts: hasDeviceType @C21	(xsd:string),	isSuitableForRuralAreas @D21	(xsd:boolean),	hasPowerStatus @E21	,transmitSensorDataTo @F21	,hasLatitude @H21	(xsd:decimal),	hasLongitude @I21	(xsd:decimal),isDeviceOnline @J21	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A22	Annotations: rdfs:label @A22,rdfs:comment @A22 	Types: @B22	Facts: hasDeviceType @C22	(xsd:string),	isSuitableForRuralAreas @D22	(xsd:boolean),	hasPowerStatus @E22	,transmitSensorDataTo @F22	,hasLatitude @H22	(xsd:decimal),	hasLongitude @I22	(xsd:decimal),isDeviceOnline @J22	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A23	Annotations: rdfs:label @A23,rdfs:comment @A23 	Types: @B23	Facts: hasDeviceType @C23	(xsd:string),	isSuitableForRuralAreas @D23	(xsd:boolean),	hasPowerStatus @E23	,transmitSensorDataTo @F23	,hasLatitude @H23	(xsd:decimal),	hasLongitude @I23	(xsd:decimal),isDeviceOnline @J23	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A24	Annotations: rdfs:label @A24,rdfs:comment @A24 	Types: @B24	Facts: hasDeviceType @C24	(xsd:string),	isSuitableForRuralAreas @D24	(xsd:boolean),	hasPowerStatus @E24	,transmitSensorDataTo @F24	,hasLatitude @H24	(xsd:decimal),	hasLongitude @I24	(xsd:decimal),isDeviceOnline @J24	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A25	Annotations: rdfs:label @A25,rdfs:comment @A25 	Types: @B25	Facts: hasDeviceType @C25	(xsd:string),	isSuitableForRuralAreas @D25	(xsd:boolean),	hasPowerStatus @E25	,transmitSensorDataTo @F25	,hasLatitude @H25	(xsd:decimal),	hasLongitude @I25	(xsd:decimal),isDeviceOnline @J25	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A26	Annotations: rdfs:label @A26,rdfs:comment @A26 	Types: @B26	Facts: hasDeviceType @C26	(xsd:string),	isSuitableForRuralAreas @D26	(xsd:boolean),	hasPowerStatus @E26	,transmitSensorDataTo @F26	,hasLatitude @H26	(xsd:decimal),	hasLongitude @I26	(xsd:decimal),isDeviceOnline @J26	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A27	Annotations: rdfs:label @A27,rdfs:comment @A27 	Types: @B27	Facts: hasDeviceType @C27	(xsd:string),	isSuitableForRuralAreas @D27	(xsd:boolean),	hasPowerStatus @E27	,transmitSensorDataTo @F27	,hasLatitude @H27	(xsd:decimal),	hasLongitude @I27	(xsd:decimal),isDeviceOnline @J27	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A28	Annotations: rdfs:label @A28,rdfs:comment @A28 	Types: @B28	Facts: hasDeviceType @C28	(xsd:string),	isSuitableForRuralAreas @D28	(xsd:boolean),	hasPowerStatus @E28	,transmitSensorDataTo @F28	,hasLatitude @H28	(xsd:decimal),	hasLongitude @I28	(xsd:decimal),isDeviceOnline @J28	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A29	Annotations: rdfs:label @A29,rdfs:comment @A29 	Types: @B29	Facts: hasDeviceType @C29	(xsd:string),	isSuitableForRuralAreas @D29	(xsd:boolean),	hasPowerStatus @E29	,transmitSensorDataTo @F29	,hasLatitude @H29	(xsd:decimal),	hasLongitude @I29	(xsd:decimal),isDeviceOnline @J29	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A30	Annotations: rdfs:label @A30,rdfs:comment @A30 	Types: @B30	Facts: hasDeviceType @C30	(xsd:string),	isSuitableForRuralAreas @D30	(xsd:boolean),	hasPowerStatus @E30	,transmitSensorDataTo @F30	,hasLatitude @H30	(xsd:decimal),	hasLongitude @I30	(xsd:decimal),isDeviceOnline @J30	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A31	Annotations: rdfs:label @A31,rdfs:comment @A31 	Types: @B31	Facts: hasDeviceType @C31	(xsd:string),	isSuitableForRuralAreas @D31	(xsd:boolean),	hasPowerStatus @E31	,transmitSensorDataTo @F31	,hasLatitude @H31	(xsd:decimal),	hasLongitude @I31	(xsd:decimal),isDeviceOnline @J31	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A32	Annotations: rdfs:label @A32,rdfs:comment @A32 	Types: @B32	Facts: hasDeviceType @C32	(xsd:string),	isSuitableForRuralAreas @D32	(xsd:boolean),	hasPowerStatus @E32	,transmitSensorDataTo @F32	,hasLatitude @H32	(xsd:decimal),	hasLongitude @I32	(xsd:decimal),isDeviceOnline @J32	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A33	Annotations: rdfs:label @A33,rdfs:comment @A33 	Types: @B33	Facts: hasDeviceType @C33	(xsd:string),	isSuitableForRuralAreas @D33	(xsd:boolean),	hasPowerStatus @E33	,transmitSensorDataTo @F33	,hasLatitude @H33	(xsd:decimal),	hasLongitude @I33	(xsd:decimal),isDeviceOnline @J33	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A34	Annotations: rdfs:label @A34,rdfs:comment @A34 	Types: @B34	Facts: hasDeviceType @C34	(xsd:string),	isSuitableForRuralAreas @D34	(xsd:boolean),	hasPowerStatus @E34	,transmitSensorDataTo @F34	,hasLatitude @H34	(xsd:decimal),	hasLongitude @I34	(xsd:decimal),isDeviceOnline @J34	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A35	Annotations: rdfs:label @A35,rdfs:comment @A35 	Types: @B35	Facts: hasDeviceType @C35	(xsd:string),	isSuitableForRuralAreas @D35	(xsd:boolean),	hasPowerStatus @E35	,transmitSensorDataTo @F35	,hasLatitude @H35	(xsd:decimal),	hasLongitude @I35	(xsd:decimal),isDeviceOnline @J35	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A36	Annotations: rdfs:label @A36,rdfs:comment @A36 	Types: @B36	Facts: hasDeviceType @C36	(xsd:string),	isSuitableForRuralAreas @D36	(xsd:boolean),	hasPowerStatus @E36	,transmitSensorDataTo @F36	,hasLatitude @H36	(xsd:decimal),	hasLongitude @I36	(xsd:decimal),isDeviceOnline @J36	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A37	Annotations: rdfs:label @A37,rdfs:comment @A37 	Types: @B37	Facts: hasDeviceType @C37	(xsd:string),	isSuitableForRuralAreas @D37	(xsd:boolean),	hasPowerStatus @E37	,transmitSensorDataTo @F37	,hasLatitude @H37	(xsd:decimal),	hasLongitude @I37	(xsd:decimal),isDeviceOnline @J37	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A38	Annotations: rdfs:label @A38,rdfs:comment @A38 	Types: @B38	Facts: hasDeviceType @C38	(xsd:string),	isSuitableForRuralAreas @D38	(xsd:boolean),	hasPowerStatus @E38	,transmitSensorDataTo @F38	,hasLatitude @H38	(xsd:decimal),	hasLongitude @I38	(xsd:decimal),isDeviceOnline @J38	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A39	Annotations: rdfs:label @A39,rdfs:comment @A39 	Types: @B39	Facts: hasDeviceType @C39	(xsd:string),	isSuitableForRuralAreas @D39	(xsd:boolean),	hasPowerStatus @E39	,transmitSensorDataTo @F39	,hasLatitude @H39	(xsd:decimal),	hasLongitude @I39	(xsd:decimal),isDeviceOnline @J39	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A40	Annotations: rdfs:label @A40,rdfs:comment @A40 	Types: @B40	Facts: hasDeviceType @C40	(xsd:string),	isSuitableForRuralAreas @D40	(xsd:boolean),	hasPowerStatus @E40	,transmitSensorDataTo @F40	,hasLatitude @H40	(xsd:decimal),	hasLongitude @I40	(xsd:decimal),isDeviceOnline @J40	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A41	Annotations: rdfs:label @A41,rdfs:comment @A41 	Types: @B41	Facts: hasDeviceType @C41	(xsd:string),	isSuitableForRuralAreas @D41	(xsd:boolean),	hasPowerStatus @E41	,transmitSensorDataTo @F41	,hasLatitude @H41	(xsd:decimal),	hasLongitude @I41	(xsd:decimal),isDeviceOnline @J41	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A42	Annotations: rdfs:label @A42,rdfs:comment @A42 	Types: @B42	Facts: hasDeviceType @C42	(xsd:string),	isSuitableForRuralAreas @D42	(xsd:boolean),	hasPowerStatus @E42	,transmitSensorDataTo @F42	,hasLatitude @H42	(xsd:decimal),	hasLongitude @I42	(xsd:decimal),isDeviceOnline @J42	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A43	Annotations: rdfs:label @A43,rdfs:comment @A43 	Types: @B43	Facts: hasDeviceType @C43	(xsd:string),	isSuitableForRuralAreas @D43	(xsd:boolean),	hasPowerStatus @E43	,transmitSensorDataTo @F43	,hasLatitude @H43	(xsd:decimal),	hasLongitude @I43	(xsd:decimal),isDeviceOnline @J43	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A44	Annotations: rdfs:label @A44,rdfs:comment @A44 	Types: @B44	Facts: hasDeviceType @C44	(xsd:string),	isSuitableForRuralAreas @D44	(xsd:boolean),	hasPowerStatus @E44	,transmitSensorDataTo @F44	,hasLatitude @H44	(xsd:decimal),	hasLongitude @I44	(xsd:decimal),isDeviceOnline @J44	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A45	Annotations: rdfs:label @A45,rdfs:comment @A45 	Types: @B45	Facts: hasDeviceType @C45	(xsd:string),	isSuitableForRuralAreas @D45	(xsd:boolean),	hasPowerStatus @E45	,transmitSensorDataTo @F45	,hasLatitude @H45	(xsd:decimal),	hasLongitude @I45	(xsd:decimal),isDeviceOnline @J45	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A46	Annotations: rdfs:label @A46,rdfs:comment @A46 	Types: @B46	Facts: hasDeviceType @C46	(xsd:string),	isSuitableForRuralAreas @D46	(xsd:boolean),	hasPowerStatus @E46	,transmitSensorDataTo @F46	,hasLatitude @H46	(xsd:decimal),	hasLongitude @I46	(xsd:decimal),isDeviceOnline @J46	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A47	Annotations: rdfs:label @A47,rdfs:comment @A47 	Types: @B47	Facts: hasDeviceType @C47	(xsd:string),	isSuitableForRuralAreas @D47	(xsd:boolean),	hasPowerStatus @E47	,transmitSensorDataTo @F47	,hasLatitude @H47	(xsd:decimal),	hasLongitude @I47	(xsd:decimal),isDeviceOnline @J47	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A48	Annotations: rdfs:label @A48,rdfs:comment @A48 	Types: @B48	Facts: hasDeviceType @C48	(xsd:string),	isSuitableForRuralAreas @D48	(xsd:boolean),	hasPowerStatus @E48	,transmitSensorDataTo @F48	,hasLatitude @H48	(xsd:decimal),	hasLongitude @I48	(xsd:decimal),isDeviceOnline @J48	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A49	Annotations: rdfs:label @A49,rdfs:comment @A49 	Types: @B49	Facts: hasDeviceType @C49	(xsd:string),	isSuitableForRuralAreas @D49	(xsd:boolean),	hasPowerStatus @E49	,transmitSensorDataTo @F49	,hasLatitude @H49	(xsd:decimal),	hasLongitude @I49	(xsd:decimal),isDeviceOnline @J49	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A50	Annotations: rdfs:label @A50,rdfs:comment @A50 	Types: @B50	Facts: hasDeviceType @C50	(xsd:string),	isSuitableForRuralAreas @D50	(xsd:boolean),	hasPowerStatus @E50	,transmitSensorDataTo @F50	,hasLatitude @H50	(xsd:decimal),	hasLongitude @I50	(xsd:decimal),isDeviceOnline @J50	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A51	Annotations: rdfs:label @A51,rdfs:comment @A51 	Types: @B51	Facts: hasDeviceType @C51	(xsd:string),	isSuitableForRuralAreas @D51	(xsd:boolean),	hasPowerStatus @E51	,transmitSensorDataTo @F51	,hasLatitude @H51	(xsd:decimal),	hasLongitude @I51	(xsd:decimal),isDeviceOnline @J51	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A52	Annotations: rdfs:label @A52,rdfs:comment @A52 	Types: @B52	Facts: hasDeviceType @C52	(xsd:string),	isSuitableForRuralAreas @D52	(xsd:boolean),	hasPowerStatus @E52	,transmitSensorDataTo @F52	,hasLatitude @H52	(xsd:decimal),	hasLongitude @I52	(xsd:decimal),isDeviceOnline @J52	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A53	Annotations: rdfs:label @A53,rdfs:comment @A53 	Types: @B53	Facts: hasDeviceType @C53	(xsd:string),	isSuitableForRuralAreas @D53	(xsd:boolean),	hasPowerStatus @E53	,transmitSensorDataTo @F53	,hasLatitude @H53	(xsd:decimal),	hasLongitude @I53	(xsd:decimal),isDeviceOnline @J53	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A54	Annotations: rdfs:label @A54,rdfs:comment @A54 	Types: @B54	Facts: hasDeviceType @C54	(xsd:string),	isSuitableForRuralAreas @D54	(xsd:boolean),	hasPowerStatus @E54	,transmitSensorDataTo @F54	,hasLatitude @H54	(xsd:decimal),	hasLongitude @I54	(xsd:decimal),isDeviceOnline @J54	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A55	Annotations: rdfs:label @A55,rdfs:comment @A55 	Types: @B55	Facts: hasDeviceType @C55	(xsd:string),	isSuitableForRuralAreas @D55	(xsd:boolean),	hasPowerStatus @E55	,transmitSensorDataTo @F55	,hasLatitude @H55	(xsd:decimal),	hasLongitude @I55	(xsd:decimal),isDeviceOnline @J55	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A56	Annotations: rdfs:label @A56,rdfs:comment @A56 	Types: @B56	Facts: hasDeviceType @C56	(xsd:string),	isSuitableForRuralAreas @D56	(xsd:boolean),	hasPowerStatus @E56	,transmitSensorDataTo @F56	,hasLatitude @H56	(xsd:decimal),	hasLongitude @I56	(xsd:decimal),isDeviceOnline @J56	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A57	Annotations: rdfs:label @A57,rdfs:comment @A57 	Types: @B57	Facts: hasDeviceType @C57	(xsd:string),	isSuitableForRuralAreas @D57	(xsd:boolean),	hasPowerStatus @E57	,transmitSensorDataTo @F57	,hasLatitude @H57	(xsd:decimal),	hasLongitude @I57	(xsd:decimal),isDeviceOnline @J57	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A58	Annotations: rdfs:label @A58,rdfs:comment @A58 	Types: @B58	Facts: hasDeviceType @C58	(xsd:string),	isSuitableForRuralAreas @D58	(xsd:boolean),	hasPowerStatus @E58	,transmitSensorDataTo @F58	,hasLatitude @H58	(xsd:decimal),	hasLongitude @I58	(xsd:decimal),isDeviceOnline @J58	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A59	Annotations: rdfs:label @A59,rdfs:comment @A59 	Types: @B59	Facts: hasDeviceType @C59	(xsd:string),	isSuitableForRuralAreas @D59	(xsd:boolean),	hasPowerStatus @E59	,transmitSensorDataTo @F59	,hasLatitude @H59	(xsd:decimal),	hasLongitude @I59	(xsd:decimal),isDeviceOnline @J59	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A60	Annotations: rdfs:label @A60,rdfs:comment @A60 	Types: @B60	Facts: hasDeviceType @C60	(xsd:string),	isSuitableForRuralAreas @D60	(xsd:boolean),	hasPowerStatus @E60	,transmitSensorDataTo @F60	,hasLatitude @H60	(xsd:decimal),	hasLongitude @I60	(xsd:decimal),isDeviceOnline @J60	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A61	Annotations: rdfs:label @A61,rdfs:comment @A61 	Types: @B61	Facts: hasDeviceType @C61	(xsd:string),	isSuitableForRuralAreas @D61	(xsd:boolean),	hasPowerStatus @E61	,transmitSensorDataTo @F61	,hasLatitude @H61	(xsd:decimal),	hasLongitude @I61	(xsd:decimal),isDeviceOnline @J61	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A62	Annotations: rdfs:label @A62,rdfs:comment @A62 	Types: @B62	Facts: hasDeviceType @C62	(xsd:string),	isSuitableForRuralAreas @D62	(xsd:boolean),	hasPowerStatus @E62	,transmitSensorDataTo @F62	,hasLatitude @H62	(xsd:decimal),	hasLongitude @I62	(xsd:decimal),isDeviceOnline @J62	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A63	Annotations: rdfs:label @A63,rdfs:comment @A63 	Types: @B63	Facts: hasDeviceType @C63	(xsd:string),	isSuitableForRuralAreas @D63	(xsd:boolean),	hasPowerStatus @E63	,transmitSensorDataTo @F63	,hasLatitude @H63	(xsd:decimal),	hasLongitude @I63	(xsd:decimal),isDeviceOnline @J63	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A64	Annotations: rdfs:label @A64,rdfs:comment @A64 	Types: @B64	Facts: hasDeviceType @C64	(xsd:string),	isSuitableForRuralAreas @D64	(xsd:boolean),	hasPowerStatus @E64	,transmitSensorDataTo @F64	,hasLatitude @H64	(xsd:decimal),	hasLongitude @I64	(xsd:decimal),isDeviceOnline @J64	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A65	Annotations: rdfs:label @A65,rdfs:comment @A65 	Types: @B65	Facts: hasDeviceType @C65	(xsd:string),	isSuitableForRuralAreas @D65	(xsd:boolean),	hasPowerStatus @E65	,transmitSensorDataTo @F65	,hasLatitude @H65	(xsd:decimal),	hasLongitude @I65	(xsd:decimal),isDeviceOnline @J65	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A66	Annotations: rdfs:label @A66,rdfs:comment @A66 	Types: @B66	Facts: hasDeviceType @C66	(xsd:string),	isSuitableForRuralAreas @D66	(xsd:boolean),	hasPowerStatus @E66	,transmitSensorDataTo @F66	,hasLatitude @H66	(xsd:decimal),	hasLongitude @I66	(xsd:decimal),isDeviceOnline @J66	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A67	Annotations: rdfs:label @A67,rdfs:comment @A67 	Types: @B67	Facts: hasDeviceType @C67	(xsd:string),	isSuitableForRuralAreas @D67	(xsd:boolean),	hasPowerStatus @E67	,transmitSensorDataTo @F67	,hasLatitude @H67	(xsd:decimal),	hasLongitude @I67	(xsd:decimal),isDeviceOnline @J67	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A68	Annotations: rdfs:label @A68,rdfs:comment @A68 	Types: @B68	Facts: hasDeviceType @C68	(xsd:string),	isSuitableForRuralAreas @D68	(xsd:boolean),	hasPowerStatus @E68	,transmitSensorDataTo @F68	,hasLatitude @H68	(xsd:decimal),	hasLongitude @I68	(xsd:decimal),isDeviceOnline @J68	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A69	Annotations: rdfs:label @A69,rdfs:comment @A69 	Types: @B69	Facts: hasDeviceType @C69	(xsd:string),	isSuitableForRuralAreas @D69	(xsd:boolean),	hasPowerStatus @E69	,transmitSensorDataTo @F69	,hasLatitude @H69	(xsd:decimal),	hasLongitude @I69	(xsd:decimal),isDeviceOnline @J69	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A70	Annotations: rdfs:label @A70,rdfs:comment @A70 	Types: @B70	Facts: hasDeviceType @C70	(xsd:string),	isSuitableForRuralAreas @D70	(xsd:boolean),	hasPowerStatus @E70	,transmitSensorDataTo @F70	,hasLatitude @H70	(xsd:decimal),	hasLongitude @I70	(xsd:decimal),isDeviceOnline @J70	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A71	Annotations: rdfs:label @A71,rdfs:comment @A71 	Types: @B71	Facts: hasDeviceType @C71	(xsd:string),	isSuitableForRuralAreas @D71	(xsd:boolean),	hasPowerStatus @E71	,transmitSensorDataTo @F71	,hasLatitude @H71	(xsd:decimal),	hasLongitude @I71	(xsd:decimal),isDeviceOnline @J71	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A72	Annotations: rdfs:label @A72,rdfs:comment @A72 	Types: @B72	Facts: hasDeviceType @C72	(xsd:string),	isSuitableForRuralAreas @D72	(xsd:boolean),	hasPowerStatus @E72	,transmitSensorDataTo @F72	,hasLatitude @H72	(xsd:decimal),	hasLongitude @I72	(xsd:decimal),isDeviceOnline @J72	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A73	Annotations: rdfs:label @A73,rdfs:comment @A73 	Types: @B73	Facts: hasDeviceType @C73	(xsd:string),	isSuitableForRuralAreas @D73	(xsd:boolean),	hasPowerStatus @E73	,transmitSensorDataTo @F73	,hasLatitude @H73	(xsd:decimal),	hasLongitude @I73	(xsd:decimal),isDeviceOnline @J73	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A74	Annotations: rdfs:label @A74,rdfs:comment @A74 	Types: @B74	Facts: hasDeviceType @C74	(xsd:string),	isSuitableForRuralAreas @D74	(xsd:boolean),	hasPowerStatus @E74	,transmitSensorDataTo @F74	,hasLatitude @H74	(xsd:decimal),	hasLongitude @I74	(xsd:decimal),isDeviceOnline @J74	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A75	Annotations: rdfs:label @A75,rdfs:comment @A75 	Types: @B75	Facts: hasDeviceType @C75	(xsd:string),	isSuitableForRuralAreas @D75	(xsd:boolean),	hasPowerStatus @E75	,transmitSensorDataTo @F75	,hasLatitude @H75	(xsd:decimal),	hasLongitude @I75	(xsd:decimal),isDeviceOnline @J75	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A76	Annotations: rdfs:label @A76,rdfs:comment @A76 	Types: @B76	Facts: hasDeviceType @C76	(xsd:string),	isSuitableForRuralAreas @D76	(xsd:boolean),	hasPowerStatus @E76	,transmitSensorDataTo @F76	,hasLatitude @H76	(xsd:decimal),	hasLongitude @I76	(xsd:decimal),isDeviceOnline @J76	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A77	Annotations: rdfs:label @A77,rdfs:comment @A77 	Types: @B77	Facts: hasDeviceType @C77	(xsd:string),	isSuitableForRuralAreas @D77	(xsd:boolean),	hasPowerStatus @E77	,transmitSensorDataTo @F77	,hasLatitude @H77	(xsd:decimal),	hasLongitude @I77	(xsd:decimal),isDeviceOnline @J77	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A78	Annotations: rdfs:label @A78,rdfs:comment @A78 	Types: @B78	Facts: hasDeviceType @C78	(xsd:string),	isSuitableForRuralAreas @D78	(xsd:boolean),	hasPowerStatus @E78	,transmitSensorDataTo @F78	,hasLatitude @H78	(xsd:decimal),	hasLongitude @I78	(xsd:decimal),isDeviceOnline @J78	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A79	Annotations: rdfs:label @A79,rdfs:comment @A79 	Types: @B79	Facts: hasDeviceType @C79	(xsd:string),	isSuitableForRuralAreas @D79	(xsd:boolean),	hasPowerStatus @E79	,transmitSensorDataTo @F79	,hasLatitude @H79	(xsd:decimal),	hasLongitude @I79	(xsd:decimal),isDeviceOnline @J79	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A80	Annotations: rdfs:label @A80,rdfs:comment @A80 	Types: @B80	Facts: hasDeviceType @C80	(xsd:string),	isSuitableForRuralAreas @D80	(xsd:boolean),	hasPowerStatus @E80	,transmitSensorDataTo @F80	,hasLatitude @H80	(xsd:decimal),	hasLongitude @I80	(xsd:decimal),isDeviceOnline @J80	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A81	Annotations: rdfs:label @A81,rdfs:comment @A81 	Types: @B81	Facts: hasDeviceType @C81	(xsd:string),	isSuitableForRuralAreas @D81	(xsd:boolean),	hasPowerStatus @E81	,transmitSensorDataTo @F81	,hasLatitude @H81	(xsd:decimal),	hasLongitude @I81	(xsd:decimal),isDeviceOnline @J81	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A82	Annotations: rdfs:label @A82,rdfs:comment @A82 	Types: @B82	Facts: hasDeviceType @C82	(xsd:string),	isSuitableForRuralAreas @D82	(xsd:boolean),	hasPowerStatus @E82	,transmitSensorDataTo @F82	,hasLatitude @H82	(xsd:decimal),	hasLongitude @I82	(xsd:decimal),isDeviceOnline @J82	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A83	Annotations: rdfs:label @A83,rdfs:comment @A83 	Types: @B83	Facts: hasDeviceType @C83	(xsd:string),	isSuitableForRuralAreas @D83	(xsd:boolean),	hasPowerStatus @E83	,transmitSensorDataTo @F83	,hasLatitude @H83	(xsd:decimal),	hasLongitude @I83	(xsd:decimal),isDeviceOnline @J83	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A84	Annotations: rdfs:label @A84,rdfs:comment @A84 	Types: @B84	Facts: hasDeviceType @C84	(xsd:string),	isSuitableForRuralAreas @D84	(xsd:boolean),	hasPowerStatus @E84	,transmitSensorDataTo @F84	,hasLatitude @H84	(xsd:decimal),	hasLongitude @I84	(xsd:decimal),isDeviceOnline @J84	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A85	Annotations: rdfs:label @A85,rdfs:comment @A85 	Types: @B85	Facts: hasDeviceType @C85	(xsd:string),	isSuitableForRuralAreas @D85	(xsd:boolean),	hasPowerStatus @E85	,transmitSensorDataTo @F85	,hasLatitude @H85	(xsd:decimal),	hasLongitude @I85	(xsd:decimal),isDeviceOnline @J85	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A86	Annotations: rdfs:label @A86,rdfs:comment @A86 	Types: @B86	Facts: hasDeviceType @C86	(xsd:string),	isSuitableForRuralAreas @D86	(xsd:boolean),	hasPowerStatus @E86	,transmitSensorDataTo @F86	,hasLatitude @H86	(xsd:decimal),	hasLongitude @I86	(xsd:decimal),isDeviceOnline @J86	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A87	Annotations: rdfs:label @A87,rdfs:comment @A87 	Types: @B87	Facts: hasDeviceType @C87	(xsd:string),	isSuitableForRuralAreas @D87	(xsd:boolean),	hasPowerStatus @E87	,transmitSensorDataTo @F87	,hasLatitude @H87	(xsd:decimal),	hasLongitude @I87	(xsd:decimal),isDeviceOnline @J87	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A88	Annotations: rdfs:label @A88,rdfs:comment @A88 	Types: @B88	Facts: hasDeviceType @C88	(xsd:string),	isSuitableForRuralAreas @D88	(xsd:boolean),	hasPowerStatus @E88	,transmitSensorDataTo @F88	,hasLatitude @H88	(xsd:decimal),	hasLongitude @I88	(xsd:decimal),isDeviceOnline @J88	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A89	Annotations: rdfs:label @A89,rdfs:comment @A89 	Types: @B89	Facts: hasDeviceType @C89	(xsd:string),	isSuitableForRuralAreas @D89	(xsd:boolean),	hasPowerStatus @E89	,transmitSensorDataTo @F89	,hasLatitude @H89	(xsd:decimal),	hasLongitude @I89	(xsd:decimal),isDeviceOnline @J89	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A90	Annotations: rdfs:label @A90,rdfs:comment @A90 	Types: @B90	Facts: hasDeviceType @C90	(xsd:string),	isSuitableForRuralAreas @D90	(xsd:boolean),	hasPowerStatus @E90	,transmitSensorDataTo @F90	,hasLatitude @H90	(xsd:decimal),	hasLongitude @I90	(xsd:decimal),isDeviceOnline @J90	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A91	Annotations: rdfs:label @A91,rdfs:comment @A91 	Types: @B91	Facts: hasDeviceType @C91	(xsd:string),	isSuitableForRuralAreas @D91	(xsd:boolean),	hasPowerStatus @E91	,transmitSensorDataTo @F91	,hasLatitude @H91	(xsd:decimal),	hasLongitude @I91	(xsd:decimal),isDeviceOnline @J91	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A92	Annotations: rdfs:label @A92,rdfs:comment @A92 	Types: @B92	Facts: hasDeviceType @C92	(xsd:string),	isSuitableForRuralAreas @D92	(xsd:boolean),	hasPowerStatus @E92	,transmitSensorDataTo @F92	,hasLatitude @H92	(xsd:decimal),	hasLongitude @I92	(xsd:decimal),isDeviceOnline @J92	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A93	Annotations: rdfs:label @A93,rdfs:comment @A93 	Types: @B93	Facts: hasDeviceType @C93	(xsd:string),	isSuitableForRuralAreas @D93	(xsd:boolean),	hasPowerStatus @E93	,transmitSensorDataTo @F93	,hasLatitude @H93	(xsd:decimal),	hasLongitude @I93	(xsd:decimal),isDeviceOnline @J93	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A94	Annotations: rdfs:label @A94,rdfs:comment @A94 	Types: @B94	Facts: hasDeviceType @C94	(xsd:string),	isSuitableForRuralAreas @D94	(xsd:boolean),	hasPowerStatus @E94	,transmitSensorDataTo @F94	,hasLatitude @H94	(xsd:decimal),	hasLongitude @I94	(xsd:decimal),isDeviceOnline @J94	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A95	Annotations: rdfs:label @A95,rdfs:comment @A95 	Types: @B95	Facts: hasDeviceType @C95	(xsd:string),	isSuitableForRuralAreas @D95	(xsd:boolean),	hasPowerStatus @E95	,transmitSensorDataTo @F95	,hasLatitude @H95	(xsd:decimal),	hasLongitude @I95	(xsd:decimal),isDeviceOnline @J95	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A96	Annotations: rdfs:label @A96,rdfs:comment @A96 	Types: @B96	Facts: hasDeviceType @C96	(xsd:string),	isSuitableForRuralAreas @D96	(xsd:boolean),	hasPowerStatus @E96	,transmitSensorDataTo @F96	,hasLatitude @H96	(xsd:decimal),	hasLongitude @I96	(xsd:decimal),isDeviceOnline @J96	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A97	Annotations: rdfs:label @A97,rdfs:comment @A97 	Types: @B97	Facts: hasDeviceType @C97	(xsd:string),	isSuitableForRuralAreas @D97	(xsd:boolean),	hasPowerStatus @E97	,transmitSensorDataTo @F97	,hasLatitude @H97	(xsd:decimal),	hasLongitude @I97	(xsd:decimal),isDeviceOnline @J97	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A98	Annotations: rdfs:label @A98,rdfs:comment @A98 	Types: @B98	Facts: hasDeviceType @C98	(xsd:string),	isSuitableForRuralAreas @D98	(xsd:boolean),	hasPowerStatus @E98	,transmitSensorDataTo @F98	,hasLatitude @H98	(xsd:decimal),	hasLongitude @I98	(xsd:decimal),isDeviceOnline @J98	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A99	Annotations: rdfs:label @A99,rdfs:comment @A99 	Types: @B99	Facts: hasDeviceType @C99	(xsd:string),	isSuitableForRuralAreas @D99	(xsd:boolean),	hasPowerStatus @E99	,transmitSensorDataTo @F99	,hasLatitude @H99	(xsd:decimal),	hasLongitude @I99	(xsd:decimal),isDeviceOnline @J99	(xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A100	Annotations: rdfs:label @A100,rdfs:comment @A100	Types: @B100	Facts: hasDeviceType @C100	(xsd:string),	isSuitableForRuralAreas @D100	(xsd:boolean),	hasPowerStatus @E100	,transmitSensorDataTo @F100	,hasLatitude @H100	(xsd:decimal),	hasLongitude @I100	(xsd:decimal),isDeviceOnline @J100 (xsd:boolean)	",
+		"active": true
+	},
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A101	Annotations: rdfs:label @A101	Types: @B101	Facts: hasDeviceType @C101	(xsd:string),	isSuitableForRuralAreas @D101	(xsd:boolean),	hasPowerStatus @E101	,transmitSensorDataTo @F101	,hasLatitude @H101	(xsd:decimal),	hasLongitude @I101	(xsd:decimal),isDeviceOnline @J101 (xsd:boolean)	",
+		"active": true
+	}
+,
+	{
+		"sheetName": "Data",
+		"startColumn": "A",
+		"endColumn": "J",
+		"startRow": "2",
+		"endRow": "+",
+		"comment": "",
+		"rule": "	Individual: @A102	Annotations: rdfs:label @A102	Types: @B102	Facts: hasDeviceType @C102	(xsd:string),	isSuitableForRuralAreas @D102	(xsd:boolean),	hasPowerStatus @E102	,transmitSensorDataTo @F102	,hasLatitude @H102	(xsd:decimal),	hasLongitude @I102	(xsd:decimal),isDeviceOnline @J102 (xsd:boolean)	",
+		"active": true
+	}	
+	
+	]
+}

@@ -1,0 +1,1005 @@
+{
+  "Collections": 
+  [
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A2 Annotations: rdfs:label @A2,rdfs:comment @A2\tTypes: @B2\tFacts: hasAnimalID @A2,hasBreed @D2,\tisLocatedAtFarm @E2\t,hasCurrentLocation @F2\t,isOwnedByFarmer @G2\t,isAttachedToDevice @H2\t,hasSpecies @I2\t,exhibits @J2\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A3 Annotations: rdfs:label @A3,rdfs:comment @A3\tTypes: @B3\tFacts: \tisLocatedAtFarm @E3\t,hasCurrentLocation @F3\t,isOwnedByFarmer @G3\t,isAttachedToDevice @H3\t,hasSpecies @I3\t,exhibits @J3\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A4 Annotations: rdfs:label @A4,rdfs:comment @A4\tTypes: @B4\tFacts: \tisLocatedAtFarm @E4\t,hasCurrentLocation @F4\t,isOwnedByFarmer @G4\t,isAttachedToDevice @H4\t,hasSpecies @I4\t,exhibits @J4\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A5 Annotations: rdfs:label @A5,rdfs:comment @A5\tTypes: @B5\tFacts: \tisLocatedAtFarm @E5\t,hasCurrentLocation @F5\t,isOwnedByFarmer @G5\t,isAttachedToDevice @H5\t,hasSpecies @I5\t,exhibits @J5\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A6 Annotations: rdfs:label @A6,rdfs:comment @A6\tTypes: @B6\tFacts: \tisLocatedAtFarm @E6\t,hasCurrentLocation @F6\t,isOwnedByFarmer @G6\t,isAttachedToDevice @H6\t,hasSpecies @I6\t,exhibits @J6\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A7 Annotations: rdfs:label @A7,rdfs:comment @A7\tTypes: @B7\tFacts: \tisLocatedAtFarm @E7\t,hasCurrentLocation @F7\t,isOwnedByFarmer @G7\t,isAttachedToDevice @H7\t,hasSpecies @I7\t,exhibits @J7\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A8 Annotations: rdfs:label @A8,rdfs:comment @A8\tTypes: @B8\tFacts: \tisLocatedAtFarm @E8\t,hasCurrentLocation @F8\t,isOwnedByFarmer @G8\t,isAttachedToDevice @H8\t,hasSpecies @I8\t,exhibits @J8\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A9 Annotations: rdfs:label @A9,rdfs:comment @A8\tTypes: @B9\tFacts: \tisLocatedAtFarm @E9\t,hasCurrentLocation @F9\t,isOwnedByFarmer @G9\t,isAttachedToDevice @H9\t,hasSpecies @I9\t,exhibits @J9\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A10 Annotations: rdfs:label @A10,rdfs:comment @A10\tTypes: @B10\tFacts: \tisLocatedAtFarm @E10\t,hasCurrentLocation @F10\t,isOwnedByFarmer @G10\t,isAttachedToDevice @H10\t,hasSpecies @I10\t,exhibits @J10\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A11 Annotations: rdfs:label @A11,rdfs:comment @A11\tTypes: @B11\tFacts: \tisLocatedAtFarm @E11\t,hasCurrentLocation @F11\t,isOwnedByFarmer @G11\t,isAttachedToDevice @H11\t,hasSpecies @I11\t,exhibits @J11\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A12 Annotations: rdfs:label @A12,rdfs:comment @A12\tTypes: @B12\tFacts: \tisLocatedAtFarm @E12\t,hasCurrentLocation @F12\t,isOwnedByFarmer @G12\t,isAttachedToDevice @H12\t,hasSpecies @I12\t,exhibits @J12\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A13 Annotations: rdfs:label @A13,rdfs:comment @A13\tTypes: @B13\tFacts: \tisLocatedAtFarm @E13\t,hasCurrentLocation @F13\t,isOwnedByFarmer @G13\t,isAttachedToDevice @H13\t,hasSpecies @I13\t,exhibits @J13\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A14 Annotations: rdfs:label @A14,rdfs:comment @A14\tTypes: @B14\tFacts: \tisLocatedAtFarm @E14\t,hasCurrentLocation @F14\t,isOwnedByFarmer @G14\t,isAttachedToDevice @H14\t,hasSpecies @I14\t,exhibits @J14\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A15 Annotations: rdfs:label @A15,rdfs:comment @A15\tTypes: @B15\tFacts: \tisLocatedAtFarm @E15\t,hasCurrentLocation @F15\t,isOwnedByFarmer @G15\t,isAttachedToDevice @H15\t,hasSpecies @I15\t,exhibits @J15\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A16 Annotations: rdfs:label @A16,rdfs:comment @A16\tTypes: @B16\tFacts: \tisLocatedAtFarm @E16\t,hasCurrentLocation @F16\t,isOwnedByFarmer @G16\t,isAttachedToDevice @H16\t,hasSpecies @I16\t,exhibits @J16\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A17 Annotations: rdfs:label @A17,rdfs:comment @A17\tTypes: @B17\tFacts: \tisLocatedAtFarm @E17\t,hasCurrentLocation @F17\t,isOwnedByFarmer @G17\t,isAttachedToDevice @H17\t,hasSpecies @I17\t,exhibits @J17\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A18 Annotations: rdfs:label @A18,rdfs:comment @A18\tTypes: @B18\tFacts: \tisLocatedAtFarm @E18\t,hasCurrentLocation @F18\t,isOwnedByFarmer @G18\t,isAttachedToDevice @H18\t,hasSpecies @I18\t,exhibits @J18\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A19 Annotations: rdfs:label @A19,rdfs:comment @A19\tTypes: @B19\tFacts: \tisLocatedAtFarm @E19\t,hasCurrentLocation @F19\t,isOwnedByFarmer @G19\t,isAttachedToDevice @H19\t,hasSpecies @I19\t,exhibits @J19\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A20 Annotations: rdfs:label @A20,rdfs:comment @A20\tTypes: @B20\tFacts: \tisLocatedAtFarm @E20\t,hasCurrentLocation @F20\t,isOwnedByFarmer @G20\t,isAttachedToDevice @H20\t,hasSpecies @I20\t,exhibits @J20\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A21 Annotations: rdfs:label @A21,rdfs:comment @A21\tTypes: @B21\tFacts: \tisLocatedAtFarm @E21\t,hasCurrentLocation @F21\t,isOwnedByFarmer @G21\t,isAttachedToDevice @H21\t,hasSpecies @I21\t,exhibits @J21\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A22 Annotations: rdfs:label @A22,rdfs:comment @A22\tTypes: @B22\tFacts: \tisLocatedAtFarm @E22\t,hasCurrentLocation @F22\t,isOwnedByFarmer @G22\t,isAttachedToDevice @H22\t,hasSpecies @I22\t,exhibits @J22\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A23 Annotations: rdfs:label @A23,rdfs:comment @A23\tTypes: @B23\tFacts: \tisLocatedAtFarm @E23\t,hasCurrentLocation @F23\t,isOwnedByFarmer @G23\t,isAttachedToDevice @H23\t,hasSpecies @I23\t,exhibits @J23\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A24 Annotations: rdfs:label @A24,rdfs:comment @A24\tTypes: @B24\tFacts: \tisLocatedAtFarm @E24\t,hasCurrentLocation @F24\t,isOwnedByFarmer @G24\t,isAttachedToDevice @H24\t,hasSpecies @I24\t,exhibits @J24\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A25 Annotations: rdfs:label @A25,rdfs:comment @A25\tTypes: @B25\tFacts: \tisLocatedAtFarm @E25\t,hasCurrentLocation @F25\t,isOwnedByFarmer @G25\t,isAttachedToDevice @H25\t,hasSpecies @I25\t,exhibits @J25\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A26 Annotations: rdfs:label @A26,rdfs:comment @A26\tTypes: @B26\tFacts: \tisLocatedAtFarm @E26\t,hasCurrentLocation @F26\t,isOwnedByFarmer @G26\t,isAttachedToDevice @H26\t,hasSpecies @I26\t,exhibits @J26\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A27 Annotations: rdfs:label @A27,rdfs:comment @A27\tTypes: @B27\tFacts: \thasRunningSpeed @C27\t(xsd:decimal),\tisLocatedAtFarm @E27\t,hasCurrentLocation @F27\t,isOwnedByFarmer @G27\t,isAttachedToDevice @H27\t,hasSpecies @I27\t,exhibits @J27\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A28 Annotations: rdfs:label @A28,rdfs:comment @A28\tTypes: @B28\tFacts: \thasRunningSpeed @C28\t(xsd:decimal),\tisLocatedAtFarm @E28\t,hasCurrentLocation @F28\t,isOwnedByFarmer @G28\t,isAttachedToDevice @H28\t,hasSpecies @I28\t,exhibits @J28\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A29 Annotations: rdfs:label @A29,rdfs:comment @A29\tTypes: @B29\tFacts: \tisLocatedAtFarm @E29\t,hasCurrentLocation @F29\t,isOwnedByFarmer @G29\t,isAttachedToDevice @H29\t,hasSpecies @I29\t,exhibits @J29\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A30 Annotations: rdfs:label @A30,rdfs:comment @A30\tTypes: @B30\tFacts: \tisLocatedAtFarm @E30\t,hasCurrentLocation @F30\t,isOwnedByFarmer @G30\t,isAttachedToDevice @H30\t,hasSpecies @I30\t,exhibits @J30\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "Individual: @A31 Annotations: rdfs:label @A31,rdfs:comment @A31\tTypes: @B31\tFacts: \tisLocatedAtFarm @E31\t,hasCurrentLocation @F31\t,isOwnedByFarmer @G31\t,isAttachedToDevice @H31\t,hasSpecies @I31\t,exhibits @J31",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "Individual: @A32 Annotations: rdfs:label @A32,rdfs:comment @A32\tTypes: @B32\tFacts: \tisLocatedAtFarm @E32\t,hasCurrentLocation @F32\t,isOwnedByFarmer @G32\t,isAttachedToDevice @H32\t,hasSpecies @I32\t,exhibits@J32",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A33 Annotations: rdfs:label @A33,rdfs:comment @A33\tTypes: @B33\tFacts: \tisLocatedAtFarm @E33\t,hasCurrentLocation @F33\t,isOwnedByFarmer @G33\t,isAttachedToDevice @H33\t,hasSpecies @I33\t,exhibits @J33\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A34 Annotations: rdfs:label @A34,rdfs:comment @A34\tTypes: @B34\tFacts: \tisLocatedAtFarm @E34\t,hasCurrentLocation @F34\t,isOwnedByFarmer @G34\t,isAttachedToDevice @H34\t,hasSpecies @I34\t,exhibits @J34\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A35 Annotations: rdfs:label @A35,rdfs:comment @A35\tTypes: @B35\tFacts: \tisLocatedAtFarm @E35\t,hasCurrentLocation @F35\t,isOwnedByFarmer @G35\t,isAttachedToDevice @H35\t,hasSpecies @I35\t,exhibits @J35\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A36 Annotations: rdfs:label @A36,rdfs:comment @A36\tTypes: @B36\tFacts: \tisLocatedAtFarm @E36\t,hasCurrentLocation @F36\t,isOwnedByFarmer @G36\t,isAttachedToDevice @H36\t,hasSpecies @I36\t,exhibits @J36\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A37 Annotations: rdfs:label @A37,rdfs:comment @A37\tTypes: @B37\tFacts: \tisLocatedAtFarm @E37\t,hasCurrentLocation @F37\t,isOwnedByFarmer @G37\t,isAttachedToDevice @H37\t,hasSpecies @I37\t,exhibits @J37\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A38 Annotations: rdfs:label @A38,rdfs:comment @A38\tTypes: @B38\tFacts: \tisLocatedAtFarm @E38\t,hasCurrentLocation @F38\t,isOwnedByFarmer @G38\t,isAttachedToDevice @H38\t,hasSpecies @I38\t,exhibits @J38\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A39 Annotations: rdfs:label @A39,rdfs:comment @A39\tTypes: @B39\tFacts: \tisLocatedAtFarm @E39\t,hasCurrentLocation @F39\t,isOwnedByFarmer @G39\t,isAttachedToDevice @H39\t,hasSpecies @I39\t,exhibits @J39\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A40 Annotations: rdfs:label @A40,rdfs:comment @A40\tTypes: @B40\tFacts: \tisLocatedAtFarm @E40\t,hasCurrentLocation @F40\t,isOwnedByFarmer @G40\t,isAttachedToDevice @H40\t,hasSpecies @I40\t,exhibits @J40\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A41 Annotations: rdfs:label @A41,rdfs:comment @A41\tTypes: @B41\tFacts: \tisLocatedAtFarm @E41\t,hasCurrentLocation @F41\t,isOwnedByFarmer @G41\t,isAttachedToDevice @H41\t,hasSpecies @I41\t,exhibits @J41\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "Individual: @A42 Annotations: rdfs:label @A42,rdfs:comment @A42 Types: @B42 Facts: isLocatedAtFarm @E42,hasCurrentLocation @F42,isOwnedByFarmer @G42,isAttachedToDevice @H42,hasSpecies @I42,exhibits @J42",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A43 Annotations: rdfs:label @A43,rdfs:comment @A43\tTypes: @B43\tFacts: \t\tisLocatedAtFarm @E43\t,hasCurrentLocation @F43\t,isOwnedByFarmer @G43\t,isAttachedToDevice @H43\t,hasSpecies @I43\t,exhibits @J43\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "Individual: @A44 Annotations: rdfs:label @A44,rdfs:comment @A44 Types: @B44 Facts: isLocatedAtFarm @E44,hasCurrentLocation @F44,isOwnedByFarmer @G44,isAttachedToDevice @H44,hasSpecies @I44,exhibits @J44",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "Individual: @A45 Annotations: rdfs:label @A45,rdfs:comment @A45 Types: @B45 Facts: isLocatedAtFarm @E45,hasCurrentLocation @F45,isOwnedByFarmer @G45,isAttachedToDevice @H45,hasSpecies @I45,exhibits @J45",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A45 Annotations: rdfs:label @A45,rdfs:comment @A45\tTypes: @B45\tFacts: \t\tisLocatedAtFarm @E45\t,hasCurrentLocation @F45\t,isOwnedByFarmer @G45\t,isAttachedToDevice @H45\t,hasSpecies @I45\t,exhibits @J45\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A46 Annotations: rdfs:label @A46,rdfs:comment @A46\tTypes: @B46\tFacts: \t\tisLocatedAtFarm @E46\t,hasCurrentLocation @F46\t,isOwnedByFarmer @G46\t,isAttachedToDevice @H46\t,hasSpecies @I46\t,exhibits @J46\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "Individual: @A47 Annotations: rdfs:label @A47,rdfs:comment @A47 Types: @B47 Facts: isLocatedAtFarm @E47,hasCurrentLocation @F47,isOwnedByFarmer @G47,isAttachedToDevice @H47,hasSpecies @I47,exhibits @J47",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "Individual: @A48 Annotations: rdfs:label @A48,rdfs:comment @A48 Types: @B48 Facts: isLocatedAtFarm @E48,hasCurrentLocation @F48,isOwnedByFarmer @G48,isAttachedToDevice @H48,hasSpecies @I48,exhibits @J48",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A49 Annotations: rdfs:label @A49,rdfs:comment @A49\tTypes: @B49\tFacts: \t\tisLocatedAtFarm @E49\t,hasCurrentLocation @F49\t,isOwnedByFarmer @G49\t,isAttachedToDevice @H49\t,hasSpecies @I49\t,exhibits @J49\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A50 Annotations: rdfs:label @A50,rdfs:comment @A50\tTypes: @B50\tFacts: \t\tisLocatedAtFarm @E50\t,hasCurrentLocation @F50\t,isOwnedByFarmer @G50\t,isAttachedToDevice @H50\t,hasSpecies @I50\t,exhibits @J50\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A51 Annotations: rdfs:label @A51,rdfs:comment @A51\tTypes: @B51\tFacts: \t\tisLocatedAtFarm @E51\t,hasCurrentLocation @F51\t,isOwnedByFarmer @G51\t,isAttachedToDevice @H51\t,hasSpecies @I51\t,exhibits @J51\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A52 Annotations: rdfs:label @A52,rdfs:comment @A52\tTypes: @B52\tFacts: \t\tisLocatedAtFarm @E52\t,hasCurrentLocation @F52\t,isOwnedByFarmer @G52\t,isAttachedToDevice @H52\t,hasSpecies @I52\t,exhibits @J52\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A53 Annotations: rdfs:label @A53,rdfs:comment @A53\tTypes: @B53\tFacts: \t\tisLocatedAtFarm @E53\t,hasCurrentLocation @F53\t,isOwnedByFarmer @G53\t,isAttachedToDevice @H53\t,hasSpecies @I53\t,exhibits @J53\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A54 Annotations: rdfs:label @A54,rdfs:comment @A54\tTypes: @B54\tFacts: \t\tisLocatedAtFarm @E54\t,hasCurrentLocation @F54\t,isOwnedByFarmer @G54\t,isAttachedToDevice @H54\t,hasSpecies @I54\t,exhibits @J54\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A55 Annotations: rdfs:label @A55,rdfs:comment @A55 \tTypes: @B55\tFacts: \t\tisLocatedAtFarm @E55\t,hasCurrentLocation @F55\t,isOwnedByFarmer @G55\t,isAttachedToDevice @H55\t,hasSpecies @I55\t,exhibits @J55\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A56 Annotations: rdfs:label @A56,rdfs:comment @A56 \tTypes: @B56\tFacts: \t\tisLocatedAtFarm @E56\t,hasCurrentLocation @F56\t,isOwnedByFarmer @G56\t,isAttachedToDevice @H56\t,hasSpecies @I56\t,exhibits @J56\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A57 Annotations: rdfs:label @A57,rdfs:comment @A57 \tTypes: @B57\tFacts: \t\tisLocatedAtFarm @E57\t,hasCurrentLocation @F57\t,isOwnedByFarmer @G57\t,isAttachedToDevice @H57\t,hasSpecies @I57\t,exhibits @J57\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A58 Annotations: rdfs:label @A58,rdfs:comment @A58 \tTypes: @B58\tFacts: \t\tisLocatedAtFarm @E58\t,hasCurrentLocation @F58\t,isOwnedByFarmer @G58\t,isAttachedToDevice @H58\t,hasSpecies @I58\t,exhibits @J58\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A59 Annotations: rdfs:label @A59,rdfs:comment @A59 \tTypes: @B59\tFacts: \t\tisLocatedAtFarm @E59\t,hasCurrentLocation @F59\t,isOwnedByFarmer @G59\t,isAttachedToDevice @H59\t,hasSpecies @I59\t,exhibits @J59\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A60 Annotations: rdfs:label @A60,rdfs:comment @A60 \tTypes: @B60\tFacts: \t\tisLocatedAtFarm @E60\t,hasCurrentLocation @F60\t,isOwnedByFarmer @G60\t,isAttachedToDevice @H60\t,hasSpecies @I60\t,exhibits @J60\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A61 Annotations: rdfs:label @A61,rdfs:comment @A61 \tTypes: @B61\tFacts: \t\tisLocatedAtFarm @E61\t,hasCurrentLocation @F61\t,isOwnedByFarmer @G61\t,isAttachedToDevice @H61\t,hasSpecies @I61\t,exhibits @J61\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A62 Annotations: rdfs:label @A62,rdfs:comment @A62 \tTypes: @B62\tFacts: \t\tisLocatedAtFarm @E62\t,hasCurrentLocation @F62\t,isOwnedByFarmer @G62\t,isAttachedToDevice @H62\t,hasSpecies @I62\t,exhibits @J62\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A63 Annotations: rdfs:label @A63,rdfs:comment @A63 \tTypes: @B63\tFacts: \t\tisLocatedAtFarm @E63\t,hasCurrentLocation @F63\t,isOwnedByFarmer @G63\t,isAttachedToDevice @H63\t,hasSpecies @I63\t,exhibits @J63\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A64 Annotations: rdfs:label @A64,rdfs:comment @A64 \tTypes: @B64\tFacts: \t\tisLocatedAtFarm @E64\t,hasCurrentLocation @F64\t,isOwnedByFarmer @G64\t,isAttachedToDevice @H64\t,hasSpecies @I64\t,exhibits @J64\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A65 Annotations: rdfs:label @A65,rdfs:comment @A65 \tTypes: @B65\tFacts: \t\tisLocatedAtFarm @E65\t,hasCurrentLocation @F65\t,isOwnedByFarmer @G65\t,isAttachedToDevice @H65\t,hasSpecies @I65\t,exhibits @J65\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A66 Annotations: rdfs:label @A66,rdfs:comment @A66 \tTypes: @B66\tFacts: \t\tisLocatedAtFarm @E66\t,hasCurrentLocation @F66\t,isOwnedByFarmer @G66\t,isAttachedToDevice @H66\t,hasSpecies @I66\t,exhibits @J66\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A67 Annotations: rdfs:label @A67,rdfs:comment @A67 \tTypes: @B67\tFacts: \t\tisLocatedAtFarm @E67\t,hasCurrentLocation @F67\t,isOwnedByFarmer @G67\t,isAttachedToDevice @H67\t,hasSpecies @I67\t,exhibits @J67\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A68 Annotations: rdfs:label @A68,rdfs:comment @A68 \tTypes: @B68\tFacts: \t\tisLocatedAtFarm @E68\t,hasCurrentLocation @F68\t,isOwnedByFarmer @G68\t,isAttachedToDevice @H68\t,hasSpecies @I68\t,exhibits @J68\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A69 Annotations: rdfs:label @A69,rdfs:comment @A69 \tTypes: @B69\tFacts: \t\tisLocatedAtFarm @E69\t,hasCurrentLocation @F69\t,isOwnedByFarmer @G69\t,isAttachedToDevice @H69\t,hasSpecies @I69\t,exhibits @J69\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A70 Annotations: rdfs:label @A70,rdfs:comment @A70 \tTypes: @B70\tFacts: \t\tisLocatedAtFarm @E70\t,hasCurrentLocation @F70\t,isOwnedByFarmer @G70\t,isAttachedToDevice @H70\t,hasSpecies @I70\t,exhibits @J70\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A71 Annotations: rdfs:label @A71,rdfs:comment @A71 \tTypes: @B71\tFacts: \t\tisLocatedAtFarm @E71\t,hasCurrentLocation @F71\t,isOwnedByFarmer @G71\t,isAttachedToDevice @H71\t,hasSpecies @I71\t,exhibits @J71\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A72 Annotations: rdfs:label @A72,rdfs:comment @A72 \tTypes: @B72\tFacts: \t\tisLocatedAtFarm @E72\t,hasCurrentLocation @F72\t,isOwnedByFarmer @G72\t,isAttachedToDevice @H72\t,hasSpecies @I72\t,exhibits @J72\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A73 Annotations: rdfs:label @A73,rdfs:comment @A73 \tTypes: @B73\tFacts: \t\tisLocatedAtFarm @E73\t,hasCurrentLocation @F73\t,isOwnedByFarmer @G73\t,isAttachedToDevice @H73\t,hasSpecies @I73\t,exhibits @J73\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A74 Annotations: rdfs:label @A74,rdfs:comment @A74 \tTypes: @B74\tFacts: \t\tisLocatedAtFarm @E74\t,hasCurrentLocation @F74\t,isOwnedByFarmer @G74\t,isAttachedToDevice @H74\t,hasSpecies @I74\t,exhibits @J74\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A75 Annotations: rdfs:label @A75,rdfs:comment @A75 \tTypes: @B75\tFacts: \t\tisLocatedAtFarm @E75\t,hasCurrentLocation @F75\t,isOwnedByFarmer @G75\t,isAttachedToDevice @H75\t,hasSpecies @I75\t,exhibits @J75\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A76 Annotations: rdfs:label @A76,rdfs:comment @A76 \tTypes: @B76\tFacts: \t\tisLocatedAtFarm @E76\t,hasCurrentLocation @F76\t,isOwnedByFarmer @G76\t,isAttachedToDevice @H76\t,hasSpecies @I76\t,exhibits @J76\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A77 Annotations: rdfs:label @A77,rdfs:comment @A77\tTypes: @B77\tFacts: \t\tisLocatedAtFarm @E77\t,hasCurrentLocation @F77\t,isOwnedByFarmer @G77\t,isAttachedToDevice @H77\t,hasSpecies @I77\t,exhibits @J77\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A78 Annotations: rdfs:label @A78,rdfs:comment @A78 \tTypes: @B78\tFacts: \t\tisLocatedAtFarm @E78\t,hasCurrentLocation @F78\t,isOwnedByFarmer @G78\t,isAttachedToDevice @H78\t,hasSpecies @I78\t,exhibits @J78\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A79 Annotations: rdfs:label @A79,rdfs:comment @A79 \tTypes: @B79\tFacts: \t\tisLocatedAtFarm @E79\t,hasCurrentLocation @F79\t,isOwnedByFarmer @G79\t,isAttachedToDevice @H79\t,hasSpecies @I79\t,exhibits @J79\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A80 Annotations: rdfs:label @A80,rdfs:comment @A80 \tTypes: @B80\tFacts: \t\tisLocatedAtFarm @E80\t,hasCurrentLocation @F80\t,isOwnedByFarmer @G80\t,isAttachedToDevice @H80\t,hasSpecies @I80\t,exhibits @J80\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A81 Annotations: rdfs:label @A81,rdfs:comment @A81 \tTypes: @B81\tFacts: \t\tisLocatedAtFarm @E81\t,hasCurrentLocation @F81\t,isOwnedByFarmer @G81\t,isAttachedToDevice @H81\t,hasSpecies @I81\t,exhibits @J81\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A82 Annotations: rdfs:label @A82,rdfs:comment @A82 \tTypes: @B82\tFacts: \t\tisLocatedAtFarm @E82\t,hasCurrentLocation @F82\t,isOwnedByFarmer @G82\t,isAttachedToDevice @H82\t,hasSpecies @I82\t,exhibits @J82\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "Individual: @A83 Annotations: rdfs:label @A83,rdfs:comment @A83  Types: @B83 Facts: isLocatedAtFarm @E83,hasCurrentLocation @F83,isOwnedByFarmer @G83,isAttachedToDevice @H83,hasSpecies @I89,exhibits @J83",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "Individual: @A84 Annotations: rdfs:label @A84,rdfs:comment @A84  Types: @B84 Facts: isLocatedAtFarm @E84,hasCurrentLocation @F84,isOwnedByFarmer @G84,isAttachedToDevice @H84,hasSpecies @I84,exhibits @J84",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A85 Annotations: rdfs:label @A85,rdfs:comment @A85 \tTypes: @B85\tFacts: \t\tisLocatedAtFarm @E85\t,hasCurrentLocation @F85\t,isOwnedByFarmer @G85\t,isAttachedToDevice @H85\t,hasSpecies @I85\t,exhibits @J85\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A86 Annotations: rdfs:label @A86,rdfs:comment @A86 \tTypes: @B86\tFacts: \t\tisLocatedAtFarm @E86\t,hasCurrentLocation @F86\t,isOwnedByFarmer @G86\t,isAttachedToDevice @H86\t,hasSpecies @I86\t,exhibits @J86\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A87 Annotations: rdfs:label @A87,rdfs:comment @A87 \tTypes: @B87\tFacts: \t\tisLocatedAtFarm @E87\t,hasCurrentLocation @F87\t,isOwnedByFarmer @G87\t,isAttachedToDevice @H87\t,hasSpecies @I87\t,exhibits @J87\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A88 Annotations: rdfs:label @A88,rdfs:comment @A88 \tTypes: @B88\tFacts: \t\tisLocatedAtFarm @E88\t,hasCurrentLocation @F88\t,isOwnedByFarmer @G88\t,isAttachedToDevice @H88\t,hasSpecies @I88\t,exhibits @J88\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "Individual: @A89 Annotations: rdfs:label @A89,rdfs:comment @A89  Types: @B89 Facts: isLocatedAtFarm @E89,hasCurrentLocation @F89,isOwnedByFarmer @G89,isAttachedToDevice @H89,hasSpecies @I89,exhibits @J89",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "Individual: @A90 Annotations: rdfs:label @A90\tTypes: @B90\tFacts: \t\tisLocatedAtFarm @E90\t,hasCurrentLocation @F90\t,isOwnedByFarmer @G90\t,isAttachedToDevice @H90\t,hasSpecies @I90\t,exhibits @J90",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A91 Annotations: rdfs:label @A91,rdfs:comment @A91\tTypes: @B91\tFacts: \t\tisLocatedAtFarm @E91\t,hasCurrentLocation @F91\t,isOwnedByFarmer @G91\t,isAttachedToDevice @H91\t,hasSpecies @I91\t,exhibits @J91\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A92 Annotations: rdfs:label @A92,rdfs:comment @A92\tTypes: @B92\tFacts: \t\tisLocatedAtFarm @E92\t,hasCurrentLocation @F92\t,isOwnedByFarmer @G92\t,isAttachedToDevice @H92\t,hasSpecies @I92\t,exhibits @J92\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A93 Annotations: rdfs:label @A93,rdfs:comment @A93,rdfs:comment @A93\tTypes: @B93\tFacts: \t\tisLocatedAtFarm @E93\t,hasCurrentLocation @F93\t,isOwnedByFarmer @G93\t,isAttachedToDevice @H93\t,hasSpecies @I93\t,exhibits @J93\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A94 Annotations: rdfs:label @A94,rdfs:comment @A94\tTypes: @B94\tFacts: \t\tisLocatedAtFarm @E94\t,hasCurrentLocation @F94\t,isOwnedByFarmer @G94\t,isAttachedToDevice @H94\t,hasSpecies @I94\t,exhibits @J94\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A95 Annotations: rdfs:label @A95,rdfs:comment @A95\tTypes: @B95\tFacts: \t\tisLocatedAtFarm @E95\t,hasCurrentLocation @F95\t,isOwnedByFarmer @G95\t,isAttachedToDevice @H95\t,hasSpecies @I95\t,exhibits @J95\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A96 Annotations: rdfs:label @A96,rdfs:comment @A96\tTypes: @B96\tFacts: \t\tisLocatedAtFarm @E96\t,hasCurrentLocation @F96\t,isOwnedByFarmer @G96\t,isAttachedToDevice @H96\t,hasSpecies @I96\t,exhibits @J96\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A97 Annotations: rdfs:label @A97,rdfs:comment @A97\tTypes: @B97\tFacts: \t\tisLocatedAtFarm @E97\t,hasCurrentLocation @F97\t,isOwnedByFarmer @G97\t,isAttachedToDevice @H97\t,hasSpecies @I97\t,exhibits @J97\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A98 Annotations: rdfs:label @A98,rdfs:comment @A98\tTypes: @B98\tFacts: \t\tisLocatedAtFarm @E98\t,hasCurrentLocation @F98\t,isOwnedByFarmer @G98\t,isAttachedToDevice @H98\t,hasSpecies @I98\t,exhibits @J98\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A99 Annotations: rdfs:label @A99,rdfs:comment @A99\tTypes: @B99\tFacts: \t\tisLocatedAtFarm @E99\t,hasCurrentLocation @F99\t,isOwnedByFarmer @G99\t,isAttachedToDevice @H99\t,hasSpecies @I99\t,exhibits @J99\t",
+    "active": true
+  },
+  {
+    "sheetName": "Data",
+"startColumn": "A",
+"endColumn": "L",
+"startRow": "2",
+"endRow": "+",
+"comment": "",
+"rule": "\tIndividual: @A100 Annotations: rdfs:label @A100,rdfs:comment @A100\tTypes: @B100\tFacts: \t\tisLocatedAtFarm @E100\t,hasCurrentLocation @F100\t,isOwnedByFarmer @G100\t,isAttachedToDevice @H100\t,hasSpecies @I100\t,exhibits @J100\t",
+    "active": true
+  }
+]
+}

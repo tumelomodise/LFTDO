@@ -218,5 +218,5 @@ For questions, issues, or collaboration:
 
 🏛️ Department of Computer Science, Tshwane University of Technology(TUT)
 
-🔗 [AgroPortal submission link — pending]
+🔗 AgroPortal submission link — (https://agroportal.eu/ontologies/LFTDO)
 

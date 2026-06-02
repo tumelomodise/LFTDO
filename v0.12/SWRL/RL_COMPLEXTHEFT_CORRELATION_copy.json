@@ -1,0 +1,19 @@
+LFTDO3:Livestock(?cattle) ^ 
+LFTDO3:Location(?loc) ^ LFTDO3:causesTheftEvent(?i3, ?e) ^ 
+LFTDO3:exhibitsBehaviour(?cattle, ?r) ^ LFTDO3:hasTheftIndicator(?hc, ?i2) ^ 
+LFTDO3:hasTheftIndicator(?envcond, ?i3) ^ LFTDO3:causesTheftEvent(?i2, ?e) ^ 
+LFTDO3:hasCurrentBehaviourState(?r, ?crs) ^ LFTDO3:experienceEnvironmentalCondition(?loc, ?envcond) ^ 
+LFTDO3:causesTheftEvent(?i1, ?e) ^ LFTDO3:Farmer(?f) ^ 
+LFTDO3:DetectionMethod(?sys) ^ LFTDO3:EnvironmentalCondition(?envcond) ^ 
+LFTDO3:Running(?r) ^ LFTDO3:isOwnedByFarmer(?cattle, ?f) ^ 
+LFTDO3:hasTheftIndicator(?crs, ?i1) ^ LFTDO3:hasCurrentLocation(?cattle, ?loc) ^ 
+LFTDO3:AbnormalState(?crs) ^ LFTDO3:TheftIndicator(?i2) ^ LFTDO3:TheftIndicator(?i1) ^ 
+LFTDO3:hasHealthStatus(?cattle, ?hc) ^ LFTDO3:TheftIndicator(?i3) ^ LFTDO3:HealthCondition(?hc) ^ 
+LFTDO3:TheftEvent(?e) 
+
+
+
+-> LFTDO3:InferredComplexTheftEvent(?e, LFTDO3:ComplexTheftEvent001) ^ 
+LFTDO3:affectsLivestock(?e, ?cattle) ^ 
+LFTDO3:hasTheftEventReport(?e, "Complex Theft Event detected: Multiple biological indicators verified") ^ 
+LFTDO3:TheftEvent(?e) ^ LFTDO3:hasTheftEventStatus(?e, "Investigation")

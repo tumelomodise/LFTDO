@@ -1,0 +1,4 @@
+LFTDO3:Livestock(?ls) ^ LFTDO3:hasCurrentLocation(?ls, ?isLocatedIn) ^ 
+LFTDO3:Location(?isLocatedIn) ^ LFTDO3:isAdjacentTo(?ls, ?b) -> 
+LFTDO3:isNearBoundary(?ls, ?b) ^ 
+LFTDO3:inferredByRule(?ls, "RL_PROXIMITY_INFERENCE")

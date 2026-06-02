@@ -1,0 +1,6 @@
+LFTDO3:exhibits(?ls, ?isolation) ^ LFTDO3:Restless(?restless) ^ 
+LFTDO3:Location(?sameLocation) ^ LFTDO3:Isolation(?isolation) ^ 
+LFTDO3:exhibits(?ls, ?restless) ^ LFTDO3:Livestock(?ls) ^ 
+LFTDO3:hasCurrentLocation(?ls, ?sameLocation) -> 
+LFTDO3:isSuspectedOfTheft(?ls, true) ^ 
+inferredByRule(?ls,"RL_SUSPICIOUS_RESTLESS_INQUIRY")

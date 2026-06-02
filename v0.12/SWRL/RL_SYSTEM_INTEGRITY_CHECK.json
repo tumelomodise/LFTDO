@@ -1,0 +1,7 @@
+transitionTo(?s, UnknownState) \wedge hasAlert(?s, "DeviceOfflineWarning")$
+
+
+LFTDO3:Device(?d) ^ LFTDO3:hasPowerStatus(?d, "Off") OR LFTDO3:isDeviceOnline(?d, false) ^ LFTDO3:hasCurrentLocation(?d, ?Restricted) ^ 
+LFTDO3:Location(?Restricted) ^ LFTDO3:hasCurrentStatus(?d, ?statusEventUpd) ^ 
+LFTDO3:StatusUpdateEvent(?statusEventUpd) ^ LFTDO3:hasStatus(?statusEventUpd, "Pending")-> LFTDO3:hasTheftIndicator(?d, LFTDO3:SabotageTheftIndicator001) ^
+inferredByRule(LFTDO3:SabotageTheftIndicator001,"RL_SYSTEM_INTEGRITY_CHECK") ^ LFTDO3:hasSystemStatus(?d,"DeviceOfflineWarning")

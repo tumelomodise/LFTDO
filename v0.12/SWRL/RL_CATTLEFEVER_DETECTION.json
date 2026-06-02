@@ -1,0 +1,14 @@
+LFTDO3:Livestock(?ls) ^ LFTDO3:exhibits(?ls, ?anyBehaviour) ^ LFTDO3:Behaviour(?anyBehaviour) ^
+LFTDO3:isAttachedToDevice(?ls, ?dev) ^ LFTDO3:Device(?dev) ^ 
+LFTDO3:hasComponent(?dev, ?sensorComp) ^ LFTDO3:Sensor(?sensorComp) ^ 
+LFTDO3:generatesData(?sensorComp, ?sensorData) ^ LFTDO3:SensorData(?sensorData) ^ 
+LFTDO3:hasValue(?sensorData, ?cTemp) ^ LFTDO3:hasUoM(?sensorData, "Celsius") ^
+LFTDO3:hasCurrentBehaviourState(?anyBehaviour, ?NormState) ^ 
+LFTDO3:BehaviourState(?NormState) ^ LFTDO3:hasBaseLineTemp(?NormState, ?baseTemp) ^ 
+swrlb:greaterThanOrEqual(?cTemp, ?baseTemp)
+ -> LFTDO3:transitionsTo(?NormState, LFTDO3:UnusualHealthState) ^ 
+LFTDO3:triggers(LFTDO3:UnusualHealthState,LFTDO3:HighHealthAlertEvent) ^  
+LFTDO3:inferredByRule(LFTDO3:UnusualHealthState, "RL_LIVESTOCK_FEVER_DETECTION")
+
+
+

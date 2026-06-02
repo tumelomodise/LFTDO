@@ -1,0 +1,7 @@
+swrlb:subtract(?result1, ?sp, ?bv) ^ swrlb:multiply(?result3, ?result2, 100) ^
+ LFTDO3:hasSpeed(?ggs, ?sp) ^ swrlb:divide(?result2, ?result1, ?sp) ^ 
+ LFTDO3:GoatGrazingState(?ggs) ^ swrlb:greaterThan(?result3, ?dv) ^ 
+ LFTDO3:hasBehaviourStateDeviation(?ggs, ?dv) ^ 
+ LFTDO3:hasBehaviourStateBaselineValues(?ggs, ?bv) -> 
+ LFTDO3:transitionsTo(?ggs, LFTDO3:UnsualGoatMovement) ^ 
+ LFTDO3:inferredByRule(LFTDO3:UnsualGoatMovement, "RL_STATE_ABNORMAL_TRANSITION")

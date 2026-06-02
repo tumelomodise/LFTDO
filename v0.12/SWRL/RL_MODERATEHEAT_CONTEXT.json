@@ -1,0 +1,6 @@
+LFTDO3:OccurrsAtLocation(?t, ?Loc) ^ LFTDO3:hasEnvValue(?t, ?v) ^ 
+swrlb:lessThanOrEqual(?v, 34.9) ^ LFTDO3:AmbientTemperature(?t) ^ 
+LFTDO3:hasTemporalContext(?t, "DayTime") ^ LFTDO3:Location(?Loc) -> 
+LFTDO3:ModerateAmbientTemperature(?t) ^ 
+LFTDO3:isCharacterisedBy(LFTDO3:DayAmbientTemp001, LFTDO3:LowEnvTheftIndicator001) ^ 
+LFTDO3:inferredByRule(LFTDO3:LowEnvTheftIndicator001, "RL_MODERATEHEAT_CONTEXT")

@@ -1,0 +1,19 @@
+LFTDO3:Livestock(?s) ^ LFTDO3:exhibits(?s, ?resting) ^
+LFTDO3:Behaviour(?resting) ^ LFTDO3:hasDuration(?resting, ?Duration) ^
+LFTDO3:hasCurrentBehaviourState(?resting, ?NormState) ^
+LFTDO3:BehaviourState(?NormState) ^ 
+LFTDO3:hasBehaviourStateContext(?NormState, ?context) ^ 
+LFTDO3:hasBehaviourStateBaselineValues(?NormState, ?baseSignalStrength)^ 
+LFTDO3:hasDurationBaseline(?NormState, ?baseDuration) ^ 
+LFTDO3:isAttachedToDevice(?s, ?dev) ^ LFTDO3:Device(?dev) ^
+LFTDO3:hasComponent(?dev,?sensorComp) ^ LFTDO3:Sensor(?sensorComp) ^
+LFTDO3:generatesData(?sensorComp,?sensorData)  ^ LFTDO3:SensorData(?sensorData) ^
+LFTDO3:hasValue(?sensorData,?SignalStrength) ^ LFTDO3:hasUoM(?sensorData,"dBm") ^
+swrlb:greaterThan(?SignalStrength, ?baseSignalStrength) ^ 
+swrlb:greaterThan(?Duration, ?baseDuration) ^ 
+LFTDO3:isOutsideGeofence(?s, false) -> LFTDO3:hasBehaviourStateContext(LFTDO3:HighSpeedTheftState, ?context) ^ 
+LFTDO3:transitionsTo(?NormState, LFTDO3:HighSpeedTheftState) ^ 
+LFTDO3:hasHealthIndicator(LFTDO3:HighSpeedTheftState, LFTDO3:HighSpeedTheftIndicator) ^ 
+LFTDO3:triggers(LFTDO3:HighSpeedTheftState,LFTDO3:HighSpeedTheftEvent) ^  
+inferredByRule(LFTDO3:HighSpeedTheftState,"RL_FENCE_BREACH_THEFT_SIGNAL")
+

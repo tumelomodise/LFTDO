@@ -1,0 +1,5 @@
+LFTDO3:Livestock(?s) ^ LFTDO3:isAttachedToDevice(?s, ?dev) ^ LFTDO3:Device(?dev) ^
+ LFTDO3:hasLatitude(?dev, ?lat) ^ LFTDO3:hasCurrentLocation(?s, ?currLoc) ^
+ LFTDO3:Location(?currLoc) ^ LFTDO3:hasMinLat(?currLoc, ?MinLat) ^
+ swrlb:lessThan(?lat, ?MinLat) -> LFTDO3:isOutsideGeofence(?s, true) ^
+ LFTDO3:inferredByRule(?s, "RL_GEOFENCE_SOUTH")

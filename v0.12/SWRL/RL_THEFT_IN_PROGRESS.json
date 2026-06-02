@@ -1,0 +1,13 @@
+LFTDO3:Livestock(?s) ^ LFTDO3:exhibits(?s, ?running) ^ LFTDO3:Behaviour(?running) ^ 
+LFTDO3:hasDuration(?running, ?duration) ^ LFTDO3:isAttachedToDevice(?s, ?dev) ^ LFTDO3:Device(?dev) ^ 
+LFTDO3:hasComponent(?dev, ?sensorComp) ^ LFTDO3:Sensor(?sensorComp) ^ 
+LFTDO3:generatesData(?sensorComp, ?sensorData) ^ LFTDO3:SensorData(?sensorData) ^ 
+LFTDO3:hasValue(?sensorData, ?speed) ^ LFTDO3:hasUoM(?sensorData, "m/s") ^ 
+LFTDO3:hasCurrentBehaviourState(?running, ?NormSheeprunningState) ^ 
+LFTDO3:BehaviourState(?NormSheeprunningState) ^ LFTDO3:hasBehaviourStateBaselineValues(?NormSheeprunningState, ?baseSpeed) ^ 
+LFTDO3:hasDurationBaseline(?NormSheeprunningState, ?baseDuration) ^ swrlb:greaterThan(?speed, ?baseSpeed) ^ 
+LFTDO3:isOutsideGeofence(?s, true) ^ LFTDO3:hasCurrentStatus(?s, ?statusEventUpd) ^ 
+LFTDO3:StatusUpdateEvent(?statusEventUpd) ^ LFTDO3:hasStatus(?statusEventUpd, "Pending") -> 
+LFTDO3:transitionsTo(?NormSheeprunningState, LFTDO3:HighSpeedTheftState) ^ 
+LFTDO3:triggers(LFTDO3:HighSpeedTheftState,LFTDO3:HighSpeedTheftEvent) ^  
+LFTDO3:inferredByRule(LFTDO3:HighSpeedTheftState, "RL_THEFT_IN_PROGRESS")

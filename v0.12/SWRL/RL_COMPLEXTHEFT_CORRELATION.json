@@ -1,0 +1,19 @@
+LFTDO3:Livestock(?cattle) ^ LFTDO3:exhibits(?cattle, ?grazing) ^ LFTDO3:Grazing(?grazing) ^
+LFTDO3:hasCurrentBehaviourState(?grazing, ?normalState) ^ LFTDO3:CattleGrazingState(?normalState) ^ 
+LFTDO3:hasBehaviourStateBaselineValues(?normalState, ?baseTempV) ^ 
+LFTDO3:hasBehaviourStateDeviation(?normalState, ?baseDiv) ^
+
+LFTDO3:isAttachedToDevice(?cattle, ?dev) ^ LFTDO3:Device(?dev) ^ 
+LFTDO3:hasComponent(?dev, ?sensorComp) ^ LFTDO3:Sensor(?sensorComp) ^ 
+LFTDO3:generatesData(?sensorComp, ?sensorData) ^ LFTDO3:SensorData(?sensorData) ^ 
+LFTDO3:hasValue(?sensorData, ?cSpeed) ^ LFTDO3:hasUoM(?sensorData, "km/h") ^
+
+swrlb:subtract(?speedDif, ?cSpeed, ?baseV) ^ 
+swrlb:divide(?speedFraction, ?speedDif, ?cSpeed)
+swrlb:multiply(?speedDifPercentage, ?speedFraction, 100) ^ 
+swrlb:greaterThan(?speedDifPercentage, ?baseDiv) ^
+
+-> LFTDO3:transitionsTo(?normalState, LFTDO3:HighSpeedTheftState) ^
+LFTDO3:isCharacterisedBy(LFTDO3:HighSpeedTheftState, LFTDO3:HighSpeedTheftIndicator) ^ 
+LFTDO3:hasSystemStatus(?dev,"Complex Theft Event detected: Multiple biological indicators to be verified") ^ 
+LFTDO3:inferredByRule(LFTDO3:HighSpeedTheftState, "RL_COMPLEXTHEFT_CORRELATION")

@@ -1,0 +1,9 @@
+#Combines "OutsideFence" status with "AbnormalState" to confirm an active theft.
+LFTDO3:hasBehaviourStateContext(?NormState, ?context) ^ LFTDO3:hasCurrentBehaviourState(?running, ?NormState) ^ 
+LFTDO3:isAttachedToDevice(?s, ?dev) ^ LFTDO3:BehaviourState(?NormState) ^ LFTDO3:Livestock(?s) ^ swrlb:greaterThan(?Duration, ?baseDuration) ^ 
+LFTDO3:exhibits(?s, ?running) ^ swrlb:greaterThan(?Speed, ?baseSpeed) ^ LFTDO3:hasDurationBaseline(?NormState, ?baseDuration) ^ LFTDO3:Behaviour(?running) ^ 
+LFTDO3:hasRunningSpeed(?s, ?Speed) ^ LFTDO3:hasBehaviourStateBaselineValues(?NormState, ?baseSpeed) ^ LFTDO3:Device(?dev) ^ 
+LFTDO3:isOutsideGeofence(?s, true) ^ LFTDO3:hasDuration(?running, ?Duration) -> LFTDO3:isCharacterisedBy(LFTDO3:UnusualMovement, LFTDO3:HighSpeedTheftIndicator) ^ 
+LFTDO3:transitionsTo(?NormState, LFTDO3:UnusualMovement) ^ LFTDO3:hasBehaviourStateContext(LFTDO3:UnusualMovement, ?context) ^ 
+LFTDO3:triggers(LFTDO3:UnusualMovement, LFTDO3:HighTheftEvent) ^ 
+LFTDO3:inferredByRule(LFTDO3:UnusualMovement, "RL_FENCE_BREACH_THEFT")

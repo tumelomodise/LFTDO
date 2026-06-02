@@ -1,0 +1,8 @@
+swrlb:subtract(?result1, ?sp, ?bv) ^ swrlb:multiply(?result3, ?result2, 100) ^ 
+LFTDO3:hasCurrentBehaviourState(?r, ?crs) ^ LFTDO3:CattleRunningState(?crs) ^ 
+swrlb:divide(?result2, ?result1, ?sp) ^ LFTDO3:hasBehaviourStateDeviation(?crs, ?dv) ^ 
+LFTDO3:exhibits(?ls, ?r) ^ swrlb:greaterThan(?result3, ?dv) ^ 
+LFTDO3:hasBehaviourStateBaselineValues(?crs, ?bv) ^ LFTDO3:hasSpeed(?crs, ?sp) ^ 
+LFTDO3:Livestock(?ls) ^ LFTDO3:Running(?r) -> LFTDO3:transitionsTo(?crs, LFTDO3:UnusualCowMovement) ^ 
+LFTDO3:isCharacterisedBy(LFTDO3:UnusualCowMovement, LFTDO3:HighCattleBehaviourTheftIndicator002) ^ 
+LFTDO3:inferredByRule(LFTDO3:UnusualCowMovement, "RL_BEHAVIOUR_DEVIATION")

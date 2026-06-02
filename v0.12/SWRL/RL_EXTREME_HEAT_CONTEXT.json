@@ -1,0 +1,6 @@
+LFTDO3:OccurrsAtLocation(?t, ?Loc) ^ LFTDO3:hasEnvValue(?t, ?v) ^ 
+LFTDO3:AmbientTemperature(?t) ^ swrlb:greaterThanOrEqual(?v, 35) ^ 
+LFTDO3:hasTemporalContext(?t, "DayTime") ^ LFTDO3:Location(?Loc) -> 
+LFTDO3:ExtremeHeat(?t) ^ LFTDO3:ExtremeDayTimeHeat(?t) ^ 
+LFTDO3:isCharacterisedBy(LFTDO3:DayAmbientTemp001, LFTDO3:HighEnvTheftIndicator001) ^ 
+LFTDO3:inferredByRule(LFTDO3:HighEnvTheftIndicator001, "RL_BEHAVIOUR_DEVIATION")

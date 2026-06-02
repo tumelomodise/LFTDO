@@ -1,0 +1,19 @@
+LFTDO3:Livestock(?s) ^ LFTDO3:exhibits(?s, ?resting) ^
+LFTDO3:Behaviour(?resting) ^ LFTDO3:hasDuration(?resting, ?Duration) ^
+LFTDO3:hasCurrentBehaviourState(?resting, ?NormState) ^
+LFTDO3:BehaviourState(?NormState) ^ 
+LFTDO3:hasBehaviourStateContext(?NormState, ?context) ^ 
+LFTDO3:hasBaselinePosture(?NormState, ?basePosturalOrientation) ^ 
+LFTDO3:hasDurationBaseline(?NormState, ?baseDuration) ^ 
+LFTDO3:isAttachedToDevice(?s, ?dev) ^ LFTDO3:Device(?dev) ^
+LFTDO3:hasComponent(?dev,?sensorComp) ^ LFTDO3:Sensor(?sensorComp) ^
+LFTDO3:generatesData(?sensorComp,?sensorData)  ^ LFTDO3:SensorData(?sensorData) ^
+LFTDO3:hasValue(?sensorData,?PosturalOrientation) ^ LFTDO3:hasUoM(?sensorData,"degrees") ^
+swrlb:greaterThan(?PosturalOrientation, ?basePosturalOrientation) ^ 
+swrlb:greaterThan(?Duration, ?baseDuration) ^ 
+LFTDO3:isOutsideGeofence(?s, false) -> LFTDO3:hasBehaviourStateContext(LFTDO3:UnusualRestingState, ?context) ^ 
+LFTDO3:transitionsTo(?NormState, LFTDO3:UnusualRestingState) ^ 
+LFTDO3:hasHealthIndicator(LFTDO3:UnusualRestingState, LFTDO3:LethargyIndicator) ^ 
+LFTDO3:triggers(LFTDO3:UnusualRestingState,LFTDO3:HighHealthAlertEvent) ^  
+inferredByRule(LFTDO3:UnusualRestingState,"RL_PROLONGED_RESTING_DEVIATION_POSTURE")
+

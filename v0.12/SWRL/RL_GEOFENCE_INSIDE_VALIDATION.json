@@ -1,0 +1,11 @@
+LFTDO3:Livestock(?s) ^ LFTDO3:isAttachedToDevice(?s, ?dev) ^ LFTDO3:Device(?dev) ^ 
+LFTDO3:hasLatitude(?dev, ?lat) ^ LFTDO3:hasCurrentLocation(?s, ?currLoc) ^ LFTDO3:Location(?currLoc) ^ 
+^ hasMinLat(?currLoc, ?MinLat) ^ LFTDO3:hasMaxLat(?currLoc, ?MaxLat) ^swrlb:lessThan(?lat, ?MaxLat) ^ swrlb:greaterThan(?lat, ?MinLat)-> 
+LFTDO3:isOutsideGeofence(?s, false) ^ LFTDO3:inferredByRule(?s, "RL_GEOFENCE_INSIDE_VALIDATION")
+
+
+
+Livestock(?s) ^ isAttachedToDevice(?s, ?dev) ^ Device(?dev) ^ hasLatitude(?dev, ?lat) ^ 
+hasCurrentLocation(?s, ?currLoc) ^ Location(?currLoc) ^ hasMaxLat(?currLoc, ?MaxLat) ^ hasMinLat(?currLoc, ?MinLat) ^ 
+**swrlb:lessThan(?lat, ?MaxLat)** ^ **swrlb:greaterThan(?lat, ?MinLat)** -> 
+isOutsideGeofence(?s, false) ^ inferredByRule(?s, "RL_GEOFENCE_INSIDE_VALIDATION")

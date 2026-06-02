@@ -1,0 +1,11 @@
+LFTDO3:Livestock(?s) ^ LFTDO3:exhibits(?s, ?grazing) ^ LFTDO3:Behaviour(?grazing) ^ LFTDO3:hasDuration(?grazing,?duration) ^ LFTDO3:isAttachedToDevice(?s, ?dev) ^ LFTDO3:Device(?dev) ^ 
+LFTDO3:hasComponent(?dev, ?sensorComp) ^ LFTDO3:Sensor(?sensorComp) ^ LFTDO3:generatesData(?sensorComp, ?sensorData) ^
+LFTDO3:SensorData(?sensorData) ^ LFTDO3:hasValue(?sensorData, ?speed) ^ LFTDO3:hasUoM(?sensorData, "m/s") ^
+LFTDO3:hasCurrentBehaviourState(?grazing, ?NormSheepGrazingState) ^ LFTDO3:BehaviourState(?NormSheepGrazingState) ^
+LFTDO3:hasBehaviourStateBaselineValues(?NormSheepGrazingState, ?baseSpeed) ^
+LFTDO3:hasDurationBaseline(?NormSheepGrazingState, ?baseDuration) ^ 
+swrlb:lessThanOrEqual(?speed, ?baseSpeed) ^ LFTDO3:isOutsideGeofence(?s, false)
+LFTDO3:hasBehaviourStateContext(?NormSheepGrazingState, ?context) -> 
+LFTDO3:isCharacterisedBy(?NormSheepGrazingState, LFTDO3:NormalActivityIndicator) ^
+LFTDO3:inferredByRule(LFTDO3:NormalActivityIndicator, "RL_NORMALGRAZING_BASELINE") ^
+LFTDO3:isExtractedTo(?sensorData, LFTDO3:NormalActivityIndicator)

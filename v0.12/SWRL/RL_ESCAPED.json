@@ -1,0 +1,13 @@
+LFTDO3:Livestock(?s) ^ LFTDO3:exhibits(?s, ?wandering) ^ LFTDO3:Behaviour(?wandering) ^ 
+LFTDO3:hasDuration(?wandering, ?duration) ^ LFTDO3:isAttachedToDevice(?s, ?dev) ^ LFTDO3:Device(?dev) ^ 
+LFTDO3:hasComponent(?dev, ?sensorComp) ^ LFTDO3:Sensor(?sensorComp) ^ 
+LFTDO3:generatesData(?sensorComp, ?sensorData) ^ LFTDO3:SensorData(?sensorData) ^ 
+LFTDO3:hasValue(?sensorData, ?speed) ^ LFTDO3:hasUoM(?sensorData, "m/s") ^ 
+LFTDO3:hasCurrentBehaviourState(?wandering, ?NormSheepWanderingState) ^ 
+LFTDO3:BehaviourState(?NormSheepWanderingState) ^ LFTDO3:hasBehaviourStateBaselineValues(?NormSheepWanderingState, ?baseSpeed) ^ 
+LFTDO3:hasDurationBaseline(?NormSheepWanderingState, ?baseDuration) ^ swrlb:lessThanOrEqual(?speed, ?baseSpeed) ^ 
+LFTDO3:isOutsideGeofence(?s, true) ^ LFTDO3:hasCurrentStatus(?s, ?statusEventUpd) ^ 
+LFTDO3:StatusUpdateEvent(?statusEventUpd) ^ LFTDO3:hasStatus(?statusEventUpd, "Pending") -> 
+LFTDO3:transitionsTo(?NormSheepWanderingState, LFTDO3:EscapedSheepState) ^ 
+LFTDO3:triggers(LFTDO3:EscapedSheepState,LFTDO3:EscapedEvent) ^  
+LFTDO3:inferredByRule(LFTDO3:EscapedSheepState, "RL_ESCAPED")

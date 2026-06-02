@@ -16,7 +16,7 @@
 
 The **Livestock Farming Theft Detection Ontology (LFTDO)** is a domain-specific OWL 2 DL ontology designed to support intelligent, semantically-driven livestock theft detection in rural South Africa. It provides a formal knowledge representation of livestock behaviour, IoT sensor data, geofence monitoring, and theft event classification enabling AI-driven reasoning over real-time sensor streams from GPS tracking collars and IoT devices.
 
-The LFTDO is the knowledge core of the **Onto-AIoTA** (Ontology-based IoT AI Architecture), where it functions as the Semantic Layer — transforming raw sensor data into classified, severity-graded theft alerts through 27 SWRL inference rules.
+The LFTDO is the knowledge core of the **Onto-AIoTA** (Ontology-based IoT AI Architecture), where it functions as the Semantic Layer transforming raw sensor data into classified, severity-graded theft alerts through 27 SWRL inference rules.
 
 > **Research Context:**  Master of Computer Science dissertation - Tshwane University of Technology (TUT). 
 > **Researcher:** Tumelo Modise 
@@ -54,6 +54,9 @@ LFTDO/
 │   │       ├── Scenario3_Sheep_RestingHealthCheck.owl
 │   │       ├── Scenario4_Sabotage_DeviceTamper.owl
 │   │       └── Scenario5_Sheep100_HighSpeedFlight.owl
+│   ├── SWRL/
+│   │       ├── RL_FENCE_BREACH_THEFT_SIGNAL.json
+│   │       └── [additional files]
 │   ├── SPARQL/
 │   │   └── CQ1_CQ8_Queries.sparql
 │   └── docs/

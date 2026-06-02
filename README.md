@@ -2,7 +2,7 @@
 
 
 
-[!\[WIDOCO](https://img.shields.io/badge/Documentation-WIDOCO-blue)](WIDOCO/index-en.html)
+[![WIDOCO](https://img.shields.io/badge/Documentation-WIDOCO-blue)](WIDOCO/index-en.html)
 
 \[!\[OWL 2 DL](https://img.shields.io/badge/OWL-2%20DL%20(SROIQ(D))-1F4E79)](https://www.w3.org/TR/owl2-profiles/)
 

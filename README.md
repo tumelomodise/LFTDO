@@ -60,7 +60,7 @@ LFTDO/
 │   ├── SPARQL/
 │   │   └── CQ1_CQ8_Queries.sparql
 │   └── docs/
-│       └── LFTDO_Documentation.html
+│       └── /index-en.html
 └── docs/
     ├── LFTDO_Architecture_Diagram.png
     └── LFTDO_OntoGraf_Visualisation.png

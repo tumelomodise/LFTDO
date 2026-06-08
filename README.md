@@ -86,7 +86,7 @@ LFTDO/
 | **Annotation Assertions** | 4,316 |
 | **ObjectProperty Assertions** | 4,768 |
 | **DataProperty Assertions** | 7,852 |
-| **OOPS! TOQS** | 100% (all 40 pitfall categories — zero pitfalls) |
+| **OOPS! TOQS** | 100% (all 40 pitfall categories: zero pitfalls) |
 | **Development Tools** | Protégé 5.5.0 \| Cellfie plugin \| OOPS! v3.0 |
 | **Namespace Prefix** | `LFTDO:` |
 
@@ -134,7 +134,7 @@ Livestock
 | 1 | Behavioural Anomaly Detection | Goat | RL_GOAT_ANOMALY_TRANSITION, RL_BEHAVIOUR_DEVIATION | HighRustlingTheftEvent |
 | 2 | Multi-Factor Complex Theft | Cattle | RL_COMPLEXTHEFT_CORRELATION, RL_CATTLEFEVER_DETECTION | ComplexTheftEvent |
 | 3 | Resting Behaviour Health Check | Sheep/Goat/Cattle | RL_PROLONGED_RESTING_DEVIATION_* | HealthAlertEvent (not TheftEvent) |
-| 4 | Sabotage / Device Tamper Detection | — | RL_DEVICE_SABOTAGE_CHECK, RL_SYSTEM_INTEGRITY_CHECK | SecurityBreachEvent |
+| 4 | Sabotage / Device Tamper Detection | - | RL_DEVICE_SABOTAGE_CHECK, RL_SYSTEM_INTEGRITY_CHECK | SecurityBreachEvent |
 | 5 | High-Speed Flight (Cellfie scale, 100 Sheep) | Sheep | RL_THEFT_IN_PROGRESS, RL_FENCE_BREACH_THEFT_SPEED | HighSpeedTheftEvent |
 
 ---
@@ -160,7 +160,7 @@ File pair structure:
 
 ---
 
-## SPARQL Queries (CQ1–CQ8)
+## SPARQL Queries (CQ1 to CQ8)
 
 All eight Competency Questions are implemented as SPARQL queries. See `v0.12/SPARQL/CQ1_CQ8_Queries.sparql`.
 
@@ -183,11 +183,11 @@ All eight Competency Questions are implemented as SPARQL queries. See `v0.12/SPA
 |---|---|---|---|
 | v0.00 | Initial class skeleton (78 classes) | Partial | ~800 |
 | v0.01 | Object and data properties added | Partial | ~3,200 |
-| v0.02 | BehaviourState refactoring — NormalState/AbnormalState model | Partial | ~6,400 |
+| v0.02 | BehaviourState refactoring: NormalState/AbnormalState model | Partial | ~6,400 |
 | v0.03 | 27 SWRL rules + primitive classes complete | Partial | ~12,000 |
-| v0.04 | Initial ABox (Scenarios 1–2) + Annotation Assertions | 100% | ~14,000 |
+| v0.04 | Initial ABox (Scenarios 1 to 2) + Annotation Assertions | 100% | ~14,000 |
 | v0.05–v0.11 | Iterative OOPS! maintenance cycles + ABox expansion | 100% | Incremental |
-| **v0.12** | **Final — 2,000+ individuals (Cellfie) + full CQ validation** | **100%** | **22,586** |
+| **v0.12** | **Final : 2,000+ individuals (Cellfie) + full CQ validation** | **100%** | **22,586** |
 
 ---
 

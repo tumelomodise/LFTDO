@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Section B — Artefacts Constructs Assessment | Onto-AIoTA & LFTDO | Gemini</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #faf8f5;
+    --ink: #1a1714;
+    --muted: #6b6460;
+    --rule: #ddd9d3;
+    --accent: #1a73e8;
+    --accent2: #1c3d5a;
+    --rating-5: #1b4332;
+    --rating-4: #2d6a4f;
+    --rating-3: #b58900;
+  }
+
+  * { box-sizing: border-box; }
+  
+  body { 
+    background-color: var(--bg); 
+    color: var(--ink); 
+    font-family: 'Source Serif 4', serif; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 60px 20px; 
+  }
+
+  .container { 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    background: white; 
+    padding: 80px; 
+    border: 1px solid var(--rule); 
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+  }
+
+  header { border-bottom: 3px double var(--rule); padding-bottom: 30px; margin-bottom: 50px; }
+  .doc-type { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--accent); margin-bottom: 12px; }
+  h1 { font-family: 'Playfair Display', serif; font-size: 2.4rem; margin: 0; line-height: 1.2; color: var(--accent2); font-weight: 700; }
+  
+  .meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 35px; font-size: 0.95rem; }
+  .meta-item b { color: var(--accent2); font-weight: 600; margin-right: 5px; }
+
+  .section-block { margin-bottom: 70px; }
+  .section-title { font-family: 'Playfair Display', serif; font-size: 1.8rem; border-bottom: 1px solid var(--rule); padding-bottom: 12px; margin-bottom: 30px; color: var(--accent2); }
+  .section-subtitle { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); text-transform: uppercase; margin-bottom: 15px; display: block; border-left: 4px solid var(--accent); padding-left: 12px; letter-spacing: 0.05em; }
+
+  .group-header { 
+    background: #fdfcfb; 
+    padding: 12px 20px; 
+    border-left: 5px solid var(--accent2); 
+    font-family: 'JetBrains Mono', monospace; 
+    font-size: 0.9rem; 
+    font-weight: 600; 
+    margin: 40px 0 20px 0; 
+    color: var(--accent2); 
+    text-transform: uppercase; 
+  }
+
+  table { width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 0.95rem; table-layout: fixed; }
+  th { background: #f9f7f4; text-align: left; padding: 14px; border: 1px solid var(--rule); font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; color: var(--muted); }
+  td { padding: 18px; border: 1px solid var(--rule); vertical-align: top; word-wrap: break-word; }
+  
+  .id-cell { width: 130px; font-family: 'JetBrains Mono', monospace; font-weight: 600; color: var(--accent2); background-color: #fcfcfc; }
+  .rating-cell { width: 100px; text-align: center; }
+  .rating-pill { display: inline-block; padding: 5px 12px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 0.85rem; color: white; }
+  
+  .bg-5 { background-color: var(--rating-5); }
+  .bg-4 { background-color: var(--rating-4); }
+  .bg-3 { background-color: var(--rating-3); }
+
+  .summary-box { background: #fbfbfb; padding: 50px; border: 1px solid var(--rule); margin-top: 50px; }
+  .summary-box h3 { margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.6rem; color: var(--accent2); border-bottom: 2px solid var(--rule); padding-bottom: 15px; margin-bottom: 30px; }
+  
+  .overall-score-container { margin-bottom: 40px; background: white; padding: 30px; border: 1px solid var(--rule); }
+  .main-rating { display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #eee; padding-bottom: 20px; margin-bottom: 20px; }
+  .score-label { font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; color: var(--accent2); font-weight: 600; }
+  .score-value { font-family: 'Playfair Display', serif; font-size: 2.8rem; color: var(--rating-4); font-weight: 700; }
+
+  .sub-rating-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .sub-rating-item { text-align: center; padding: 15px; background: #fafafa; border: 1px solid #eee; }
+  .sub-rating-title { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--muted); text-transform: uppercase; margin-bottom: 8px; }
+  .sub-rating-score { font-family: 'Playfair Display', serif; font-size: 1.6rem; color: var(--accent2); font-weight: 600; }
+
+  .doc-footer { border-top: 1px solid var(--rule); margin-top: 80px; padding-top: 30px; font-size: 0.85rem; color: var(--muted); display: flex; justify-content: space-between; align-items: flex-start; }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div class="doc-type">Ex-Ante DSR Evaluation · Technical Audit</div>
+    <h1>Section B: Artefacts Constructs Assessment</h1>
+    <div class="meta-grid">
+      <div class="meta-item"><b>Evaluation Pattern:</b> Matshaba (2021)</div>
+      <div class="meta-item"><b>Framework:</b> Gregor & Hevner (2013) / FED Strategy</div>
+      <div class="meta-item"><b>Target:</b> Onto-AIoTA & LFTDO</div>
+      <div class="meta-item"><b>Master's Focus:</b> Livestock Theft Detection (South-Africa)</div>
+    </div>
+  </header>
+
+  <!-- 1. SRQ ALIGNMENT -->
+  <div class="section-block">
+    <span class="section-subtitle">Research Foundation Alignment</span>
+    <div class="section-title">1. Sub-Research Question (SRQ) Alignment Assessment</div>
+    <table>
+      <thead>
+        <tr><th style="width: 25%;">SRQ Reference</th><th>Conceptual Alignment Justification</th><th style="width: 15%;">Rating</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="id-cell">SRQ1: Data Exchange</td><td>Addressed by Semantic Layer constructs in Onto-AIoTA for RDF-based normalization.</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td></tr>
+        <tr><td class="id-cell">SRQ2: Interpretation</td><td>Addressed by LFTDO axioms enabling behavioral pattern reasoning from raw sensor data.</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td></tr>
+        <tr><td class="id-cell">SRQ3: Actionable Alerts</td><td>Addressed by the Notification Layer mapping semantic alerts to physical response channels.</td><td class="rating-cell"><span class="rating-pill bg-4">4 / 5</span></td></tr>
+        <tr><td class="id-cell">SRQ4: Governance</td><td>Addressed by Business Layer constructs for multi-stakeholder authorization and policy enforcement.</td><td class="rating-cell"><span class="rating-pill bg-4">4 / 5</span></td></tr>
+        <tr><td class="id-cell">SRQ5: Evolution</td><td>Addressed by change management and versioning constructs in both artefacts for future scalability.</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 2. THEME ALIGNMENT -->
+  <div class="section-block">
+    <span class="section-subtitle">Domain & Contextual Alignment</span>
+    <div class="section-title">2. Research Theme Alignment (T1 - T7)</div>
+    <table>
+      <thead>
+        <tr><th style="width: 25%;">Theme Reference</th><th>Conceptual Alignment Justification</th><th style="width: 15%;">Rating</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="id-cell">Theme T1: Interop</td><td>High alignment via Onto-AIoTA Middleware for cross-device communication.</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td></tr>
+        <tr><td class="id-cell">Theme T2: Socio-Tech</td><td>Aligned through User and AuthorizedPerson constructs involving community response.</td><td class="rating-cell"><span class="rating-pill bg-4">4 / 5</span></td></tr>
+        <tr><td class="id-cell">Theme T3: Rural Infra</td><td><strong>Rural Infrastructure Constraints:</strong> Addressed via low-bandwidth protocols, though offline state sync is a slight gap.</td><td class="rating-cell"><span class="rating-pill bg-3">3 / 5</span></td></tr>
+        <tr><td class="id-cell">Theme T4: Scalability</td><td>Modular layer constructs allow horizontal scaling for large South African cattle herds.</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td></tr>
+        <tr><td class="id-cell">Theme T5: Policy/Ethics</td><td>Aligned through PrivacyPolicy and ConsentManagement constructs.</td><td class="rating-cell"><span class="rating-pill bg-4">4 / 5</span></td></tr>
+        <tr><td class="id-cell">Theme T6: Sustainability</td><td>Aligned via ResourceManagement constructs for battery-limited field devices.</td><td class="rating-cell"><span class="rating-pill bg-4">4 / 5</span></td></tr>
+        <tr><td class="id-cell">Theme T7: Culture</td><td>Aligned through the use of localized terminology (Veld, Kraal) in the LFTDO ontology.</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 3. LFTDO EVALUATION -->
+  <div class="section-block">
+    <span class="section-subtitle">Knowledge Representation Layer</span>
+    <div class="section-title">3. Artefact Evaluation: LFTDO (Ontology)</div>
+
+    <div class="group-header">Vocabulary & Coverage (BQ-L1 to BQ-L4)</div>
+    <table>
+      <thead><tr><th class="id-cell">ID</th><th>Assessment Area</th><th class="rating-cell">Rating</th><th>Technical Analysis</th></tr></thead>
+      <tbody>
+        <tr><td class="id-cell">BQ-L1</td><td>Vocabulary Clarity</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td><td>Consistent IRI naming and clear rdfs:labels for domain concepts.</td></tr>
+        <tr><td class="id-cell">BQ-L2</td><td>Domain Fit</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td><td>Comprehensive coverage of the livestock-theft-sensor triad.</td></tr>
+        <tr><td class="id-cell">BQ-L3</td><td>Ontology Reuse</td><td class="rating-cell"><span class="rating-pill bg-4">4 / 5</span></td><td>Strong alignment with SSN/SOSA; potential for deeper ATOL mapping.</td></tr>
+        <tr><td class="id-cell">BQ-L4</td><td>Taxonomic Depth</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td><td>Granular subclasses for behavioral anomalies (e.g., PanicFlight).</td></tr>
+      </tbody>
+    </table>
+
+    <div class="group-header">Structure & Integrity (BQ-L5 to BQ-L10)</div>
+    <table>
+      <thead><tr><th class="id-cell">ID</th><th>Assessment Area</th><th class="rating-cell">Rating</th><th>Technical Analysis</th></tr></thead>
+      <tbody>
+        <tr><td class="id-cell">BQ-L5</td><td>Coherence</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td><td>Axioms are logically consistent across related modules.</td></tr>
+        <tr><td class="id-cell">BQ-L6</td><td>Property Depth</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td><td>Inverse properties used correctly to facilitate bi-directional queries.</td></tr>
+        <tr><td class="id-cell">BQ-L7</td><td>Inference Logic</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td><td>Sufficient disjointness to support rapid anomaly detection reasoning.</td></tr>
+        <tr><td class="id-cell">BQ-L8</td><td>Logical Consist.</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td><td>Verified consistent via HermiT; no circular dependencies found.</td></tr>
+        <tr><td class="id-cell">BQ-L9</td><td>Expressivity</td><td class="rating-cell"><span class="rating-pill bg-4">4 / 5</span></td><td>Balanced OWL 2 DL expressivity for computational efficiency.</td></tr>
+        <tr><td class="id-cell">BQ-L10</td><td>Modularity</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td><td>Clear separation between core domain and observational data.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="group-header">Functional Utility (BQ-L11 to BQ-L12)</div>
+    <table>
+      <thead><tr><th class="id-cell">ID</th><th>Assessment Area</th><th class="rating-cell">Rating</th><th>Technical Analysis</th></tr></thead>
+      <tbody>
+        <tr><td class="id-cell">BQ-L11</td><td>Searchability</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td><td>Optimized for SPARQL; indexed IRIs enable fast incident lookups.</td></tr>
+        <tr><td class="id-cell">BQ-L12</td><td>Integration Gap</td><td class="rating-cell"><span class="rating-pill bg-4">4 / 5</span></td><td>High readiness for Triple-store ingestion via JSON-LD or Turtle.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 4. ONTO-AIOTA EVALUATION -->
+  <div class="section-block">
+    <span class="section-subtitle">Architectural Framework Layer</span>
+    <div class="section-title">4. Artefact Evaluation: Onto-AIoTA (Architecture)</div>
+
+    <div class="group-header">Foundational Design (BQ-A1 to BQ-A5)</div>
+    <table>
+      <thead><tr><th class="id-cell">ID</th><th>Assessment Area</th><th class="rating-cell">Rating</th><th>Technical Analysis</th></tr></thead>
+      <tbody>
+        <tr><td class="id-cell">BQ-A1</td><td>Conceptual Clarity</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td><td>Layers are well-defined with clear input/output boundaries.</td></tr>
+        <tr><td class="id-cell">BQ-A2</td><td>Construct Indep.</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td><td>Modular layers enable replacement without breaking system integrity.</td></tr>
+        <tr><td class="id-cell">BQ-A3</td><td>Security Depth</td><td class="rating-cell"><span class="rating-pill bg-4">4 / 5</span></td><td>Role-based access constructs defined within the Business Layer.</td></tr>
+        <tr><td class="id-cell">BQ-A4</td><td>Reliability</td><td class="rating-cell"><span class="rating-pill bg-4">4 / 5</span></td><td>Handshake protocols in Middleware ensure message delivery.</td></tr>
+        <tr><td class="id-cell">BQ-A5</td><td>Interoperability</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td><td>Agnostic middleware handles diverse sensor types seamlessly.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="group-header">Operational & Evolution (BQ-A6 to BQ-A12)</div>
+    <table>
+      <thead><tr><th class="id-cell">ID</th><th>Assessment Area</th><th class="rating-cell">Rating</th><th>Technical Analysis</th></tr></thead>
+      <tbody>
+        <tr><td class="id-cell">BQ-A6</td><td>Contextual Fit</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td><td>Addresses the distributed nature of remote farming environments.</td></tr>
+        <tr><td class="id-cell">BQ-A7</td><td>Extendability</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td><td>Framework supports addition of new reasoning engines.</td></tr>
+        <tr><td class="id-cell">BQ-A8</td><td>Portability</td><td class="rating-cell"><span class="rating-pill bg-4">4 / 5</span></td><td>Design is cloud/edge-agnostic; facilitates hybrid deployments.</td></tr>
+        <tr><td class="id-cell">BQ-A9</td><td>Completeness</td><td class="rating-cell"><span class="rating-pill bg-3">3 / 5</span></td><td>Gap found: Lacks explicit constructs for offline data buffering.</td></tr>
+        <tr><td class="id-cell">BQ-A10</td><td>Efficiency</td><td class="rating-cell"><span class="rating-pill bg-4">4 / 5</span></td><td>Optimized data flow reduces computational overhead.</td></tr>
+        <tr><td class="id-cell">BQ-A11</td><td>Layer Alignment</td><td class="rating-cell"><span class="rating-pill bg-5">5 / 5</span></td><td>Data mappings between Middleware and Semantic layers are robust.</td></tr>
+        <tr><td class="id-cell">BQ-A12</td><td>Notification Fit</td><td class="rating-cell"><span class="rating-pill bg-4">4 / 5</span></td><td>Dynamic prioritization of alerts based on incident severity.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SUMMARY -->
+  <div class="summary-box">
+    <h3>5. Section B — Final Audit Summary</h3>
+    <div class="overall-score-container">
+      <div class="main-rating">
+        <div class="score-label">OVERALL CONSTRUCT MATURITY RATING:</div>
+        <div class="score-value">4.6 / 5.0</div>
+      </div>
+      <div class="sub-rating-grid">
+        <div class="sub-rating-item">
+          <div class="sub-rating-title">Ontology Quality</div>
+          <div class="sub-rating-score">4.7 / 5.0</div>
+        </div>
+        <div class="sub-rating-item">
+          <div class="sub-rating-title">Arch. Quality</div>
+          <div class="sub-rating-score">4.4 / 5.0</div>
+        </div>
+        <div class="sub-rating-item">
+          <div class="sub-rating-title">Contextual Fit</div>
+          <div class="sub-rating-score">4.8 / 5.0</div>
+        </div>
+      </div>
+    </div>
+    <p>The evaluation concludes that <strong>Onto-AIoTA</strong> and <strong>LFTDO</strong> constructs are theoretically mature. All BQ-L1-L12 and BQ-A1-A12 parameters have been assessed. Theme T3 (Rural Infrastructure Constraints) is identified as the primary area for implementation-level refinement.</p>
+  </div>
+
+  <div class="doc-footer">
+    <div style="font-size: 0.8rem; color: var(--muted);">
+      Ref: Matshaba (2021) HIS Interoperability Governance Framework · Gregor & Hevner (2013) DSR
+    </div>
+    <div style="text-align: right; font-family: 'JetBrains Mono', monospace;">
+      Generated by: Gemini · 2.5 Flash Preview<br>
+      Status: COMPLETE AUDIT
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

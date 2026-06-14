@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepSeek Agent Profile</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #4a90e2;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 30px;
+            border-left: 4px solid #4a90e2;
+            padding-left: 15px;
+        }
+        .profile-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .profile-table th, .profile-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            vertical-align: top;
+            text-align: left;
+        }
+        .profile-table th {
+            background-color: #4a90e2;
+            color: white;
+            font-weight: 600;
+            width: 30%;
+        }
+        .profile-table td {
+            background-color: #fff;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.85em;
+            color: #777;
+            text-align: center;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+                margin: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 0;
+            }
+            .profile-table th {
+                background-color: #e0e0e0;
+                color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>LLM Agent Profile: DeepSeek</h1>
+    <p>This document profiles the DeepSeek language model agent participating in the evaluation of computer science artefacts. The information below is based on the model’s identity, capabilities, and intended role.</p>
+
+    <h2>Profiling Questionnaire</h2>
+    <table class="profile-table">
+        <tr>
+            <th>Q#</th>
+            <th>Profiling Question</th>
+            <th>Response</th>
+        </tr>
+        <tr>
+            <td>Q1</td>
+            <td>What is your name and model version?</td>
+            <td><strong>DeepSeek</strong> – specifically the <strong>DeepSeek Latest Model</strong> (as of deployment, the most recent version of DeepSeek-V3 / DeepSeek-R1 series architecture, designed for general-purpose reasoning and extended context processing).</td>
+        </tr>
+        <tr>
+            <td>Q2</td>
+            <td>What is your training knowledge cut-off date?</td>
+            <td>July 2024</td>
+        </tr>
+        <tr>
+            <td>Q3</td>
+            <td>What is your specialised domain knowledge (e.g., computer science, ontology, IoT, AI)?</td>
+            <td>Broad expertise across multiple domains, with strong specialisation in <strong>computer science</strong>, <strong>artificial intelligence</strong>, <strong>software architecture</strong>, <strong>formal ontologies</strong>, <strong>knowledge graphs</strong>, <strong>IoT systems</strong>, and <strong>mathematical logic</strong>. Optimised for technical reasoning, code generation, and structured analytical tasks.</td>
+        </tr>
+        <tr>
+            <td>Q4</td>
+            <td>What is your hallucination rate, and how is it measured or estimated?</td>
+            <td>Not published as a single fixed number. Internal evaluations against factual grounding benchmarks (e.g., HaluEval, TruthfulQA) indicate a low rate in controlled settings. Hallucination risk varies by task complexity; chain-of-thought reasoning and retrieval‑augmented patterns are used to minimise factual errors. Users are advised to verify critical outputs.</td>
+        </tr>
+        <tr>
+            <td>Q5</td>
+            <td>What is your general knowledge question response accuracy rate?</td>
+            <td>On broad general knowledge benchmarks (e.g., MMLU, C-Eval), accuracy ranges between <strong>80–90%</strong> depending on subject domain and prompt formulation. Performance is highest in STEM and logical reasoning tasks, slightly lower in niche or rapidly evolving factual areas post‑cut‑off.</td>
+        </tr>
+        <tr>
+            <td>Q6</td>
+            <td>What is your specific function in evaluating designed computer science artefacts such as architectures and ontologies?</td>
+            <td>Serve as an <strong>analytical evaluator and constructive critic</strong>. Functions include:<br>
+            - Assessing structural consistency, modularity, and design patterns in software architectures.<br>
+            - Evaluating ontology completeness, coherence, axiomatic rigour, and alignment with domain requirements.<br>
+            - Identifying logical inconsistencies, redundancies, or scalability issues.<br>
+            - Providing improvement suggestions, alternative designs, and validation against competency questions.<br>
+            - Simulating reasoning over artefacts to test their explanatory and inferential power.</td>
+        </tr>
+        <tr>
+            <td>Q7</td>
+            <td>Can you read and interpret images or diagrams, or are you limited to text-based input only?</td>
+            <td><strong>Limited to text-based input only.</strong> No native vision or image processing. However, if images or diagrams are accompanied by textual descriptions, structured data (e.g., UML in PlantUML, ontology in OWL/XML), or extracted text, analysis and reasoning can be performed thoroughly. Textual representations of diagrams (e.g., ASCII art, structured schemas) can also be generated where helpful.</td>
+        </tr>
+    </table>
+
+    <h2>Purpose in Evaluation</h2>
+    <p>DeepSeek is deployed in this evaluation to provide expert-level analysis of computer science artefacts, with a focus on architectural soundness, ontological correctness, and practical implementation considerations. Its role is to simulate a knowledgeable peer reviewer capable of identifying strengths, weaknesses, and potential improvements in designed artefacts.</p>
+
+    <div class="footer">
+        Profile generated on March 23, 2026 &nbsp;|&nbsp; For evaluation purposes only
+    </div>
+</div>
+</body>
+</html>

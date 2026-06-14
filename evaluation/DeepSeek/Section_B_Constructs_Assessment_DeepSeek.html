@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Section B — Artefacts Constructs Assessment | Onto-AIoTA & LFTDO | DeepSeek</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #f1f4f9;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.55;
+    color: #1a2a3f;
+  }
+
+  .container {
+    max-width: 1280px;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 32px;
+    box-shadow: 0 25px 40px -12px rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+
+  /* cover */
+  .cover {
+    background: linear-gradient(135deg, #0b2b3b 0%, #1a4b6e 100%);
+    color: white;
+    padding: 3rem 3rem 2rem 3rem;
+    position: relative;
+  }
+  .cover-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 1rem;
+  }
+  .cover h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.2;
+    max-width: 800px;
+  }
+  .cover h1 em {
+    font-style: italic;
+    font-weight: 400;
+    color: #9fc7e0;
+  }
+  .cover-meta {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    padding-top: 1.2rem;
+  }
+  .meta-item .label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    opacity: 0.6;
+  }
+  .meta-item .value {
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  /* nav */
+  .nav {
+    display: flex;
+    background: white;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 0 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: rgba(255,255,255,0.96);
+    backdrop-filter: blur(4px);
+  }
+  .nav-agent {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    padding: 1rem 0;
+  }
+  .nav-dot {
+    width: 8px;
+    height: 8px;
+    background: #2c7da0;
+    border-radius: 50%;
+  }
+  .nav-pills {
+    margin-left: auto;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .pill {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    background: #eef2f8;
+    color: #1e4663;
+  }
+
+  /* content */
+  .content {
+    padding: 2rem 2rem 3rem 2rem;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #cbdde6;
+  }
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.8rem 0;
+    color: #1f5068;
+  }
+
+  .insight-box {
+    background: #eef4fc;
+    border-left: 4px solid #2c7da0;
+    padding: 1.2rem 1.5rem;
+    border-radius: 12px;
+    margin: 1.5rem 0;
+  }
+
+  /* tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.2rem 0;
+    font-size: 0.85rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  }
+  th {
+    background: #1f5068;
+    color: white;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+  }
+  td {
+    border: 1px solid #dce5ec;
+    padding: 10px 12px;
+    vertical-align: top;
+    background: white;
+  }
+  .rating-cell {
+    text-align: center;
+    font-weight: 700;
+  }
+  .rating-5 { background: #d1fae5; color: #065f46; font-weight: bold; text-align: center; }
+  .rating-4 { background: #dbeafe; color: #1e40af; text-align: center; }
+  .rating-3 { background: #fef9c3; color: #854d0e; text-align: center; }
+  .rating-2 { background: #ffe4e6; color: #9f1239; text-align: center; }
+  .rating-1 { background: #fecaca; color: #7f1a1a; text-align: center; }
+
+  .gap-note {
+    font-size: 0.8rem;
+    color: #b45309;
+    margin-top: 8px;
+    padding-top: 6px;
+    border-top: 1px dashed #f0c4b0;
+  }
+
+  .summary-stats {
+    display: flex;
+    gap: 2rem;
+    background: #0b2b3b;
+    color: white;
+    padding: 1.8rem;
+    border-radius: 20px;
+    margin: 2rem 0 1rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .stat {
+    text-align: center;
+  }
+  .stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+  }
+  .stat-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    opacity: 0.7;
+  }
+
+  footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #dce5ec;
+    font-size: 0.75rem;
+    color: #4a627a;
+    text-align: center;
+  }
+
+  @media (max-width: 700px) {
+    .content { padding: 1rem; }
+    th, td { font-size: 0.75rem; padding: 6px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="cover">
+    <div class="cover-label">ONTO-AIOTA & LFTDO · SECTION B · CONSTRUCTS ASSESSMENT</div>
+    <h1>Artefact Constructs Evaluation<br><em>following Matshaba (2021) pattern</em></h1>
+    <div class="cover-meta">
+      <div class="meta-item"><span class="label">Evaluating agent</span><div class="value">DeepSeek (LLM) · Domain expert & technical auditor</div></div>
+      <div class="meta-item"><span class="label">Evaluation framework</span><div class="value">Gregor & Hevner (2013) · FED Strategy</div></div>
+      <div class="meta-item"><span class="label">Rating scale</span><div class="value">1 (Not Supported) → 5 (Strongly Supported)</div></div>
+    </div>
+  </div>
+
+  <div class="nav">
+    <div class="nav-agent"><div class="nav-dot"></div>DeepSeek · LLM Response — Section B</div>
+    <div class="nav-pills"><span class="pill">SRQ alignment</span><span class="pill">Theme mapping</span><span class="pill">LFTDO constructs</span><span class="pill">Onto-AIoTA</span></div>
+  </div>
+
+  <div class="content">
+    <!-- executive orientation -->
+    <div class="insight-box">
+      <strong>📐 Evaluative lens:</strong> Following Matshaba (2021), this assessment first confirms alignment of constructs with sub‑research questions (SRQ1–5) and seven research themes (T1–T7), then provides a granular rating (1–5) for each construct question in B.9.1 and B.9.2. The artefacts are at conceptual design stage; no implementation performance is judged. All ratings reference definitions in B.6, B.7, B.8.
+    </div>
+
+    <!-- ================= SRQ ALIGNMENT ================= -->
+    <h2>📌 SRQ Alignment (Matshaba §7.6.2)</h2>
+    <p>Each sub-research question is evaluated against the LFTDO + Onto-AIoTA constructs. Ratings reflect how completely the construct vocabulary answers the SRQ.</p>
+    <table>
+      <thead><tr><th>SRQ</th><th>Sub‑Research Question</th><th>Construct alignment & justification</th><th style="width:70px">Rating</th></tr></thead>
+      <tbody>
+        <tr><td><strong>SRQ1</strong></td><td>Current livestock theft prevention methods & challenges</td><td><strong>TheftEvent, TheftIndicator, AbnormalState</strong> directly encode theft patterns. The four TheftIndicator subtypes map to technological gaps. Business Layer (crime intelligence) addresses fragmentation. Fully covered.<div class="srq-constructs" style="font-size:0.7rem; color:#2c7da0;">TheftEvent · TheftIndicator · AbnormalState · Business Layer</div></td><td class="rating-5">5</td></tr>
+        <tr><td><strong>SRQ2</strong></td><td>Integration of ontologies, IoT, AI into architecture</td><td>Five‑layer Onto‑AIoTa explicitly separates concerns: Device/IoT, Semantic/LFTDO, AI reasoning (SWRL+MLAlgorithm). Data Mapper bridges IoT→RDF. Most comprehensively addressed SRQ.<div class="srq-constructs" style="font-size:0.7rem;">Semantic Layer · Reasoning Engine · Device/SensorData · MLAlgorithm</div></td><td class="rating-5">5</td></tr>
+        <tr><td><strong>SRQ3</strong></td><td>Rural infrastructure constraints & affordability</td><td>Device layer solar‑powered tags + LoRaWAN network directly address off‑grid, low power. Missing explicit “cost constraint” property, but design choices are justified. Minor gap: offline data buffering not yet a named construct.</td><td class="rating-4">4</td></tr>
+        <tr><td><strong>SRQ4</strong></td><td>Ontology representing behaviour & environmental factors</td><td><strong>Behaviour</strong> (6 subclasses), <strong>NormalState/AbnormalState</strong>, <strong>EnvironmentalCondition</strong> and <em>environmentInfluencesBehaviourState</em> provide AI‑ready theft detection. SWRL rules operationalise deviations. Excellent coverage.</td><td class="rating-5">5</td></tr>
+        <tr><td><strong>SRQ5</strong></td><td>Evaluation metrics & adoptability</td><td>Competency questions (CQ1‑CQ8), SPARQL, OOPS!, Pellet reasoner, <em>hasConfidenceScore</em> provide metrics. Missing an explicit <strong>AdoptabilityMetric</strong> class or formal TAM construct, but baseline evaluation constructs present.</td><td class="rating-4">4</td></tr>
+      </tbody>
+    </table>
+
+    <!-- ================= THEME ALIGNMENT ================= -->
+    <h2>🧩 Research Theme Alignment (T1–T7)</h2>
+    <table>
+      <thead><tr><th>Theme</th><th>Constructs involved</th><th>Finding</th><th>Rating</th></tr></thead>
+      <tbody>
+        <tr><td>T1 – Livestock Theft Crime Analysis</td><td>TheftEvent, TheftIndicator, alert severity</td><td>Direct crime typology modelling with severity levels. Strong.</td><td class="rating-5">5</td></tr>
+        <tr><td>T2 – Socio-Technical Systems</td><td>Participant (5 roles), validateStatusOfEvent, Business Layer</td><td>Human‑in‑the‑loop, multi‑stakeholder. Missing explicit community feedback loop but conceptually solid.</td><td class="rating-4">4</td></tr>
+        <tr><td>T3 – Rural Infrastructure Constraints</td><td>Device Layer (solar), Network Layer (LoRaWAN)</td><td>Design justified, but offline resilience and satellite fallback not defined as constructs.</td><td class="rating-4">4</td></tr>
+        <tr><td>T4 – Ontology / Architectural Modeling</td><td>LFTDO TBox, SWRL RBox, Semantic Layer (Triple Store, Reasoner)</td><td>Full OWL 2 specification, 27 rules, 1,865 individuals. Gold standard.</td><td class="rating-5">5</td></tr>
+        <tr><td>T5 – IoT & AI Integration</td><td>SensorData, Device, DetectionMethod, MLAlgorithm</td><td>Clear pipeline; MLAlgorithm could be further specified (algorithm types).</td><td class="rating-4">4</td></tr>
+        <tr><td>T6 – Technology Adoption & Community Engagement</td><td>Business Layer (POPIA, Access Control), SoftwareApplication</td><td>Governance named but missing explicit consent/audit trail constructs.</td><td class="rating-4">4</td></tr>
+        <tr><td>T7 – Evaluation Metrics</td><td>SPARQL CQs, OOPS!, hasConfidenceScore</td><td>Good evaluation baseline; no formal metric class but DSR framework referenced.</td><td class="rating-4">4</td></tr>
+      </tbody>
+    </table>
+
+    <!-- ================= LFTDO CONSTRUCTS (BQ-L1 to BQ-L12) ================= -->
+    <h2>🐄 LFTDO Constructs Assessment (B.9.1)</h2>
+    <p>Detailed ratings for vocabulary, structural coherence, requirement alignment, design quality.</p>
+    <table>
+      <thead><tr><th width="10%">ID</th><th width="40%">Question / criterion</th><th width="12%">Rating</th><th width="38%">Justification & gaps</th></tr></thead>
+      <tbody>
+        <tr><td>BQ-L1</td><td>Clarity & terminological overlap of core LFTDO classes</td><td class="rating-5">5</td><td>Behaviour vs BehaviourState clearly separated; NormalState/AbnormalState unambiguous. No harmful overlap.</td></tr>
+        <tr><td>BQ-L2</td><td>Coverage of health, environment, technology concepts</td><td class="rating-4">4</td><td>HealthCondition, EnvironmentalCondition, Device present. Missing “PredatorEvent” or “VehicleIndicator” for complex theft – minor gap.</td></tr>
+        <tr><td>BQ-L3</td><td>Participant roles & UnauthorisedPerson modelling</td><td class="rating-4">4</td><td>Clear role separation. UnauthorisedPerson models intruder intent well; could be refined with role assignment after detection.</td></tr>
+        <tr><td>BQ-L4</td><td>NormalState/AbnormalState precision & baseline properties</td><td class="rating-5">5</td><td>hasBaselineValues, hasDeviationThresholds defined. SWRL‑ready distinction.</td></tr>
+        <tr><td>BQ-L5</td><td>Semantic detection chain (Livestock → … → TheftEvent)</td><td class="rating-5">5</td><td>exhibitsBehaviour → hasCurrentState → indicates → initiates – fully coherent and complete.</td></tr>
+        <tr><td>BQ-L6</td><td>Contextual disambiguation (health/environment influences)</td><td class="rating-4">4</td><td>healthInfluencesBehaviourState and environmentInfluencesBehaviourState exist. Could add socialContextInfluences (community events).</td></tr>
+        <tr><td>BQ-L7</td><td>Fulfilment of R1 (semantic interoperability for sensor data)</td><td class="rating-5">5</td><td>SensorData with hasDataType (GPS, accelerometer, temp) unifies heterogeneous sources.</td></tr>
+        <tr><td>BQ-L8</td><td>Detection‑to‑notification chain (R3 & R4 alignment)</td><td class="rating-5">5</td><td>TheftEvent → isDetectedBy → DetectionMethod → SoftwareApplication → notifies → Participant → validateStatusOfEvent – full governance loop.</td></tr>
+        <tr><td>BQ-L9</td><td>Competency Questions coverage</td><td class="rating-4">4</td><td>CQ1‑CQ8 test location, geofence, anomaly fusion, alerts. Missing CQ for health/environment explanation (false positive reduction).</td></tr>
+        <tr><td>BQ-L10</td><td>Accessibility for farmers & law enforcement</td><td class="rating-4">4</td><td>rdfs:labels present; dashboard abstracts technical terms. Good separation of concerns.</td></tr>
+        <tr><td>BQ-L11</td><td>Data properties for SWRL threshold reasoning</td><td class="rating-4">4</td><td>hasTimestamp, hasSensorDataValue, hasDuration, hasConfidenceScore sufficient. Add hasDeviation computed property for efficiency.</td></tr>
+        <tr><td>BQ-L12</td><td>Alignment with livestock ontologies (ATOL, EOL, AHOL)</td><td class="rating-3">3</td><td>No explicit alignment statements or justifications for departure. Recommendation: add owl:equivalentClass or skos:closeMatch.</td></tr>
+      </tbody>
+    </table>
+
+    <!-- ================= ONTO-AIOTA CONSTRUCTS (BQ-A1 to BQ-A12) ================= -->
+    <h2>🏛️ Onto-AIoTA Constructs Assessment (B.9.2)</h2>
+    <table>
+      <thead><tr><th>ID</th><th>Question / criterion</th><th>Rating</th><th>Justification & recommendations</th></tr></thead>
+      <tbody>
+        <tr><td>BQ-A1</td><td>Distinctness of five layers (separation of concerns)</td><td class="rating-5">5</td><td>Device (acquisition), Network (LoRaWAN), Semantic (reasoning), Application (UI), Business (governance) – clear boundaries.</td></tr>
+        <tr><td>BQ-A2</td><td>Semantic layer as intelligence core (Data Mapper → Triple Store → Reasoner)</td><td class="rating-5">5</td><td>JSON/MQTT → RDF → SWRL → TheftEvent pipeline unambiguous.</td></tr>
+        <tr><td>BQ-A3</td><td>Ontology + AI + IoT convergence representation</td><td class="rating-5">5</td><td>Ontology = LFTDO; AI = Reasoning Engine + MLAlgorithm; IoT = Device/SensorData. Each dimension explicit.</td></tr>
+        <tr><td>BQ-A4</td><td>Domain vs operational knowledge distinction</td><td class="rating-5">5</td><td>TBox (static) vs ABox (dynamic sensor instances) clearly separated across layers.</td></tr>
+        <tr><td>BQ-A5</td><td>Requirements coverage (R1–R4)</td><td class="rating-4">4</td><td>R1 Semantic Layer, R2 Device/Network, R3 Reasoning Engine, R4 Business Layer – all addressed. Minor: Application Layer missing explicit requirement mapping.</td></tr>
+        <tr><td>BQ-A6</td><td>Governance, POPIA compliance (R4, T6)</td><td class="rating-3">3</td><td>Access Control and Change Management named, but missing AuditTrailPolicy and ConsentManagementPolicy constructs – needed for POPIA.</td></tr>
+        <tr><td>BQ-A7</td><td>Rural infrastructure (T3) – solar & LoRaWAN</td><td class="rating-4">4</td><td>Well justified. Gap: no offline data buffering or satellite fallback construct.</td></tr>
+        <tr><td>BQ-A8</td><td>Socio-technical requirements (T2)</td><td class="rating-4">4</td><td>Application/Business layers support multi‑stakeholder access. Community engagement implicit; add CommunityFeedbackChannel.</td></tr>
+        <tr><td>BQ-A9</td><td>Missing architectural concerns (security, offline, updates)</td><td class="rating-3">3</td><td>No local buffering for offline operation, no OTA firmware update construct, device encryption not explicit. Significant gaps for rural deployment.</td></tr>
+        <tr><td>BQ-A10</td><td>Change Management & ontology versioning</td><td class="rating-3">3</td><td>Change Management mentioned but not decomposed. No explicit versioning strategy (owl:versionInfo, backward compatibility).</td></tr>
+        <tr><td>BQ-A11</td><td>Dependency precision (Onto-AIoTA ↔ LFTDO)</td><td class="rating-4">4</td><td>LFTDO as Knowledge Core is clear; versioning contract not specified. Add version IRIs.</td></tr>
+        <tr><td>BQ-A12</td><td>Data Mapper transformation detail</td><td class="rating-4">4</td><td>Names JSON/MQTT → RDF. Could decompose into SchemaMapping, ErrorHandling, SerializationFormat sub‑constructs.</td></tr>
+      </tbody>
+    </table>
+
+    <!-- ================= GROUPED RESPONSES (required by prompt) ================= -->
+    <h2>📂 Grouped analysis by evaluation dimensions</h2>
+    <div class="insight-box">
+      <p><strong>🔤 Vocabulary & Domain Coverage (BQ-L1,L2,L3,L10 ; BQ-A3,A7):</strong> LFTDO covers theft, health, environment, devices thoroughly. Missing explicit alignment with ATOL/AHOL and UnauthorisedPerson nuance. <strong>Rating: 4.2/5</strong></p>
+      <p><strong>🔗 Structural Relationships & Internal Coherence (BQ-L5,L6,L8 ; BQ-A1,A2):</strong> Detection chain is logically sound; object properties form a complete inference path from sensor to event. <strong>Rating: 4.8/5</strong></p>
+      <p><strong>⚙️ Requirement & Theme Alignment (BQ-L7,L8,L9 ; BQ-A5,A6,A8):</strong> All four requirements addressed, but governance (R4) needs audit/consent constructs. Themes T1,T4 excellent; T6, T7 slightly under‑specified. <strong>Rating: 4.3/5</strong></p>
+      <p><strong>🧠 Construct Design Quality (BQ-L11,L12 ; BQ-A9,A10):</strong> Data properties support SWRL reasoning, but versioning, offline resilience, and security constructs are missing or weak. <strong>Rating: 3.5/5</strong></p>
+      <p><strong>🎯 Problem–Solution Fit & Conceptual Clarity (BQ-A1–A4 ; BQ-L1,L4):</strong> Architecture clearly addresses livestock theft data interoperability problem. Layer separation excellent. <strong>Rating: 4.7/5</strong></p>
+      <p><strong>🧩 Construct Completeness & Gap Analysis (BQ-A9,A10,BQ-L12):</strong> Major gaps: ontology versioning, offline buffering, device encryption, formal alignment to livestock standards. <strong>Completeness: 3.4/5</strong></p>
+      <p><strong>🔄 Interdependency & Integration Logic (BQ-A11,A12):</strong> Dependency between Onto-AIoTA and LFTDO clear; missing versioning contract and Data Mapper decomposition. <strong>3.8/5</strong></p>
+    </div>
+
+    <!-- ================= SUMMARY & RECOMMENDATIONS ================= -->
+    <div class="summary-stats">
+      <div class="stat"><div class="stat-number">4.6/5</div><div class="stat-label">SRQ alignment (avg)</div></div>
+      <div class="stat"><div class="stat-number">4.3/5</div><div class="stat-label">Theme alignment (avg)</div></div>
+      <div class="stat"><div class="stat-number">4.1/5</div><div class="stat-label">Overall construct quality</div></div>
+    </div>
+
+    <div class="insight-box" style="background:#fef9e6; border-left-color:#e6b422;">
+      <strong>📋 Key recommendations (to strengthen conceptual design):</strong><br>
+      1. Add <strong>AuditTrailPolicy</strong> and <strong>ConsentManagementPolicy</strong> to Business Layer for POPIA completeness.<br>
+      2. Introduce <strong>LocalBuffering</strong> (Device Layer) and <strong>OTAUpdateMechanism</strong> (Network Layer) for rural resilience.<br>
+      3. Define ontology versioning strategy (owl:versionInfo, backward compatibility) within Change Management.<br>
+      4. Align LFTDO with ATOL/AHOL via owl:equivalentClass or skos:closeMatch statements.<br>
+      5. Add CQ9/CQ10 for socio‑technical audit (participant notifications and validation decisions).<br>
+      6. Decompose Data Mapper into SchemaMapping, ErrorHandling, SerializationFormat sub‑constructs.
+    </div>
+
+    <footer>
+      <p>Evaluation completed following Matshaba (2021) LLM Response Rating Scale. All ratings based on conceptual construct definitions (Sections B.6, B.7, B.8). No implementation or performance assessment performed. | DeepSeek · Domain expert auditor</p>
+      <p>Reference: Matshaba, T. (2021). A Health Information Systems Interoperability Governance Conceptual Framework for the Public Sector in South Africa. Doctoral Dissertation.</p>
+    </footer>
+  </div><!-- end content -->
+</div><!-- end container -->
+</body>
+</html>

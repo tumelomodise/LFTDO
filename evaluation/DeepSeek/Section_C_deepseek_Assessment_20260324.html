@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>DeepSeek Section C: MComp Dissertation Artefacts Evaluation - Onto-AIoTA & LFTDO</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: #f4f7fc;
+            color: #1e2f3e;
+            line-height: 1.5;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* sticky header */
+        .sticky-header {
+            position: sticky;
+            top: 0;
+            background: #ffffffdd;
+            backdrop-filter: blur(12px);
+            background: rgba(255,255,255,0.92);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            padding: 0.8rem 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+            border-bottom: 1px solid #e2e8f0;
+            font-weight: 500;
+        }
+        .agent-info {
+            font-size: 0.9rem;
+            color: #2c5a7a;
+        }
+        .dsr-pills {
+            display: flex;
+            gap: 1rem;
+        }
+        .pill {
+            padding: 0.3rem 1rem;
+            border-radius: 40px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+            color: white;
+        }
+        .pill-validity { background-color: #1a3a5c; }
+        .pill-quality { background-color: #1d6b44; }
+        .pill-utility { background-color: #7b3f00; }
+        .pill-efficacy { background-color: #5a1a5a; }
+        .pill-efficiency { background-color: #1f6e6e; }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* cover section */
+        .cover {
+            background: white;
+            border-radius: 1.5rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+            text-align: center;
+            border-left: 8px solid #1a3a5c;
+        }
+        .cover h1 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 2.2rem;
+            color: #0f2f3f;
+        }
+        .cover-meta {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+            font-size: 0.9rem;
+            color: #3a5a6e;
+        }
+
+        /* category blocks */
+        .category-block {
+            margin: 2.5rem 0 1.5rem 0;
+            border-radius: 1rem;
+            overflow: hidden;
+        }
+        .category-header {
+            padding: 0.8rem 1.5rem;
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.6rem;
+            color: white;
+        }
+        .category-header small {
+            font-size: 0.9rem;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: normal;
+            opacity: 0.9;
+        }
+        .cards-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            margin-top: 1.2rem;
+        }
+        .qa-card {
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            transition: 0.1s ease;
+            border-left: 6px solid;
+            overflow: hidden;
+        }
+        .card-content {
+            padding: 1.2rem 1.8rem;
+        }
+        .question-id {
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #5f7f9a;
+            margin-bottom: 0.4rem;
+        }
+        .question-text {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 0.8rem;
+            color: #1e2f3e;
+        }
+        .answer-text {
+            color: #2c3e4e;
+            margin-bottom: 1rem;
+        }
+        .verdict-badge {
+            display: inline-block;
+            background: #f1f5f9;
+            border-radius: 30px;
+            padding: 0.2rem 1rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #1e2f3e;
+            border-left: 3px solid;
+            margin-top: 0.5rem;
+        }
+        .callout {
+            background: #fff8e7;
+            border-left: 6px solid #e67e22;
+            padding: 1rem 1.6rem;
+            border-radius: 1rem;
+            margin: 2rem 0;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+        }
+        .callout strong {
+            color: #b45f06;
+        }
+        .score-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 1rem;
+            overflow: hidden;
+            margin: 1.5rem 0;
+        }
+        .score-table th, .score-table td {
+            padding: 0.8rem 1rem;
+            border-bottom: 1px solid #e2edf2;
+            text-align: left;
+        }
+        .score-table th {
+            background-color: #eef3f9;
+            font-weight: 600;
+        }
+        .overall-verdict {
+            background: #e9f3f7;
+            padding: 1.2rem 1.8rem;
+            border-radius: 1rem;
+            margin-top: 1rem;
+        }
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            font-size: 0.75rem;
+            color: #6c8e9e;
+            border-top: 1px solid #dce5ec;
+            padding-top: 1.5rem;
+        }
+        @media (max-width: 700px) {
+            .container { padding: 1rem; }
+            .card-content { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="sticky-header">
+    <div class="agent-info">馃 MSc Thesis Evaluator (LLM Agent) 路 GPT-4o 路 26 March 2026</div>
+    <div class="dsr-pills">
+        <span class="pill pill-validity">Validity</span>
+        <span class="pill pill-quality">Quality</span>
+        <span class="pill pill-utility">Utility</span>
+        <span class="pill pill-efficacy">Efficacy</span>
+        <span class="pill pill-efficiency">Efficiency</span>
+    </div>
+</div>
+<div class="container">
+    <div class="cover">
+        <h1>Onto-AIoTA & LFTDO<br>DSR Artefact Evaluation</h1>
+        <p style="margin-top: 0.5rem;">Comprehensive assessment of the five鈥憀ayer architecture and OWL 2 ontology based on Gregor & Hevner (2013) metrics. Evidence referenced from verified metrics, SWRL rules, semantic chains, SPARQL, and OOPS! results.</p>
+        <div class="cover-meta">
+            <span>馃搻 DSR Framework: Validity 路 Quality 路 Utility 路 Efficiency/Efficacy</span>
+            <span>馃攳 Auditor: Domain Expert / Technical Auditor</span>
+            <span>馃搫 MSc Dissertation Artefacts (Conceptual + Implemented)</span>
+        </div>
+    </div>
+
+    <!-- ===================== ONTO-AIOTA EVALUATION ===================== -->
+    <h2 style="font-family: 'DM Serif Display'; margin-top: 1rem;">馃彌锔?Onto-AIoTA Architecture Evaluation</h2>
+    <!-- Validity category -->
+    <div class="category-block">
+        <div class="category-header" style="background-color: #1a3a5c;">Validity <small>路 Does the architecture accurately represent the problem?</small></div>
+        <div class="cards-grid">
+            <div class="qa-card" style="border-left-color: #1a3a5c;">
+                <div class="card-content">
+                    <div class="question-id">CQ-A1</div>
+                    <div class="question-text">How well does the architecture integrate ontology, IoT, and AI components into a coherent system?</div>
+                    <div class="answer-text">The architecture achieves strong conceptual integration: IoT (Device/Network layers) feeds raw sensor data; the Semantic Layer houses LFTDO as the knowledge core, data mapper, and SWRL reasoning engine; the Application/Business layers deliver intelligence and governance. The data flow from physical tags to RDF triples to inference (27 SWRL rules) is explicit. However, the dependency between the Data Mapper and LFTDO versioning is not formally captured, and offline buffering is missing鈥攕till, integration coherence is high at the conceptual level.</div>
+                    <div class="verdict-badge" style="border-left-color: #1a3a5c;">鉁?Coherent integration 鈥?minor interface gaps</div>
+                </div>
+            </div>
+            <div class="qa-card" style="border-left-color: #1a3a5c;">
+                <div class="card-content">
+                    <div class="question-id">CQ-A2</div>
+                    <div class="question-text">How practical is the architecture for real-world livestock farming scenarios in South Africa?</div>
+                    <div class="answer-text">The architecture addresses practicality through low-power solar devices, LoRaWAN for long-range rural connectivity, and a semantic layer that reduces false alarms via contextual rules (health, weather). The business layer references POPIA alignment. Yet, real-world validation is missing: no mention of farmer co-design or field trials. Still, the constructs (geofencing, health/behaviour correlation) mirror actual farming practices (grazing, resting, theft patterns). With proper piloting, practicality is plausible.</div>
+                    <div class="verdict-badge" style="border-left-color: #1a3a5c;">馃煛 Promising but needs field validation</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Utility -->
+    <div class="category-block">
+        <div class="category-header" style="background-color: #7b3f00;">Utility <small>路 Usability and adoption potential</small></div>
+        <div class="cards-grid">
+            <div class="qa-card" style="border-left-color: #7b3f00;">
+                <div class="card-content"><div class="question-id">CQ-A3</div><div class="question-text">Is the architecture suitable for rural deployment given power and connectivity constraints?</div>
+                <div class="answer-text">Yes, explicitly. Device Layer mandates solar-powered, low-power tags; Network Layer selects LoRaWAN for high link budget and low consumption. The architecture acknowledges off-grid realities. However, missing constructs for edge caching or data compression during network outages limit full suitability. Overall, the design is well鈥慳dapted for rural constraints (R2).</div>
+                <div class="verdict-badge" style="border-left-color: #7b3f00;">鉁?Suitable 鈥?offline resilience would strengthen</div>
+                </div>
+            </div>
+            <div class="qa-card" style="border-left-color: #7b3f00;">
+                <div class="card-content"><div class="question-id">CQ-A4</div><div class="question-text">Barriers to adoption by South African smallholder farmers?</div>
+                <div class="answer-text">Cost of devices, digital literacy, and trust in automated theft alerts are potential barriers. The architecture includes mobile apps and farmer validation (<code>validateStatusOfEvent</code>), which helps build trust. However, no explicit community engagement construct (e.g., shared alerts) or subsidy model is mentioned. Adoption may require demonstration projects and co-design to overcome socio鈥憈echnical hurdles (T2, T6).</div>
+                <div class="verdict-badge" style="border-left-color: #7b3f00;">鈿狅笍 Acknowledged, but socio鈥憈echnical constructs lacking</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Efficiency -->
+    <div class="category-block">
+        <div class="category-header" style="background-color: #1f6e6e;">Efficiency <small>路 Performance and effectiveness</small></div>
+        <div class="cards-grid">
+            <div class="qa-card" style="border-left-color: #1f6e6e;"><div class="card-content"><div class="question-id">CQ-A5</div><div class="question-text">Does the architecture perform primary tasks (data ingestion, real-time inference, alert generation)?</div><div class="answer-text">Yes, the pipeline is explicit: data ingestion via Device/Network, transformation via Data Mapper, inference via Reasoning Engine (SWRL rules), and alerts through Application Layer. Real-time is supported by SWRL rules with temporal reasoning; however, latency is not quantified. The architecture is logically capable.</div><div class="verdict-badge" style="border-left-color: #1f6e6e;">鉁?Task pipeline complete</div></div></div>
+            <div class="qa-card" style="border-left-color: #1f6e6e;"><div class="card-content"><div class="question-id">CQ-A6</div><div class="question-text">Does the architecture effectively bridge theory and practice?</div><div class="answer-text">It bridges well via the LFTDO implementation (1,865 individuals, 27 rules) and explicit linkage to requirements R1鈥揜4. However, the architecture remains a blueprint; practice would require middleware implementation details (mapping definitions). The gap is theoretical but mitigated by the verified ontology and semantic chains.</div><div class="verdict-badge" style="border-left-color: #1f6e6e;">馃煛 Strong theory鈥損ractice mapping, minor implementation details missing</div></div></div>
+            <div class="qa-card" style="border-left-color: #1f6e6e;"><div class="card-content"><div class="question-id">CQ-A7</div><div class="question-text">Cost-effectiveness for rural South Africa?</div><div class="answer-text">Low鈥憄ower LoRaWAN and solar tags reduce operational costs. Using open鈥憇ource tools (Protege, Pellet) and cloud services keeps software overhead manageable. Still, no cost analysis is provided; hardware procurement and LoRa gateway infrastructure may be upfront barriers. Cost-effectiveness is plausible but not demonstrated.</div><div class="verdict-badge" style="border-left-color: #1f6e6e;">馃煛 Reasonable assumptions, lacking cost model</div></div></div>
+            <div class="qa-card" style="border-left-color: #1f6e6e;"><div class="card-content"><div class="question-id">CQ-A8</div><div class="question-text">Flexibility for new species, sensors, or regions?</div><div class="answer-text">The LFTDO already models three species; adding species requires extending classes and baseline data. The modular layer approach allows new sensor types (e.g., heart rate) by adding data properties and SWRL rules. The architecture is designed for extensibility, though ontology versioning mechanisms are not fully specified.</div><div class="verdict-badge" style="border-left-color: #1f6e6e;">鉁?Good extensibility foundation</div></div></div>
+        </div>
+    </div>
+
+    <!-- Quality -->
+    <div class="category-block">
+        <div class="category-header" style="background-color: #1d6b44;">Quality <small>路 Innovation and research alignment</small></div>
+        <div class="cards-grid">
+            <div class="qa-card" style="border-left-color: #1d6b44;"><div class="card-content"><div class="question-id">CQ-A9</div><div class="question-text">Innovation compared to existing livestock monitoring architectures?</div><div class="answer-text">The combination of a formal OWL 2 ontology (LFTDO) with 27 SWRL rules, multi鈥慺actor theft detection, and explicit governance layer is innovative. Most existing systems use simple thresholding; this work integrates semantic reasoning, health/environment disambiguation, and forensic readiness (SPARQL, temporal paths). The TOQS=100% further shows rigour.</div><div class="verdict-badge" style="border-left-color: #1d6b44;">鉁?High innovation: semantic+AIoT+forensic</div></div></div>
+            <div class="qa-card" style="border-left-color: #1d6b44;"><div class="card-content"><div class="question-id">CQ-A10</div><div class="question-text">Overall research quality as demonstrated by alignment to literature?</div><div class="answer-text">The architecture references relevant themes (T1鈥揟7) and requirements (R1鈥揜4). The LFTDO follows established ontology engineering (Methontology, OD-101) and uses W3C standards. OOPS! evaluation confirms best鈥憄ractice compliance. Alignment with literature is strong, though the text could explicitly cite comparative ontology reuse (ATOL, EOL) 鈥?but the verified metrics justify a high research quality.</div><div class="verdict-badge" style="border-left-color: #1d6b44;">鉁?High methodological rigour</div></div></div>
+        </div>
+    </div>
+
+    <!-- ===================== LFTDO EVALUATION ===================== -->
+    <h2 style="font-family: 'DM Serif Display'; margin-top: 2rem;">馃摉 LFTDO Ontology Evaluation</h2>
+    <!-- Validity -->
+    <div class="category-block">
+        <div class="category-header" style="background-color: #1a3a5c;">Validity <small>路 Domain representation and consistency</small></div>
+        <div class="cards-grid">
+            <div class="qa-card" style="border-left-color:#1a3a5c;"><div class="card-content"><div class="question-id">CQ-L1</div><div class="question-text">Consistency and logical soundness verified by Pellet reasoner?</div><div class="answer-text">The ontology contains 19,716 axioms, 1,865 individuals, and was tested with Pellet (JVM tuned). Consistency checks passed; no incoherence reported. The large ABox (4,577 object property assertions) was reasoned without errors, demonstrating logical soundness and scalability for realistic datasets.</div><div class="verdict-badge" style="border-left-color:#1a3a5c;">鉁?Consistent, scalable reasoning confirmed</div></div></div>
+            <div class="qa-card" style="border-left-color:#1a3a5c;"><div class="card-content"><div class="question-id">CQ-L2</div><div class="question-text">How well does the RBox support real鈥憈ime reasoning across all scenario types?</div><div class="answer-text">The 27 SWRL rules cover behavioural deviation (RL_BEHAVIOUR_DEVIATION), multi鈥慺actor (RL_COMPLEXTHEFT_CORRELATION), health (cattle fever, prolonged resting), sabotage, geofence breaches, and temporal transitions. Semantic chains (scenarios 1鈥?) demonstrate full inference from observation to classification. The rule set is comprehensive and context鈥慳ware.</div><div class="verdict-badge" style="border-left-color:#1a3a5c;">鉁?Strong coverage across theft/health/sabotage scenarios</div></div></div>
+            <div class="qa-card" style="border-left-color:#1a3a5c;"><div class="card-content"><div class="question-id">CQ-L3</div><div class="question-text">Do SPARQL queries answer all eight Competency Questions?</div><div class="answer-text">Seven SPARQL queries are listed, mapping to CQ1鈥揅Q4, CQ6鈥揅Q8. CQ5 (historical movement path during theft event) is not explicitly represented by a query, though the data exists via <code>hasBehaviourStartTime</code> and geo properties. Missing a dedicated temporal path query is a minor gap, but retrievable via SPARQL constructs. All other CQs are answerable.</div><div class="verdict-badge" style="border-left-color:#1a3a5c;">馃煛 CQ5 query not shown, but data model supports it</div></div></div>
+            <div class="qa-card" style="border-left-color:#1a3a5c;"><div class="card-content"><div class="question-id">CQ-L4</div><div class="question-text">Representation of temporal and spatial dimensions?</div><div class="answer-text">Excellent: explicit geofence rules (north, south, east, west) and proximity inference (RL_PROXIMITY_INFERENCE). Temporal reasoning appears in duration thresholds (RL_PROLONGED_RESTING_*) and speed鈥慸uration conditions (scenario 5). The combination of geofence + behaviour + timestamps enables robust spatio鈥憈emporal theft detection.</div><div class="verdict-badge" style="border-left-color:#1a3a5c;">鉁?Robust spatio鈥憈emporal reasoning</div></div></div>
+        </div>
+    </div>
+    <!-- Quality -->
+    <div class="category-block">
+        <div class="category-header" style="background-color: #1d6b44;">Quality <small>路 Ontology engineering best practices</small></div>
+        <div class="cards-grid">
+            <div class="qa-card" style="border-left-color:#1d6b44;"><div class="card-content"><div class="question-id">CQ-L5</div><div class="question-text">Adherence to naming conventions, annotations, OWL 2 DL?</div><div class="answer-text">Fully compliant: PascalCase classes, camelCase properties, individuals with species prefix, rdfs:label/comment on every element (2,570 AnnotationAssertions). OWL 2 DL ensures decidability; verified in Protege. High engineering maturity.</div><div class="verdict-badge" style="border-left-color:#1d6b44;">鉁?Exemplary standards compliance</div></div></div>
+            <div class="qa-card" style="border-left-color:#1d6b44;"><div class="card-content"><div class="question-id">CQ-L6</div><div class="question-text">Significance of OOPS! TOQS = 100%?</div><div class="answer-text">Demonstrates structural quality and absence of critical pitfalls (e.g., missing domain/range, cycles, inconsistent annotations). However, OOPS! cannot evaluate domain relevance or rule accuracy. It confirms syntactic and modelling best practices, increasing trust for reuse.</div><div class="verdict-badge" style="border-left-color:#1d6b44;">鉁?Excellent structural quality; limits: no semantic correctness guarantee</div></div></div>
+            <div class="qa-card" style="border-left-color:#1d6b44;"><div class="card-content"><div class="question-id">CQ-L7</div><div class="question-text">Documentation quality for future reuse and integration?</div><div class="answer-text">Every entity is annotated; the hybrid Methontology/OD-101 process ensures systematic documentation. The 27 SWRL rules are named and described, scenarios illustrate usage. However, a formal ontology documentation (e.g., HTML documentation) is not provided, but annotations suffice for reuse.</div><div class="verdict-badge" style="border-left-color:#1d6b44;">鉁?Well-documented for domain experts and developers</div></div></div>
+        </div>
+    </div>
+    <!-- Utility -->
+    <div class="category-block">
+        <div class="category-header" style="background-color: #7b3f00;">Utility <small>路 Practical usefulness within Onto-AIoTA ecosystem</small></div>
+        <div class="cards-grid">
+            <div class="qa-card" style="border-left-color:#7b3f00;"><div class="card-content"><div class="question-id">CQ-L8</div><div class="question-text">Integration with Onto-AIoTA Semantic Layer components?</div><div class="answer-text">Semantic chains (C2.4) show LFTDO classes/properties used by Data Mapper (triples), Triple Store, and Reasoning Engine. The SWRL rules are executed in the reasoning engine, and results feed into the Application Layer. The vocabulary aligns perfectly; integration is seamless at the knowledge level.</div><div class="verdict-badge" style="border-left-color:#7b3f00;">鉁?Tight, coherent integration</div></div></div>
+            <div class="qa-card" style="border-left-color:#7b3f00;"><div class="card-content"><div class="question-id">CQ-L9</div><div class="question-text">Extensibility to new species or sensor types?</div><div class="answer-text">Cellfie batch upload supports adding new species (e.g., Horses) by extending the <code>Livestock</code> class and providing baseline data (speed, temperature). New sensor types require new data properties and potentially additional SWRL rules. The modular design (108 object properties, 172 data properties) allows incremental extension without refactoring.</div><div class="verdict-badge" style="border-left-color:#7b3f00;">鉁?Highly extensible</div></div></div>
+            <div class="qa-card" style="border-left-color:#7b3f00;"><div class="card-content"><div class="question-id">CQ-L10</div><div class="question-text">Shared stakeholder-agnostic vocabulary?</div><div class="answer-text">Yes 鈥?classes like <code>Farmer</code>, <code>LawEnforcementAgent</code>, <code>Veterinarian</code>, <code>SoftwareApp</code>, <code>TheftEvent</code> are used across all semantic chains. The vocabulary reduces ambiguity between technical and non鈥憈echnical actors; validation step (<code>validateStatusOfEvent</code>) ensures shared understanding.</div><div class="verdict-badge" style="border-left-color:#7b3f00;">鉁?Unified vocabulary across stakeholders</div></div></div>
+        </div>
+    </div>
+    <!-- Efficacy -->
+    <div class="category-block">
+        <div class="category-header" style="background-color: #5a1a5a;">Efficacy <small>路 Theft detection performance and reliability</small></div>
+        <div class="cards-grid">
+            <div class="qa-card" style="border-left-color:#5a1a5a;"><div class="card-content"><div class="question-id">CQ-L11</div><div class="question-text">Effectiveness under simulated scenarios (normal, multi鈥慺actor, health, sabotage, temporal)?</div><div class="answer-text">Scenario 1鈥? fully exercise the rule set: behavioural deviation, health overlay, prolonged resting, sabotage via power鈥憃ff detection, and high鈥憇peed temporal validation. Each chain ends with appropriate <code>TheftEvent</code> or health alert. The reasoning covers realistic edge cases (heat stress, fever).</div><div class="verdict-badge" style="border-left-color:#5a1a5a;">鉁?Comprehensive coverage of theft鈥憆elated patterns</div></div></div>
+            <div class="qa-card" style="border-left-color:#5a1a5a;"><div class="card-content"><div class="question-id">CQ-L12</div><div class="question-text">Reliability and responsiveness of alert pipeline?</div><div class="answer-text">Semantic chains show deterministic flow: detection 鈫?<code>isDetectedBy</code> 鈫?<code>notifies(Farmer)</code> 鈫?validation. With SWRL rules triggered on sensor data insertion, responsiveness depends on reasoner throughput (Pellet with 1,865 individuals). The pipeline is logically sound; real鈥憈ime latency not measured but plausible for moderate data rates.</div><div class="verdict-badge" style="border-left-color:#5a1a5a;">馃煛 Reliable logic, real鈥憈ime performance untested</div></div></div>
+            <div class="qa-card" style="border-left-color:#5a1a5a;"><div class="card-content"><div class="question-id">CQ-L13</div><div class="question-text">Reasoning accuracy and F1鈥慡core assessment?</div><div class="answer-text">No explicit F1鈥憇core is provided, but the ABox of 1,865 individuals with clear normal/abnormal ground truth (based on speed/duration) suggests high precision if thresholds are tuned. The ontology includes confidence scores and uses duration thresholds to reduce false positives. Quantitative evaluation against labelled theft events remains future work.</div><div class="verdict-badge" style="border-left-color:#5a1a5a;">鈿狅笍 No empirical F1, but design reduces false positives</div></div></div>
+            <div class="qa-card" style="border-left-color:#5a1a5a;"><div class="card-content"><div class="question-id">CQ-L14</div><div class="question-text">How significantly does semantic context reduce false alarms?</div><div class="answer-text">By incorporating health (fever), environmental heat (RL_EXTREME_HEAT_CONTEXT), and prolonged resting thresholds, the system avoids misclassifying normal stress as theft. The correlation rule (RL_COMPLEXTHEFT_CORRELATION) requires multiple indicators, drastically reducing false positives compared to single鈥憈hreshold systems. This is a key efficacy improvement.</div><div class="verdict-badge" style="border-left-color:#5a1a5a;">鉁?Substantial false鈥慳larm reduction via multi鈥慶ontext reasoning</div></div></div>
+        </div>
+    </div>
+
+    <!-- Gaps & Concerns Callout -->
+    <div class="callout">
+        <strong>馃搶 Critical gaps & concerns (cross鈥慳rtefact)</strong><br>
+        鈥?<strong>Missing constructs for governance</strong>: No <code>ConsentRecord</code> or <code>AuditLog</code> in Business Layer 鈥?POPIA compliance remains abstract.<br>
+        鈥?<strong>Offline & security constructs</strong>: Edge buffering, data encryption, and firmware update mechanisms not represented.<br>
+        鈥?<strong>Empirical performance data</strong>: F1-score, latency benchmarks, and field trials absent; efficacy partly assumed.<br>
+        鈥?<strong>Ontology versioning interface</strong>: Independent evolution of LFTDO and Onto-AIoTA is not formally captured, risking integration drift.<br>
+        鈥?<strong>Stakeholder adoption constructs</strong>: Community alert groups and co鈥慸esign modules missing for socio鈥憈echnical themes (T2, T6).<br>
+        Addressing these would elevate the artefacts from conceptual/validated prototype to production鈥憆eady system.
+    </div>
+
+    <!-- Overall DSR Score Summary -->
+    <h2 style="font-family: 'DM Serif Display'; margin-top: 1.5rem;">馃搳 Overall DSR Score Summary</h2>
+    <table class="score-table">
+        <thead><tr><th>DSR Metric</th><th>Score (out of 5)</th><th>Justification</th></tr></thead>
+        <tbody>
+            <tr><td><strong>Validity</strong></td><td>4.5 / 5</td><td>Architecture solves real problem; LFTDO 19k axioms consistent; minor gaps in versioning interface.</td></tr>
+            <tr><td><strong>Quality</strong></td><td>5.0 / 5</td><td>OOPS! 100%, W3C standards, full annotations, rigorous methodology. Exceptional structural quality.</td></tr>
+            <tr><td><strong>Utility</strong></td><td>4.0 / 5</td><td>Rural鈥憆eady LoRaWAN, extensible species; adoption barriers partially addressed, offline resilience missing.</td></tr>
+            <tr><td><strong>Efficiency / Efficacy</strong></td><td>4.0 / 5</td><td>27 rules cover theft/health/sabotage; reduces false alarms contextually; no empirical F1/latency yet.</td></tr>
+        </tbody>
+    </table>
+    <div class="overall-verdict">
+        <strong>馃帗 Overall Verdict</strong><br>
+        The Onto-AIoTA architecture and LFTDO ontology represent a sophisticated, theoretically grounded, and methodologically rigorous contribution to livestock theft detection. The LFTDO, with its 27 SWRL rules, verified ABox of 1,865 individuals, and flawless OOPS! score, demonstrates exceptional construct quality and inference capability. The five鈥憀ayer architecture effectively integrates IoT, semantics, and governance. While the artefacts are at a high level of readiness, the evaluation identifies gaps in governance constructs (audit, consent), offline resilience, and empirical performance metrics. With minor refinements and field validation, the artefacts could serve as a benchmark for semantic鈥慸riven forensic systems in agriculture.
+    </div>
+    <footer>Evaluation based on Section C evidence (architecture description, LFTDO verified metrics, SWRL rules, semantic chains, SPARQL, OOPS!). DSR framework: Gregor & Hevner (2013).</footer>
+</div>
+</body>
+</html>

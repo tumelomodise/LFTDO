@@ -66,6 +66,7 @@ LFTDO/
 │   ├── Section_A_LLM_Agent_Profiling_Onto-AIoTA_LFTDO.docx   ← Agent profiling questionnaire & responses
 │   ├── Section_B_Constructs_Assessment_FinalV0_01.docx        ← Constructs evaluation questionnaire & results
 │   ├── Section_C_Artefacts_Evaluation_Onto-AIoTA_LFTDO.docx  ← Artefact evaluation questionnaire & results
+│   ├── resultsWorkbook.xls 								  ← Evaluation results sheets ← SRQ Alignment ← Theme Alignment ← LFTDO Construct ← Onto-AIoTA Construct 
 │	├── Claude
 │	│	├── Section_A_claude.AI_agent_profile.html
 │	│	├── Section_B_Evaluation_Response_Claude.html

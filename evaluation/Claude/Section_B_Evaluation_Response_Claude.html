@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Section B — Artefacts Constructs Assessment | Onto-AIoTA & LFTDO | Claude</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #faf8f5;
+    --ink: #1a1714;
+    --muted: #6b6460;
+    --rule: #ddd9d3;
+    --accent: #8b2e0f;       /* burnt sienna — academic warmth */
+    --accent2: #1c3d5a;      /* deep navy */
+    --gold: #c9952a;
+    --green: #2d6a4f;
+    --purple: #4a2060;
+    --rating-5: #1b4332;
+    --rating-4: #2d6a4f;
+    --rating-3: #b5860e;
+    --rating-2: #7f3c12;
+    --rating-1: #6b0f1a;
+    --card-bg: #ffffff;
+    --srq-bg: #f0f4f8;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Source Serif 4', Georgia, serif;
+    background: var(--bg);
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  /* ── COVER ── */
+  .cover {
+    background: var(--accent2);
+    color: #fff;
+    padding: 72px 80px 56px;
+    position: relative;
+    overflow: hidden;
+  }
+  .cover::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: repeating-linear-gradient(
+      45deg,
+      rgba(255,255,255,.015) 0px,
+      rgba(255,255,255,.015) 1px,
+      transparent 1px,
+      transparent 40px
+    );
+  }
+  .cover::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--accent) 0%, var(--gold) 40%, var(--accent) 100%);
+  }
+  .cover-inner { position: relative; z-index: 1; max-width: 860px; margin: 0 auto; }
+  .cover-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,.5);
+    margin-bottom: 20px;
+  }
+  .cover h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 10px;
+  }
+  .cover h1 em {
+    font-style: italic;
+    font-weight: 400;
+    color: #a8c4dd;
+  }
+  .cover-sub {
+    font-size: 14px;
+    color: rgba(255,255,255,.6);
+    max-width: 600px;
+    margin-top: 14px;
+    line-height: 1.65;
+  }
+  .cover-meta {
+    display: flex;
+    gap: 36px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    padding-top: 28px;
+    border-top: 1px solid rgba(255,255,255,.15);
+  }
+  .meta-item .meta-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,.4);
+    display: block;
+    margin-bottom: 3px;
+  }
+  .meta-item .meta-val { font-size: 13px; color: #fff; font-weight: 600; }
+
+  /* ── STICKY NAV ── */
+  .nav-bar {
+    background: #fff;
+    border-bottom: 2px solid var(--ink);
+    padding: 0 40px;
+    display: flex;
+    align-items: stretch;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px rgba(0,0,0,.08);
+  }
+  .nav-agent {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .nav-agent strong { color: var(--ink); }
+  .nav-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
+  .nav-pills { margin-left: auto; display: flex; align-items: center; gap: 6px; }
+  .pill {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 500;
+  }
+  .p-srq  { background: var(--accent); }
+  .p-th   { background: var(--accent2); }
+  .p-lftdo{ background: var(--green); }
+  .p-arch { background: var(--purple); }
+
+  /* ── LAYOUT ── */
+  .page { max-width: 920px; margin: 0 auto; padding: 0 40px; }
+
+  /* ── SECTION HEADER ── */
+  .sec-hdr {
+    padding: 52px 0 24px;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 0;
+  }
+  .sec-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+  .sec-hdr h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .sec-intro {
+    margin-top: 12px;
+    font-style: italic;
+    color: var(--muted);
+    font-size: 14px;
+    max-width: 680px;
+  }
+
+  /* ── MATSHABA PATTERN BOX ── */
+  .pattern-box {
+    margin: 32px 0;
+    background: var(--accent2);
+    color: #fff;
+    border-radius: 4px;
+    padding: 20px 24px;
+    font-size: 13.5px;
+    line-height: 1.65;
+  }
+  .pattern-box strong { color: #a8c4dd; }
+
+  /* ── SRQ ALIGNMENT SECTION — KEY ADDITION ── */
+  .srq-section {
+    margin: 40px 0 0;
+  }
+  .srq-section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--ink);
+    padding: 18px 20px;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .srq-section-title .badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    background: rgba(255,255,255,.2);
+    padding: 3px 9px;
+    border-radius: 2px;
+  }
+  .srq-intro {
+    background: #fff3ee;
+    border: 1px solid #f0c4b0;
+    border-top: none;
+    padding: 16px 20px;
+    font-size: 13.5px;
+    color: #5a2010;
+    font-style: italic;
+    line-height: 1.65;
+  }
+
+  /* SRQ alignment table */
+  .srq-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13.5px;
+    border: 1px solid var(--rule);
+    border-top: none;
+  }
+  .srq-table th {
+    background: #f5f0eb;
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom: 1px solid var(--rule);
+    border-right: 1px solid var(--rule);
+  }
+  .srq-table th:last-child { border-right: none; }
+  .srq-table td {
+    padding: 14px 14px;
+    vertical-align: top;
+    border-bottom: 1px solid var(--rule);
+    border-right: 1px solid var(--rule);
+    line-height: 1.65;
+  }
+  .srq-table td:last-child { border-right: none; }
+  .srq-table tr:last-child td { border-bottom: none; }
+  .srq-table tr:nth-child(even) td { background: #faf8f5; }
+  .srq-id {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--accent);
+    white-space: nowrap;
+  }
+  .srq-q { font-style: italic; font-size: 13px; color: var(--muted); margin-bottom: 6px; }
+  .srq-finding { font-size: 13.5px; color: var(--ink); }
+  .srq-constructs {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: var(--accent2);
+    margin-top: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .srq-tag {
+    background: #e8f0f8;
+    border: 1px solid #b8cfe0;
+    padding: 1px 6px;
+    border-radius: 2px;
+  }
+
+  /* Theme alignment rows */
+  .theme-section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+    padding: 18px 20px;
+    background: var(--accent2);
+    border-radius: 4px 4px 0 0;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .theme-rows { border: 1px solid var(--rule); border-top: none; }
+  .theme-row {
+    padding: 18px 20px;
+    border-bottom: 1px solid var(--rule);
+    display: grid;
+    grid-template-columns: 90px 1fr auto;
+    gap: 16px;
+    align-items: start;
+  }
+  .theme-row:last-child { border-bottom: none; }
+  .theme-row:nth-child(even) { background: #fafaf8; }
+  .theme-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    color: #fff;
+    background: var(--accent2);
+    padding: 3px 8px;
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 3px;
+  }
+  .theme-body {}
+  .theme-name { font-weight: 600; font-size: 13.5px; margin-bottom: 4px; }
+  .theme-finding { font-size: 13.5px; color: #2a2520; line-height: 1.68; }
+  .theme-constructs {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    margin-top: 6px;
+  }
+
+  /* ── RATING BADGE ── */
+  .rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    min-width: 56px;
+  }
+  .rating-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .r5 .rating-num { color: var(--rating-5); }
+  .r4 .rating-num { color: var(--rating-4); }
+  .r3 .rating-num { color: var(--rating-3); }
+  .r2 .rating-num { color: var(--rating-2); }
+  .rating-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8.5px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.3;
+  }
+  .r5 .rating-label { color: var(--rating-5); }
+  .r4 .rating-label { color: var(--rating-4); }
+  .r3 .rating-label { color: var(--rating-3); }
+  .rating-dots {
+    display: flex;
+    gap: 2px;
+    margin-top: 3px;
+  }
+  .dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--rule);
+  }
+  .r5 .dot.filled { background: var(--rating-5); }
+  .r4 .dot.filled { background: var(--rating-4); }
+  .r3 .dot.filled { background: var(--rating-3); }
+
+  /* ── QA BLOCKS ── */
+  .block-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+    color: #fff;
+    margin-top: 36px;
+    border-radius: 4px 4px 0 0;
+  }
+  .bh-lftdo { background: var(--green); }
+  .bh-arch  { background: var(--purple); }
+  .bh-cat {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    opacity: .75;
+  }
+  .bh-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  .qa-list { border: 1px solid var(--rule); border-top: none; }
+  .qa-item {
+    display: grid;
+    grid-template-columns: 1fr 70px;
+    gap: 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .qa-item:last-child { border-bottom: none; }
+  .qa-item:nth-child(even) .qa-body { background: #faf8f5; }
+  .qa-body { padding: 20px 22px; }
+  .qa-q-line { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 12px; }
+  .qa-id {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 2px;
+    flex-shrink: 0;
+    margin-top: 3px;
+    letter-spacing: .05em;
+  }
+  .id-lftdo { background: var(--green); }
+  .id-arch  { background: var(--purple); }
+  .qa-q {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.5;
+    font-family: 'Source Serif 4', serif;
+  }
+  .qa-a {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #2a2520;
+    padding-left: 34px;
+  }
+  .qa-a p { margin-bottom: 8px; }
+  .qa-a p:last-child { margin-bottom: 0; }
+  .qa-rating-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid var(--rule);
+    padding: 16px 10px;
+  }
+  .qa-item:nth-child(even) .qa-rating-col { background: #faf8f5; }
+
+  /* highlight note */
+  .note {
+    margin: 10px 0 6px 34px;
+    padding: 10px 14px;
+    border-left: 3px solid var(--gold);
+    background: #fef9ec;
+    border-radius: 0 3px 3px 0;
+    font-size: 13px;
+    font-style: italic;
+    color: #7a5a00;
+    line-height: 1.6;
+  }
+
+  /* ── OVERALL SUMMARY ── */
+  .summary-card {
+    margin: 52px 0 0;
+    background: var(--ink);
+    color: #fff;
+    border-radius: 6px;
+    padding: 36px 40px;
+  }
+  .summary-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 28px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(255,255,255,.15);
+  }
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+  @media(max-width:600px){.summary-grid{grid-template-columns:1fr;}}
+  .sum-cell { text-align: center; }
+  .sum-val {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .sum-cell:nth-child(1) .sum-val { color: #f4a460; }
+  .sum-cell:nth-child(2) .sum-val { color: #87ceeb; }
+  .sum-cell:nth-child(3) .sum-val { color: #90ee90; }
+  .sum-lbl {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,.45);
+  }
+  .sum-verdict {
+    font-size: 13.5px;
+    color: rgba(255,255,255,.65);
+    border-top: 1px solid rgba(255,255,255,.1);
+    padding-top: 22px;
+    line-height: 1.75;
+  }
+  .sum-verdict strong { color: rgba(255,255,255,.9); }
+
+  /* ── FOOTER ── */
+  .doc-footer {
+    margin-top: 56px;
+    padding: 24px 0 48px;
+    border-top: 1px solid var(--rule);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .footer-refs { font-size: 12px; color: var(--muted); }
+  .footer-refs p { margin-bottom: 4px; }
+  .footer-agent {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: var(--muted);
+    text-align: right;
+  }
+
+  .divider { height: 1px; background: var(--rule); margin: 36px 0; }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="cover">
+  <div class="cover-inner">
+    <div class="cover-label">Onto-AIoTA &amp; LFTDO · Chapter 7 Summative Evaluation · Multi-Agent LLM Framework</div>
+    <h1>Section B — Artefacts<br><em>Constructs Assessment</em></h1>
+    <p class="cover-sub">Following the Matshaba (2021) evaluation pattern: SRQ &amp; Theme alignment check → Construct vocabulary assessment → Rated questionnaire (1–5 scale). Grounded in Research Problem, SRQ1–SRQ5, Themes T1–T7, and Requirements R1–R4.</p>
+    <div class="cover-meta">
+      <div class="meta-item"><span class="meta-label">Evaluating Agent</span><span class="meta-val">Claude (Anthropic) — Sonnet 4.6</span></div>
+      <div class="meta-item"><span class="meta-label">Pattern Reference</span><span class="meta-val">Matshaba (2021) §7.6.2–7.6.6</span></div>
+      <div class="meta-item"><span class="meta-label">DSR Framework</span><span class="meta-val">Gregor &amp; Hevner (2013)</span></div>
+      <div class="meta-item"><span class="meta-label">Rating Scale</span><span class="meta-val">1 (Not Supported) → 5 (Strongly Supported)</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- STICKY NAV -->
+<div class="nav-bar">
+  <div class="nav-agent"><div class="nav-dot"></div><strong>Claude (Anthropic)</strong>&nbsp;· Section B Constructs Assessment</div>
+  <div class="nav-pills">
+    <span class="pill p-srq">SRQ Alignment</span>
+    <span class="pill p-th">Theme Alignment</span>
+    <span class="pill p-lftdo">LFTDO Constructs</span>
+    <span class="pill p-arch">Onto-AIoTA Constructs</span>
+  </div>
+</div>
+
+<div class="page">
+
+<!-- PATTERN NOTE -->
+<div class="pattern-box" style="margin-top:36px;">
+  Following <strong>Matshaba (2021) §7.6.2</strong>, this evaluation first confirms alignment of artefact constructs with sub-research questions and research themes before assessing individual construct quality. Each alignment is rated 1–5 using the LLM Response Rating Scale (5 = Strongly Supported). This mirrors Matshaba's expert Likert survey adapted for LLM agent evaluation.
+</div>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- B.SRQ  SUB-RESEARCH QUESTION ALIGNMENT  (Matshaba §7.6.2)     -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
+<div class="sec-hdr" style="margin-top:12px;">
+  <div class="sec-num">B.SRQ · Matshaba (2021) §7.6.2 Equivalent</div>
+  <h2>Alignment of Sub-Research Questions to Artefact Constructs</h2>
+  <p class="sec-intro">Following Matshaba (2021): do the Onto-AIoTA and LFTDO constructs align with each sub-research question? Each SRQ is assessed with a rating (1–5), the specific constructs that address it, and a written justification.</p>
+</div>
+
+<div class="srq-section">
+  <div class="srq-section-title">
+    <span class="badge">SRQ Alignment</span>
+    SRQ1 – SRQ5 · Construct Alignment Assessment
+  </div>
+  <div class="srq-intro">
+    For each sub-research question below, the evaluation identifies which specific constructs address the question, assesses the degree of alignment, and assigns a rating from 1 (Not Supported) to 5 (Strongly Supported). This replicates Matshaba §7.6.2: <em>"Do the artefact constructs align with the sub-research questions?"</em>
+  </div>
+
+  <table class="srq-table">
+    <thead>
+      <tr>
+        <th style="width:60px">SRQ</th>
+        <th style="width:220px">Sub-Research Question</th>
+        <th>Construct Alignment Finding</th>
+        <th style="width:80px;text-align:center">Rating</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <td><span class="srq-id">SRQ1</span></td>
+        <td>
+          <div class="srq-q">What current livestock theft prevention methods are used in South Africa, and what challenges do technology-based solutions need to address?</div>
+        </td>
+        <td>
+          <div class="srq-finding">SRQ1 defines the problem context that the entire artefact vocabulary must be grounded in. The <strong>TheftEvent</strong>, <strong>TheftIndicator</strong>, and <strong>AbnormalState</strong> classes directly encode the criminal pattern vocabulary needed to model current theft methods (rustling, slaughter theft, loading theft). The four TheftIndicator sub-types (BehavioralIndicator, PhysiologicalIndicator, SpatialIndicator, TechnicalIndicator) map to the specific technological challenges identified in the SRQ. The <strong>Business Layer</strong> (crime intelligence) and <strong>Application Layer</strong> (alert generation) address the policy gap in existing fragmented solutions. The construct vocabulary leaves no gap relative to SRQ1 — the problem domain is fully instantiated in the TBox.</div>
+          <div class="srq-constructs">
+            <span class="srq-tag">TheftEvent</span>
+            <span class="srq-tag">TheftIndicator (×4 subtypes)</span>
+            <span class="srq-tag">AbnormalState</span>
+            <span class="srq-tag">Business Layer</span>
+            <span class="srq-tag">Application Layer</span>
+          </div>
+        </td>
+        <td>
+          <div class="rating r5">
+            <div class="rating-num">5</div>
+            <div class="rating-label">Strongly Supported</div>
+            <div class="rating-dots">
+              <div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td><span class="srq-id">SRQ2</span></td>
+        <td>
+          <div class="srq-q">How can ontologies, IoT technologies, and AI capabilities be integrated into an effective architecture for livestock theft prevention in rural contexts?</div>
+        </td>
+        <td>
+          <div class="srq-finding">SRQ2 is the primary architectural question and is most directly answered by the <strong>Onto-AIoTA five-layer model</strong>. The construct vocabulary explicitly represents all three integration dimensions: IoT is represented by the <strong>Device Layer</strong> and <strong>SensorData</strong> class hierarchy; AI is represented by the <strong>Reasoning Engine (SWRL)</strong>, <strong>DetectionMethod</strong>, and <strong>MLAlgorithm</strong> constructs; Ontology is represented by the <strong>Semantic Layer</strong> containing the LFTDO Triple Store. The <strong>Data Mapper (Middleware)</strong> construct captures the specific integration challenge — transforming heterogeneous JSON/MQTT sensor data into RDF triples — which is the precise coupling point between IoT and the ontology layer. This is the most comprehensively addressed SRQ in the construct vocabulary.</div>
+          <div class="srq-constructs">
+            <span class="srq-tag">Semantic Layer (Data Mapper, Triple Store, Reasoning Engine)</span>
+            <span class="srq-tag">Device Layer</span>
+            <span class="srq-tag">Network Layer (LoRaWAN)</span>
+            <span class="srq-tag">SensorData</span>
+            <span class="srq-tag">MLAlgorithm</span>
+          </div>
+        </td>
+        <td>
+          <div class="rating r5">
+            <div class="rating-num">5</div>
+            <div class="rating-label">Strongly Supported</div>
+            <div class="rating-dots">
+              <div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td><span class="srq-id">SRQ3</span></td>
+        <td>
+          <div class="srq-q">What essential components and design considerations are required for the architecture to function within rural infrastructure constraints while remaining affordable?</div>
+        </td>
+        <td>
+          <div class="srq-finding">SRQ3 maps directly to R2 (Rural Power Constraint) and is addressed by two construct-level design decisions: (1) the <strong>Device Layer</strong> specifies low-power solar-powered tags, encoding the energy autonomy requirement at the vocabulary level; (2) the <strong>Network Layer</strong> names LoRaWAN as the selected protocol with explicit justification for its link budget and low power consumption in the construct definition. The <strong>SensorData</strong> class (low-volume telemetry types: GPS, accelerometer, temperature) is appropriately designed for constrained rural bandwidth. One minor gap: affordability as a construct-level requirement is described in prose but not encoded as a formal constraint property in the Device or Network layer constructs. A <em>hasCostConstraint</em> data property or an <em>AffordabilityRequirement</em> class would strengthen SRQ3 coverage.</div>
+          <div class="srq-constructs">
+            <span class="srq-tag">Device Layer (solar-powered tags)</span>
+            <span class="srq-tag">Network Layer (LoRaWAN)</span>
+            <span class="srq-tag">SensorData (low-volume types)</span>
+            <span class="srq-tag">CommunicationGateway</span>
+          </div>
+        </td>
+        <td>
+          <div class="rating r4">
+            <div class="rating-num">4</div>
+            <div class="rating-label">Supported</div>
+            <div class="rating-dots">
+              <div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td><span class="srq-id">SRQ4</span></td>
+        <td>
+          <div class="srq-q">How can the ontology be designed to effectively represent livestock behaviour patterns and environmental factors, supporting AI-driven analysis for detecting theft scenarios?</div>
+        </td>
+        <td>
+          <div class="srq-finding">SRQ4 is the ontology design question and is the most granularly addressed SRQ in the LFTDO construct vocabulary. The <strong>Behaviour</strong> class hierarchy (Grazing, Running, Sitting, Sleeping, Feeding, Aggression) represents livestock behaviour patterns. <strong>BehaviourState</strong> (NormalState / AbnormalState) with <em>hasBaselineValues</em> and <em>hasDeviationThresholds</em> properties operationalises the AI-driven threshold comparison. <strong>EnvironmentalCondition</strong> captures external factors, and the <em>environmentInfluencesBehaviourState</em> object property connects environment to behaviour interpretation. The 27 SWRL rules in the RBox are the construct-level representation of "AI-driven analysis." All dimensions of SRQ4 are addressed with strong granularity and clear construct-level operationalisation.</div>
+          <div class="srq-constructs">
+            <span class="srq-tag">Behaviour (6 subclasses)</span>
+            <span class="srq-tag">NormalState / AbnormalState</span>
+            <span class="srq-tag">EnvironmentalCondition</span>
+            <span class="srq-tag">HealthCondition</span>
+            <span class="srq-tag">SWRL RBox (27 rules)</span>
+            <span class="srq-tag">transitionStateTo</span>
+          </div>
+        </td>
+        <td>
+          <div class="rating r5">
+            <div class="rating-num">5</div>
+            <div class="rating-label">Strongly Supported</div>
+            <div class="rating-dots">
+              <div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td><span class="srq-id">SRQ5</span></td>
+        <td>
+          <div class="srq-q">What metrics and methods should be used to evaluate the effectiveness, reliability, and adoptability of the proposed ontology-based architecture?</div>
+        </td>
+        <td>
+          <div class="srq-finding">SRQ5 is the evaluation methodology question. At the construct level, the LFTDO encodes evaluation mechanisms in three ways: (1) the <strong>SPARQL query set</strong> (CQ1–CQ8) provides the formal query-based test of ontology completeness; (2) the <strong>OOPS! pitfall scanner</strong> integration validates structural quality; (3) the <strong>Pellet reasoner</strong> consistency check provides logical soundness verification. For adoptability, the <strong>Participant</strong> class (Farmer, LawEnforcementAgent, Veterinarian) with <em>validateStatusOfEvent</em> encodes the human-in-the-loop adoption mechanism. For effectiveness, the <em>hasConfidenceScore</em> property on BehaviourState is the construct-level representation of a reliability metric. A minor gap exists: no explicit <em>EvaluationMetric</em> class or <em>FalseAlarmRate</em> construct is defined in the TBox to formally represent the quantitative performance metrics described in SROB5.</div>
+          <div class="srq-constructs">
+            <span class="srq-tag">SPARQL queries (CQ1–CQ8)</span>
+            <span class="srq-tag">hasConfidenceScore</span>
+            <span class="srq-tag">validateStatusOfEvent</span>
+            <span class="srq-tag">OOPS! TOQS</span>
+            <span class="srq-tag">Pellet consistency check</span>
+          </div>
+        </td>
+        <td>
+          <div class="rating r4">
+            <div class="rating-num">4</div>
+            <div class="rating-label">Supported</div>
+            <div class="rating-dots">
+              <div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- B.TH  RESEARCH THEME ALIGNMENT  (Matshaba §7.6.3–7.6.5)      -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
+<div class="sec-hdr" style="margin-top:52px;">
+  <div class="sec-num">B.TH · Matshaba (2021) §7.6.3–7.6.5 Equivalent</div>
+  <h2>Research Theme Alignment to Artefact Constructs</h2>
+  <p class="sec-intro">Following Matshaba (2021): for each research theme, how strongly do the identified constructs represent the theme within the artefact design? Rated 1–5 per theme.</p>
+</div>
+
+<div style="margin-top:28px;">
+  <div class="theme-section-title">
+    <span class="badge" style="background:rgba(255,255,255,.2);font-family:JetBrains Mono,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;padding:3px 9px;border-radius:2px;">T1–T7</span>
+    Theme-by-Theme Construct Relevance Assessment
+  </div>
+  <div class="theme-rows">
+
+    <div class="theme-row">
+      <div>
+        <div class="theme-tag">T1</div>
+      </div>
+      <div class="theme-body">
+        <div class="theme-name">Livestock Theft Crime Analysis</div>
+        <div class="theme-finding">The artefact constructs strongly represent this theme. <strong>TheftEvent</strong> (with subclasses HighRustlingTheftEvent, ComplexTheftEvent) directly models crime typology. <strong>TheftIndicator</strong> classifies alert severity (High/Medium/Low) matching real-world response prioritisation. The <strong>Application Layer</strong> alert severity constructs and the <strong>Business Layer</strong> crime intelligence function address both the detection and policy response dimensions of livestock theft crime analysis. The <em>hasTypeOfTheft</em> data property enables historical crime pattern querying (CQ7), directly supporting crime intelligence use cases.</div>
+        <div class="theme-constructs">Constructs: TheftEvent · TheftIndicator (×4) · AbnormalState · Business Layer · Application Layer (alert severity) · hasTypeOfTheft</div>
+      </div>
+      <div class="rating r5" style="min-width:60px;align-self:center;">
+        <div class="rating-num">5</div>
+        <div class="rating-label">Strongly Supported</div>
+        <div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div>
+      </div>
+    </div>
+
+    <div class="theme-row">
+      <div>
+        <div class="theme-tag">T2</div>
+      </div>
+      <div class="theme-body">
+        <div class="theme-name">Socio-Technical Systems</div>
+        <div class="theme-finding">The <strong>Participant</strong> class hierarchy (Farmer, Veterinarian, ExtendedOfficer, LawEnforcementAgent) explicitly models all human stakeholders in the socio-technical system. The <em>validateStatusOfEvent</em> object property encodes the human-in-the-loop mechanism — the socio-technical principle that automation requires human confirmation for high-stakes decisions. The <strong>Business Layer</strong> Change Management and Access Control constructs address the governance and community engagement dimension. <strong>UnauthorisedPerson</strong> models the adversarial social actor. The construct set is comprehensive for T2 coverage.</div>
+        <div class="theme-constructs">Constructs: Participant (×5 roles) · validateStatusOfEvent · Business Layer (Change Management) · UnauthorisedPerson · notifies</div>
+      </div>
+      <div class="rating r5" style="min-width:60px;align-self:center;">
+        <div class="rating-num">5</div>
+        <div class="rating-label">Strongly Supported</div>
+        <div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div>
+      </div>
+    </div>
+
+    <div class="theme-row">
+      <div>
+        <div class="theme-tag">T3</div>
+      </div>
+      <div class="theme-body">
+        <div class="theme-name">Rural Infrastructure Constraints</div>
+        <div class="theme-finding">The Device Layer and Network Layer constructs explicitly encode rural constraint design decisions. LoRaWAN is named as the network protocol with its rural-fitness properties (high link budget, low power) stated in the construct definition. Solar-powered low-power tags address the off-grid energy constraint. The <strong>SensorData</strong> class covers only low-volume data types (GPS, accelerometer, temperature), appropriate for bandwidth-constrained rural networks. A minor gap: the construct definitions do not explicitly represent the satellite fallback mechanism for gateway failure scenarios, which weakens the resilience coverage for T3.</div>
+        <div class="theme-constructs">Constructs: Device Layer (solar tags) · Network Layer (LoRaWAN) · SensorData (low-volume) · CommunicationGateway</div>
+      </div>
+      <div class="rating r4" style="min-width:60px;align-self:center;">
+        <div class="rating-num">4</div>
+        <div class="rating-label">Supported</div>
+        <div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div>
+      </div>
+    </div>
+
+    <div class="theme-row">
+      <div>
+        <div class="theme-tag">T4</div>
+      </div>
+      <div class="theme-body">
+        <div class="theme-name">Ontology / Architectural &amp; Semantic Modeling</div>
+        <div class="theme-finding">T4 is the most comprehensively addressed theme in the entire construct vocabulary. The full TBox (105 classes), RBox (27 SWRL rules), and ABox (1,865 individuals) represent the complete three-tier OWL 2 ontology architecture. The <strong>Semantic Layer</strong> of Onto-AIoTA — with Data Mapper (Middleware), Triple Store &amp; LFTDO, and Reasoning Engine — operationalises semantic modeling at the architectural level. The naming conventions (PascalCase classes, camelCase properties) and full rdfs:label/rdfs:comment annotation coverage demonstrate adherence to ontology engineering standards. This is the strongest theme-construct alignment in the assessment.</div>
+        <div class="theme-constructs">Constructs: Full TBox · RBox (SWRL 27 rules) · ABox (1,865 individuals) · Semantic Layer · Data Mapper · Triple Store · Reasoning Engine</div>
+      </div>
+      <div class="rating r5" style="min-width:60px;align-self:center;">
+        <div class="rating-num">5</div>
+        <div class="rating-label">Strongly Supported</div>
+        <div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div>
+      </div>
+    </div>
+
+    <div class="theme-row">
+      <div>
+        <div class="theme-tag">T5</div>
+      </div>
+      <div class="theme-body">
+        <div class="theme-name">IoT &amp; AI Integration</div>
+        <div class="theme-finding">The IoT integration is represented by the <strong>Device</strong> class (Sensor, CommunicationGateway, UserDevice subclasses), <strong>SensorData</strong>, and the Device/Network layers of Onto-AIoTA. The AI integration is represented by <strong>DetectionMethod</strong>, <strong>MLAlgorithm</strong>, and the Reasoning Engine (SWRL). The <em>generatesData</em> object property connecting Device to SensorData, and the <em>isDetectedBy</em> property connecting TheftEvent to DetectionMethod, make the IoT-to-AI pipeline traceable at the construct level. This theme is well-addressed, though the MLAlgorithm class definition is relatively sparse — specifying concrete algorithm types (anomaly detection, classification) would strengthen T5 coverage.</div>
+        <div class="theme-constructs">Constructs: Device (×3 subtypes) · SensorData · DetectionMethod · MLAlgorithm · generatesData · isDetectedBy · Reasoning Engine</div>
+      </div>
+      <div class="rating r4" style="min-width:60px;align-self:center;">
+        <div class="rating-num">4</div>
+        <div class="rating-label">Supported</div>
+        <div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div>
+      </div>
+    </div>
+
+    <div class="theme-row">
+      <div>
+        <div class="theme-tag">T6</div>
+      </div>
+      <div class="theme-body">
+        <div class="theme-name">Technology Adoption &amp; Community Engagement</div>
+        <div class="theme-finding">The <strong>Business Layer</strong> constructs (Business Logic &amp; API, Change Management, Access Control) directly address technology adoption governance. POPIA compliance is named as a Business Layer responsibility, addressing the regulatory adoption barrier specific to the South African context. <strong>SoftwareApplication</strong> (dashboard interface, notification system) represents the user-facing adoption mechanism. The <strong>Participant</strong> hierarchy includes community stakeholders (ExtendedOfficer, LawEnforcementAgent) beyond just the farmer. One gap: there is no explicit <em>AdoptionBarrier</em> or <em>TrainingRequirement</em> construct to model the socio-technical challenges of farmer technology adoption documented in the literature.</div>
+        <div class="theme-constructs">Constructs: Business Layer (POPIA, Access Control) · SoftwareApplication · Participant (community roles) · Change Management · CloudService</div>
+      </div>
+      <div class="rating r4" style="min-width:60px;align-self:center;">
+        <div class="rating-num">4</div>
+        <div class="rating-label">Supported</div>
+        <div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div>
+      </div>
+    </div>
+
+    <div class="theme-row">
+      <div>
+        <div class="theme-tag">T7</div>
+      </div>
+      <div class="theme-body">
+        <div class="theme-name">Evaluation Metrics</div>
+        <div class="theme-finding">T7 justifies the Gregor &amp; Hevner (2013) DSR evaluation framework applied system-wide. At the construct level, the LFTDO encodes evaluation mechanisms through: SPARQL CQ1–CQ8 (functional completeness test), OOPS! TOQS 100% (structural quality metric), Pellet consistency check (logical soundness), and <em>hasConfidenceScore</em> on BehaviourState (runtime reliability indicator). The Gregor &amp; Hevner four metrics (Validity, Quality, Utility, Efficacy) map to the four DSR assessment categories used in Section C. The evaluation construct coverage is adequate for a research evaluation context, though as noted under SRQ5, a formal <em>EvaluationMetric</em> class in the TBox would make T7 more explicit at the ontology level.</div>
+        <div class="theme-constructs">Constructs: SPARQL (CQ1–CQ8) · OOPS! TOQS · hasConfidenceScore · Pellet reasoner · DSR framework (all layers)</div>
+      </div>
+      <div class="rating r4" style="min-width:60px;align-self:center;">
+        <div class="rating-num">4</div>
+        <div class="rating-label">Supported</div>
+        <div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- B.9.1  LFTDO CONSTRUCTS RATED QUESTIONNAIRE                   -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
+<div class="sec-hdr">
+  <div class="sec-num">B.9.1 · LFTDO Constructs Assessment</div>
+  <h2>LFTDO — Rated Construct Evaluation</h2>
+  <p class="sec-intro">Each question is answered with a 1–5 rating, written justification referencing specific construct definitions, and recommendations where rating ≤ 3.</p>
+</div>
+
+<!-- VOCABULARY & DOMAIN COVERAGE -->
+<div class="block-header bh-lftdo" style="margin-top:28px;">
+  <div><div class="bh-cat">Category</div><div class="bh-title">Vocabulary &amp; Domain Coverage</div></div>
+</div>
+<div class="qa-list">
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-lftdo">BQ-L1</span><span class="qa-q">Are the core LFTDO constructs clearly and unambiguously defined for the livestock theft domain, or do any definitions introduce terminological overlap or imprecision?</span></div>
+      <div class="qa-a"><p>The LFTDO class definitions are clear, domain-specific, and unambiguous at the vocabulary level. Each class definition states what the class represents, what instances belong to it, and how it connects to adjacent classes. The naming conventions (PascalCase classes, camelCase properties) eliminate syntactic ambiguity. The one area of potential overlap is between <strong>AbnormalState</strong> and <strong>TheftIndicator</strong> — AbnormalState is a BehaviourState while TheftIndicator is a separate class linked by the <em>indicates</em> property; this distinction is correctly maintained and clearly documented in the definitions.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-lftdo">BQ-L2</span><span class="qa-q">Does the LFTDO vocabulary adequately cover livestock theft scenarios including health conditions, environmental factors, and technology components?</span></div>
+      <div class="qa-a"><p>Coverage is comprehensive across all three specified domains. <strong>HealthCondition</strong> (Fever, Injury, Lethargy) covers the physiological disambiguation layer. <strong>EnvironmentalCondition</strong> (temperature, weather, precipitation) covers the contextual false-alarm reduction layer. The Device class hierarchy (Sensor, UserDevice, CommunicationGateway) covers the technology component layer. One minor gap: there is no explicit <em>PredatorEvent</em> or <em>NaturalDisaster</em> class to represent non-theft causes of abnormal behaviour (referenced in the 18-scenario test suite as Group D false-alarm scenarios). Adding these as subclasses of EnvironmentalCondition would complete the domain coverage.</p></div>
+      <div class="note">Recommendation: Add PredatorEvent and WeatherEvent subclasses under EnvironmentalCondition to cover all Group D false-alarm scenarios explicitly in the TBox.</div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-lftdo">BQ-L3</span><span class="qa-q">Are all necessary stakeholder roles clearly distinguished? Is UnauthorisedPerson sufficient to model theft intent without conflating with legitimate visitors?</span></div>
+      <div class="qa-a"><p>The five Participant subclasses (Farmer, Veterinarian, ExtendedOfficer, LawEnforcementAgent, UnauthorisedPerson) are clearly distinguished and cover the full operational stakeholder set. The <strong>UnauthorisedPerson</strong> class models theft intent correctly as a distinct class with no <em>hasPermission</em> or <em>isAssociatedWithFarm</em> properties — its very definition by exclusion (not a legitimate Participant) is appropriate for representing intruder status. No conflation with legitimate farm visitors is present in the current definitions, as any person with an authorised role would instantiate one of the four named subclasses rather than UnauthorisedPerson.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-lftdo">BQ-L4</span><span class="qa-q">Is the NormalState / AbnormalState distinction sufficiently precise to support automated reasoning? What baseline properties are needed?</span></div>
+      <div class="qa-a"><p>The distinction is operationally precise: NormalState is defined by <em>hasBaselineValues</em> and <em>hasDeviationThresholds</em> data properties, while AbnormalState is defined as a statistically significant deviation from these baselines as detected by SWRL rule execution. The <em>transitionStateTo</em> object property (NormalState → AbnormalState) encodes the state machine transition. For full operationalisation, the baseline properties require: (1) species-specific numeric ranges (e.g., sheep grazing speed ≤ 1.5 m/s), (2) duration thresholds (managed by hasDuration via the middleware accumulator), and (3) confidence scoring (<em>hasConfidenceScore</em> on BehaviourState). All three property types are present in the construct vocabulary.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- STRUCTURAL RELATIONSHIPS -->
+<div class="block-header bh-lftdo" style="margin-top:28px;">
+  <div><div class="bh-cat">Category</div><div class="bh-title">Structural Relationships &amp; Internal Coherence</div></div>
+</div>
+<div class="qa-list">
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-lftdo">BQ-L5</span><span class="qa-q">Does the semantic chain Livestock → exhibitsBehaviour → Behaviour → hasCurrentState → BehaviourState → indicates → TheftIndicator → initiates → TheftEvent form a logically coherent and complete detection pathway?</span></div>
+      <div class="qa-a"><p>The detection chain is logically coherent and complete with no gaps between steps. Each link uses a formally defined object property with correct domain and range typing: <em>exhibitsBehaviour</em> (Livestock → Behaviour), <em>hasCurrentState</em> (Behaviour → BehaviourState), <em>indicates</em> (AbnormalState → TheftIndicator), <em>initiates</em> (TheftIndicator → TheftEvent). The chain covers the full inference path from physical observation to classified event. The contextual inputs (HealthCondition via <em>healthInfluencesBehaviourState</em>, EnvironmentalCondition via <em>environmentInfluencesBehaviourState</em>) branch into BehaviourState from the side, correctly adding contextual disambiguation without breaking the main chain. This is the strongest structural feature of the LFTDO design.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-lftdo">BQ-L6</span><span class="qa-q">Are the contextual disambiguation relationships (healthInfluencesBehaviourState, environmentInfluencesBehaviourState) sufficient to prevent false theft classifications from health or weather causes?</span></div>
+      <div class="qa-a"><p>The two disambiguation object properties provide necessary contextual qualification for BehaviourState classification. The <em>healthInfluencesBehaviourState</em> property allows a HealthCondition (e.g., Fever) to contextualise why an AbnormalState occurred without necessarily triggering TheftIndicator. The <em>environmentInfluencesBehaviourState</em> property serves the same function for EnvironmentalCondition (e.g., extreme heat causing clustering). These are supported by SWRL rules RL_EXTREME_HEAT_CONTEXT and RL_MODERATEHEAT_CONTEXT. One additional property that would strengthen disambiguation: a <em>socialContextInfluencesBehaviourState</em> property to handle community farming events (livestock markets, dipping days) that cause abnormal movement patterns without theft intent — currently absent from the object property set.</p></div>
+      <div class="note">Recommendation: Add socialContextInfluencesBehaviourState to handle authorised community-event movement patterns as a third disambiguation branch alongside health and environment.</div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- REQUIREMENT & THEME ALIGNMENT -->
+<div class="block-header bh-lftdo" style="margin-top:28px;">
+  <div><div class="bh-cat">Category</div><div class="bh-title">Requirement &amp; Theme Alignment</div></div>
+</div>
+<div class="qa-list">
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-lftdo">BQ-L7</span><span class="qa-q">Do the LFTDO constructs collectively fulfil R1 (Semantic Interoperability) — a unified vocabulary for heterogeneous sensor data?</span></div>
+      <div class="qa-a"><p>R1 is strongly fulfilled. The LFTDO TBox provides a single typed vocabulary for all three sensor modalities: <strong>SensorData</strong> with hasDataType (GPS/accelerometer/temperature) and hasSensorDataValue covers the heterogeneous data unification requirement. The Data Mapper middleware's conversion of raw JSON/MQTT to RDF triples typed against LFTDO classes is the interoperability mechanism. Every sensor reading, regardless of source device protocol, becomes an instance of the same SensorData class hierarchy — this is semantic interoperability in its precise technical meaning. The 4,577 ObjectPropertyAssertions and 7,194 DataPropertyAssertions in the ABox confirm that the interoperability vocabulary has been successfully applied to a large multi-source dataset.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-lftdo">BQ-L8</span><span class="qa-q">Does the detection-to-notification chain (TheftEvent → isDetectedBy → DetectionMethod → SoftwareApplication → notifies → Participant → validateStatusOfEvent) represent R3 and R4?</span></div>
+      <div class="qa-a"><p>R3 (Real-Time Context Integration) is represented by the chain's ability to carry context from TheftEvent classification through to notification: the <em>isDetectedBy</em> link traces the TheftEvent to the specific DetectionMethod and algorithm that produced it, providing an audit trail that includes the contextual reasoning that led to classification. R4 (Governance and Policy Alignment) is represented by the <em>validateStatusOfEvent</em> terminus — the human-in-the-loop governance decision — and by the <em>hasAlertLevel</em> property on TheftEvent which maps to policy-aligned response actions (High → immediate law enforcement, Medium → farm investigation, Low → monitoring). Both requirements are explicitly encoded in this chain.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-lftdo">BQ-L9</span><span class="qa-q">Do the eight Competency Questions (CQ1–CQ8) test all critical knowledge boundaries? Are any T1–T7 reasoning requirements missing?</span></div>
+      <div class="qa-a"><p>Seven of eight CQs are directly answered by SPARQL queries in the vocabulary. CQ5 (historical movement path during a TheftEvent window) lacks a corresponding SPARQL demonstration despite the required properties (hasTimeStamp, GPS coordinates, TheftEvent time window) being present in the TBox. From a theme perspective: T2 (Socio-Technical) is underrepresented in the CQ set — no CQ asks "which Participants were notified for a given TheftEvent?" or "what validation decision did the Farmer make for TheftEvent X?" These socio-technical audit queries would strengthen the CQ coverage of T2.</p></div>
+      <div class="note">Recommendation: Add CQ9 (participant notification query) and CQ10 (farmer validation decision query) to complete T2 and T6 theme coverage in the competency question set.</div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-lftdo">BQ-L10</span><span class="qa-q">Is the construct vocabulary in B.6.1–B.6.2 accessible and understandable to non-technical stakeholders — specifically farmers and law enforcement?</span></div>
+      <div class="qa-a"><p>At the ontology engineering level, class names are necessarily technical (BehaviourState, AbnormalState, TheftIndicator). However, the SoftwareApplication layer presents translated outputs — the dashboard uses TheftEvent severity levels (High/Medium/Low) and plain-language alert messages rather than OWL class names. The rdfs:label annotations on every class provide human-readable names that a developer can use to surface accessible terminology in the UI. The <em>notifies</em> property ensures alerts reach Farmer and LawEnforcementAgent instances, which is what end-users interact with. The vocabulary itself is appropriately technical for its level of abstraction; the Application Layer is the correct place to surface it in accessible form.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- CONSTRUCT DESIGN QUALITY -->
+<div class="block-header bh-lftdo" style="margin-top:28px;">
+  <div><div class="bh-cat">Category</div><div class="bh-title">Construct Design Quality</div></div>
+</div>
+<div class="qa-list">
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-lftdo">BQ-L11</span><span class="qa-q">Are the data properties for SensorData (hasTimeStamp, hasDataType, hasSensorDataValue) and BehaviourState (hasDuration, hasConfidenceScore, hasContext) sufficient for SWRL-based threshold reasoning?</span></div>
+      <div class="qa-a"><p>The SensorData properties are sufficient for the primary SWRL rules: hasTimeStamp enables temporal ordering, hasDataType enables type-conditional reasoning, and hasSensorDataValue provides the numeric value for threshold comparison. The BehaviourState properties support: hasDuration (the middleware accumulator output, critical for all temporal rules), hasConfidenceScore (for alert severity grading), and hasContext (for contextual qualifier storage). Together, these enable all 27 SWRL rules in the RBox. One property gap: there is no explicit <em>hasDeviation</em> computed property that stores the calculated percentage deviation from baseline — RL_BEHAVIOUR_DEVIATION computes this inline, but storing it as a data property would enable more efficient post-hoc SPARQL queries without re-running the reasoner.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-lftdo">BQ-L12</span><span class="qa-q">Does the LFTDO taxonomy demonstrate alignment with or justified departure from established livestock ontology standards (ATOL, EOL, AHOL)?</span></div>
+      <div class="qa-a"><p>The LFTDO's domain-specific design (theft detection rather than general livestock management) justifies departure from ATOL (Animal Trait Ontology) and AHOL (Animal Health Ontology), which focus on trait phenotyping and health record management respectively. The LFTDO's <strong>Behaviour</strong> and <strong>BehaviourState</strong> classes represent a more dynamic, sensor-driven behavioural model than ATOL's trait-centric vocabulary. The <strong>HealthCondition</strong> class in LFTDO is a functional disambiguation construct rather than a clinical record system, which distinguishes it from AHOL's clinical focus. A formal alignment declaration (owl:equivalentClass or rdfs:subClassOf links to ATOL/AHOL terms) would strengthen the ontology's reuse credentials, even if full alignment is not pursued.</p></div>
+      <div class="note">Recommendation: Add formal owl:equivalentClass or skos:closeMatch alignment declarations to ATOL and AHOL for the Livestock, HealthCondition, and Behaviour classes to enable reuse and federation.</div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+
+</div>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- B.9.2  ONTO-AIOTA CONSTRUCTS RATED QUESTIONNAIRE              -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
+<div class="sec-hdr">
+  <div class="sec-num">B.9.2 · Onto-AIoTA Constructs Assessment</div>
+  <h2>Onto-AIoTA — Rated Construct Evaluation</h2>
+  <p class="sec-intro">Architecture construct vocabulary assessed for conceptual clarity, requirements coverage, completeness, and integration logic. Rated 1–5 per question.</p>
+</div>
+
+<!-- CONCEPTUAL CLARITY -->
+<div class="block-header bh-arch" style="margin-top:28px;">
+  <div><div class="bh-cat">Category</div><div class="bh-title">Conceptual Clarity &amp; Problem–Solution Fit</div></div>
+</div>
+<div class="qa-list">
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-arch">BQ-A1</span><span class="qa-q">Are the five layers sufficiently distinct in purpose and responsibility? Is there conceptual overlap between the Semantic Layer and Application Layer?</span></div>
+      <div class="qa-a"><p>The five layers have clearly delineated responsibilities with no meaningful overlap: Device Layer (data acquisition), Network Layer (transmission), Semantic Layer (transformation and reasoning), Application Layer (presentation), Business Layer (governance). The Semantic Layer and Application Layer are the closest in function — the Semantic Layer produces classified TheftEvents and the Application Layer presents them — but the distinction is clean: the Semantic Layer produces machine-interpretable inferred knowledge (RDF triples, classified instances) while the Application Layer produces human-interpretable outputs (dashboards, alerts, notifications). The Data Mapper as the Semantic Layer's input interface and the API Interface as the Application Layer's output interface make the boundary explicit and non-overlapping.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-arch">BQ-A2</span><span class="qa-q">Is the Semantic Layer's role as intelligence core clearly articulated through its three constructs? Is the data flow from JSON/MQTT → RDF triples → SWRL inference → TheftEvent unambiguous?</span></div>
+      <div class="qa-a"><p>The three-construct Semantic Layer structure (Data Mapper → Triple Store &amp; LFTDO → Reasoning Engine) defines a clear sequential pipeline that is explicitly documented. The data flow is unambiguous: JSON/MQTT sensor payloads enter via the Data Mapper, emerge as RDF triples stored in the LFTDO-typed Triple Store, and are then processed by the SWRL Reasoning Engine which fires against the ABox to produce classified TheftEvent individuals. Each step has a named construct responsible for it, and the output of each step is the input of the next. This is the architecture's strongest conceptual articulation.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-arch">BQ-A3</span><span class="qa-q">Does the architecture vocabulary accurately reflect the convergence of Ontology, AI reasoning, and IoT data as claimed? Is each dimension represented by at least one construct?</span></div>
+      <div class="qa-a"><p>All three dimensions are explicitly represented by named constructs: Ontology → Triple Store &amp; LFTDO (Semantic Layer); AI → Reasoning Engine with SWRL (Semantic Layer) and MLAlgorithm (LFTDO); IoT → Device Layer (GPS/accelerometer/temperature sensors) and Network Layer (LoRaWAN). The "Onto-" prefix claiming ontology centrality is validated by the LFTDO's position as the core of the Semantic Layer, upon which all three other layers depend. The "AIoT" component is validated by the explicit AI+IoT integration at the Semantic Layer boundary. The architecture name is therefore an accurate conceptual descriptor of the construct vocabulary.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-arch">BQ-A4</span><span class="qa-q">Is the distinction between Domain Knowledge (LFTDO TBox/RBox) and Operational Knowledge (live ABox instances) clearly maintained across the five-layer architecture?</span></div>
+      <div class="qa-a"><p>The distinction is maintained at the architectural level: the LFTDO TBox/RBox (class definitions and SWRL rules) are static design-time artefacts stored in the Triple Store, while the ABox (live sensor-derived individuals) is dynamic runtime data continuously updated by the Data Mapper. The architecture makes this distinction visible through the Data Mapper's role — it creates ABox instances conforming to TBox definitions without modifying the TBox. A minor documentation gap: the concept of TBox versioning (owl:versionInfo updates when the domain model evolves) versus ABox updates (continuous sensor data) is not explicitly named as a separate construct concern in the Business Layer's Change Management description.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- REQUIREMENTS & THEME COVERAGE -->
+<div class="block-header bh-arch" style="margin-top:28px;">
+  <div><div class="bh-cat">Category</div><div class="bh-title">Requirements &amp; Theme Coverage</div></div>
+</div>
+<div class="qa-list">
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-arch">BQ-A5</span><span class="qa-q">Do the architecture constructs collectively address all four requirements: R1 via Semantic Layer, R2 via Device/Network, R3 via Reasoning Engine, R4 via Business Layer?</span></div>
+      <div class="qa-a"><p>R1, R2, and R3 are strongly addressed. R1 is served by the Semantic Layer's LFTDO Triple Store providing the unified vocabulary. R2 is served by the Device Layer (solar-powered tags) and Network Layer (LoRaWAN). R3 is served by the Reasoning Engine's real-time SWRL inference. R4 is served by the Business Layer's governance, POPIA compliance, and Change Management constructs. One minor under-addressing: the Application Layer has no formal requirement assignment in the construct mapping table, leaving its non-functional properties (authentication, API versioning, data visualisation latency) ungoverned by a named requirement. Assigning R3 or R4 to the Application Layer would close this gap.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-arch">BQ-A6</span><span class="qa-q">Does the Business Layer adequately represent governance, POPIA compliance, and policy alignment needs of T6 and R4? What governance constructs appear missing?</span></div>
+      <div class="qa-a"><p>The Business Layer names POPIA compliance and Access Control as explicit constructs, which covers the regulatory and access governance dimensions. The Change Management construct covers system evolution governance. Two governance constructs that would strengthen R4 representation: (1) an <em>AuditTrailPolicy</em> construct specifying data retention and evidence preservation requirements for law enforcement use; (2) a <em>ConsentManagementPolicy</em> construct specifically covering farmer data consent under POPIA (particularly for farm geolocation data shared with law enforcement). These are governance dimensions implied by R4 but not yet named as architectural constructs.</p></div>
+      <div class="note">Recommendation: Add AuditTrailPolicy and ConsentManagementPolicy as named Business Layer constructs to make R4 governance coverage explicit and POPIA-complete.</div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-arch">BQ-A7</span><span class="qa-q">Are T3 rural infrastructure constraints sufficiently addressed — is the Device Layer's solar-power requirement and Network Layer's LoRaWAN selection adequately justified?</span></div>
+      <div class="qa-a"><p>Both design decisions are justified with technical rationale in the construct definitions. LoRaWAN is selected with explicit reference to high link budget, long range, and low power consumption — the three rural-fitness properties that differentiate it from cellular IoT alternatives. Solar-powered tags are named with the off-grid rationale stated. The construct definitions are technically accurate and domain-appropriate. The minor gap (as noted in the Theme T3 assessment) is the absence of a resilience fallback construct for Network Layer outage scenarios. Adding a <em>SatelliteFallback</em> or <em>LocalEdgeCaching</em> construct to the Network Layer would complete the rural resilience story.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-arch">BQ-A8</span><span class="qa-q">Does the architecture design account for T2 socio-technical requirements — do Application and Business Layer constructs support farmer interaction, community engagement, and multi-stakeholder access?</span></div>
+      <div class="qa-a"><p>The Application Layer's mobile/desktop app constructs and the Security Protocols for cloud access support farmer interaction via the dashboard interface. Multi-stakeholder access is supported by the Access Control construct in the Business Layer, which governs which Participant roles receive which alert types. Community engagement is represented implicitly through the multi-stakeholder Participant vocabulary (Farmer, ExtendedOfficer, LawEnforcementAgent) and the LFTDO's <em>notifies</em> property routing alerts to appropriate stakeholders. The socio-technical dimension is well-covered at the construct level, with the same caveat as T6: an explicit <em>CommunityEngagementPolicy</em> construct in the Business Layer would make this explicit rather than implied.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- CONSTRUCT COMPLETENESS -->
+<div class="block-header bh-arch" style="margin-top:28px;">
+  <div><div class="bh-cat">Category</div><div class="bh-title">Construct Completeness &amp; Gap Analysis</div></div>
+</div>
+<div class="qa-list">
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-arch">BQ-A9</span><span class="qa-q">Are there any critical architectural concerns (data security, system recovery, offline operation, firmware updates) not represented by the five-layer constructs?</span></div>
+      <div class="qa-a"><p>Three gaps are identifiable: (1) <strong>Offline operation</strong> — when LoRaWAN connectivity fails, the Device Layer must buffer sensor readings locally until connectivity is restored. No local storage or buffering construct is defined in the Device Layer. (2) <strong>Firmware updates</strong> — the Device Layer specifies solar-powered collar tags but does not define an over-the-air (OTA) update mechanism for firmware maintenance in the field. (3) <strong>Data encryption</strong> — the Application Layer mentions Security Protocols but the Device-to-Gateway encryption (a critical security layer for LoRaWAN deployments) is not named as a Device or Network Layer construct. These are implementation-level concerns that would benefit from being named at the construct level to guide development.</p></div>
+      <div class="note">Recommendation: Add LocalBuffering construct to Device Layer, OTAUpdateMechanism to Network Layer, and DeviceEncryption to Network Layer constructs to address offline resilience, maintenance, and security gaps.</div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r3"><div class="rating-num">3</div><div class="rating-label">Partially Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-arch">BQ-A10</span><span class="qa-q">Is the Change Management construct within the Business Layer sufficient to represent iterative system evolution including ontology versioning and architectural reconfiguration?</span></div>
+      <div class="qa-a"><p>The Change Management construct is named but not decomposed into sub-components at the construct level. For ontology versioning, owl:versionInfo is the OWL 2 mechanism — this is correctly identified in the research documentation but not named as a Business Layer component. For architectural reconfiguration (e.g., adding a new sensor type or livestock species), the Data Mapper middleware's schema extension and ABox population via Cellfie are the practical mechanisms — again, not named as Business Layer constructs. A <em>VersioningPolicy</em> and <em>ExtensibilityFramework</em> as named sub-constructs of Change Management would make the evolution governance explicit.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- INTERDEPENDENCY & INTEGRATION -->
+<div class="block-header bh-arch" style="margin-top:28px;">
+  <div><div class="bh-cat">Category</div><div class="bh-title">Interdependency &amp; Integration Logic</div></div>
+</div>
+<div class="qa-list">
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-arch">BQ-A11</span><span class="qa-q">Is the dependency relationship between Onto-AIoTA and LFTDO — where LFTDO serves as the Knowledge Core — expressed with sufficient precision to enable independent versioning?</span></div>
+      <div class="qa-a"><p>The dependency is clearly named at the architectural level: LFTDO is identified as the "Knowledge Core" of the Semantic Layer, and the Triple Store is the integration point where LFTDO structure and live ABox data coexist. Independent versioning is supported by OWL 2's owl:versionInfo mechanism for the TBox, while the ABox is continuously updated without versioning. The construct description correctly implies that a TBox update (new LFTDO version) requires a Data Mapper schema update and potentially new SWRL rules, but the Application Layer interface remains stable. This decoupling is architecturally sound. The only precision gap: the construct does not specify a formal API contract between the Semantic Layer and Application Layer that would guarantee stability during LFTDO version changes.</p></div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="qa-body">
+      <div class="qa-q-line"><span class="qa-id id-arch">BQ-A12</span><span class="qa-q">Does the Data Mapper (Middleware) construct adequately capture the transformation challenge from heterogeneous raw sensor formats (JSON, MQTT, CSV) to RDF triples?</span></div>
+      <div class="qa-a"><p>The Data Mapper construct names the input formats (JSON, MQTT) and output format (RDF triples) and identifies its role as the transformation middleware. This is adequate for construct-level description. Three implementation-relevant details that are not represented at the construct level: (1) the specific RDF serialisation format (Turtle, N-Triples, JSON-LD) that would be output; (2) the schema mapping rules that determine how each JSON field maps to which LFTDO data property; (3) the error handling strategy for malformed or missing sensor readings (which could silently populate incomplete ABox individuals). These are design-level details that, if named as Data Mapper sub-constructs, would provide clearer implementation guidance.</p></div>
+      <div class="note">Recommendation: Decompose Data Mapper into: SchemaMapping (field-to-property rules), SerializationFormat (output RDF format), and ErrorHandling (incomplete/malformed sensor data strategy) sub-constructs.</div>
+    </div>
+    <div class="qa-rating-col">
+      <div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- OVERALL SUMMARY                                               -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
+<div class="summary-card">
+  <h3>Section B — Overall Assessment Summary</h3>
+  <div class="summary-grid">
+    <div class="sum-cell">
+      <div class="sum-val">4.6/5</div>
+      <div class="sum-lbl">SRQ Alignment<br>(SRQ1–SRQ5 avg)</div>
+    </div>
+    <div class="sum-cell">
+      <div class="sum-val">4.4/5</div>
+      <div class="sum-lbl">Theme Alignment<br>(T1–T7 avg)</div>
+    </div>
+    <div class="sum-cell">
+      <div class="sum-val">4.4/5</div>
+      <div class="sum-lbl">Construct Quality<br>(BQ-L + BQ-A avg)</div>
+    </div>
+  </div>
+  <div class="sum-verdict">
+    Following the <strong>Matshaba (2021) evaluation pattern</strong>, the constructs of Onto-AIoTA and LFTDO demonstrate strong alignment with the sub-research questions (SRQ1, SRQ2, SRQ4 rated 5/5; SRQ3, SRQ5 rated 4/5) and the research themes (T1, T2, T4 rated 5/5; T3, T5, T6, T7 rated 4/5). No construct received a rating below 3/5. The one 3/5 rating (BQ-A9 — system resilience constructs) identifies three named gaps: local buffering for offline operation, OTA firmware updates, and device-level encryption — all implementation-stage concerns rather than fundamental design flaws. <strong>Key recommendations across all constructs:</strong> (1) Add CQ5 SPARQL query for historical path tracking; (2) Add CQ9–CQ10 for T2 socio-technical audit coverage; (3) Decompose Data Mapper into SchemaMapping, SerializationFormat, and ErrorHandling sub-constructs; (4) Add formal owl:equivalentClass alignment to ATOL/AHOL; (5) Add AuditTrailPolicy and ConsentManagementPolicy to Business Layer. The artefacts are <strong>ready for Section C (DSR evaluation)</strong> with these refinements noted for implementation planning.
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="doc-footer">
+  <div class="footer-refs">
+    <p><strong>References:</strong></p>
+    <p>Matshaba, T. (2021). A Health Information Systems Interoperability Governance Conceptual Framework for the Public Sector in South Africa. <em>Doctoral Dissertation</em>.</p>
+    <p>Gregor, S. &amp; Hevner, A. R. (2013). Positioning and Presenting Design Science Research for Maximum Impact. <em>MIS Quarterly</em>, 37(2), 337–355.</p>
+    <p>Hevner, A.R., March, S.T., Park, J. &amp; Ram, S. (2004). Design Science in Information Systems Research. <em>MIS Quarterly</em>, 28(1), 75–105.</p>
+  </div>
+  <div class="footer-agent">
+    <p>Evaluated by: Claude (Anthropic) — Sonnet 4.6</p>
+    <p>Pattern: Matshaba (2021) §7.6.2–7.6.6</p>
+    <p>Rating Scale: 1–5 (LLM Response Rating)</p>
+    <p>March 2026</p>
+  </div>
+</div>
+
+</div><!-- /page -->
+</body>
+</html>

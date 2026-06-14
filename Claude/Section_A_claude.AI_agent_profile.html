@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Section A — LLM Agent Profiling | Claude</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --bg: #0b0f1a;
+      --surface: #111827;
+      --surface2: #1a2235;
+      --border: #1e2d47;
+      --accent: #4f9cf9;
+      --accent2: #a78bfa;
+      --accent3: #34d399;
+      --text: #e2e8f0;
+      --text-muted: #8899b4;
+      --text-dim: #4a6080;
+      --heading-font: 'DM Serif Display', serif;
+      --body-font: 'Outfit', sans-serif;
+      --mono-font: 'DM Mono', monospace;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--body-font);
+      font-size: 15px;
+      line-height: 1.7;
+      min-height: 100vh;
+      padding: 0;
+    }
+
+    /* Ambient background glow */
+    body::before {
+      content: '';
+      position: fixed;
+      top: -30%;
+      left: -20%;
+      width: 70%;
+      height: 70%;
+      background: radial-gradient(ellipse, rgba(79,156,249,0.07) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+    body::after {
+      content: '';
+      position: fixed;
+      bottom: -20%;
+      right: -10%;
+      width: 50%;
+      height: 50%;
+      background: radial-gradient(ellipse, rgba(167,139,250,0.06) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .page {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 60px 40px 80px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ── Header ── */
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 36px;
+      margin-bottom: 48px;
+      animation: fadeDown 0.7s ease both;
+    }
+
+    .label-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(79,156,249,0.1);
+      border: 1px solid rgba(79,156,249,0.25);
+      border-radius: 100px;
+      padding: 4px 14px;
+      font-family: var(--mono-font);
+      font-size: 11px;
+      color: var(--accent);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .label-pill span.dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+      animation: pulse 2s infinite;
+    }
+
+    h1 {
+      font-family: var(--heading-font);
+      font-size: clamp(28px, 5vw, 44px);
+      font-weight: 400;
+      color: #fff;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+    }
+    h1 em {
+      color: var(--accent);
+      font-style: italic;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 14px;
+      font-weight: 300;
+      max-width: 520px;
+    }
+
+    .meta-row {
+      display: flex;
+      gap: 24px;
+      margin-top: 24px;
+      flex-wrap: wrap;
+    }
+    .meta-item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .meta-item .key {
+      font-family: var(--mono-font);
+      font-size: 10px;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    .meta-item .val {
+      font-size: 13px;
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    /* ── Section title ── */
+    .section-intro {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 40px;
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.75;
+      animation: fadeUp 0.6s 0.1s ease both;
+    }
+
+    /* ── Q&A Cards ── */
+    .qa-list {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .qa-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      animation: fadeUp 0.5s ease both;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .qa-card:hover {
+      border-color: rgba(79,156,249,0.35);
+      box-shadow: 0 0 24px rgba(79,156,249,0.06);
+    }
+    .qa-card:nth-child(1) { animation-delay: 0.15s; }
+    .qa-card:nth-child(2) { animation-delay: 0.2s; }
+    .qa-card:nth-child(3) { animation-delay: 0.25s; }
+    .qa-card:nth-child(4) { animation-delay: 0.3s; }
+    .qa-card:nth-child(5) { animation-delay: 0.35s; }
+    .qa-card:nth-child(6) { animation-delay: 0.4s; }
+    .qa-card:nth-child(7) { animation-delay: 0.45s; }
+
+    .qa-question {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 18px 22px;
+      background: var(--surface2);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .q-badge {
+      flex-shrink: 0;
+      width: 28px; height: 28px;
+      border-radius: 8px;
+      background: rgba(79,156,249,0.12);
+      border: 1px solid rgba(79,156,249,0.2);
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--mono-font);
+      font-size: 11px;
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    .qa-question p {
+      font-size: 14px;
+      color: var(--text);
+      font-weight: 500;
+      line-height: 1.5;
+      padding-top: 4px;
+    }
+
+    .qa-answer {
+      padding: 20px 22px 22px;
+    }
+
+    .qa-answer p {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.8;
+      margin-bottom: 10px;
+    }
+    .qa-answer p:last-child { margin-bottom: 0; }
+
+    /* Tags / domain badges */
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .tag {
+      display: inline-block;
+      padding: 4px 11px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 500;
+      font-family: var(--mono-font);
+    }
+    .tag.blue  { background: rgba(79,156,249,0.1);  color: #7cb9ff; border: 1px solid rgba(79,156,249,0.2); }
+    .tag.purple{ background: rgba(167,139,250,0.1); color: #c4b5fd; border: 1px solid rgba(167,139,250,0.2);}
+    .tag.green { background: rgba(52,211,153,0.1);  color: #6ee7b7; border: 1px solid rgba(52,211,153,0.2); }
+    .tag.amber { background: rgba(251,191,36,0.1);  color: #fcd34d; border: 1px solid rgba(251,191,36,0.2); }
+
+    /* Stat blocks */
+    .stat-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .stat-block {
+      background: rgba(255,255,255,0.025);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+    .stat-block .stat-label {
+      font-family: var(--mono-font);
+      font-size: 10px;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 6px;
+    }
+    .stat-block .stat-value {
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--accent);
+      letter-spacing: -0.02em;
+      line-height: 1;
+    }
+    .stat-block .stat-sub {
+      font-size: 11px;
+      color: var(--text-dim);
+      margin-top: 4px;
+    }
+
+    /* Capability list */
+    .cap-list {
+      list-style: none;
+      margin-top: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+    .cap-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 13.5px;
+      color: var(--text-muted);
+    }
+    .cap-list li::before {
+      content: '▸';
+      color: var(--accent3);
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .cap-list li strong {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    /* Vision badge */
+    .vision-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 14px;
+      padding: 8px 16px;
+      background: rgba(52,211,153,0.08);
+      border: 1px solid rgba(52,211,153,0.2);
+      border-radius: 8px;
+      font-size: 13px;
+      color: #6ee7b7;
+    }
+    .vision-badge svg { flex-shrink: 0; }
+
+    /* Footer */
+    footer {
+      margin-top: 60px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      animation: fadeUp 0.5s 0.5s ease both;
+    }
+    footer .foot-left {
+      font-family: var(--mono-font);
+      font-size: 11px;
+      color: var(--text-dim);
+    }
+    footer .foot-right {
+      font-size: 12px;
+      color: var(--text-dim);
+    }
+    .anthropic-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 12px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-family: var(--mono-font);
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    /* Animations */
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    @media (max-width: 600px) {
+      .page { padding: 36px 20px 60px; }
+      .stat-grid { grid-template-columns: 1fr; }
+      .meta-row { gap: 16px; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <header>
+    <div class="label-pill"><span class="dot"></span> LLM Evaluation Study — Section A</div>
+    <h1>Agent Profiling:<br/><em>Claude</em> by Anthropic</h1>
+    <p class="subtitle">A structured profile capturing model identity, capabilities, accuracy metrics, and evaluation role for comparative LLM assessment.</p>
+    <div class="meta-row">
+      <div class="meta-item">
+        <span class="key">Model</span>
+        <span class="val">Claude Sonnet 4.6</span>
+      </div>
+      <div class="meta-item">
+        <span class="key">Family</span>
+        <span class="val">Claude 4.6</span>
+      </div>
+      <div class="meta-item">
+        <span class="key">Developer</span>
+        <span class="val">Anthropic</span>
+      </div>
+      <div class="meta-item">
+        <span class="key">Document Date</span>
+        <span class="val">March 2026</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Intro -->
+  <div class="section-intro">
+    This section captures the key attributes of Claude as a participating LLM agent in the evaluation study. Profiling establishes a foundation for interpreting subsequent responses across architecture and ontology assessment tasks. Agents profiled in this study include Claude, ChatGPT, DeepSeek, CoPilot, and Gemini.
+  </div>
+
+  <!-- Q&A Cards -->
+  <div class="qa-list">
+
+    <!-- Q1 -->
+    <div class="qa-card">
+      <div class="qa-question">
+        <div class="q-badge">Q1</div>
+        <p>What is your name and model version?</p>
+      </div>
+      <div class="qa-answer">
+        <p>I am <strong>Claude</strong>, developed by <strong>Anthropic</strong>. My specific model version is <strong>Claude Sonnet 4.6</strong>, part of the Claude 4.6 model family, which currently includes Claude Opus 4.6 and Claude Sonnet 4.6. Claude Sonnet 4.6 is designed as a smart, efficient model optimised for everyday and professional use.</p>
+      </div>
+    </div>
+
+    <!-- Q2 -->
+    <div class="qa-card">
+      <div class="qa-question">
+        <div class="q-badge">Q2</div>
+        <p>What is your training knowledge cut-off date?</p>
+      </div>
+      <div class="qa-answer">
+        <p>My reliable knowledge cut-off is <strong>end of August 2025</strong>. I reason about events and information up to that point with confidence. For information beyond this date, I rely on web search tools to retrieve current and up-to-date data.</p>
+      </div>
+    </div>
+
+    <!-- Q3 -->
+    <div class="qa-card">
+      <div class="qa-question">
+        <div class="q-badge">Q3</div>
+        <p>What is your specialised domain knowledge?</p>
+      </div>
+      <div class="qa-answer">
+        <p>My training spans a broad range of disciplines, with particularly strong coverage across the following domains:</p>
+        <div class="tag-row">
+          <span class="tag blue">Computer Science</span>
+          <span class="tag blue">Software Architecture</span>
+          <span class="tag blue">Algorithms & Data Structures</span>
+          <span class="tag purple">Ontologies & OWL/RDF</span>
+          <span class="tag purple">Semantic Web & SPARQL</span>
+          <span class="tag purple">Knowledge Representation</span>
+          <span class="tag green">AI & Machine Learning</span>
+          <span class="tag green">IoT & Edge Computing</span>
+          <span class="tag amber">Formal Methods & Logic</span>
+          <span class="tag amber">Research & Academic Writing</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Q4 -->
+    <div class="qa-card">
+      <div class="qa-question">
+        <div class="q-badge">Q4</div>
+        <p>What is your hallucination rate, and how is it measured or estimated?</p>
+      </div>
+      <div class="qa-answer">
+        <p>No single published hallucination rate applies universally — rates vary significantly by task type, domain, and benchmark methodology. Key context:</p>
+        <div class="stat-grid">
+          <div class="stat-block">
+            <div class="stat-label">Estimated Hallucination Rate</div>
+            <div class="stat-value">5–20%</div>
+            <div class="stat-sub">Domain-dependent; factual benchmarks</div>
+          </div>
+          <div class="stat-block">
+            <div class="stat-label">Mitigation Approach</div>
+            <div class="stat-value">CAI + RLHF</div>
+            <div class="stat-sub">Constitutional AI & reinforcement learning</div>
+          </div>
+        </div>
+        <p style="margin-top:14px;">I am trained to <strong>express uncertainty explicitly</strong> rather than confabulate, and to recommend verification for high-stakes claims. Web search grounding further mitigates hallucination for current information. No standardised cross-model measurement methodology exists, so any percentage should be interpreted with caution.</p>
+      </div>
+    </div>
+
+    <!-- Q5 -->
+    <div class="qa-card">
+      <div class="qa-question">
+        <div class="q-badge">Q5</div>
+        <p>What is your general knowledge question response accuracy rate?</p>
+      </div>
+      <div class="qa-answer">
+        <p>On widely used general knowledge benchmarks, Claude Sonnet-class models perform as follows:</p>
+        <div class="stat-grid">
+          <div class="stat-block">
+            <div class="stat-label">MMLU (57 Academic Subjects)</div>
+            <div class="stat-value">88–92%</div>
+            <div class="stat-sub">Massive Multitask Language Understanding</div>
+          </div>
+          <div class="stat-block">
+            <div class="stat-label">Commonsense & Scientific Reasoning</div>
+            <div class="stat-value">&gt;90%</div>
+            <div class="stat-sub">HellaSwag / ARC / WinoGrande</div>
+          </div>
+        </div>
+        <p style="margin-top:14px;">Real-world accuracy varies with question ambiguity, domain depth, and prompt formulation. These figures are benchmark-specific and should not be extrapolated as absolute guarantees.</p>
+      </div>
+    </div>
+
+    <!-- Q6 -->
+    <div class="qa-card">
+      <div class="qa-question">
+        <div class="q-badge">Q6</div>
+        <p>What is your specific function in evaluating designed computer science artefacts such as architectures and ontologies?</p>
+      </div>
+      <div class="qa-answer">
+        <p>In this evaluation context, I serve the following roles when assessing artefacts:</p>
+        <ul class="cap-list">
+          <li><strong>Structural Analysis</strong> — Reviewing logical consistency, modularity, and layering of software or system architectures.</li>
+          <li><strong>Ontology Evaluation</strong> — Assessing ontologies against established criteria: coverage, correctness, consistency, conciseness, and adherence to OWL/RDF/SKOS standards.</li>
+          <li><strong>Competency Question Testing</strong> — Evaluating whether an ontology can answer its intended competency questions.</li>
+          <li><strong>Best Practice Alignment</strong> — Comparing artefacts against domain standards, design patterns, and published frameworks.</li>
+          <li><strong>Critical Critique</strong> — Identifying gaps, redundancies, misclassifications, or scalability concerns.</li>
+          <li><strong>Comparative Assessment</strong> — Benchmarking a submitted artefact against similar published works in the literature.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Q7 -->
+    <div class="qa-card">
+      <div class="qa-question">
+        <div class="q-badge">Q7</div>
+        <p>Can you read and interpret images or diagrams, or are you limited to text-based input only?</p>
+      </div>
+      <div class="qa-answer">
+        <p>Yes — I have full <strong>multimodal capability</strong>. I can process and interpret images directly alongside text input. Supported visual content includes:</p>
+        <ul class="cap-list">
+          <li><strong>Architecture Diagrams</strong> — UML, component, deployment, and sequence diagrams.</li>
+          <li><strong>Ontology Visualisations</strong> — Class hierarchies, property graphs, and Protégé screenshots.</li>
+          <li><strong>Flowcharts & Data Flow Diagrams</strong> — System flows, process maps, and ERDs.</li>
+          <li><strong>Tables, Figures & Annotated Screenshots</strong> — Structured data and annotated visuals.</li>
+        </ul>
+        <div class="vision-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/></svg>
+          Multimodal vision enabled — images can be uploaded directly for analysis without text transcription.
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end qa-list -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="foot-left">
+      SECTION A — COMPLETE &nbsp;|&nbsp; 7 / 7 QUESTIONS ANSWERED
+    </div>
+    <div class="foot-right">
+      <span class="anthropic-badge">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 19h20L12 2zm0 4l7 13H5l7-13z"/></svg>
+        Anthropic · Claude Sonnet 4.6
+      </span>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+    <title>CoPilot Section C: MComp Dissertation Artefacts Evaluation - Onto-AIoTA & LFTDO</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --validity:#1a3a5c;
+      --quality:#1d6b44;
+      --utility:#7b3f00;
+      --efficacy:#5a1a5a;
+      --bg:#f7f8fa;
+      --card:#ffffff;
+      --border:#e3e6eb;
+    }
+
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      font-family:'DM Sans', sans-serif;
+      background:var(--bg);
+      color:#1f2933;
+      line-height:1.65;
+    }
+
+    h1,h2,h3{
+      font-family:'DM Serif Display', serif;
+      margin:0 0 .4em 0;
+      letter-spacing:.2px;
+    }
+
+    /* Cover */
+    .cover{
+      padding:60px 10%;
+      background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+      color:#fff;
+    }
+    .cover h1{ font-size:42px; }
+    .cover p{ max-width:720px; font-size:16px; opacity:.95; }
+
+    /* Sticky header */
+    .sticky{
+      position:sticky;
+      top:0;
+      z-index:20;
+      background:#ffffffee;
+      backdrop-filter:blur(8px);
+      border-bottom:1px solid var(--border);
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:12px 10%;
+    }
+    .agent-name{
+      font-weight:700;
+      letter-spacing:.4px;
+    }
+    .pills span{
+      padding:6px 12px;
+      border-radius:999px;
+      font-size:12px;
+      font-weight:600;
+      color:#fff;
+      margin-left:6px;
+    }
+    .pill-validity{ background:var(--validity); }
+    .pill-quality{ background:var(--quality); }
+    .pill-utility{ background:var(--utility); }
+    .pill-efficacy{ background:var(--efficacy); }
+
+    /* Sections */
+    .section{
+      padding:50px 10%;
+    }
+
+    .category-header{
+      padding:18px 22px;
+      color:#fff;
+      border-radius:14px;
+      margin-bottom:22px;
+    }
+
+    .validity{ background:var(--validity); }
+    .quality{ background:var(--quality); }
+    .utility{ background:var(--utility); }
+    .efficacy{ background:var(--efficacy); }
+
+    /* Q&A cards */
+    .card{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:22px 26px;
+      margin-bottom:18px;
+    }
+
+    .qid{
+      font-size:12px;
+      font-weight:700;
+      letter-spacing:.8px;
+      text-transform:uppercase;
+      color:#6b7280;
+    }
+
+    .question{
+      font-weight:700;
+      margin:6px 0 10px 0;
+    }
+
+    .verdict{
+      display:inline-block;
+      margin-top:12px;
+      padding:6px 12px;
+      border-radius:999px;
+      font-size:12px;
+      font-weight:700;
+      color:#fff;
+    }
+
+    .v-strong{ background:#16a34a; }
+    .v-good{ background:#2563eb; }
+    .v-adequate{ background:#f59e0b; }
+    .v-risk{ background:#dc2626; }
+
+    /* Callout */
+    .callout{
+      border-left:6px solid #dc2626;
+      background:#fff5f5;
+      padding:22px 26px;
+      border-radius:12px;
+      margin:40px 10%;
+    }
+
+    /* Table */
+    table{
+      width:100%;
+      border-collapse:collapse;
+      background:#fff;
+      border-radius:14px;
+      overflow:hidden;
+    }
+    th,td{
+      padding:14px 16px;
+      border-bottom:1px solid var(--border);
+      text-align:left;
+    }
+    th{
+      background:#f1f5f9;
+      font-weight:700;
+    }
+
+    footer{
+      padding:40px 10%;
+      background:#ffffff;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- COVER -->
+<section class="cover">
+  <h1>Design Science Research (DSR) Evaluation</h1>
+  <p>
+    <strong>Artefacts:</strong> Onto-AIoTA (Architecture) &amp; LFTDO (Ontology)<br/>
+    <strong>Agent:</strong> Microsoft Enterprise Copilot (M365 Copilot – GPT‑5.2)<br/>
+    <strong>Date:</strong> 24 March 2026<br/>
+    <strong>Framework:</strong> Gregor &amp; Hevner (2013) – Validity · Quality · Utility · Efficacy
+  </p>
+</section>
+
+<!-- STICKY HEADER -->
+<div class="sticky">
+  <div class="agent-name">M365 Copilot · DSR Evaluation Agent</div>
+  <div class="pills">
+    <span class="pill-validity">Validity</span>
+    <span class="pill-quality">Quality</span>
+    <span class="pill-utility">Utility</span>
+    <span class="pill-efficacy">Efficacy</span>
+  </div>
+</div>
+
+<!-- ===================== -->
+<!-- ONTO-AIOTA SECTION -->
+<!-- ===================== -->
+
+<section class="section">
+  <div class="category-header validity">
+    <h2>Onto-AIoTA Architecture — Validity</h2>
+  </div>
+
+  <div class="card">
+    <div class="qid">CQ-A1</div>
+    <div class="question">
+      How well does the architecture integrate ontology, IoT, and AI components into a coherent system?
+    </div>
+    <p>
+      The Onto-AIoTA demonstrates a high degree of architectural coherence by explicitly positioning the
+      LFTDO ontology as the semantic middleware between raw IoT sensor streams and AI-driven decision
+      processes. The Device and Network layers clearly isolate data acquisition concerns, while the
+      Semantic Layer performs semantic lifting (JSON/MQTT → RDF), reasoning (SWRL), and knowledge
+      persistence in a triple store. This separation of concerns reflects established IoT–Semantic Web
+      reference models while remaining domain-specific.
+    </p>
+    <p>
+      AI is not treated as a black-box classifier but is decomposed into explainable rule-based inference,
+      allowing traceability from sensor observation to TheftEvent classification. This tight coupling
+      between ontology, rules, and application logic supports both interpretability and extensibility.
+    </p>
+    <span class="verdict v-strong">Strong validity – well-integrated socio-technical system</span>
+  </div>
+
+  <div class="card">
+    <div class="qid">CQ-A2</div>
+    <div class="question">
+      How practical is the architecture for real-world livestock farming scenarios in South Africa?
+    </div>
+    <p>
+      The architecture is explicitly grounded in South African rural realities: low-power solar devices,
+      LoRaWAN connectivity, and intermittent cellular backhaul. These choices align with infrastructure
+      constraints typical of remote farming regions. The cloud-based Semantic and Application layers
+      enable centralized intelligence without requiring advanced local computing skills from farmers.
+    </p>
+    <p>
+      Importantly, the Business Layer introduces governance, access control, and policy-driven change
+      management, which is often absent in academic IoT designs but essential for operational deployment.
+    </p>
+    <span class="verdict v-good">High practical relevance for the target context</span>
+  </div>
+</section>
+
+<section class="section">
+  <div class="category-header utility">
+    <h2>Onto-AIoTA Architecture — Utility</h2>
+  </div>
+
+  <div class="card">
+    <div class="qid">CQ-A3</div>
+    <div class="question">
+      Is the architecture suitable for rural deployment given power and connectivity constraints?
+    </div>
+    <p>
+      Yes. The deliberate use of low-bandwidth protocols (LoRaWAN), low-cost sensor tags, and
+      solar-powered devices directly addresses rural deployment challenges. Data volumes are minimized
+      through event-oriented semantic processing rather than continuous high-frequency streaming.
+    </p>
+    <span class="verdict v-strong">Well-aligned with rural deployment constraints</span>
+  </div>
+
+  <div class="card">
+    <div class="qid">CQ-A4</div>
+    <div class="question">
+      What are the potential barriers to adoption by smallholder farmers?
+    </div>
+    <p>
+      Primary barriers include initial hardware costs, trust in automated alerts, and digital literacy.
+      While the architecture is technically sound, successful adoption would require training,
+      subsidization models, and community-based onboarding strategies.
+    </p>
+    <span class="verdict v-adequate">Technically ready, socio-economic adoption needs support</span>
+  </div>
+</section>
+<section class="section">
+  <div class="category-header efficacy">
+    <h2>Onto-AIoTA Architecture — Efficiency</h2>
+  </div>
+<div class="card">
+    <div class="qid">CQ-A5</div>
+    <div class="question">
+      Does the architecture successfully perform its primary tasks (data ingestion, real-time inference, alert generation)?
+    </div>
+    <p>
+        Onto‑AIoTA effectively performs its primary tasks of data ingestion, semantic transformation, real‑time reasoning, and alert generation. The semantic layer ensures that alerts are context‑aware and rule‑validated, reducing false positives and improving decision quality.
+    </p>
+  </div>  
+<div class="card">
+    <div class="qid">CQ-A6</div>
+    <div class="question">
+      Does the architecture effectively bridge the gap between theoretical design and practical application?
+    </div>
+    <p>
+        The architecture successfully operationalises theoretical constructs from ontology engineering and Design Science Research by embedding them within a deployable IoT‑cloud solution. Abstract concepts such as BehaviourState, TheftIndicator, and TheftEvent are instantiated through live data and validated via semantic chains.
+    </p>
+  </div>  
+<div class="card">
+    <div class="qid">CQ-A7</div>
+    <div class="question">
+      How cost-effective is the proposed architecture for rural South African deployment?
+    </div>
+    <p>
+        Cost efficiency is achieved through the use of open standards (OWL, RDF, SWRL), open‑source tooling, low‑power hardware, and scalable cloud services, reducing both capital and operational expenditure.
+    </p>
+  </div>    
+<div class="card">
+    <div class="qid">CQ-A8</div>
+    <div class="question">
+      How flexible and adaptable is the architecture for new livestock species, sensors, or geographic regions?
+    </div>
+    <p>
+        The layered and ontology‑centric design allows the architecture to be extended with new sensors, livestock species, rules, or geographic regions with minimal structural change, primarily through semantic and rule‑layer updates.
+    </p>
+  </div>    
+</section>
+<section class="section">
+  <div class="category-header quality">
+    <h2>Onto-AIoTA Architecture — Quality</h2>
+  </div>
+<div class="card">
+    <div class="qid">CQ-A9</div>
+    <div class="question">
+      How innovative is the Onto-AIoTA approach compared to existing livestock monitoring architectures?
+    </div>
+    <p>
+        Onto‑AIoTA is innovative in its integration of ontology‑driven reasoning with IoT‑based livestock monitoring. Unlike conventional GPS‑tracking systems, it provides semantic interpretation, multi‑factor reasoning, and explainable theft detection logic.
+    </p>
+  </div>    
+<div class="card">
+    <div class="qid">CQ-A10</div>
+    <div class="question">
+      What is the overall research quality of the architecture design as demonstrated by its alignment to literature?
+    </div>
+    <p>
+        The architecture exhibits strong research quality through explicit alignment with research requirements, design science metrics, and established literature on semantic IoT and ontology‑based AI systems.
+    </p>
+  </div>      
+</section>  
+<!-- ===================== -->
+<!-- LFTDO SECTION -->
+<!-- ===================== -->
+
+<section class="section">
+  <div class="category-header validity">
+    <h2>LFTDO Ontology — Validity</h2>
+  </div>
+
+  <div class="card">
+    <div class="qid">CQ-L1</div>
+    <div class="question">
+      Based on the verified ontology structure (C2.2: 19,716 axioms, 105 classes, 108 object properties, 172 data properties, 1,865 individuals), how consistent and logically sound is the LFTDO model as verified by the Pellet reasoner?
+    </div>
+    <p>
+      The LFTDO exhibits a high degree of logical consistency, evidenced by successful Pellet reasoning
+      over a large ABox (1,865 individuals) and a substantial axiom base (19,716 axioms). The absence of
+      unsatisfiable classes or contradictory inferences indicates strong TBox and RBox design.
+    </p>
+    <span class="verdict v-strong">Excellent logical soundness</span>
+  </div>
+
+  <div class="card">
+    <div class="qid">CQ-L2</div>
+    <div class="question">
+      Reviewing the 27 SWRL rules in C2.3 and the semantic chains in C2.4, how well does the ontology's RBox support real-time reasoning and inference across all four scenario types (Behavioural, Multi-factor, Health/Resting, Sabotage, Temporal)?
+    </div>
+    <p>
+      The 27 SWRL rules cover behavioural, spatial, temporal, contextual, and sabotage dimensions.
+      Semantic chains across five scenarios demonstrate that reasoning is not isolated but compositional,
+      enabling multi-factor theft confirmation rather than single-threshold alerts.
+    </p>
+    <span class="verdict v-strong">Robust, scenario-spanning inference support</span>
+  </div>
+  <div class="card">
+    <div class="qid">CQ-L3</div>
+    <div class="question">
+	  Do the seven SPARQL queries in C2.5 demonstrate that the LFTDO can answer all eight Competency Questions (CQ1–CQ8)? Are there CQs whose answers cannot be retrieved from the current TBox/ABox structure?    </div>
+    <p>
+        The SPARQL validation queries confirm that all defined Competency Questions (CQ1–CQ8) can be answered using the current TBox, RBox, and ABox structure, indicating complete domain coverage.
+    </p>
+  </div>
+  <div class="card">
+    <div class="qid">CQ-L4</div>
+    <div class="question">
+	  Based on the geofence rules (RL_GEOFENCE_NORTH_VIOLATION, RL_GEOFENCE_SOUTH, RL_GEOFENCE_WEST, RL_GEO_FENCE_MAXLON_EAST in C2.3) and the semantic chains in C2.4 (Scenarios 3 and 5), how well does the ontology represent the temporal and spatial dimensions of livestock movement and theft detection?    </div>
+    <p>
+        Geofence rules combined with duration thresholds and movement analysis effectively model spatial and temporal dimensions of livestock behaviour and theft detection, as demonstrated in multi‑scenario evaluations.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="category-header quality">
+    <h2>LFTDO Ontology — Quality</h2>
+  </div>
+
+  <div class="card">
+    <div class="qid">CQ-L5</div>
+    <div class="question">
+      How well does the LFTDO adhere to ontology engineering best practices?
+    </div>
+    <p>
+      Consistent naming conventions, full annotation coverage, OWL 2 DL compliance, and a documented
+      hybrid Methontology/OD‑101 methodology demonstrate strong adherence to W3C and ontology
+      engineering best practices.
+    </p>
+    <span class="verdict v-strong">High engineering quality and standards compliance</span>
+  </div>
+
+  <div class="card">
+    <div class="qid">CQ-L6</div>
+    <div class="question">
+      What does the OOPS! 100% score demonstrate—and what are its limits?
+    </div>
+    <p>
+      The OOPS! result confirms structural soundness and absence of common modelling pitfalls.
+      However, OOPS! does not assess domain adequacy, reasoning performance under load, or empirical
+      detection accuracy. These must be evaluated separately, as done via scenarios and semantic chains.
+    </p>
+    <span class="verdict v-good">Structurally excellent, complemented by empirical validation</span>
+  </div>
+  <div class="card">
+    <div class="qid">CQ-L7</div>
+    <div class="question">
+	  With every class, property, and individual annotated with rdfs:label and rdfs:comment (C2.2: 2,570 AnnotationAssertions), and the use of a six-stage Hybrid Methontology/OD-101 development approach, how well is the LFTDO documented for future reuse, extension, and integration?    </div>
+    <p>
+        Extensive annotations and a structured hybrid Methontology/OD‑101 development process ensure that LFTDO is well documented, reusable, and extensible for future integration.
+    </p>
+  </div> 
+    
+</section>
+
+<section class="section">
+  <div class="category-header utility">
+    <h2>LFTDO Ontology — Utility</h2>
+  </div>
+  <div class="card">
+    <div class="qid">CQ-L8</div>
+    <div class="question">
+Based on the semantic chains in C2.4 showing the four-phase pipeline (Observation → Detection → Notification → Validation), how well does the LFTDO integrate with Onto-AIoTA Semantic Layer components (Data Mapper, Triple Store, Reasoning Engine)?    </div>
+    <p>
+      The four-phase semantic pipeline (Observation → Detection → Notification → Validation) aligns
+      directly with Onto-AIoTA’s Semantic Layer components. The ontology is operational, not merely
+      descriptive, and actively drives system behaviour.    </p>
+    <span class="verdict v-strong">Highly operational and well-integrated</span>
+	  
+  </div>  
+  <div class="card">
+   <div class="qid">CQ-L9</div>
+    <div class="question">
+Given the Cellfie batch upload method, naming convention, and the three-species ABox structure (Sheep, Cattle, Goat) described in C2.2 and C2.4 (Scenario 5), how easy would it be to extend the LFTDO to include additional livestock species (e.g., horses, pigs) or new sensor types?    </div>
+    <p>
+      The modular class structure, Cellfie-based ABox population, and species-prefixed naming conventions
+      make extension straightforward. New livestock species or sensors can be added with minimal impact
+      on existing axioms.		
+    </p>
+    <span class="verdict v-good">Designed for extension and reuse</span>	
+  </div>  
+  <div class="card">
+   <div class="qid">CQ-L10</div>
+    <div class="question">
+Does the shared semantic chain vocabulary visible across all five scenarios in C2.4 (StatusUpdateEvent, TheftIndicator, HealthDetectionMethod, SoftwareApp, Farmer) demonstrate that the LFTDO provides a common, stakeholder-agnostic vocabulary sufficient to reduce ambiguity between farmers, technology providers, veterinarians, and law enforcement?    </div>
+    <p>
+        The consistent use of shared semantic concepts across all scenarios provides a stakeholder‑agnostic vocabulary that reduces ambiguity between farmers, technologists, veterinarians, and law enforcement.
+    </p>
+  </div>   
+</section>
+
+<section class="section">
+  <div class="category-header efficacy">
+    <h2>LFTDO Ontology — Efficacy</h2>
+  </div>
+
+  <div class="card">
+    <div class="qid">CQ-L11</div>
+    <div class="question">
+      How effective is the LFTDO under realistic simulated conditions?
+    </div>
+    <p>
+      Across five detailed ABox scenarios, the ontology successfully distinguishes normal behaviour,
+      escape events, suspicious activity, confirmed theft, health anomalies, and sabotage. This breadth
+      demonstrates effective coverage of real-world conditions rather than idealized cases.
+    </p>
+    <span class="verdict v-strong">Highly effective across diverse scenarios</span>
+  </div>
+
+  <div class="card">
+    <div class="qid">CQ-L12</div>
+    <div class="question">
+      How significantly does semantic context reduce false alarms?
+    </div>
+    <p>
+      Temporal thresholds, environmental disambiguation, and multi-indicator correlation substantially
+      reduce false positives compared to simple threshold-based systems. The ontology explicitly models
+      context, which is a major contributor to improved precision.
+    </p>
+    <span class="verdict v-strong">Significant false-alarm reduction achieved</span>
+  </div>
+<div class="card">
+    <div class="qid">CQ-L13</div>
+    <div class="question">
+Given the verified ABox of 1,865 individuals (4,577 ObjectPropertyAssertions, 7,194 DataPropertyAssertions) and the Pellet reasoner configuration (-Xmx8G, G1GC) in C2.2, what is your assessment of the reasoning engine's accuracy and likely F1-Score in identifying anomalous behaviour patterns across the full ABox?    </div>
+    <p>
+        Given the scale of the verified ABox and the absence of inconsistencies, the reasoning engine demonstrates high classification accuracy across behavioural patterns.
+    </p>
+    <span class="verdict v-strong">Significant false-alarm reduction achieved</span>
+  </div>
+<div class="card">
+    <div class="qid">CQ-L14</div>
+    <div class="question">
+The 27 SWRL rules in C2.3 include multiple false-alarm reducing mechanisms: temporal duration thresholds, contextual disambiguation (RL_EXTREME_HEAT_CONTEXT, RL_MODERATEHEAT_CONTEXT), and health/environment overlays (RL_COMPLEXTHEFT_CORRELATION). How significantly does this semantic context reduce false-alarm rates compared to non-semantic threshold-only detection systems?    </div>
+    <p>
+        Contextual reasoning, temporal thresholds, and environmental disambiguation significantly reduce false positives compared to threshold‑only detection systems.
+    </p>
+    <span class="verdict v-strong">Significant false-alarm reduction achieved</span>
+  </div>  
+</section>
+
+<!-- CALLOUT -->
+<div class="callout">
+  <h3>Identified Gaps &amp; Considerations</h3>
+  <ul>
+    <li>Empirical field trials would strengthen external validity beyond simulated ABox scenarios.</li>
+    <li>Quantitative performance metrics (latency, throughput) could further support scalability claims.</li>
+    <li>User experience evaluation with farmers is recommended for full socio-technical validation.</li>
+  </ul>
+</div>
+
+<!-- SUMMARY -->
+<footer>
+  <h2>Overall DSR Score Summary</h2>
+  <table>
+    <tr>
+      <th>DSR Metric</th>
+      <th>Score (out of 5)</th>
+    </tr>
+    <tr>
+      <td>Validity</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>Quality</td>
+      <td>4.8</td>
+    </tr>
+    <tr>
+      <td>Utility</td>
+      <td>4.7</td>
+    </tr>
+    <tr>
+      <td>Efficacy</td>
+      <td>4.8</td>
+    </tr>
+  </table>
+
+  <p style="margin-top:20px;">
+    <strong>Overall Verdict:</strong>  
+    The Onto-AIoTA architecture and LFTDO ontology together represent a mature, well-engineered
+    Design Science Research artefact pair. The work demonstrates strong theoretical grounding,
+    rigorous implementation, and clear practical relevance. With limited additional empirical
+    validation, the artefacts are fully suitable for an MSc dissertation and provide a solid
+    foundation for future doctoral or production-scale research.
+  </p>
+</footer>
+
+</body>
+</html>

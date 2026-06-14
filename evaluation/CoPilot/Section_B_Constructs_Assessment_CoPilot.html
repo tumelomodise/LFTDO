@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Section B — Artefacts Constructs Assessment</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+ --bg:#faf8f5;--ink:#1a1714;--muted:#6b6460;--rule:#ddd9d3;
+ --accent:#8b2e0f;--accent2:#1c3d5a;--gold:#c9952a;
+ --green:#2d6a4f;--purple:#4a2060;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Source Serif 4',serif;line-height:1.6}
+h1,h2,h3,h4{font-family:'Playfair Display',serif;margin-top:0}
+.mono{font-family:'JetBrains Mono',monospace}
+.section{padding:56px 72px}
+.cover{background:var(--accent2);color:#fff;padding:80px 72px}
+.cover h1{font-size:44px;margin:18px 0}
+.meta{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;font-size:14px;margin-top:24px}
+.nav{position:sticky;top:0;background:#fff;border-bottom:2px solid var(--ink);display:flex;justify-content:space-between;align-items:center;padding:12px 28px;z-index:10}
+.pills span{padding:6px 14px;border-radius:18px;color:#fff;font-size:12px;margin-left:6px}
+
+table{width:100%;border-collapse:separate;border-spacing:0 18px}
+td{vertical-align:top}
+
+.rating{display:flex;flex-direction:column;align-items:center;min-width:90px}
+.rating-num{font-size:30px;font-family:'Playfair Display'}
+.rating-label{font-size:11px;text-align:center}
+.rating-dots{display:flex;gap:4px;margin-top:4px}
+.rating-dots span{width:8px;height:8px;border-radius:50%;background:var(--rule)}
+.r5 .rating-num{color:#1b4332}.r4 .rating-num{color:#2d6a4f}.r3 .rating-num{color:#b5860e}.r2 .rating-num{color:#7f3c12}.r1 .rating-num{color:#6b0f1a}
+.r5 .f{background:#1b4332}.r4 .f{background:#2d6a4f}.r3 .f{background:#b5860e}.r2 .f{background:#7f3c12}.r1 .f{background:#6b0f1a}
+
+.cat{padding:12px 16px;color:#fff;margin:28px 0 12px 0}
+.cat.sienna{background:var(--accent)}
+.cat.navy{background:var(--accent2)}
+.cat.green{background:var(--green)}
+.cat.purple{background:var(--purple)}
+
+.qa{background:#fff;border:1px solid var(--rule);padding:18px;display:grid;grid-template-columns:1fr 90px;gap:16px;margin-bottom:14px}
+.badge{display:inline-block;padding:4px 10px;border-radius:12px;color:#fff;font-size:12px;margin-bottom:6px}
+.badge.green{background:var(--green)}
+.badge.purple{background:var(--purple)}
+
+.callout{border-left:4px solid var(--gold);padding:10px 14px;margin-top:10px;font-style:italic;background:#fff7e6}
+
+.theme-row{background:#fff;border:1px solid var(--rule);padding:18px;display:grid;grid-template-columns:120px 1fr 90px;gap:18px;margin-bottom:14px}
+.theme-tag{background:var(--accent2);color:#fff;padding:10px;border-radius:6px;text-align:center;font-family:'JetBrains Mono',monospace}
+
+.footer{background:#1a1714;color:#fff;padding:28px 72px;display:flex;justify-content:space-between;align-items:flex-start;font-size:14px}
+</style>
+</head>
+
+<body>
+
+<!-- COVER -->
+<div class="cover">
+<div class="mono">Onto-AIoTA &amp; LFTDO · Chapter 7 Summative Evaluation · Multi-Agent LLM Framework</div>
+<h1>Section B — Artefacts Constructs Assessment</h1>
+<p>This evaluation applies the Matshaba (2021) construct assessment pattern to assess the conceptual adequacy, coherence, and alignment of the Onto‑AIoTA architecture and the LFTDO ontology.</p>
+<div class="meta">
+<div>Evaluating Agent: M365 Copilot (GPT‑5)</div>
+<div>Pattern Reference: Matshaba (2021) §7.6.2–7.6.6</div>
+<div>DSR Framework: Gregor &amp; Hevner (2013)</div>
+<div>Rating Scale: 1 (Not Supported) → 5 (Strongly Supported)</div>
+</div>
+</div>
+
+<!-- NAV -->
+<div class="nav">
+<div class="mono">● Copilot · Section B Constructs Assessment</div>
+<div class="pills">
+<span style="background:#8b2e0f">SRQ Alignment</span>
+<span style="background:#1c3d5a">Theme Alignment</span>
+<span style="background:#2d6a4f">LFTDO Constructs</span>
+<span style="background:#4a2060">Onto-AIoTA Constructs</span>
+</div>
+</div>
+
+<!-- ================= SRQ ALIGNMENT ================= -->
+<div class="section">
+<h2>B.SRQ · Sub‑Research Question Alignment</h2>
+<div class="cat sienna">SRQ1–SRQ5 · Construct Alignment Assessment</div>
+
+<table>
+<tr>
+<td class="mono">SRQ1</td>
+<td><em>What current livestock theft prevention methods are used in South Africa, and what challenges do technology-based solutions need to address?</em></td>
+<td>The constructs TheftEvent, TheftIndicator, and AbnormalState directly address the reactive and fragmented nature of existing approaches by enabling proactive, semantic-driven detection supported by governance constructs.</td>
+<td>
+<div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div>
+<div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span></span></div></div>
+</td>
+</tr>
+
+<tr>
+<td class="mono">SRQ2</td>
+<td><em>How can ontologies, IoT technologies, and AI capabilities be integrated into an effective architecture?</em></td>
+<td>The five-layer Onto‑AIoTA architecture explicitly integrates IoT sensing, semantic modelling via LFTDO, and AI reasoning through SWRL and DetectionMethod constructs.</td>
+<td>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div>
+<div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</td>
+</tr>
+
+<tr>
+<td class="mono">SRQ3</td>
+<td><em>What essential components are required to function within rural infrastructure constraints?</em></td>
+<td>Solar-powered devices and LoRaWAN connectivity explicitly address power scarcity, long-range communication, and affordability constraints.</td>
+<td>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div>
+<div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</td>
+</tr>
+
+<tr>
+<td class="mono">SRQ4</td>
+<td><em>How can the ontology represent livestock behaviour and environmental factors to support AI-driven theft detection?</em></td>
+<td>Behaviour, BehaviourState, EnvironmentalCondition, and HealthCondition enable contextual modelling that supports accurate inference and false-positive reduction.</td>
+<td>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div>
+<div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</td>
+</tr>
+
+<tr>
+<td class="mono">SRQ5</td>
+<td><em>What metrics and methods should be used to evaluate effectiveness, reliability, and adoptability?</em></td>
+<td>Competency questions and DSR-based evaluation address effectiveness and reliability; explicit adoption and socio-economic metrics are not fully articulated.</td>
+<td>
+<div class="rating r3"><div class="rating-num">3</div><div class="rating-label">Partially Supported</div>
+<div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span></span><span></span></div></div>
+<div class="callout">Introduce explicit adoption, usability, and cost–benefit evaluation metrics.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<!-- ================= THEME ALIGNMENT ================= -->
+<div class="section">
+<h2>B.TH · Research Theme Alignment</h2>
+<div class="cat navy">T1–T7 · Theme-by-Theme Construct Relevance Assessment</div>
+
+<div class="theme-row">
+<div class="theme-tag">T1</div>
+<div>
+<strong>Livestock Theft Crime Analysis</strong>
+<p>TheftEvent, TheftIndicator, and AbnormalState operationalise crime pattern detection and alert severity classification.</p>
+<p class="mono">Constructs: TheftEvent, TheftIndicator, AbnormalState</p>
+</div>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</div>
+
+<div class="theme-row">
+<div class="theme-tag">T2</div>
+<div>
+<strong>Socio‑Technical Systems</strong>
+<p>Participant roles and validateStatusOfEvent embed human-in-the-loop validation and accountability.</p>
+<p class="mono">Constructs: Participant, validateStatusOfEvent</p>
+</div>
+<div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span></span></div></div>
+</div>
+
+<div class="theme-row">
+<div class="theme-tag">T3</div>
+<div>
+<strong>Rural Infrastructure Constraints</strong>
+<p>Explicit modelling of solar-powered devices and LoRaWAN connectivity addresses off-grid realities.</p>
+<p class="mono">Constructs: Device Layer, Network Layer</p>
+</div>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</div>
+
+<div class="theme-row">
+<div class="theme-tag">T4</div>
+<div>
+<strong>Ontology / Architectural Modelling</strong>
+<p>The Semantic Layer, LFTDO TBox/RBox/ABox, and SWRL reasoning demonstrate strong theoretical alignment.</p>
+<p class="mono">Constructs: LFTDO, Semantic Layer, SWRL</p>
+</div>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</div>
+
+<div class="theme-row">
+<div class="theme-tag">T5</div>
+<div>
+<strong>IoT &amp; AI Integration</strong>
+<p>SensorData and DetectionMethod constructs explicitly integrate IoT data streams with AI reasoning.</p>
+<p class="mono">Constructs: SensorData, DetectionMethod</p>
+</div>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</div>
+
+<div class="theme-row">
+<div class="theme-tag">T6</div>
+<div>
+<strong>Technology Adoption &amp; Community Engagement</strong>
+<p>Governance and access control are present; explicit adoption facilitation constructs could be expanded.</p>
+<p class="mono">Constructs: Business Layer, SoftwareApplication</p>
+</div>
+<div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span></span></div></div>
+</div>
+
+<div class="theme-row">
+<div class="theme-tag">T7</div>
+<div>
+<strong>Evaluation Metrics</strong>
+<p>Competency questions and DSR evaluation support technical validation; long-term impact metrics remain implicit.</p>
+<p class="mono">Constructs: CQ1–CQ8, DSR Framework</p>
+</div>
+<div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span></span></div></div>
+</div>
+
+</div>
+
+<!-- ================= LFTDO QUESTIONNAIRE ================= -->
+<div class="section">
+<h2>B.9.1 · LFTDO Constructs Assessment</h2>
+
+<div class="cat green">Vocabulary &amp; Domain Coverage</div>
+
+<div class="qa">
+<div>
+<span class="badge green mono">BQ‑L1</span>
+<strong>Are the core LFTDO constructs clearly and unambiguously defined?</strong>
+<p>The foundational and theft-detection constructs (Livestock, Behaviour, BehaviourState, TheftIndicator, TheftEvent) are defined with sufficient semantic precision and explicit domain grounding. Clear subclassing (NormalState vs AbnormalState) and explicit purpose statements reduce terminological overlap and ambiguity.</p>
+</div>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</div>
+
+<div class="qa">
+<div>
+<span class="badge green mono">BQ‑L2</span>
+<strong>Does the vocabulary cover all concepts required for livestock theft scenarios?</strong>
+<p>The ontology explicitly models health, environmental, spatial, behavioural, and technological dimensions. Constructs such as HealthCondition and EnvironmentalCondition strengthen contextual reasoning and reduce false positives.</p>
+</div>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</div>
+
+<div class="qa">
+<div>
+<span class="badge green mono">BQ‑L3</span>
+<strong>Are stakeholder roles clearly distinguished?</strong>
+<p>Participant subclasses (Farmer, LawEnforcementAgent, Veterinarian, UnauthorisedPerson) are well differentiated. The UnauthorisedPerson construct adequately models theft intent without conflating legitimate actors.</p>
+</div>
+<div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span></span></div></div>
+</div>
+
+<div class="qa">
+<div>
+<span class="badge green mono">BQ‑L4</span>
+<strong>Is the NormalState / AbnormalState distinction precise?</strong>
+<p>The distinction is conceptually sound and operationalised via baseline values and deviation thresholds, enabling SWRL-based inference. Explicit numeric ranges further strengthen automation readiness.</p>
+</div>
+<div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span></span></div></div>
+</div>
+
+<div class="cat green">Structural Relationships &amp; Internal Coherence</div>
+
+<div class="qa">
+<div>
+<span class="badge green mono">BQ‑L5</span>
+<strong>Does the detection chain form a coherent pathway?</strong>
+<p>The semantic chain from Livestock through BehaviourState to TheftEvent is logically complete and internally consistent. Each object property represents a necessary reasoning transition.</p>
+</div>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</div>
+
+<div class="qa">
+<div>
+<span class="badge green mono">BQ‑L6</span>
+<strong>Are contextual disambiguation relationships sufficient?</strong>
+<p>Health and environmental influence properties significantly reduce misclassification risk. Additional confidence weighting could further enhance inference robustness.</p>
+</div>
+<div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span></span></div></div>
+</div>
+
+<div class="cat green">Requirement &amp; Theme Alignment</div>
+
+<div class="qa">
+<div>
+<span class="badge green mono">BQ‑L7</span>
+<strong>Do LFTDO constructs fulfil R1 Semantic Interoperability?</strong>
+<p>The unified vocabulary for heterogeneous sensor data is a core strength of LFTDO. SensorData abstraction supports consistent semantic interpretation.</p>
+</div>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</div>
+
+<div class="qa">
+<div>
+<span class="badge green mono">BQ‑L8</span>
+<strong>Does the detection-to-notification chain support R3 and R4?</strong>
+<p>The linkage from TheftEvent through DetectionMethod and SoftwareApplication to Participant validation explicitly supports real-time reasoning and governance.</p>
+</div>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</div>
+
+<div class="qa">
+<div>
+<span class="badge green mono">BQ‑L9</span>
+<strong>Do CQ1–CQ8 test all critical knowledge boundaries?</strong>
+<p>The competency questions cover identity, spatial, behavioural, temporal, and governance reasoning. Longitudinal adoption metrics are not explicitly tested.</p>
+<div class="callout">Introduce competency questions addressing system adoption and long-term effectiveness.</div>
+</div>
+<div class="rating r3"><div class="rating-num">3</div><div class="rating-label">Partially Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span></span><span></span></div></div>
+</div>
+
+<div class="qa">
+<div>
+<span class="badge green mono">BQ‑L10</span>
+<strong>Is the vocabulary accessible to non-technical stakeholders?</strong>
+<p>Core concepts are intuitive and domain-aligned, though ontology-internal terminology may require interface-level abstraction.</p>
+</div>
+<div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span></span></div></div>
+</div>
+
+<div class="cat green">Construct Design Quality</div>
+
+<div class="qa">
+<div>
+<span class="badge green mono">BQ‑L11</span>
+<strong>Are SensorData and BehaviourState properties sufficient?</strong>
+<p>The defined data properties support threshold-based reasoning. Explicit uncertainty modelling would further strengthen inference reliability.</p>
+</div>
+<div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span></span></div></div>
+</div>
+
+<div class="qa">
+<div>
+<span class="badge green mono">BQ‑L12</span>
+<strong>Does LFTDO align with established livestock ontologies?</strong>
+<p>The taxonomy aligns conceptually with ATOL, EOL, and AHOL while justifiably extending them for theft detection specificity.</p>
+</div>
+<div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span></span></div></div>
+</div>
+
+</div>
+
+<!-- ================= ONTO-AIOTA QUESTIONNAIRE ================= -->
+<div class="section">
+<h2>B.9.2 · Onto-AIoTA Constructs Assessment</h2>
+
+<div class="cat purple">Conceptual Clarity &amp; Problem–Solution Fit</div>
+
+<div class="qa">
+<div>
+<span class="badge purple mono">BQ‑A1</span>
+<strong>Are the five layers sufficiently distinct?</strong>
+<p>Each layer has a clearly articulated responsibility. Minor conceptual proximity exists between Semantic and Application Layers but roles remain distinct.</p>
+</div>
+<div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span></span></div></div>
+</div>
+
+<div class="qa">
+<div>
+<span class="badge purple mono">BQ‑A2</span>
+<strong>Is the Semantic Layer role clearly articulated?</strong>
+<p>The Data Mapper, Triple Store, and Reasoning Engine together define an unambiguous intelligence pipeline.</p>
+</div>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</div>
+
+<div class="qa">
+<div>
+<span class="badge purple mono">BQ‑A3</span>
+<strong>Does the architecture reflect Ontology + AI + IoT convergence?</strong>
+<p>Each dimension is explicitly represented through constructs, validating the Onto-AIoTA naming and intent.</p>
+</div>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</div>
+
+<div class="qa">
+<div>
+<span class="badge purple mono">BQ‑A4</span>
+<strong>Is domain vs operational knowledge clearly separated?</strong>
+<p>The distinction between TBox/RBox knowledge and ABox operational data is consistently maintained across layers.</p>
+</div>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</div>
+
+<div class="cat purple">Requirements &amp; Theme Coverage</div>
+
+<div class="qa">
+<div>
+<span class="badge purple mono">BQ‑A5</span>
+<strong>Do constructs address R1–R4?</strong>
+<p>All four requirements are explicitly addressed through distinct layers and constructs.</p>
+</div>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</div>
+
+<div class="qa">
+<div>
+<span class="badge purple mono">BQ‑A6</span>
+<strong>Does the Business Layer represent governance and POPIA?</strong>
+<p>Governance intent is clear; explicit audit and accountability constructs could strengthen compliance modelling.</p>
+<div class="callout">Add explicit audit logging and accountability constructs.</div>
+</div>
+<div class="rating r3"><div class="rating-num">3</div><div class="rating-label">Partially Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span></span><span></span></div></div>
+</div>
+
+<div class="qa">
+<div>
+<span class="badge purple mono">BQ‑A7</span>
+<strong>Are rural constraints adequately justified?</strong>
+<p>Solar power and LoRaWAN are explicitly justified and aligned with rural infrastructure realities.</p>
+</div>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</div>
+
+<div class="qa">
+<div>
+<span class="badge purple mono">BQ‑A8</span>
+<strong>Does the architecture support socio-technical requirements?</strong>
+<p>The Application and Business Layers support multi-stakeholder interaction and governance.</p>
+</div>
+<div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span></span></div></div>
+</div>
+
+<div class="cat purple">Construct Completeness &amp; Gap Analysis</div>
+
+<div class="qa">
+<div>
+<span class="badge purple mono">BQ‑A9</span>
+<strong>Are any critical architectural concerns missing?</strong>
+<p>Security and recovery are implied but not explicitly modelled as first-class constructs.</p>
+<div class="callout">Introduce explicit security and resilience constructs.</div>
+</div>
+<div class="rating r3"><div class="rating-num">3</div><div class="rating-label">Partially Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span></span><span></span></div></div>
+</div>
+
+<div class="qa">
+<div>
+<span class="badge purple mono">BQ‑A10</span>
+<strong>Is Change Management sufficient?</strong>
+<p>Change Management supports iterative evolution; explicit ontology versioning workflows would enhance clarity.</p>
+</div>
+<div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span></span></div></div>
+</div>
+
+<div class="cat purple">Interdependency &amp; Integration Logic</div>
+
+<div class="qa">
+<div>
+<span class="badge purple mono">BQ‑A11</span>
+<strong>Is LFTDO-as-Knowledge-Core dependency precise?</strong>
+<p>The dependency is clearly expressed, enabling independent versioning without integration failure.</p>
+</div>
+<div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strongly Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span></div></div>
+</div>
+
+<div class="qa">
+<div>
+<span class="badge purple mono">BQ‑A12</span>
+<strong>Does the Data Mapper capture transformation challenges?</strong>
+<p>The construct captures the transformation intent; explicit schema validation rules would further guide implementation.</p>
+</div>
+<div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="rating-dots"><span class="f"></span><span class="f"></span><span class="f"></span><span class="f"></span><span></span></div></div>
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+<div>Matshaba (2021) · Gregor &amp; Hevner (2013) · Hevner et al. (2004)</div>
+<div class="mono">M365 Copilot · Section B · 1–5 Scale · 29 Mar 2026</div>
+</div>
+
+</body>
+</html>

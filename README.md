@@ -10,6 +10,7 @@
 [![RDF](https://img.shields.io/badge/Data-RDF-orange)](https://www.w3.org/RDF/)
 [![SPARQL](https://img.shields.io/badge/Query-SPARQL-purple)](https://www.w3.org/TR/sparql11-query/)
 [![SWRL](https://img.shields.io/badge/Rules-SWRL-red)](https://www.w3.org/submissions/SWRL/)
+[![LLM Evaluation](https://img.shields.io/badge/LLM%20Evaluation-ChatGPT%20%7C%20Claude.AI%20%7C%20DeepSeek%20%7C%20Gemini%20%7C%20CoPilot-blueviolet)](#llm-evaluation)
 ---
 
 ## Overview
@@ -61,6 +62,33 @@ LFTDO/
 │   │   └── CQ1_CQ8_Queries.sparql
 │   └── docs/
 │       └── /index-en.html
+├── evaluation/
+│   ├── Section_A_LLM_Agent_Profiling_Onto-AIoTA_LFTDO.docx   ← Agent profiling questionnaire & responses
+│   ├── Section_B_Constructs_Assessment_FinalV0_01.docx        ← Constructs evaluation questionnaire & results
+│   ├── Section_C_Artefacts_Evaluation_Onto-AIoTA_LFTDO.docx  ← Artefact evaluation questionnaire & results
+│	├── Claude
+│	│	├── Section_A_claude.AI_agent_profile.html
+│	│	├── Section_B_Evaluation_Response_Claude.html
+│	│	└── Section_C_Evaluation_Response_Claude.html
+│	├── ChatGPT
+│	│	├── Section_A_ChatGPT_Agent_Profile.pdf
+│	│	├── Section_B_Constructs_Assessment_ChatGPT.html
+│	│	└── Section_C_ChatGPT_Assessment.html
+│	│
+│	├── CoPilot
+│	│	├── Section_A_LLM_Agent_Profile_M365_Copilot.html
+│	│	├── Section_B_Constructs_Assessment_CoPilot.html
+│	│	└── Section_C_Assessment_M365_Copilot_V0.1.html
+│	│
+│	├── DeepSeek
+│	│	├── Section_A_DeepSeek_Agent_Profile.html
+│	│	├── Section_B_Constructs_Assessment_DeepSeek.html
+│	│	└── Section_C_deepseek_Assessment_20260324.html
+│	│
+│   └── Gemini
+│		├── Section_A_Gemini_Agent_Profile.html
+│		├── Section_B_Constructs_Assessment.html
+│		└── Section_C_Assessment_Gemini.html 
 └── docs/
     ├── LFTDO_Architecture_(Onto_AIoTA)_Diagram.png
     ├── LFTDO_Conceptual_Diagram.png
@@ -188,7 +216,26 @@ All eight Competency Questions are implemented as SPARQL queries. See `v0.12/SPA
 | v0.04 | Initial ABox (Scenarios 1 to 2) + Annotation Assertions | 100% | ~14,000 |
 | v0.05–v0.11 | Iterative OOPS! maintenance cycles + ABox expansion | 100% | Incremental |
 | **v0.12** | **Final : 2,000+ individuals (Cellfie) + full CQ validation** | **100%** | **22,586** |
+---
 
+## LLM Evaluation
+
+The Onto-AIoTA and LFTDO artefacts were evaluated by five LLM agents - **ChatGPT**, **Claude.AI**, **DeepSeek**, **Gemini**, and **CoPilot** : following the Matshaba (2021) evaluation pattern and Gregor & Hevner (2013) DSR framework. Evaluation is structured across three sections:
+
+| Section | Document | Description |
+|---|---|---|
+| **A** | [`Section_A_LLM_Agent_Profiling_Onto-AIoTA_LFTDO.docx`](evaluation/Section_A_LLM_Agent_Profiling_Onto-AIoTA_LFTDO.docx) | Agent profiling - identity, capabilities, hallucination rate, modality, and role in evaluation |
+| **B** | [`Section_B_Constructs_Assessment_FinalV0_01.docx`](evaluation/Section_B_Constructs_Assessment_FinalV0_01.docx) | Constructs assessment - vocabulary, structural relationships, requirement & theme alignment, design quality (BQ-L1 to BQ-L12, BQ-A1 to BQ-A12) |
+| **C** | [`Section_C_Artefacts_Evaluation_Onto-AIoTA_LFTDO.docx`](evaluation/Section_C_Artefacts_Evaluation_Onto-AIoTA_LFTDO.docx) | Artefact evaluation - DSR metrics (Validity, Quality, Utility, Efficacy) for both Onto-AIoTA (CQ-A1 to CQ-A10) and LFTDO (CQ-L1 to CQ-L14) |
+
+### Evaluation Results · March 2026
+| LLM Agent | Section A | Section B | Section C |
+|---|---|---|---|
+| **Claude.AI** | [`Section_A_claude.AI_agent_profile.html`](evaluation/claude/Section_A_claude.AI_agent_profile.html) |[`Section_B_Evaluation_Response_Claude.html`](evaluation/claude/Section_B_Evaluation_Response_Claude.html)|[`Section_C_Evaluation_Response_Claude.html`](evaluation/claude/Section_C_Evaluation_Response_Claude.html)|
+| **ChatGPT** | [`Section_A_ChatGPT_Agent_Profile.pdf`](evaluation/chatGPT/Section_A_ChatGPT_Agent_Profile.pdf) |[`Section_B_Constructs_Assessment_ChatGPT.html`](evaluation/chatGPT/Section_B_Constructs_Assessment_ChatGPT.html)|[`Section_C_ChatGPT_Assessment.html`](evaluation/chatGPT/Section_C_ChatGPT_Assessment.html)|
+| **CoPilot** | [`Section_A_LLM_Agent_Profile_M365_Copilot.html`](evaluation/CoPilot/Section_A_LLM_Agent_Profile_M365_Copilot.html) |[`Section_B_Constructs_Assessment_CoPilot.html`](evaluation/CoPilot/Section_B_Constructs_Assessment_CoPilot.html)|[`Section_C_Assessment_M365_Copilot_V0.1.html`](evaluation/CoPilot/Section_C_Assessment_M365_Copilot_V0.1.html)|
+| **DeepSeek** | [`Section_A_DeepSeek_Agent_Profile.html`](evaluation/DeepSeek/Section_A_DeepSeek_Agent_Profile.html) |[`Section_B_Constructs_Assessment_DeepSeek.html`](evaluation/DeepSeek/Section_B_Constructs_Assessment_DeepSeek.html)|[`Section_C_deepseek_Assessment_20260324.html`](evaluation/DeepSeek/Section_C_deepseek_Assessment_20260324.html)|
+| **Gemini** | [`Section_A_Gemini_Agent_Profile.html`](evaluation/Gemini/Section_A_Gemini_Agent_Profile.html) |[`Section_B_Constructs_Assessment.html`](evaluation/Gemini/Section_B_Constructs_Assessment.html)|[`Section_C_Assessment_Gemini.html`](evaluation/Gemini/Section_C_Assessment_Gemini.html)|
 ---
 
 ## Citation

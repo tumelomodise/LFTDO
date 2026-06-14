@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Section B — Artefacts Constructs Assessment</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Source+Serif+4:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+--bg:#faf8f5;--ink:#1a1714;--muted:#6b6460;--rule:#ddd9d3;
+--accent:#8b2e0f;--accent2:#1c3d5a;--gold:#c9952a;
+--green:#2d6a4f;--purple:#4a2060;
+}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Source Serif 4";}
+h1,h2,h3{font-family:"Playfair Display";margin:0}
+.container{padding:40px}
+.cover{background:var(--accent2);color:white;padding:50px}
+.meta{display:flex;gap:20px;margin-top:20px;font-family:"JetBrains Mono";font-size:12px}
+.nav{position:sticky;top:0;background:white;border-bottom:2px solid var(--ink);padding:10px 20px;display:flex;justify-content:space-between}
+.pill{padding:5px 10px;border-radius:20px;font-size:12px}
+.rating{display:flex;flex-direction:column;align-items:center}
+.rating-num{font-size:22px;font-family:"Playfair Display"}
+.rating-label{font-size:10px}
+.dots{display:flex;gap:3px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--rule)}
+.r5 .dot:nth-child(-n+5){background:#1b4332}
+.r4 .dot:nth-child(-n+4){background:#2d6a4f}
+.r3 .dot:nth-child(-n+3){background:#b5860e}
+.r2 .dot:nth-child(-n+2){background:#7f3c12}
+.r1 .dot:nth-child(-n+1){background:#6b0f1a}
+.table{width:100%;border-collapse:collapse}
+td{border:1px solid var(--rule);padding:10px;vertical-align:top}
+.section{margin-top:40px}
+.card{display:grid;grid-template-columns:1fr 80px;border:1px solid var(--rule);margin-bottom:10px}
+.card > div:first-child{padding:12px}
+.callout{border-left:4px solid var(--gold);padding:10px;font-style:italic;margin-bottom:10px}
+.cat{padding:10px;color:white;margin-top:20px;margin-bottom:4px}
+.footer{background:#1a1714;color:white;padding:20px;font-size:12px;display:flex;justify-content:space-between}
+</style>
+</head>
+
+<body>
+
+<!-- COVER -->
+<div class="cover">
+<div>Onto-AIoTA &amp; LFTDO · Chapter 7 Summative Evaluation · Multi-Agent LLM Framework</div>
+<h1>Section B — Artefacts Constructs Assessment</h1>
+<div>Structured construct-level evaluation using Matshaba (2021) with DSR-aligned semantic and architectural analysis.</div>
+<div class="meta">
+<div>Agent: ChatGPT (GPT-5.3)</div>
+<div>Pattern: Matshaba (2021)</div>
+<div>DSR: Gregor &amp; Hevner (2013)</div>
+<div>Scale: 1–5</div>
+</div>
+</div>
+
+<!-- NAV -->
+<div class="nav">
+<div>● ChatGPT · Section B Constructs Assessment</div>
+<div>
+<span class="pill" style="background:#8b2e0f;color:white">SRQ</span>
+<span class="pill" style="background:#1c3d5a;color:white">Themes</span>
+<span class="pill" style="background:#2d6a4f;color:white">LFTDO</span>
+<span class="pill" style="background:#4a2060;color:white">Onto-AIoTA</span>
+</div>
+</div>
+
+<div class="container">
+
+<!-- ================= SRQ ================= -->
+<div class="section">
+<h2>B.SRQ · Matshaba (2021) §7.6.2 Equivalent</h2>
+<div style="background:#8b2e0f;color:white;padding:10px">SRQ1–SRQ5 · Construct Alignment Assessment</div>
+<table class="table">
+<tr>
+  <td><code>SRQ1</code></td>
+  <td><i>Current prevention methods</i></td>
+  <td>Participant, Device, and TheftEvent constructs partially reflect existing practices but lack explicit traditional methods.</td>
+  <td><div class="rating r3"><div class="rating-num">3</div><div class="rating-label">Partial</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></td>
+</tr>
+<tr>
+  <td><code>SRQ2</code></td>
+  <td><i>Integration of ontology, IoT, AI</i></td>
+  <td>Strong alignment via Semantic Layer, DetectionMethod, and SensorData constructs forming coherent integration.</td>
+  <td><div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strong</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></td>
+</tr>
+<tr>
+  <td><code>SRQ3</code></td>
+  <td><i>Rural constraints</i></td>
+  <td>Device and Network layers explicitly address power and connectivity, but affordability not formalised.</td>
+  <td><div class="rating r4"><div class="rating-num">4</div><div class="rating-label">Supported</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></td>
+</tr>
+<tr>
+  <td><code>SRQ4</code></td>
+  <td><i>Ontology design</i></td>
+  <td>Behaviour, EnvironmentalCondition, and HealthCondition constructs strongly support behavioural modelling.</td>
+  <td><div class="rating r5"><div class="rating-num">5</div><div class="rating-label">Strong</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></td>
+</tr>
+<tr>
+  <td><code>SRQ5</code></td>
+  <td><i>Evaluation metrics</i></td>
+  <td>CQs partially address evaluation but lack explicit metric constructs.</td>
+  <td><div class="rating r3"><div class="rating-num">3</div><div class="rating-label">Partial</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></td>
+</tr>
+</table>
+</div>
+
+<!-- ================= THEMES ================= -->
+<div class="section">
+<h2>B.TH · Matshaba (2021) §7.6.3–7.6.5 Equivalent</h2>
+<div style="background:#1c3d5a;color:white;padding:10px">T1–T7 Theme Assessment</div>
+
+<div class="card"><div><b>T1</b> Theft analysis well supported by TheftEvent and TheftIndicator constructs.</div><div class="rating r5"><div class="rating-num">5</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+
+<div class="card"><div><b>T2</b> Socio-technical aspects covered via Participant and Business Layer.</div><div class="rating r4"><div class="rating-num">4</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+
+<div class="card"><div><b>T3</b> Rural constraints strongly embedded in Device and Network layers.</div><div class="rating r5"><div class="rating-num">5</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+
+<div class="card"><div><b>T4</b> Ontology modelling comprehensive via LFTDO.</div><div class="rating r5"><div class="rating-num">5</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+
+<div class="card"><div><b>T5</b> IoT-AI integration clearly defined.</div><div class="rating r5"><div class="rating-num">5</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+
+<div class="card"><div><b>T6</b> Governance addressed but lacks detailed policy constructs.</div><div class="rating r3"><div class="rating-num">3</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+
+<div class="card"><div><b>T7</b> Evaluation theme partially addressed via CQ.</div><div class="rating r3"><div class="rating-num">3</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+</div>
+
+<!-- ================= LFTDO FULL ================= -->
+<div class="section">
+<h2>B.9.1 · LFTDO Constructs Assessment (Full)</h2>
+
+<div class="cat" style="background:#2d6a4f">Vocabulary &amp; Domain Coverage</div>
+
+<div class="card"><div><b>BQ-L1</b> Constructs clearly defined with minimal ambiguity.</div><div class="rating r4"><div class="rating-num">4</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="card"><div><b>BQ-L2</b> Good coverage but lacks socio-economic constructs.</div><div class="rating r4"><div class="rating-num">4</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="card"><div><b>BQ-L3</b> Participant roles defined but theft intent weak.</div><div class="rating r3"><div class="rating-num">3</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="callout">Add intent modelling attributes.</div>
+<div class="card"><div><b>BQ-L4</b> Normal vs Abnormal distinction clear but thresholds need formalisation.</div><div class="rating r4"><div class="rating-num">4</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+
+<div class="cat" style="background:#2d6a4f">Structural Relationships</div>
+
+<div class="card"><div><b>BQ-L5</b> Detection chain is logically complete.</div><div class="rating r5"><div class="rating-num">5</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="card"><div><b>BQ-L6</b> Context relationships exist but need probabilistic weighting.</div><div class="rating r4"><div class="rating-num">4</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+
+<div class="cat" style="background:#2d6a4f">Requirement Alignment</div>
+
+<div class="card"><div><b>BQ-L7</b> Strong semantic interoperability support.</div><div class="rating r5"><div class="rating-num">5</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="card"><div><b>BQ-L8</b> Detection-to-notification chain supports R3 &amp; R4.</div><div class="rating r5"><div class="rating-num">5</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="card"><div><b>BQ-L9</b> CQs mostly complete but missing evaluation metrics.</div><div class="rating r3"><div class="rating-num">3</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="callout">Add performance and reliability CQs.</div>
+<div class="card"><div><b>BQ-L10</b> Vocabulary mostly understandable to stakeholders.</div><div class="rating r4"><div class="rating-num">4</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+
+<div class="cat" style="background:#2d6a4f">Design Quality</div>
+
+<div class="card"><div><b>BQ-L11</b> Data properties adequate with minor gaps.</div><div class="rating r4"><div class="rating-num">4</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="card"><div><b>BQ-L12</b> Partial alignment with existing ontologies.</div><div class="rating r3"><div class="rating-num">3</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="callout">Align with ATOL, AHOL standards.</div>
+</div>
+
+<!-- ================= ONTO-AIOTA FULL ================= -->
+<div class="section">
+<h2>B.9.2 · Onto-AIoTA Constructs Assessment (Full)</h2>
+
+<div class="cat" style="background:#4a2060">Conceptual Clarity</div>
+
+<div class="card"><div><b>BQ-A1</b> Layer separation mostly clear.</div><div class="rating r4"><div class="rating-num">4</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="card"><div><b>BQ-A2</b> Semantic layer well articulated.</div><div class="rating r5"><div class="rating-num">5</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="card"><div><b>BQ-A3</b> Ontology, AI, IoT integration explicit.</div><div class="rating r5"><div class="rating-num">5</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="card"><div><b>BQ-A4</b> Domain vs operational knowledge separation clear.</div><div class="rating r4"><div class="rating-num">4</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+
+<div class="cat" style="background:#4a2060">Requirements Coverage</div>
+
+<div class="card"><div><b>BQ-A5</b> All requirements addressed.</div><div class="rating r4"><div class="rating-num">4</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="card"><div><b>BQ-A6</b> Governance partially defined.</div><div class="rating r3"><div class="rating-num">3</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="callout">Add policy enforcement constructs.</div>
+<div class="card"><div><b>BQ-A7</b> Rural constraints well addressed.</div><div class="rating r5"><div class="rating-num">5</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="card"><div><b>BQ-A8</b> Socio-technical support present but basic.</div><div class="rating r4"><div class="rating-num">4</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+
+<div class="cat" style="background:#4a2060">Completeness &amp; Integration</div>
+
+<div class="card"><div><b>BQ-A9</b> Missing resilience and security constructs.</div><div class="rating r3"><div class="rating-num">3</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="callout">Add recovery &amp; security layers.</div>
+<div class="card"><div><b>BQ-A10</b> Change management incomplete.</div><div class="rating r3"><div class="rating-num">3</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="callout">Add ontology versioning constructs.</div>
+<div class="card"><div><b>BQ-A11</b> Integration logic strong.</div><div class="rating r5"><div class="rating-num">5</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="card"><div><b>BQ-A12</b> Data mapper requires more detail.</div><div class="rating r3"><div class="rating-num">3</div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div></div>
+<div class="callout">Define transformation schemas.</div>
+</div>
+
+<!-- ================= OVERALL SUMMARY ================= -->
+<div class="section" style="background:#1a1714;color:white;padding:30px;margin-top:40px">
+<h2 style="color:white;margin-bottom:20px">Section B — Overall Assessment Summary</h2>
+<div style="display:flex;gap:40px;margin-bottom:20px">
+<div><h1 style="font-size:48px;margin:0;color:#c9952a">4.0</h1><div style="font-size:14px;margin-top:4px">SRQ Alignment</div></div>
+<div><h1 style="font-size:48px;margin:0;color:#c9952a">4.3</h1><div style="font-size:14px;margin-top:4px">Theme Alignment</div></div>
+<div><h1 style="font-size:48px;margin:0;color:#c9952a">4.1</h1><div style="font-size:14px;margin-top:4px">Construct Quality</div></div>
+</div>
+<p style="line-height:1.7;max-width:800px">Overall, the constructs are strong with robust semantic modelling and integration logic. Key gaps include governance detail, socio-economic context, and system resilience. The artefacts are conceptually sound and ready to proceed to Section C with refinement.</p>
+</div>
+
+</div><!-- end .container -->
+
+<!-- FOOTER -->
+<div class="footer">
+<div>Matshaba (2021) · Gregor &amp; Hevner (2013) · Hevner et al. (2004)</div>
+<div><code>ChatGPT GPT-5.3 · 2026</code></div>
+</div>
+
+</body>
+</html>

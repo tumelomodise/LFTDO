@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ChatGPT Section C: MComp Dissertation Artefacts Evaluation - Onto-AIoTA & LFTDO</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+body {font-family:'DM Sans', sans-serif; margin:0; background:#f5f7fa; color:#222;}
+h1,h2,h3 {font-family:'DM Serif Display', serif; margin:0;}
+.cover {padding:40px; background:#fff; border-bottom:4px solid #1a3a5c;}
+.sticky {position:sticky; top:0; background:#111; color:#fff; padding:10px 20px; display:flex; justify-content:space-between;}
+.pill {padding:6px 12px; border-radius:20px; margin-left:8px; font-size:12px;}
+.validity{background:#1a3a5c;}
+.quality{background:#1d6b44;}
+.utility{background:#7b3f00;}
+.efficacy{background:#5a1a5a;}
+.section {margin:30px;}
+.header {padding:15px; color:#fff; border-radius:8px;}
+.card {background:#fff; padding:20px; margin:15px 0; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.1);}
+.badge {display:inline-block; margin-top:10px; padding:5px 10px; border-radius:6px; font-size:12px; background:#eee;}
+.callout {background:#fff3cd; padding:15px; border-left:5px solid #ffcc00; margin:20px 0; border-radius:6px;}
+table {width:100%; border-collapse:collapse; background:#fff;}
+td,th {padding:10px; border:1px solid #ddd; text-align:center;}
+</style>
+</head>
+
+<body>
+
+<!-- COVER -->
+<div class="cover">
+<h1>Design Science Research (DSR) Evaluation Report</h1>
+<p><strong>Agent:</strong> ChatGPT (GPT-5.3)</p>
+<p><strong>Date:</strong> 24 March 2026</p>
+<p><strong>Framework:</strong> Gregor & Hevner (2013) — Validity · Quality · Utility · Efficacy</p>
+</div>
+
+<!-- STICKY HEADER -->
+<div class="sticky">
+<span>ChatGPT — DSR Evaluator</span>
+<div>
+<span class="pill validity">Validity</span>
+<span class="pill quality">Quality</span>
+<span class="pill utility">Utility</span>
+<span class="pill efficacy">Efficacy</span>
+</div>
+</div>
+
+<!-- ================= ONTO-AIOTA ================= -->
+
+<div class="section">
+<div class="header validity"><h2>Onto-AIoTA — Validity</h2></div>
+
+<div class="card">
+<h3>CQ-A1 — Integration of Ontology, IoT, AI</h3>
+<p>The architecture successfully integrates IoT sensing, semantic reasoning, and AI inference into a coherent pipeline.</p>
+<span class="badge">Verdict: Strong conceptual integration</span>
+</div>
+
+<div class="card">
+<h3>CQ-A2 — Real-world Practicality</h3>
+<p>The design aligns well with rural South African farming constraints, especially through LoRaWAN and solar devices.</p>
+<span class="badge">Verdict: Highly practical</span>
+</div>
+</div>
+
+<div class="section">
+<div class="header utility"><h2>Onto-AIoTA — Utility</h2></div>
+
+<div class="card">
+<h3>CQ-A3 — Rural Suitability</h3>
+<p>The architecture is well-suited for low-power, low-connectivity environments.</p>
+<span class="badge">Verdict: Well adapted to rural constraints</span>
+</div>
+
+<div class="card">
+<h3>CQ-A4 — Adoption Barriers</h3>
+<p>Potential barriers include cost, digital literacy, and infrastructure variability.</p>
+<span class="badge">Verdict: Moderate adoption challenges</span>
+</div>
+</div>
+
+<div class="section">
+<div class="header efficacy"><h2>Onto-AIoTA — Efficiency</h2></div>
+
+<div class="card">
+<h3>CQ-A5 — Task Performance</h3>
+<p>The architecture logically supports ingestion, reasoning, and alerting processes.</p>
+<span class="badge">Verdict: Functionally complete</span>
+</div>
+
+<div class="card">
+<h3>CQ-A6 — Adaptability</h3>
+<p>The modular layered design supports scalability and adaptation.</p>
+<span class="badge">Verdict: Highly adaptable</span>
+</div>
+<div class="card">
+<h3>CQ-A7 — Cost-Effectiveness</h3>
+<p>The use of low-power sensors, LoRaWAN connectivity, and cloud infrastructure suggests a cost-conscious design suitable for rural deployment. However, cumulative costs (device procurement, maintenance, connectivity, and training) may still pose challenges for smallholder farmers without subsidies or cooperative models.</p>
+<span class="badge">Verdict: Moderately cost-effective with adoption constraints</span>
+</div>
+
+<div class="card">
+<h3>CQ-A8 — Adaptability</h3>
+<p>The modular five-layer architecture enables flexibility and scalability. New livestock species, sensors, or regions can be integrated with minimal disruption, particularly due to the separation of concerns and ontology-driven design.</p>
+<span class="badge">Verdict: Highly adaptable</span>
+</div>
+<div class="callout">
+<strong>Key Gap:</strong> Missing constructs for security, offline operation, and system resilience may affect real-world deployment robustness.
+</div>
+</div>
+<div class="section">
+<div class="header quality"><h2>Onto-AIoTA — Quality</h2></div>
+
+<div class="card">
+<h3>CQ-A9 — Innovation</h3>
+<p>The ontology-driven AIoT integration represents a novel contribution to livestock monitoring systems.</p>
+<span class="badge">Verdict: Highly innovative</span>
+</div>
+
+<div class="card">
+<h3>CQ-A10 — Research Quality</h3>
+<p>The architecture demonstrates strong alignment with literature and research themes.</p>
+<span class="badge">Verdict: High research quality</span>
+</div>
+</div>
+<!-- ================= LFTDO ================= -->
+
+<div class="section">
+<div class="header validity"><h2>LFTDO — Validity</h2></div>
+
+<div class="card">
+<h3>CQ-L1 — Logical Consistency</h3>
+<p>The ontology demonstrates strong logical consistency, supported by Pellet reasoning and a large validated ABox. The absence of inconsistencies across 19,716 axioms indicates a well-formed TBox–RBox–ABox alignment. However, logical consistency does not inherently confirm semantic completeness or real-world fidelity.</p>
+<span class="badge">Verdict: Highly consistent and logically sound</span>
+</div>
+
+<div class="card">
+<h3>CQ-L2 — RBox Reasoning Capability</h3>
+<p>The 27 SWRL rules cover behavioural, contextual, health, and sabotage scenarios comprehensively. Multi-factor reasoning (e.g., RL_COMPLEXTHEFT_CORRELATION) demonstrates strong inferencing depth. However, temporal reasoning remains implicit rather than formally modelled.</p>
+<span class="badge">Verdict: Strong reasoning coverage with minor temporal limitations</span>
+</div>
+
+<div class="card">
+<h3>CQ-L3 — Competency Question Coverage</h3>
+<p>The SPARQL queries demonstrate that most competency questions can be answered. However, CQ3 and CQ5 rely on implicit temporal reasoning, indicating partial coverage rather than full semantic completeness.</p>
+<span class="badge">Verdict: Broad CQ coverage with minor gaps</span>
+</div>
+
+<div class="card">
+<h3>CQ-L4 — Temporal & Spatial Representation</h3>
+<p>Spatial modelling via geofencing is robust and rule-driven. Temporal reasoning is present through durations and thresholds but lacks explicit temporal ontology constructs.</p>
+<span class="badge">Verdict: Strong spatial modelling, moderate temporal modelling</span>
+</div>
+
+<div class="callout">
+<strong>Key Gap:</strong> Lack of explicit temporal ontology (TimeInterval, EventWindow) limits advanced forensic reasoning.
+</div>
+</div>
+
+<!-- QUALITY -->
+<div class="section">
+<div class="header quality"><h2>LFTDO — Quality</h2></div>
+
+<div class="card">
+<h3>CQ-L5 — Ontology Engineering Standards</h3>
+<p>The ontology strictly follows OWL 2 DL, naming conventions, and annotation completeness. This reflects strong adherence to W3C standards and best practices.</p>
+<span class="badge">Verdict: Excellent engineering quality</span>
+</div>
+
+<div class="card">
+<h3>CQ-L6 — OOPS! Evaluation</h3>
+<p>The 100% OOPS! score confirms structural soundness. However, OOPS! does not evaluate domain adequacy or reasoning effectiveness.</p>
+<span class="badge">Verdict: Structurally robust but methodologically limited</span>
+</div>
+
+<div class="card">
+<h3>CQ-L7 — Documentation Quality</h3>
+<p>Extensive annotations and structured methodology ensure high reusability and maintainability.</p>
+<span class="badge">Verdict: Exceptionally well documented</span>
+</div>
+</div>
+
+<!-- UTILITY -->
+<div class="section">
+<div class="header utility"><h2>LFTDO — Utility</h2></div>
+
+<div class="card">
+<h3>CQ-L8— Integration with Onto-AIoTA</h3>
+<p>The ontology integrates seamlessly into the Semantic Layer, clearly supporting the pipeline from raw data to actionable alerts.</p>
+<span class="badge">Verdict: Highly integrable</span>
+</div>
+
+<div class="card">
+<h3>CQ-L9 — Extensibility</h3>
+<p>The modular structure and Cellfie-based population approach make extension to new species and sensors straightforward.</p>
+<span class="badge">Verdict: Highly extensible</span>
+</div>
+
+<div class="card">
+<h3>CQ-L10 — Shared Vocabulary</h3>
+<p>The ontology provides a consistent vocabulary across stakeholders, reducing ambiguity and enabling interoperability.</p>
+<span class="badge">Verdict: Strong semantic interoperability</span>
+</div>
+</div>
+
+<!-- EFFICACY -->
+<div class="section">
+<div class="header efficacy"><h2>LFTDO — Efficacy</h2></div>
+
+<div class="card">
+<h3>CQ-L11 — Scenario Performance</h3>
+<p>The ontology performs well across all five simulated scenarios, demonstrating robustness in diverse conditions.</p>
+<span class="badge">Verdict: Highly effective</span>
+</div>
+
+<div class="card">
+<h3>CQ-L12 — Alert Pipeline</h3>
+<p>The pipeline from detection to notification is logically coherent and traceable.</p>
+<span class="badge">Verdict: Reliable and responsive</span>
+</div>
+
+<div class="card">
+<h3>CQ-L13 — Reasoning Accuracy</h3>
+<p>Given the structured rules and dataset, expected accuracy is high, though empirical validation is required.</p>
+<span class="badge">Verdict: High expected accuracy</span>
+</div>
+
+<div class="card">
+<h3>CQ-L14 — False Alarm Reduction</h3>
+<p>Context-aware rules significantly reduce false positives compared to threshold-only systems.</p>
+<span class="badge">Verdict: Strong false-positive mitigation</span>
+</div>
+</div>
+<!-- SCORE SUMMARY -->
+<div class="section">
+<h2>Overall DSR Score Summary</h2>
+<table>
+<tr><th>Metric</th><th>Score ( /5 )</th></tr>
+<tr><td>Validity</td><td>4.5</td></tr>
+<tr><td>Quality</td><td>4.7</td></tr>
+<tr><td>Utility</td><td>4.4</td></tr>
+<tr><td>Efficacy</td><td>4.5</td></tr>
+</table>
+
+<p style="margin-top:20px;">
+<strong>Overall Verdict:</strong><br>
+The Onto-AIoTA architecture and LFTDO ontology together form a highly coherent and innovative DSR artefact pair. The solution demonstrates strong validity, high-quality ontology engineering, and practical utility within rural livestock farming contexts. The semantic reasoning capability significantly enhances theft detection efficacy beyond traditional systems. However, to reach production-level maturity, improvements are required in temporal modelling, governance constructs, system resilience, and real-world validation. Overall, the artefacts represent a strong MSc-level contribution with clear academic and practical value.
+</p>
+</div>
+
+</body>
+</html>

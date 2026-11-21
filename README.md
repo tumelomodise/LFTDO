@@ -44,6 +44,7 @@ LFTDO/
 ├── v0.12/
 │   ├── README.md               ← v0.12 current release
 │   ├── LFTDO_v0.12.owl         ← Final production OWL file
+│   ├── LFTDO_v0.12.ttl         ← Turtle serialisation
 │   ├── ABox/
 │   │   ├── Cellfie/
 │   │   │   ├── 1_Sheep_SensorData_LoadData.xls
